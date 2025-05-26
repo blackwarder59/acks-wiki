@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/lib/theme-provider";
+import { SearchProvider } from "@/lib/search/search-context";
 import { Header } from "@/components/layout/header";
 import { Sidebar } from "@/components/layout/sidebar";
 
@@ -64,15 +65,17 @@ export default function RootLayout({
           defaultTheme="system"
           storageKey="acks-wiki-theme"
         >
-          <div className="min-h-screen bg-background">
-            <Header />
-            <div className="flex">
-              <Sidebar className="hidden lg:block" />
-              <main className="flex-1 p-6">
-                {children}
-              </main>
+          <SearchProvider>
+            <div className="min-h-screen bg-background">
+              <Header />
+              <div className="flex">
+                <Sidebar className="hidden lg:block" />
+                <main className="flex-1 p-6">
+                  {children}
+                </main>
+              </div>
             </div>
-          </div>
+          </SearchProvider>
         </ThemeProvider>
       </body>
     </html>

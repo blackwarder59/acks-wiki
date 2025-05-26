@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ACKS II Content Processing Configuration",
+  "description": "Configuration file for the ACKS II content processing CLI tool",
+  
+  "inputDir": "./ACKS_II_Content",
+  "outputDir": "./output",
+  "outputFormat": "collection",
+  
+  "contentTypes": [
+    "monster",
+    "spell",
+    "class",
+    "equipment",
+    "rule",
+    "proficiency"
+  ],
+  
+  "categories": [
+    "Rulebook",
+    "Judges_Journal", 
+    "Monstrous_Manual"
+  ],
+  
+  "concurrency": 3,
+  "batchSize": 10,
+  "validationLevel": "normal",
+  "continueOnError": true,
+  "incremental": false,
+  "watch": false,
+  "verbose": 1,
+  "prettyPrint": true,
+  "generateReports": true,
+  
+  "_comments": {
+    "inputDir": "Directory containing ACKS II markdown content files",
+    "outputDir": "Directory where processed JSON files will be saved",
+    "outputFormat": "Output format: 'single' (one file per content item), 'collection' (grouped by type), or 'indexed' (with lookup indices)",
+    "contentTypes": "Array of content types to process. Empty array = process all types. Valid values: monster, spell, class, equipment, rule, proficiency, domain_rule, judge_tool",
+    "categories": "Array of content categories to process. Empty array = process all categories. Valid values: Rulebook, Judges_Journal, Monstrous_Manual",
+    "concurrency": "Number of files to process simultaneously (1-10)",
+    "batchSize": "Number of files to process in each batch (1-100)",
+    "validationLevel": "Validation strictness: 'strict' (fail on warnings), 'normal' (warn but continue), 'lenient' (minimal validation)",
+    "continueOnError": "Whether to continue processing other files when one fails",
+    "incremental": "Only process files that have changed since last run",
+    "watch": "Watch for file changes and automatically reprocess",
+    "verbose": "Logging verbosity: 0 (silent), 1 (normal), 2 (detailed), 3 (debug)",
+    "prettyPrint": "Format JSON output with indentation for readability",
+    "generateReports": "Generate detailed processing reports in the output directory"
+  }
+} 
