@@ -1,6 +1,6 @@
 # Task ID: 1
 # Title: Project Setup and Foundation
-# Status: pending
+# Status: in-progress
 # Dependencies: None
 # Priority: high
 # Description: Set up Next.js 14 project with TypeScript and Tailwind CSS, including responsive layout, dark mode support, and basic routing structure.

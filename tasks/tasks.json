@@ -4,7 +4,7 @@
       "id": 1,
       "title": "Project Setup and Foundation",
       "description": "Set up Next.js 14 project with TypeScript and Tailwind CSS, including responsive layout, dark mode support, and basic routing structure.",
-      "status": "pending",
+      "status": "in-progress",
       "dependencies": [],
       "priority": "high",
       "details": "Initialize a Next.js 14 project with TypeScript support using `create-next-app`. Configure Tailwind CSS with custom theme variables for light/dark mode as specified in the PRD. Create the basic project structure following the file structure outlined in the PRD. Implement responsive layout components including header, sidebar, and main content area. Add dark mode toggle with system preference detection. Set up basic routing for content categories (monsters, spells, classes, equipment, domain rules, judge tools). Ensure mobile-first design with hamburger menu for smaller screens.",
