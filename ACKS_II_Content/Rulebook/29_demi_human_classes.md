@@ -1,0 +1,701 @@
+## Demi-Human Classes
+
+### Dwarven Craftpriest
+
+Key Attribute: WIL
+
+Requirements: CON 9
+
+Hit Dice: 1d6
+
+Maximum Level: 10
+
+Nothing is so revered among the dwarven people as craftsmanship. A dwarf’s work is his life, and the spirits of great dwarven artisans are believed to live on forever in their masterpieces. The veneration of these relics falls to the care of a caste of dwarves known as craftpriests. While most craftpriests attend to the shrines and monuments of their clan, young craftpriests are sometimes sent forth to recover monuments to the glorious past from the ancient ruins and wastelands of the world.
+
+|  |  |  |  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| **Dwarven Craftpriest Level Progression** | | | **Craftpriest Spell Progression** | | | | | | |
+| **Experience** | **Title** | **Level** | **Hit Dice** |  | **1** | **2** | **3** | **4** | **5** |
+| 0 | Craft-Catechist | 1 | 1d6 |  | 1 | - | - | - | - |
+| 2,400 | Craft-Acolyte | 2 | 2d6 |  | 2 | - | - | - | - |
+| 4,800 | Craft-Priest | 3 | 3d6 |  | 2 | 1 | - | - | - |
+| 9,600 | Craft-Curate | 4 | 4d6 |  | 2 | 2 | - | - | - |
+| 19,200 | Craft-Vicar | 5 | 5d6 |  | 2 | 2 | 1 | - | - |
+| 38,400 | Craft-Rector | 6 | 6d6 |  | 2 | 2 | 2 | - | - |
+| 75,000 | Craft-Prelate | 7 | 7d6 |  | 3 | 2 | 2 | 1 | - |
+| 150,000 | Craft-Bishop | 8 | 8d6 |  | 3 | 3 | 2 | 2 | - |
+| 280,000 | Craft-Lord | 9 | 9d6 |  | 3 | 3 | 3 | 2 | 1 |
+| 410,000 | Craft-Lord, 10th level | 10 | 9d6 + 2\* |  | 3 | 3 | 3 | 3 | 2 |
+| \*No adjustment from Constitution applies to this flat bonus. | | | | | | | | | |
+
+###### Combat Characteristics
+
+Craftpriests have some combat training in the traditional weapons of their people, but not as much as their warrior-kin, the vaultguards.
+
+**Combat Proficiencies:** Craftpriests have weapon proficiency with all axes (including battle axes, great axes, and hand axes) and all bludgeons (including clubs, flails, maces, morning stars, and warhammers). They have armor proficiency with all armor. They have fighting style proficiency with the weapon and shield and two-handed weapon styles, but not with the dual weapon style.
+
+**Combat Progression:** Craftpriests advance in attack throws and saving throws as crusaders, by two points every four levels of experience. They do not gain any bonus to damage as they advance in level. They can cleave after killing a foe a maximum of once per round per every two class levels (rounded down).
+
+|  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- |
+| **Dwarven Craftpriest Attack and Saving Throws** | | | | | | |
+| **Level** | **Paralysis** | **Death** | **Blast** | **Implements** | **Spells** | **Attack Throw** |
+| 1 – 2 | 9+ | 6+ | 13+ | 9+ | 11+ | 10+ |
+| 3 – 4 | 8+ | 5+ | 12+ | 8+ | 10+ | 9+ |
+| 5 – 6 | 7+ | 4+ | 11+ | 7+ | 9+ | 8+ |
+| 7 – 8 | 6+ | 3+ | 10+ | 6+ | 8+ | 7+ |
+| 9 – 10 | 5+ | 2+ | 9+ | 5+ | 7+ | 6+ |
+
+###### Starting Class Powers
+
+At the start of play, craftpriests have the following class powers.
+
+**Attention to Detail:** Craftpriests gain a +3 bonus on proficiency throws for any proficiencies they learn. (This bonus has already been factored into the craftpriest’s class abilities.)
+
+**Crafting:** Every craftpriest is a master in a particular type of craft, such as armor-making, leatherworking, weapon-smithing, etc. With access to craftsman’s tools, craftpriests can produce 40gp worth of items per month and supervise 2 journeymen and 4 apprentices in their craft. When examining works of his craft, craftpriests can identify masterwork items, rare materials, and famous artisans with a proficiency throw of 2+ on 1d20. (This class power is equivalent to three ranks of Craft proficiency.)
+
+**Rebuke Undead:** Craftpriests can rebuke undead as crusaders of their class level (p. XX). In order to rebuke undead, they must be equipped with a holy symbol representing the ancestor or relic they venerate.
+
+**Studious Divine Magic:** By invoking the rites and rituals of their venerable ancestors, craftpriests can cast divine spells. Unlike most other divine casters, who receive their spells from prayer, craftpriests receive their spells from study. Craftpriests follow the same spell progression and use the same rules for learning and casting spells as mages. They record their repertoires of spells in spell books and can learn new spells from scribing scrolls or studying other divine spell books. They select their spells from the divine spell list, rather than the arcane spell list, however, and cannot learn or cast spells found in arcane spell books. See p. XX for more details on studious divine spellcasting.
+
+**Theology:** Craftpriests are trained in the rites and rituals of the dwarven faith and are broadly knowledgeable about other races’ and cultures’ religions. They can acquire congregants through proselytizing. They can automatically identify religious symbols, trappings, and holy days of the dwarven faith, and recognize those of other faiths with a proficiency throw of 8+ on 1d20. (This class power is equivalent to one rank of Theology proficiency.)
+
+###### Additional Class Powers
+
+When they advance in level, craftpriests gain the following additional class powers:
+
+**Minor Magical Research (5th level):** The craftpriest can research spells, scribe scrolls, and brew potions.
+
+**Major Magical Research (9th level):** The craftpriest can create permanent magic items, such as weapons, rings, and staffs. He can also craft magical constructs such as golems.
+
+**Vault (9th level):** By acquiring a **vault** worth at least 15,000gp, the craftpriest can attract dwarves to his service. 1d4+1 x 10 dwarven mercenaries and 1d6 dwarven craftpriests of 1st – 3rd level arrive to serve him as followers within 1d3 months of him acquiring the vault. If the craftpriest has already acquired a vault, the followers arrive to serve him within 1d3 months of him reaching 9th level. The craftpriest must pay his followers the ordinary rates for mercenaries and henchmen or they leave his service. Additional rules for vaults are detailed in the **Campaigns** chapter (p. XX).
+
+###### Racial Traits
+
+As dwarves, craftpriests have certain powers and drawbacks associated with their race.
+
+**Dwarf Tongues:** Dwarves can speak the Common and Dwarvish tongues and, because of their frequent interaction underground with beastmen, can also speak Goblin, Gnome, and Kobold.
+
+**Hardy:** Dwarves are tough. The target values for all their Blast saving throws are improved by 3, while the target values for all their other saving throws are improved by 4. (These adjustments are already factored into the saving throws on the Dwarven Craftpriest Attack and Saving Throws table below.)
+
+**Sensitivity to Rock and Stone:** Dwarves gain a +1 bonus to surprise rolls when underground. When using Adventuring proficiency to search or listen, they succeed on a proficiency throw of 14+ (instead of the usual 18+). If separately proficient in Searching they gain a +4 bonus to their throw instead. If separately proficient in Listening, they gain a +2 bonus to their throw instead.
+
+###### Code of Behavior
+
+Every dwarven craftpriest must uphold the strictures of the sacred order to which he belongs. The particular strictures that any given craftpriest follows can vary depending on his clan and vault, but most obey the following strictures:
+
+* The craftpriest must always display a holy symbol indicating the relic he venerates somewhere on his person when in public.
+* The craftpriest must sing hymns on high holy days each week. Singing hymns requires one hour of ancillary activity.
+* The craftpriest must only use the traditional weapons of the dwarves.
+* If the craftpriest discovers a dwarven relic in the hands of outsiders, he must recover the relic by any means necessary. If he has guardianship of a dwarven relic, he must protect the relic even at the cost of his own life. If he loses the relic, he must recover it from the one who took it, or take everything else from him – or his descendants.
+* The craftpriest must not use his divine magic to harm or hinder fellow dwarves, unless ordered to do so by a superior during a time when his vault is at war with another vault.
+
+If a craftpriest ever violates the strictures of his order, the ancestral spirits he venerates might impose penalties upon him. These penalties are entirely up to the Judge and might include penalties to turning throws, a reduction in spells available, or even a loss of all class powers altogether. To remove the penalties, the craftpriest will have to atone for his violation by, e.g., sacrificing treasure, undertaking quests, or even receiving an **atonement** spell from a powerful caster of his order (Judge’s discretion).
+
+For more information on the customs and traditions of the craftpriest, see the sourcebook *By This Axe: The Cyclopedia of Dwarven Civilization*.
+
+###### Class Proficiencies
+
+**Proficiency Progression:** At 1st level, craftpriests select one class proficiency from their class proficiency list and one general proficiency from the general proficiency list. They select an additional class proficiency at 4th and 8th level. They select an additional general proficiency at 5th and 9th level.
+
+**Dwarven Craftpriest Proficiency List:** Alchemy, Battle Magic, Caving, Collegiate Wizardry, Contemplation, Craft, Diplomacy, Divine Blessing, Divine Health, Dwarven Brewing, Engineering, Expanded Repertoire, Experimenting, Fighting Style Specialization, Goblin-Slaying, Healing, Illusion Resistance, Knowledge, Laying on Hands, Loremastery, Magical Engineering, Mapping, Prestidigitation, Profession (judge), Prophecy, Quiet Magic, Reliquarianism, Righteous Rebuke, Sensing Evil, Siege Engineering, Theology, Unflappable Casting, Weapon Focus
+
+###### Dwarven Craftpriest Templates
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| **3d6 Roll** | **Template** | **Caste** | **Proficiencies** | **Starting Equipment** |
+| 3 – 4 | Outcast | Houseless  (ex-Oathsworn) | Quiet Magic  Caving  **Craft (leatherworking) 3**  Survival | Battered prayer book with *sling stone* and *frighten beast,* 2 hand axes, tattered workborn tunic and pants, rawhide leather belt, careworn low boots, backpack, 1 lb garlic, tinderbox, 12 torches, moldy waterskin, 1 week’s iron rations, 5gp (enc. 4 3/6 st) |
+| 5 – 6 | Runeseer | Oathsworn | Prophecy  Performance (chanting)  **Craft (rune-carving) 3**  Knowledge (astrology) | Prayer book with *discern evil* and *word of command,* carved stone holy symbol (rune-carver’s insignia), hand axe, charcoal grey workborn tunic and pants, embossed belt, low boots, backpack, waterskin, 1 week’s iron rations, 5gp (enc. 2 1/6 st) |
+| 7 – 8 | Reliquary Guardian | Oathsworn | Battle Magic  Signaling  **Craft (weapon-smithing) 3**  Manual of Arms | Prayer book with *remove fear* and *holy circle*, iron holy symbol (weaponsmith’s insignia), well-sharpened battle axe, leather armor, black workborn tunic and pants, embossed belt, low boots, backpack, waterskin, 1 week’s iron rations, 2gp (enc. 4 1/6 st) |
+| 9 – 10 | Documentarian | Oathsworn | Loremastery  Mapping  **Craft (bookbinding) 3**  Knowledge (history) | Beautifully-bound prayer book with *discern gist* and *illumination,* bronze holy symbol (bookbinder’s insignia), battle axe, leather armor, dun craftborn tunic and pants, embossed belt, low boots, backpack with blank parchment journal half-filled with entries, quill and ink, waterskin, 1 week’s iron rations, 4gp (enc. 4 3/6 st) |
+| 11 – 12 | Reclaimer | Oathsworn | Magical Engineering  Knowledge (history)  **Craft (stonemasonry) 3**  Siege Engineering | Prayer book with *counterspell* and *discern magic*,steel holy symbol (stonemason’s insignia), morning star with carved head, engraved banded plate armor, stone grey workborn tunic and pants, embossed belt, low boots, backpack, waterskin, 1 week’s iron rations, 9gp (enc. 8 st) |
+| 13 – 14 | Sacrementalist | Oathsworn | Dwarven Brewing  Alchemy  **Craft (brewing) 3**  Revelry | Prayer book with *cure light injury* and *purify food and water,* glass holy symbol (brewer’s insignia), mace, round wooden shield painted with alchemical symbols, chain mail armor, brown craftborn tunic and pants, embossed belt, low boots, backpack, 1 flask of holy water, 1 flask of military oil, waterskin, 1 week’s iron rations, (enc. 7 3/6 st) |
+| 15 – 16 | Purifier | Oathsworn | Righteous Rebuke  Knowledge (occult)  **Craft (jewelling) 3**  Alchemy | Prayer book with *holy circle* and *bane-rune,* bejeweled holy symbol (jeweler’s insignia), mace with diamond-shaped head, steel shield with craft insignia, banded plate armor, red and white craftborn tunic and pants, embossed belt, low boots, backpack, 1 lb garlic, flask of holy water, 2 flasks of military oil, tinderbox, 6 torches, waterskin, 1 week’s iron rations, 4gp (enc 10 st) |
+| 17 – 18 | Seeker | Oathsworn  (ex-Highborn) | Sensing Evil  Riding  **Craft (armor-making) 3**  Leadership | Prayer book with *bane-rune* and *word of command,* steel holy symbol (armorer’s insignia), flail, steel shield with craft insignia, plate armor, blue craftborn tunic and pants, embossed belt, low boots, mule, riding saddle and tack, leather saddlebag, waterskin, 1 week’s iron rations, 3gp (enc. 8 st with rations on mule) |
+
+**Notes:** The Craft proficiency that each craftpriest template begins with is noted in bold. For an explanation of caste, see ***By This Axe***. Some characters of this class have above average Intellect, and the templates above reflect that. Each template assumes that the character has an INT attribute of between 13 and 15, qualifying him for one bonus proficiency and one bonus spell. The bonus proficiency and bonus spell that each template begins with are noted last. For characters with INT of less than 13 or greater than 15, see the **Intellect Scores of Studious Spellcasters** section earlier in this Chapter.
+
+### Dwarven Vaultguard
+
+Key Attribute: STR
+
+Requirements: CON 9
+
+Hit Dice: 1d8
+
+Maximum Level: 13
+
+Dwarves trained to defend their race’s underground vault from the endless hordes that threaten it are called vaultguards. Though most vaultguards are born, live and die in the vault, from time to time a young vaultguard will be dispatched to foreign realms on a warrior’s pilgrimage. The few vaultguards who return from such pilgrimages bring gold and glory to their clans, often leading them to found new vaults and become great lords.
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| **Dwarven Vaultguard Level Progression** | | | | |
+| **Experience** | **Title** | **Level** | **Hit Dice** | **Damage Bonus** |
+| 0 | Sentry | 1 | 1d8 | +1 |
+| 2,200 | Warden | 2 | 2d8 | +1 |
+| 4,400 | Shieldbearer | 3 | 3d8 | +2 |
+| 8,800 | Defender | 4 | 4d8 | +2 |
+| 17,500 | Sentinel | 5 | 5d8 | +2 |
+| 35,000 | Guardian | 6 | 6d8 | +3 |
+| 70,000 | Champion | 7 | 7d8 | +3 |
+| 140,000 | Vaultguard | 8 | 8d8 | +3 |
+| 270,000 | Vaultlord | 9 | 9d8 | +4 |
+| 400,000 | Vaultlord, 10th level | 10 | 9d8 + 3\* | +4 |
+| 530,000 | Vaultlord, 11th level | 11 | 9d8 + 6\* | +4 |
+| 660,000 | Vaultlord, 12th level | 12 | 9d8 + 9\* | +5 |
+| 790,000 | Vaultlord, 13th level | 13 | 9d8 + 12\* | +5 |
+| \*No adjustment from Constitution applies to this flat bonus. | | | | |
+
+###### Combat Characteristics
+
+Vaultguards are the most highly-trained combatants fielded by the dwarves.
+
+**Combat Proficiencies:** Vaultguards have weapon proficiency with all weapons except long bows or two-handed swords (due to their short stature). They have armor proficiency with all armor. They have fighting style proficiency with the weaponand shield, two-handed weapon, and dual weapon styles.
+
+**Combat Progression:** Vaultguards advance in attack throws and saving throws as fighters, by two points every three levels of experience. They increase their base damage roll from successful missile and melee attacks by +1 at 1st level, and by an additional +1 at 3rd, 6th, 9th, and 12th level. They can cleave after killing a foe a maximum of once per round per class level.
+
+|  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- |
+| **Dwarven Vaultguard Attack and Saving Throws** | | | | | | |
+| **Level** | **Paralysis** | **Death** | **Blast** | **Implements** | **Spells** | **Attack Throw** |
+| 1 | 9+ | 10+ | 12+ | 12+ | 13+ | 10+ |
+| 2 – 3 | 8+ | 9+ | 11+ | 11+ | 12+ | 9+ |
+| 4 | 7+ | 8+ | 10+ | 10+ | 11+ | 8+ |
+| 5 – 6 | 6+ | 7+ | 9+ | 9+ | 10+ | 7+ |
+| 7 | 5+ | 6+ | 8+ | 8+ | 9+ | 6+ |
+| 8 – 9 | 4+ | 5+ | 7+ | 7+ | 8+ | 5+ |
+| 10 | 3+ | 4+ | 6+ | 6+ | 7+ | 4+ |
+| 11 – 12 | 2+ | 3+ | 5+ | 5+ | 6+ | 3+ |
+| 13 | 1+ | 2+ | 4+ | 4+ | 5+ | 2+ |
+
+###### Starting Class Powers
+
+At the start of play, vaultguards have the following class power:
+
+**Manual of Arms:** The vaultguard is highly experienced in military discipline, physical fitness, and weapon drill. He can automatically identify the battle standards, equipment, great captains, military slang, and rank insignia of his clan and vault. He can identify those of other clans, vaults, or realms with a proficiency throw of 11+. He can fight as a regular (rather than irregular) troop in formed and loose units. He can begin play as a member of a legion, mercenary’s guild, or other military organization (Judge’s discretion). (This class power is equivalent to one rank of Manual of Arms proficiency.)
+
+###### Additional Class Powers
+
+When they advance in level, vaultguards gain the following additional class powers:
+
+**Battlefield Prowess (5th level):** The vaultguard’s presence inspires troops he leads. Any henchmen and mercenaries hired by the vaultguard gain a +1 bonus to their morale score whenever he personally leads them. This bonus stacks with any modifiers from the vaultguard’s Charisma or proficiencies.
+
+**Vault (9th level):** By acquiring a **vault** worth at least 15,000gp, the vaultguard can attract dwarves to his service. 3d6 x 10 1st level dwarven mercenaries arrive to serve him as followers within 1d3 months of him acquiring the vault. If the vaultguard already acquired a vault, the followers arrive to serve him within 1d3 months of him reaching 9th level. The vaultguard must pay his followers the ordinary rates for mercenaries and henchmen or they leave his service. Additional rules for vaults are detailed in the **Campaigns** chapter (p. XX).
+
+###### Racial Traits
+
+As dwarves, vaultguards have certain powers and drawbacks associated with their race.
+
+**Dwarf Tongues:** Dwarves can speak the Common and Dwarvish tongues and, because of their frequent interaction underground with beastmen, can also speak Goblin, Gnome, and Kobold.
+
+**Hardy:** Dwarves are tough. The target values for all their Blast saving throws are improved by 3, while the target values for all their other saving throws are improved by 4. (These adjustments are already factored into the saving throws on the Dwarven Vaultguard Attack and Saving Throws table.)
+
+**Sensitivity to Rock and Stone:** Dwarves gain a +1 bonus to surprise rolls when underground. When using Adventuring proficiency to search or listen, they succeed on a proficiency throw of 14+ (instead of the usual 18+). If separately proficient in Searching they gain a +4 bonus to their throw instead. If separately proficient in Listening, they gain a +2 bonus to their throw instead.
+
+###### Class Proficiencies
+
+**Proficiency Progression:** At 1st level, vaultguards select one class proficiency from their class proficiency list and one general proficiency from the general proficiency list. They select an additional class proficiency at 3rd, 6th, 9th, and 12th level. They select an additional general proficiency at 5th, 9th, and 13th level.
+
+**Dwarven Vaultguard Proficiency List:** Alertness, Berserkergang, Blind Fighting, Caving, Combat Ferocity, Combat Reflexes, Combat Trickery (force back, knock down, overrun, sunder, wrestling), Command, Dungeonbashing Expertise, Dwarven Brewing, Fighting Style Specialization, Goblin-Slaying, Illusion Resistance, Intimidation, Land Surveying, Leadership, Military Strategy, Mountaineering, Precise Shooting, Prospecting, Running, Siege Engineering, Vermin-Slaying, Weapon Focus
+
+###### Dwarven Vaultguard Templates
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| **3d6 Roll** | **Template** | **Caste** | **Proficiencies** | **Starting Equipment** |
+| 3 – 4 | Deserter | Houseless  (ex-Oathsworn) | Running  Survival | Battle axe, hand axe, undamaged leather armor, threadbare workborn tunic and pants, leather belt, high boots, backpack, tinderbox, 6 torches, waterskin, 1 week’s iron rations, 3gp (enc. 4 5/6 st) |
+| 5 – 6 | Battlerager | Oathsworn | Berserkergang  Intimidation | Rune-carved battle axe, wooden shield, dagger, ring mail armor, craftborn tunic and pants, leather belt, high boots, backpack, tinderbox, 6 torches, waterskin, 1 week’s iron rations, 3gp (enc. 6 5/6 st) |
+| 7 – 8 | Sentinel | Oathsworn | Alertness  Signaling | Iron-shod spear, warhammer, wooden shield, banded plate armor, craftborn tunic and pants, leather belt, high boots, backpack, tinderbox, 6 torches, waterskin, 1 week’s iron rations, 5gp (enc. 9 4/6 st) |
+| 9 – 10 | Clansdwarf | Oathsworn | Fight. Style Spec. (weapon & shield)  Manual of Arms 2 | Iron-shod spear, warhammer, steel shield painted with clan emblem, banded plate armor, oathsworn tunic and pants, leather belt, high boots, backpack, tinderbox, 6 torches, waterskin, 1 week’s iron rations, 17gp (enc. 9 4/6 st) |
+| 11 – 12 | Goblin Slayer | Oathsworn | Goblin-Slaying  Caving | Crossbow, case with 20 bolts, spear notched with many kills, hand axe, steel shield painted with vault insignia, chainmail armor, military cloak, oathsworn tunic and pants, leather belt, high boots, backpack, tinderbox, 6 torches, 3 flasks of military oil, waterskin, 1 week’s iron rations, 9gp (enc. 9 3/6 st) |
+| 13 – 14 | Axebearer | Oathsworn | Weapon Focus (axes)  Endurance | Crossbow, case with 20 bolts, battle axe, 2 hand axes, steel shield repainted many times, banded plate armor, oathsworn tunic and pants, leather belt, high boots, backpack, tinderbox, 6 torches, 2 flasks of military oil, waterskin, 1 week’s iron rations, 14gp (enc. 9 4/6 st) |
+| 15 – 16 | Besieger | Oathsworn | Dungeonbashing Expertise  Siege Engineering | Crossbow, case with 20 bolts, spiked mace, heavy steel shield with many dents, banded plate armor, oathsworn tunic and pants, leather belt, high boots, backpack, crowbar, small hammer, 12 iron spikes, tinderbox, 6 torches, 2 flasks of military oil, waterskin, 1 week’s iron rations, 19gp (enc. 10 st) |
+| 17 – 18 | Highborn | Oathsworn (ex-Highborn) or Highborn | Command  Riding | Crossbow, case with 20 bolts, iron-shod spear, warhammer carved with clan emblem, hand axe, steel shield painted with clan emblem, dwarf-forged plate armor, oathsworn tunic and pants, leather belt, high boots, mule, riding saddle and tack, saddlebags, tinderbox, 6 torches, waterskin, 1 week’s iron rations, 4gp (enc. 10 st with rations on mule) |
+
+**Notes:** For an explanation of dwarven caste, please refer to *By This Axe*; disregard if not using that sourcebook.
+
+### Elven Nightblade
+
+Key Attribute: DEX and INT
+
+Requirements: None
+
+Hit Dice: 1d6
+
+Maximum Level: 11
+
+Elves are lithe, fey beings with pointed ears, delicate features, and graceful movement. They typically weigh about 130 lbs and stand between 5’ 6” and 6’ tall. Humans envy their long lifespans and seeming agelessness. They are a subtle race, and never does their gift for finesse and subtlety so reveal itself as in the practice of death-dealing. Cunning, deadly, and rarely seen, the elven nightblade is an assassin and sorcerer whose art is murder. Most nightblades practice their work in the courts of elven nobility. Those few who venture outside of the forests of Northern Argollë find their skills in high demand, for adventurers, aristocrats, and warlords all value their arcane and deadly ways.
+
+|  |  |  |  |  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| **Elven Nightblade Level Progression** | | | | **Nightblade Spell Progression** | | | | | | |
+| **Experience** | **Title** | **Level** | **Hit Dice** |  | **1** | **2** | **3** | **4** | **5** | **Caster Level** |
+| 0 | Arcanist-Avenger | 1 | 1d6+1 |  | - | - | - | - | - | - |
+| 2,875 | Seer-Enforcer | 2 | 2d6 |  | 1 | - | - | - | - | 1 |
+| 5,750 | Theurgist-Torturer | 3 | 3d6 |  | 2 | - | - | - | - | 2 |
+| 11,500 | Magician-Slayer | 4 | 4d6 |  | 2 | - | - | - | - | 2 |
+| 23,000 | Thaumaturge-Destroyer | 5 | 5d6 |  | 2 | 1 | - | - | - | 3 |
+| 46,000 | Enchanter-Executioner | 6 | 6d6 |  | 2 | 2 | - | - | - | 4 |
+| 90,000 | Sorcerer-Blackguard | 7 | 7d6 |  | 2 | 2 | 1 | - | - | 5 |
+| 180,000 | Mage-Assassin | 8 | 8d6 |  | 3 | 2 | 2 | - | - | 6 |
+| 330,000 | Nightblade | 9 | 9d6 |  | 3 | 2 | 2 | 1 | - | 7 |
+| 480,000 | Nightblade, 10th level | 10 | 9d6 + 2\* |  | 4 | 2 | 2 | 2 | - | 8 |
+| 630,000 | Nightblade, 11th level | 11 | 9d6 + 4\* |  | 4 | 3 | 2 | 2 | 1 | 8 |
+| \*No adjustment from Constitution applies to this flat bonus. | | | | | | | | | | |
+
+###### Combat Characteristics
+
+Elven nightblades are professional killers, but they prefer to fight by ambush and treachery rather than direct confrontation.
+
+**Combat Proficiencies:**. Elven nightblades have weapon proficiency with all missile weapons and with all tiny, small, and medium melee weapons. They have armor proficiency with light and very light armor. They have fighting style proficiency with the dual weapon and two-handed weapon styles, but not with the weapon and shield style.
+
+**Combat Progression:** Elven nightblades advance in attack throws and saving throws as thieves, by two points every fourlevels of experience. They do not gain any bonus to damage as they advance in level. They can cleave after killing a foe a maximum of once per round per every two class levels (rounded down).
+
+|  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- |
+| **Elven Nightblade Attack and Saving Throws** | | | | | |  |
+| **Level** | **Paralysis** | **Death** | **Blast** | **Implements** | **Spells** | **Attack Throw** |
+| 1 – 2 | 12+ | 13+ | 13+ | 14+ | 14+ | 10+ |
+| 3 – 4 | 11+ | 12+ | 12+ | 13+ | 13+ | 9+ |
+| 5 – 6 | 10+ | 11+ | 11+ | 12+ | 12+ | 8+ |
+| 7 – 8 | 9+ | 10+ | 10+ | 11+ | 11+ | 7+ |
+| 9 – 10 | 8+ | 9+ | 9+ | 10+ | 10+ | 6+ |
+| 11 | 7+ | 8+ | 8+ | 9+ | 9+ | 5+ |
+
+###### Starting Class Powers
+
+At the start of play, nightblades have the following class powers. As with thieves, the nightblade’s skills improve as the nightblade gains levels according to the progression on the Elven Nightblade Skills table.
+
+**Acrobatics:** Nightblades are trained to jump, tumble, somersault, and free-run around obstacles. They gain a +2 bonus to saving throws where agility would help avoid the danger, such as tilting floors and pit traps. They can add their class level to their DEX for purposes of the distance and height they can jump (p. XX). As his movement action, a nightblade can attempt a proficiency throw to tumble past an opponent he has engaged. If the throw fails, the character remains stationary. If it succeeds, he tumbles directly past his enemy into the space on the enemy’s opposite side, ending up either facing towards or away from the opponent (player’s choice). If the space on the enemy’s opposite side is occupied, the nightblade cannot tumble.
+
+If he ends up facing away from the opponent, he can make a combat movement in lieu of attacking if desired. If he ends up facing towards the opponent, he can attack (and possibly backstab) him. The nightblade cannot tumble if he has an encumbrance of more than 5 stone and cannot tumble past the same enemy on two consecutive rounds. (This class power is the equivalent of Acrobatics proficiency.)
+
+**Backstabbing:** Nightblades are skilled at treacherously attacking unprepared enemies. A nightblade can backstab any **vulnerable** opponent. Backstabs can be made in melee or with missile weapons at short range, but cannot be made with missile weapons at medium or longer range. When backstabbing, a nightblade gains a +4 bonus to hit and if the attack succeeds, the nightblade deals an additional die of damage at 1st level, and another additional die at 5th, 9th, and 13th level**.**
+
+**Climbing:** Nightblades are adept at scaling sheer surfaces, including smooth walls or steep cliffs. The nightblade must make a Climbing proficiency throw for each 100’ climbed (with a minimum of one check required). If the throw succeeds, the nightblade can safely ascend or descend the distance. If the throw fails, the nightblade falls a distance equal to half the attempted distance, plus the distance covered by any previous throws, taking 1d6 bludgeoning damage per 10 feet. A nightblade can climb at his exploration speed or one-third his combat speed without penalty. If he moves at one-half combat speed, he takes a -5 penalty to the proficiency throw, and if he moves at full combat speed, he takes a -10 penalty. For further rules on climbing, see p. XX.
+
+**Hiding:** Nightblades are trained to skulk unseen in the cover of darkness. A nightblade can begin hiding as a combat action anytime he is in cover, dim light, or darkness. When the nightblade begins hiding, the Judge must make a Hiding proficiency throw on behalf of the nightblade. A nightblade will always think he is successful in this skill, and will not know otherwise until others react to his presence. Regardless of whether the throw succeeds, opponents encountering the nightblade suffer a -2 penalty to surprise rolls as long as he remains stationary in cover, dim light, or darkness.
+
+If the throw succeeds, the nightblade is **hidden**. If the throw fails, the nightblade is not hidden. No creature can claim line of sight on a nightblade that is hidden from it. If a hidden nightblade engages an unengaged opponent, the opponent cannot make a free facing change (p. XX). If an opponent knows the hidden nightblade’s general location, the opponent can attack him in melee at a -4 penalty, but it cannot even blindly attack the nightblade if it doesn’t knows his general location. The hidden condition expires at the end of the nightblade’s initiative if he moves or attacks. It also terminates if the cover, dim light, or darkness no longer conceals the nightblade from his opponents.
+
+**Shadowy Senses:** Since the bright light of torches will reveal their positions, nightblades learn to rely on superior night-vision, keen hearing and smell, and echolocation to slowly scout through dark alleys, lightless dungeons, and star-lit rooftops. When moving at combat speed or exploration speed, a nightblade can “see” as if he were carrying a light source that sheds dim light in a 30’ radius. Shadowy senses can be used to fight, probe for traps, and so on. However, shadowy senses cannot be used to discern colors, faces, markings, or flat images (such as frescoes and murals) or to read books, maps, or scrolls. Shadowy senses does not function if the nightblade is charging or running, if deafened, or if in an area of bright light, magical darkness, or magical silence. Because it counts as dim light, an opponent can hide from shadowy senses.
+
+**Sneaking:** Nightblades learn to prowl with great stealth. A nightblade can begin sneaking as a movement action. He can sneak at his encounter speed or one-half combat speed without penalty. If he moves greater than one-half combat speed, he takes a -5 penalty to the Sneaking proficiency throw. If he runs, he takes a -10 penalty.
+
+When the nightblade begins sneaking, the Judge must make a Sneaking proficiency throw on behalf of the nightblade. A nightblade will always think he is successful in this skill, and will not know otherwise until others react to his presence. Regardless of whether the throw succeeds, opponents encountering the nightblade suffer a -2 penalty to surprise rolls if the nightblade is outside their line of sight.
+
+If the throw succeeds, the nightblade is also **sneaking**. If the throw fails, the nightblade is not sneaking. When sneaking, the nightblade makes no noise when he moves — none whatsoever. Even alert creatures that make a successful Listening proficiency throw will not hear a sound. When a sneaking nightblade engages an unengaged opponent from the rear, the opponent cannot make a free facing change.
+
+**Streetwise:** The nightblade has learned the hard lessons taught by life as a criminal. He might begin play as a member of an assassin’s guild or other criminal syndicate (Judge’s discretion). He can engage in hijinks if he has the necessary proficiencies or thief skills. He can automatically identify gestures, signs, slang, and territory of criminal organizations in his home settlement. He can identify those of other urban settlements with a proficiency throw of 11+. Secret organizations or organizations in far-off cities might be harder to recognize. (This class power is equivalent to one rank of Streetwise proficiency.)
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| **Elven Nightblade Skill Progression** | | | | |
+| **Level** | **Acrobatics** | **Climbing** | **Hiding** | **Sneaking** |
+| 1 | 18+ | 6+ | 19+ | 17+ |
+| 2 | 17+ | 5+ | 18+ | 16+ |
+| 3 | 16+ | 4+ | 17+ | 15+ |
+| 4 | 15+ | 3+ | 16+ | 14+ |
+| 5 | 14+ | 2+ | 15+ | 13+ |
+| 6 | 13+ | 1+ | 14+ | 12+ |
+| 7 | 12+ | 0+ | 12+ | 10+ |
+| 8 | 11+ | -1+ | 10+ | 8+ |
+| 9 | 10+ | -2+ | 8+ | 6+ |
+| 10 | 9+ | -3+ | 6+ | 4+ |
+| 11 | 8+ | -4+ | 4+ | 2+ |
+
+###### Additional Class Powers
+
+When they advance in level, nightblades gain the following additional class powers:
+
+**Arcane Magic (2nd level):** As magical assassins, elven nightblades learn and cast arcane spells. However, they are not as devoted to the arcane arts as mages, so their caster level and progression are at a slower rate. The nightblade’s caster level, and the number and levels of spells the nightblade can cast in a single day, are listed on the Nightblade Spell Progression table. Like a mage, a nightblade’s spell selection is limited to the spells in his **repertoire**. A nightblade’s repertoire can include up to the number and level of spells listed for his level, increased by his Intellect bonus. Unlike (human) mages, an elven nightblade can cast spells while wearing light or very light armor.
+
+**Quiet Magic (2nd level):** Nightblades can cast their spells with minimal words and gestures. A successful proficiency throw to hear noise is required to hear the nightblade cast spells. Full binding and gagging is necessary to prevent the nightblade from working magic. (This class power is the equivalent of Quiet Magic proficiency.)
+
+**Minor Magical Research (7th level):** The elven nightblade can research spells, scribe magical scrolls, and brew potions as if he were a 5th level mage.
+
+**Hideout (9th level):** By acquiring a **hideout** worth at least 5,000gp, the elven nightblade can attract followers to his service. 2d6 1st level elven nightblades will arrive to serve him as followers within 1d4 weeks of him acquiring the hideout. If the nightblade already has a hideout, the followers arrive to serve him within 1d4 weeks of him reaching 9th level. If hired, the followers must be paid standard rates for henchmen. These followers will serve the character with some loyalty, though at least one will be an infiltrator working for the nightblade’s local rivals, sent to keep an eye on the character. A cunning and resourceful nightblade can use these followers to start a criminal syndicate. Additional rules for hideouts and syndicates are detailed in the **Campaigns** chapter.
+
+###### Racial Traits
+
+As elves, nightblades have certain powers and drawbacks associated with their race.
+
+**Attunement to Nature:** Elves gain a +1 bonus to surprise rolls when in the wilderness. When using the Adventuring proficiency to search or listen, they succeed on a proficiency throw of 14+ (instead of the usual 18+). If separately proficient in Searching they gain a +2 bonus to their throw instead. If separately proficient in Listening, they gain a +4 bonus to their throw instead.
+
+**Connection to Nature:** Because of their connection to nature, elves are completely unaffected by diseases caused by undead, and gain a +1 bonus to Paralysis and Spells saving throws. Their robust vitality grants a +1 bonus to their HD roll at 1st level. (These adjustments are already factored into their HD and saving throws on the tables.)
+
+**Elf Tongues:** Elves can speak the Common, Elven, Gnoll, Hobgoblin, and Orc languages.
+
+###### Class Proficiencies
+
+**Proficiency Progression:** At 1st level, nightblades select one class proficiency from their class proficiency list and one general proficiency from the general proficiency list. They select an additional class proficiency at 4th and 8th level. They select an additional general proficiency at 5th and 9th level.
+
+**Elven Nightblade Proficiency List:** Battle Magic, Beast Friendship, Black Lore of Zahar, Blind Fighting, Combat Reflexes, Contortionism, Counterspelling, Eavesdropping, Elementalism, Expanded Repertoire, Familiar, Fighting Style Specialization, Kin-Slaying, Magical Engineering, Mastery of Enchantments & Illusions, Mystic Aura, Passing Without Trace, Poisoning, Precise Shooting, Prestidigitation, Running, Sensing Power, Skirmishing, Skulking, Sniping, Swashbuckling, Unflappable Casting, Unarmed Fighting, Wakefulness, Weapon Focus, Weapon Finesse
+
+###### Elven Nightblade Templates
+
+|  |  |  |  |
+| --- | --- | --- | --- |
+| **3d6 Roll** | **Template** | **Proficiencies** | **Starting Equipment** |
+| 3 – 4 | Rogue | Prestidigitation  Survival | Handmade short bow, quiver with 20 arrows, short sword, leather armor, patched cloak, stained tunic and pants, embossed belt, scuffed low boots, backpack, 50’ rope, waterskin, 1 week’s iron rations, 1gp (enc. 4 5/6 st) |
+| 5 – 6 | Pursuer | Sniping  Tracking | Long bow, quiver with 20 arrows, bola, gracefully curved sword, dagger in boot-sheath, supple leather armor, grey-green cloak, dark tunic and pants, embossed belt, low boots, backpack, 50’ rope, manacles, waterskin, 1 week’s iron rations, 4gp (6 1/6 st) |
+| 7 – 8 | Antagonist | Skirmishing  Intimidation | Long bow, quiver with 20 arrows, well-honed sword, 5 darts in bandoleer, dagger in boot sheathes, scarred leather armor, grey-green cloak, dark tunic and pants, embossed belt, low boots, backpack, waterskin, 1 week’s iron rations, 22gp (enc. 5 st) |
+| 9 – 10 | Duelist-for-Hire | Fighting Style Specialization (dual weapons)  Manual of Arms | Composite bow, quiver with 20 arrows, dueling sword and short sword, throwing dagger, sturdy leather armor, duelist’s cloak, tunic and pants, embossed belt, low boots, backpack, waterskin, 1 week’s iron rations, 4gp (enc. 5 st) |
+| 11 – 12 | Silent Slayer | Skulking  Alchemy | Composite bow, quiver with 20 arrows, gracefully curved short sword and dagger, supple leather armor, black cloak with hood and bandana, black tunic and pants, padded sandals, backpack, crowbar, 50’ rope, grappling hook, small hammer, 12 iron spikes, waterskin, 1 week’s iron rations, 3gp (enc. 6 4/6 st) |
+| 13 – 14 | Arcane Avenger | Battle Magic  Collegiate Wizardry | Composite bow, quiver with 20 arrows, short sword, wavy-bladed silver dagger, leather armor under midnight blue mage’s cassock, leather belt, low boots, backpack, quill and ink, waterskin, 1 week’s iron rations, 25gp (enc 5 st) |
+| 15 – 16 | Deceiver | Poisoning  Seduction | Composite bow, quiver with 20 arrows, slender short sword, dagger, coiled leather whip, light arena armor, leather cloak, elegant linen tunic and pants, silk sash, high boots, backpack, manacles, waterskin, 1 week’s iron rations, 38gp (enc. 5 1/6 st) |
+| 17 – 18 | Royal Enforcer | Command  Riding | Composite bow, quiver with 20 arrows, pair of gracefully curved short swords, leather armor, traveler’s tunic and pants, riding boots, light riding horse, riding saddle and tack, leather saddlebag, waterskin, 1 week’s iron rations, 3gp (enc. 3 4/6 st with rations on horse) |
+
+**Notes:** None.
+
+### Elven Spellsword
+
+Key Attribute: STR and INT
+
+Requirements: None
+
+Hit Dice: 1d6
+
+Maximum Level: 10
+
+Elves are lithe, fey beings with pointed ears, delicate features, and graceful movement. They typically weigh about 130 lbs and stand between 5’ 6” and 6’ tall. Humans envy their long lifespans and seeming agelessness. Though elves are a peaceful people that enjoy poetry and art, they are also very talented fighters and skilled mages. Within the Auran Empire, most elves dwell in the isolated forests of Northern Argollë; those that traffic in the kingdoms of man are both bold and remarkable. The elven spellsword class represents one such remarkable elf, trained in the arts of both fighters and mages.
+
+|  |  |  |  |  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| **Elven Spellsword Level Progression** | | | |  | **Spellsword Spell Progression** | | | | | |
+| **Experience** | **Title** | **Level** | **Hit Dice** | **Damage Bonus** |  | **1** | **2** | **3** | **4** | **5** |
+| 0 | Arcanist-Guardian | 1 | 1d6+1 | +1 |  | 1 | - | - | - | - |
+| 4,000 | Warrior-Seer | 2 | 2d6 | +1 |  | 2 | - | - | - | - |
+| 8,000 | Theurgist-Swordmaster | 3 | 3d6 | +2 |  | 2 | 1 | - | - | - |
+| 16,000 | Magician-Hero | 4 | 4d6 | +2 |  | 2 | 2 | - | - | - |
+| 32,000 | Thaumaturge-Exemplar | 5 | 5d6 | +2 |  | 2 | 2 | 1 | - | - |
+| 64,000 | Myrmidon-Enchanter | 6 | 6d6 | +3 |  | 2 | 2 | 2 | - | - |
+| 130,000 | Sorcerer-Champion | 7 | 7d6 | +3 |  | 3 | 2 | 2 | 1 | - |
+| 260,000 | Epic Hero-Mage | 8 | 8d6 | +3 |  | 3 | 3 | 2 | 2 | - |
+| 430,000 | Wizard-Lord | 9 | 9d6 | +4 |  | 3 | 3 | 3 | 2 | 1 |
+| 600,000 | Wizard-Lord, 10th level | 10 | 9d6 + 2\* | +4 |  | 3 | 3 | 3 | 3 | 2 |
+|  | \*No adjustment from Constitution applies to this flat bonus. | | | | | | | | | |
+
+###### Combat Characteristics
+
+Elven spellswords learn an elegant, deadly style of fighting that enables them to cast arcane spells while fully armored.
+
+**Combat Proficiencies:** Elven spellswords have weapon proficiency with all weapons, armor proficiency with all armor, and fighting style proficiency with all three optional styles (i.e. the dual weapon, two-handed weapon, and weaponand shield styles).
+
+**Combat Progression:** Elven spellswords advance in attack throws and saving throws as fighters, by two points every three levels of experience. They increase their base damage roll from successful missile and melee attacks by +1 at 1st level, and by an additional +1 at 3rd, 6th, and 9th level. They can cleave after killing a foe a maximum of once per round per class level.
+
+|  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- |
+| **Elven Spellsword Attack and Saving Throws** | | | | | |  |
+| **Level** | **Paralysis** | **Death** | **Blast** | **Implements** | **Spells** | **Attack Throw** |
+| 1 | 12+ | 14+ | 15+ | 16+ | 16+ | 10+ |
+| 2 – 3 | 11+ | 13+ | 14+ | 15+ | 15+ | 9+ |
+| 4 | 10+ | 12+ | 13+ | 14+ | 14+ | 8+ |
+| 5 – 6 | 9+ | 11+ | 12+ | 13+ | 13+ | 7+ |
+| 7 | 8+ | 10+ | 11+ | 12+ | 12+ | 6+ |
+| 8 – 9 | 7+ | 9+ | 10+ | 11+ | 11+ | 5+ |
+| 10 | 6+ | 8+ | 9+ | 10+ | 10+ | 4+ |
+
+###### Starting Class Powers
+
+At the start of play, elven spellswords have the following class powers.
+
+**Arcane Magic:** Elven spellswords can learn and cast powerful arcane spells. The number and levels of spells the spellsword can cast in a single day are listed on the Elven Spellsword Spell Progression table. A spellsword’s spell selection is limited to the spells in his **repertoire**. A spellsword’s repertoire can include a number of spells up to the number and level of spells listed for his level, increased by his Intellect bonus. Unlike (human) mages, elven spellswords can also cast spells while wearing armor. More information on casting spells and individual spell descriptions can be found in the **Spells** chapter.
+
+**Collegiate Wizardry**: The spellsword has received arcane instruction as an apprentice to a spellsword, pupil at a magical academy, or member of an arcane organization. He can begin play as a member of a wizard’s guild or similar order (Judge’s discretion). He can automatically identify arcane symbols, spell signatures, trappings, and grimoires of his own order or tradition, and can recognize those of other orders or traditions with a proficiency throw of 11+. Rare or esoteric traditions might be harder to recognize. (This class power is the equivalent of one rank of Collegiate Wizardry proficiency.)
+
+###### Additional Class Powers
+
+When they advance in level, spellswords gain the following additional class powers:
+
+**Minor Magical Research (5th level):** The elven spellsword can research spells, scribe magical scrolls, and brew potions.
+
+**Major Magical Research (9th level):** The elven spellsword can create more powerful magic items such as weapons, rings, and staffs.
+
+**Fastness (9th level):** By acquiring a **fastness** worth at least 15,000gp in a natural setting such as a forest or glen, the elven spellsword can attract elves to his service. 3d6 x 10 1st level elven mercenaries arrive to serve him as followers within 1d3 months of him acquiring the fastness. If the spellsword has already acquired a fastness, the followers arrive to serve him within 1d3 months of him reaching 9th level. The spellsword must pay his followers the ordinary rates for mercenaries and henchmen or they leave his service. Additional rules for elven fastnesses are detailed in the **Campaigns** chapter (p. XX).
+
+###### Racial Traits
+
+As elves, spellswords have certain powers and drawbacks associated with their race.
+
+**Attunement to Nature:** Elves gain a +1 bonus to surprise rolls when in the wilderness. When using the Adventuring proficiency, to search or listen, they succeed on a proficiency throw of 14+ (instead of the usual 18+). If separately proficient in Searching they gain a +2 bonus to their throw instead. If separately proficient in Listening, they gain a +4 bonus to their throw instead.
+
+**Connection to Nature:** Because of their **connection to nature**, elves are completely unaffected by diseases caused by undead, and gain a +1 bonus to Paralysis and Spells saving throws. Their robust vitality grants a +1 bonus to their HD roll at 1st level. (These adjustments are already factored into their HD and saving throws on the tables.)
+
+**Elf Tongues:** Elves can speak the Common, Elven, Gnoll, Hobgoblin, and Orc languages.
+
+###### Class Proficiencies
+
+**Proficiency Progression:** At 1st level, spellswords select one class proficiency from their class proficiency list and one general proficiency from the general proficiency list. They select an additional class proficiency at 3rd, 6th, and 9th level. They select an additional general proficiency at 5th and 9th level.
+
+**Elven Spellsword Proficiency List:** Battle Magic, Beast Friendship, Black Lore of Zahar, Blind Fighting, Combat Reflexes, Combat Trickery (disarm, knock down), Command, Counterspelling, Elementalism, Expanded Repertoire, Experimenting, Familiar, Fighting Style Specialization, Loremastery, Magical Engineering, Magical Music, Mastery of Enchantments & Illusions, Mounted Combat, Mystic Aura, Quiet Magic, Precise Shooting, Prestidigitation, Running, Sensing Power, Skirmishing, Soothsaying, Swashbuckling, Unflappable Casting, Wakefulness, Weapon Focus, Weapon Finesse
+
+###### Elven Spellsword Templates
+
+|  |  |  |  |
+| --- | --- | --- | --- |
+| **3d6 Roll** | **Template** | **Proficiencies** | **Starting Equipment** |
+| 3 – 4 | Exile | Running  Survival  Navigation | Tattered spellbook with *chameleon* and *slickness*,short bow, quiver with 20 arrows, old short sword, dagger, threadbare tunic and pants, embossed belt, low boots, backpack, waterskin, 1 week’s iron rations, 1gp (enc. 2 3/6 st) |
+| 5 – 6 | Beastmaster | Beast Friendship  Animal Husbandry  Naturalism | Hidebound spellbook with *slumber* and *chameleon*,long bow, quiver with 20 arrows, gracefully curved sword, dagger, well-stitched fur armor, thick wool cloak, wool tunic and pants, embossed belt, low boots, backpack, waterskin, 1 week’s iron rations, 2gp (enc. 4 2/6 st) |
+| 7 – 8 | Dreamweaver | Mastery of Enchantments & Illusions  Mapping  Art (painting) | Multicolored leather spellbook with *beguile**humanoid* and *illusory**figment*, short bow, quiver with 20 arrows, shiny curved sword, well-polished dagger with boot-sheath, ring mail armor, multicolored tunic and pants, embossed belt, low boots, backpack, waterskin, 1 week’s iron rations (enc. 5 3/6 st) |
+| 9 – 10 | Bladesinger | Magical Music  Performance (singing)  Diplomacy | Embossed spellbook with *blinding**flash* and *discern**magic*,short bow, quiver with 20 arrows, two-handed sword with elaborate hilt, chain mail armor, sea-green hooded cloak traveler’s tunic and pants, leather belt, low boots, backpack, 1 week’s iron rations, 6gp (enc. 7 st) |
+| 11 – 12 | Swordmage | Battle Magic  Military Strategy  ManualofArms | Leather-bound spellbook with *mage missile* and *sharpness*,short bow, quiver with 20 arrows, gracefully curved sword and short sword, banded plate armor, traveler’s tunic and pants, embossed belt, low boots, backpack, waterskin, 1 week’s iron rations, 15gp (enc. 7 3/6 st) |
+| 13 – 14 | Flametongue | Elementalism  Naturalism  Survival | Redwood spellbook with *fan**of**flames* and *kindle**flame*,long bow, quiver with 20 arrows,pair of gracefully curved swords, banded plate armor, armiger’s tunic and pants, embossed belt, high boots, backpack, tinderbox, 6 torches, 3 flasks of military oil, waterskin, 21gp (enc. 10 st) |
+| 15 – 16 | Captain | Command  Leadership  Military Strategy | Battle-scarred spellbook with *counterspell* and *seal**portal*,short bow, quiver with 20 arrows, whitewood spear with leaf-head, gracefully curved sword, steel shield bearing house crest, banded plate armor, armiger’s tunic and pants, embossed belt, low boots, backpack, waterskin, 1 week’s rations, 49gp (enc. 9 1/3 st st) |
+| 17 – 18 | Winged Knight | Familiar (eagle)  Riding  Leadership | **Eagle****familiar**,finely-made spellbook with *thunderclap* and *leaping*,lance with pennant, polished sword, steel shield bearing house crest, plate armor with eagle feather wings, armiger’s tunic, high boots, medium riding horse, riding saddle and tack, saddlebag, waterskin, 1 week’s iron rations, 9gp (enc. 9 1/6 st with rations on horse) |
+
+**Notes:** Most characters of this class have above average Intellect, and the templates above reflect that. Each template assumes that the character has an INT attribute of between 13 and 15, qualifying him for one bonus proficiency and one bonus spell. The bonus proficiency and bonus spell that each template begins with are noted last. For characters with INT of less than 13 or greater than 15, see the **Intellect Scores of Studious Spellcasters** section earlier in this Chapter.
+
+The Flametongue can choose to replace the fire spells with one of three alternative spell selections available, one for each element:
+
+* Air: *thunderclap*and *wall**of**smoke*
+* Earth: *earth’s**excrescence*and *shatter blade*
+* Water: *desiccate*and *slickness*
+
+The winged knight’s eagle familiar grants him Command proficiency. The eagle feather wings on the winged knight’s banded plate armor are purely decorative. They do not actually grant the character the power to fly.
+
+### Nobiran Wonderworker
+
+Key Attribute: INT and WIL
+
+Requirements: STR 11, INT 11, WIL 11, DEX 11, CON 11, CHA 11
+
+Hit Dice: 1d4
+
+Maximum Level: 12
+
+The ancient Nobir were the heroes of the Empyrean War, kings and prophets granted epic power by the gods. Though these bloodlines have faded with the passing of time, occasionally a scion is still born with great gifts. The Nobiran Wonderworker is such a being, blessed with mastery of both arcane and divine magic. Nobiran Wonderworkers are exceedingly rare. In the Auran Empire, only two Wonderworkers are known: The great Artashumara of Shemal-Uliltu and the mighty Abia, called Indura’s Wrath. Doubtless in the troubled times ahead, the gods will see fit to bless others with such power.
+
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| **Nobiran Wonderworker Level Progression** | | | |  | **Arcane Spell Progression** | | | | | | **Divine Spell Progression** | | | | | | |
+| **Experience** | **Title** | **Level** | **Hit Dice** |  | **1** | **2** | **3** | **4** | **5** | **6** |  | **1** | **2** | **3** | **4** | **5** | **6** |
+| 0 | Divine Arcanist | 1 | 1d4+1 |  | 1 | - | - | - | - | - |  | 1 | - | - | - | - | - |
+| 3,125 | Divine Seer | 2 | 2d4 |  | 2 | - | - | - | - | - |  | 2 | - | - | - | - | - |
+| 6,250 | Divine Theurgist | 3 | 3d4 |  | 2 | 1 | - | - | - | - |  | 2 | 1 | - | - | - | - |
+| 12,500 | Divine Magician | 4 | 4d4 |  | 2 | 2 | - | - | - | - |  | 2 | 2 | - | - | - | - |
+| 25,000 | Divine Thaumaturge | 5 | 5d4 |  | 2 | 2 | 1 | - | - | - |  | 2 | 2 | 1 | - | - | - |
+| 50,000 | Divine Enchanter | 6 | 6d4 |  | 2 | 2 | 2 | - | - | - |  | 2 | 2 | 2 | - | - | - |
+| 100,000 | Divine Sorcerer | 7 | 7d4 |  | 3 | 2 | 2 | 1 | - | - |  | 3 | 2 | 2 | 1 | - | - |
+| 200,000 | Divine Mage | 8 | 8d4 |  | 3 | 3 | 2 | 2 | - | - |  | 3 | 3 | 2 | 2 | - | - |
+| 390,000 | Divine Wizard | 9 | 9d4 |  | 3 | 3 | 3 | 2 | 1 | - |  | 3 | 3 | 3 | 2 | 1 | - |
+| 580,000 | Divine Wizard, 10th level | 10 | 9d4 + 1\* |  | 3 | 3 | 3 | 3 | 2 | - |  | 3 | 3 | 3 | 3 | 2 | - |
+| 770,000 | Divine Wizard, 11th level | 11 | 9d4 + 2\* |  | 4 | 3 | 3 | 3 | 2 | 1 |  | 4 | 3 | 3 | 3 | 2 | 1 |
+| 960,000 | Divine Wizard, 12th level | 12 | 9d4 + 3\* |  | 4 | 4 | 3 | 3 | 3 | 2 |  | 4 | 4 | 3 | 3 | 3 | 2 |
+| \*No adjustment from Constitution applies to this flat bonus. | | | | | | | | | | | | | | | | |  |
+
+###### Combat Characteristics
+
+Wonderworkers see little need for combat training. Like mages and priestesses, they should avoid combat.
+
+**Combat Proficiencies:** Wonderworkers have weapon proficiency with clubs, daggers, darts, and staffs. They have no armor proficiency. They have fighting style proficiency with the two-handed weapon style (allowing them to use a staff with both hands), but not with the dual weapon or weaponand shield styles.
+
+**Combat Progression:** Wonderworkers advance in attack throws and saving throws only two points every six levels of experience (i.e., the same as mages). They cannot cleave, regardless of class level.
+
+|  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- |
+| **Nobiran Wonderworker Attack and Saving Throws** | | | | | |  |
+| **Level** | **Paralysis** | **Death** | **Blast** | **Implements** | **Spells** | **Attack Throw** |
+| 1 – 3 | 11+ | 11+ | 13+ | 9+ | 10+ | 10+ |
+| 4 – 6 | 10+ | 10+ | 12+ | 8+ | 9+ | 9+ |
+| 7 – 9 | 9+ | 9+ | 11+ | 7+ | 8+ | 8+ |
+| 10 – 12 | 8+ | 8+ | 10+ | 6+ | 7+ | 7+ |
+
+###### Starting Class Powers
+
+At the start of play, Nobiran wonderworkers have the following class powers.
+
+**Arcane Magic:** Nobiran wonderworkers learn and cast arcane spells as mages. The number and levels of spells the wonderworker can use in a single day is summarized on the Nobiran Wonderworker Arcane Spell Progression table. Like a mage, the wonderworker’s spell selection is limited to the spells in his **repertoire**. A wonderworker’s repertoire can include a number of spells up to the number and level of spells listed for his level, increased by his Intellect bonus.
+
+**Collegiate Wizardry**: The wonderworker has received arcane instruction as an apprentice to a mage, pupil at a magical academy, or member of an arcane organization. He can begin play as a member of a wizard’s guild or similar order (Judge’s discretion). He can automatically identify arcane symbols, spell signatures, trappings, and grimoires of his own order or tradition, and can recognize those of other orders or traditions with a proficiency throw of 11+. Rare or esoteric traditions might be harder to recognize. (This class power is the equivalent of one rank of Collegiate Wizardry proficiency.)
+
+**Divine Magic:** Wonderworkers can manifest their deity’s power in the form of divine spells, which are granted through prayer and worship. The power and number of divine spells available to the character are determined by level according to the Nobiran Wonderworker Divine Spell Progression table. Wonderworkers have the same **repertoire** of spells available as crusaders of their faith, unless the Judge determines otherwise.
+
+**Divine Health:** Wonderworkers have sanctified bodies that render them immune to all forms of disease, including magical diseases caused by spells, mummies, or lycanthropes.
+
+**Lay on Hands:** So abundant is the wonderworker’s life force that he can lay on hands to heal injuries. He can heal 2 damage per class level when the power is used. He can use his power to lay on hands once per day. The wonderworker can select the Laying on Hands proficiency to gain additional uses of the power per day. (This class power is the equivalent of one rank of the Laying on Hands proficiency.)
+
+###### Additional Class Powers
+
+When they advance in level, Nobiran wonderworkers gain the following additional class powers:
+
+**Minor Magical Research (5th level):** The wonderworker can scribe magical scrolls, brew potions, and research arcane spells.
+
+**Major Magical Research (9th level):** The wonderworker can create more powerful magic items such as weapons, rings, and staffs.
+
+**Sanctum (9th level):** By acquiring a **sanctum** (often a great tower) worth at least 15,000gp, the wonderworker can attract followers to his service. 1d6 apprentice wonderworkers of 1st – 3rd level plus 2d6 apprentices of 0th level arrive to serve him as followers within 1d3 months of him acquiring the sanctum. If the wonderworker already has a sanctum, the followers arrive to serve him within 1d3 months of him reaching 9th level. The apprentices function as assistants in magical research (see p. XXX). If performing magic research, the apprentices must be provided food and lodging, but need not be paid wages. (If asked to accompany the wonderworker on an adventure, the apprentices must be paid wages as henchmen.) If the wonderworker builds a **dungeon** beneath or near his sanctum, monsters will start to arrive to dwell within, often followed by adventurers seeking to fight them. Additional rules for wonderworker’ **sanctums** are detailed in the **Campaigns** chapter (p. XX).
+
+**Supreme Magical Research (11th level):** The wonderworker can learn and cast ritual arcane spells of great power (7th, 8th, and 9th level), craft magical constructs, and create magical crossbreeds. If chaotic, the wonderworker can create necromantic servants and become undead. Rules for magic research can be found in the **Campaigns** chapter (p. XX).
+
+###### Racial Traits
+
+**Blood of Ancient Kings:** Every Nobiran has the royal presence of the demi-gods and heroes of old. The character can hire one more henchman than his Charisma would otherwise permit, and the base loyalty score of any henchmen is increased by 1.
+
+**Favor of the Empyrean Powers:** The powers of Law protect their champions from harm. Wonderworkers receive a +2 bonus to all saving throws. (This adjustment is already factored into the saving throws on the Nobiran Wonderworker Attack and Saving Throws table above.)
+
+**Longeval:** Wonderworkers are seemingly ageless, suffering no penalties from advancing age. They enjoy a lifespan three times longer than that of normal men. Their robust vitality grants them a +1 bonus to their HD roll at 1st level. Like elves, they are immune to the diseases caused by undead.
+
+###### Code of Behavior
+
+In order to use divine magic, maintain his divine blessing, and lay on hands, a wonderworker must uphold the sacred laws of good and order. Wonderworkers must obey the strictures below, or other strictures determined by the Judge for his campaign.
+
+* The wonderworker must always display his holy symbol somewhere on his person when in public.
+* The wonderworker must offer prayers to his deity at dawn and dusk. Offering prayers requires one turn (10 minutes).
+* The wonderworker must use his gifts in the struggle against Chaos and uphold Law.
+* The wonderworker must not use his divine magic for unlawful or Chaotic purposes.
+
+If a wonderworker ever falls from favor, due to violating the strictures of his faith, the gods might impose penalties upon the wonderworker. As with crusaders, these penalties are entirely up to the Judge.
+
+###### Class Proficiencies
+
+**Proficiency Progression:** At 1st level, wonderworkers select one class proficiency from their class proficiency list and one general proficiency from the general proficiency list. They select an additional class proficiency at 6th and 12th level. They select an additional general proficiency at 5th and 9th level.
+
+**Nobiran Wonderworker Proficiency List:** Alchemy, Battle Magic, Beast Friendship, Black Lore of Zahar, Bright Lore of Aura, Command, Contemplation, Counterspelling, Elementalism, Expanded Repertoire, Experimenting, Familiar, Healing, Illusion Resistance, Laying on Hands, Loremastery, Magical Engineering, Martial Training, Mastery of Conjuration & Summoning, Mastery of Enchantments & Illusions, Mystic Aura, Prestidigitation, Prophecy, Quiet Magic, Sensing Evil, Sensing Power, Soothsaying, Syncretism, Transmogrification, Unflappable Casting
+
+###### Nobiran Wonderworker Templates
+
+|  |  |  |  |
+| --- | --- | --- | --- |
+| **3d6 Roll** | **Template** | **Proficiencies** | **Starting Equipment** |
+| 3 – 4 | Ferine | Beast Friendship  Naturalism  Survival | Tattered spellbook with *frighten**beast*and*chameleon***,** gnarled oaken staff, simple robe, leather shoes, small sack, fiercely loyal hunting dog, waterskin, 2 weeks’ iron rations, 1gp (enc. 3 5/6 st) |
+| 5 – 6 | Scholar | Loremastery  Healing  Alchemy | Rolled papyrus spellbook with *mage**missile*and*discern gist***,** holy symbol (winged sun of Ammonar), gnarled oaken staff, purple robe, embossed belt, low boots, backpack, quill and ink (half-filled), waterskin, 1 weeks’ iron rations, 1gp (enc. 3 1/6 st) |
+| 7 – 8 | Augur | Soothsaying  Performance (storytelling)  Theology | Rolled papyrus spellbook with *thunderclap*and*auditory**illusion*, holy symbol (wheel of Calefa), elaborately-carved staff, blue robe with crescents, embossed belt, low boots, backpack, ornamental crystal ball (15gp value), quill and ink, waterskin, 2 weeks’ iron rations, 1gp (enc. 4 1/6 st) |
+| 9 – 10 | Servant of Fire | Elementalism  Theology  Naturalism | Red leather spellbook with *fan**of**flames*and *blinding**flash*,holy symbol (ivory torch of Mityara), gnarled oaken quarterstaff, 5 darts, flame red cassock with hood, embossed belt, low boots, backpack, quill and ink, flask of holy water, waterskin, 2 weeks’ iron rations, 9gp (enc. 4 3/6 st) |
+| 11 – 12 | Astrologer | Sensing Power  Knowledge (astrology)  Theology | Bronze-framed spellbook with *slumber*and*illusory**figment***,** holy symbol (ankh of Teos), rune-etched staff, blue mage’s cassock, embossed belt, low boots, backpack, flask of holy water, astrologer’s journal tracking constellations, quill and ink, waterskin, 1 week’s iron rations, 22gp (enc. 3 3/6 st) |
+| 13 – 14 | Corrupted Soul | Black Lore of Zahar  Alchemy  Knowledge(occult) | Iron-bound snakeskin spellbook with *choking**grip*and *unliving**puppet*,unholy symbol (serpent of Saqqara), silver sacrificial dagger, grey cassock, embossed belt, low boots, backpack, flask of unholy water, quill and ink, waterskin, 2 week’s iron rations, 1gp (enc. 3 3/6 st) |
+| 15 – 16 | Wrathbringer | Martial Training (axes)  Manual of Arms  Profession (judge) | Iron-shod spellbook with *sharpness* and *arcane armor*, holy symbol (star of Indura), battle axe, hand axe, red and gold cassock, leather belt, leather gloves, high boots, backpack, belt pouch, quill and ink, 2 flasks of holy water, waterskin, 2 weeks’ iron rations, 35gp (enc. 4 st) |
+| 17 – 18 | Messiah | Prophecy  Diplomacy  Leadership | White leather spellbook with *counterspell*and*illumination*, holy symbol (winged sun of Ammonar), quarterstaff tipped with glass gemstone (45gp value), white cassock, leather belt, leather gloves, high boots, backpack, belt pouch, quill and ink, medium riding horse, riding saddle and tack, saddlebags, waterskin, 1 week’s iron rations, 17gp (enc. 3 2/6 st) |
+
+**Notes:** Most characters of this class have above average intelligence, and the templates above reflect that. Each template assumes that the character has an INT attribute of between 13 and 15, qualifying him for one bonus proficiency and one bonus spell. The bonus proficiency and bonus spell that each template begins with are noted last. For characters with INT of less than 13 or greater than 15, see the **Intellect Scores of Studious Spellcasters** section in this chapter.
+
+Saqqara is another name for Iskara, goddess of chaos. Teos is another name for Istreus, god of secrets. Indura is another name for Ianna, goddess of love and war. For the Servant of Fire template, there are three alternative spell selections available, one for each element. See Mage Templates (p. XX). For the Corrupted Soul template, the Code of Behavior is reversed to favor chaos over law.
+
+### Zaharan Ruinguard
+
+Key Attribute: STR and INT
+
+Requirements: INT 9, WIL 9, CHA 9
+
+Hit Dice: 1d6
+
+Maximum Level: 12
+
+In the waning days of the decadent Zaharan empire, as its graceful cities burned to ash and the races of man, elf, and dwarf slaughtered the children of Zahar without mercy for their arrogance and tyranny, an order of militant sorcerer-knights known as ruinguards was ordained by Sebek, last of the sorcerer-kings. The ruinguards were charged with safeguarding the powerful secrets of the chthonic gods and laying down their lives to prevent the voice of Chaos from passing into oblivion.
+
+The hobbled eunuch-seers and iron-bound tomes of the great Zaharan libraries were too burdensome to carry away and hide from the wrathful judgment of Law as it descended upon crumbling Zahar. The ruinguards mastered arcane bindings to focus the dark chthonic secrets of a dying empire within a receptacle they knew they would always have at hand — their very weapons. The Zaharan empire vanished over a millennium ago, but the masters of this tenebrous order have not only carried the knowledge of Chaos with them, but learned to call upon that knowledge to enhance their own martial and magical skill and bring doom to their enemies.
+
+Each ruinguard is a master of his own fate; an individual conduit to the knowledge of Chaos and the chthonic powers spread across the void. Whether they carry such power within them and focus it upon the weapon they wield, or whether the weapon itself holds the chthonic power and they merely call it forth to do battle, even the ruinguard does not truly know. Ruinguards typically adventure to accumulate power, skill, and allies in order to dominate more and more around them — some even harbor dreams of rebuilding an empire. Others resist succumbing completely to the Chaos that constantly seeks to consume them. This rarer breed of ruinguard seeks adventure to quell the wanderlust within themselves and find camaraderie and kinship amongst those adventurers who also choose to wander dark roads and distant lands.
+
+|  |  |  |  |  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| **Zaharan Ruinguard Level Progression** | | | | **Ruinguard Spell Progression** | | | | | | |
+| **Experience** | **Title** | **Level** | **Hit Dice** |  | **1** | **2** | **3** | **4** | **5** | **Caster Level** |
+| 0 | Insignificant | 1 | 1d6 |  | 0 | - | - | - | - | 0 |
+| 3,700 | Ruinborn | 2 | 2d6 |  | 1 | - | - | - | - | 1 |
+| 7,400 | Ruinchild | 3 | 3d6 |  | 2 | - | - | - | - | 2 |
+| 14,800 | Son of Ruin | 4 | 4d6 |  | 2 | - | - | - | - | 2 |
+| 29,600 | Ruinwielder | 5 | 5d6 |  | 2 | 1 | - | - | - | 3 |
+| 59,200 | Ruinscourge | 6 | 6d6 |  | 2 | 2 | - | - | - | 4 |
+| 120,000 | Ruinmaster | 7 | 7d6 |  | 2 | 2 | 1 | - | - | 5 |
+| 240,000 | Father of Ruin | 8 | 8d6 |  | 3 | 2 | 2 | 1 | - | 6 |
+| 410,000 | Lord of Ruin | 9 | 9d6 |  | 4 | 2 | 2 | 2 | - | 7 |
+| 580,000 | Lord of Secrets | 10 | 9d6 + 2\* |  | 4 | 3 | 2 | 2 | - | 8 |
+| 750,000 | Lord of Bindings | 11 | 9d6 + 4\* |  | 4 | 3 | 3 | 2 | 1 | 8 |
+| 920,000 | Prince of Ruin | 12 | 9d6 + 6\* |  | 4 | 4 | 3 | 2 | 1 | 9 |
+| \*No adjustment from Constitution applies to this flat bonus. | | | | | | | | | | |
+
+###### Combat Characteristics
+
+Ruinguards are brutal combatants who rarely show mercy. The chthonic powers a ruinguard channels revel in the chaos and brutality of face-to-face combat. They favor the heaviest armor available so they can wade into close quarters and frown upon weapons which draw blood from a distance.
+
+**Combat Proficiencies:** Ruinguards have weapon proficiency with battle axes, great axes, flails, swords, two-handed swords, and whips. They have armor proficiency with all armors. They have fighting style proficiency with the weapon and shield and two-handed weapon styles, but not with the dual weapon style.
+
+**Combat Progression:** Ruinguards advance in attack throws and saving throws as fighters, by two points every three levels of experience. They increase their base damage roll from successful melee attacks using these weapons by +1 at 1st level, and by an additional +1 at 3rd, 6th, 9th, and 12th level. They can cleave after killing a foe a maximum of once per round per class level.
+
+|  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- |
+| **Zaharan Ruinguard Attack and Saving Throws** | | | | | |  |
+| **Level** | **Paralysis** | **Death** | **Blast** | **Implements** | **Spells** | **Attack Throw** |
+| 1 | 11+ | 12+ | 13+ | 14+ | 15+ | 10+ |
+| 2 – 3 | 10+ | 11+ | 12+ | 13+ | 14+ | 9+ |
+| 4 | 9+ | 10+ | 11+ | 12+ | 13+ | 8+ |
+| 5 – 6 | 8+ | 9+ | 10+ | 11+ | 12+ | 7+ |
+| 7 | 7+ | 8+ | 9+ | 10+ | 11+ | 6+ |
+| 8 – 9 | 6+ | 7+ | 8+ | 9+ | 10+ | 5+ |
+| 10 | 5+ | 6+ | 7+ | 8+ | 9+ | 4+ |
+| 11 – 12 | 4+ | 5+ | 6+ | 7+ | 8+ | 3+ |
+
+###### Starting Class Powers:
+
+In addition to their fighting ability, a Zaharan ruinguard’s eager embrace of chthonic secrets provides him with several benefits. At the start of play, ruinguards have the following class powers.
+
+**Dark Blessing:** Zaharan ruinguards enjoy the blessing of the chthonic gods. They gain a +2 bonus to all saving throws. (These adjustments are already factored into the saving throws on the Zaharan Ruinguard Attack and Saving Throws table.)
+
+**Manual of Arms:** The ruinguard is highly experienced in military discipline, physical fitness, and weapon drill. He can automatically identify the battle standards, equipment, great captains, military slang, and rank insignia of his homeland. He can identify those of other realms with a proficiency throw of 11+. He can fight as a regular (rather than irregular) troop in formed and loose units. He can begin play as a member of a legion, mercenary’s guild, or other military organization (Judge’s discretion). (This class power is equivalent to one rank of Manual of Arms proficiency.)
+
+**Preternatural Quickening:** Zaharan ruinguards act with supernatural celerity. A ruinguard gains a +1 bonus to initiative and a +1 bonus to avoid surprise.
+
+**Weapon Focus:** Ruinguards are experts with their weapon of choice. The Zaharan ruinguard gains the Weapon Focus proficiency with his choice of one specific weapon type (axes; maces, flails and hammers; swords and daggers).
+
+###### Additional Class Powers
+
+As a Zaharan ruinguard gains experience, he learns how to tap arcane energy to cast spells and enhance his prowess in battle. They gain the following additional class powers:
+
+**Arcane Magic (2nd level):** As sorcerers as well as warriors, Zaharan ruinguards learn and cast arcane spells. However, they are not as devoted to the arcane arts as mages, so their caster level and progression are at a slower rate. The ruinguard’s caster level, and the number and levels of spells the ruinguard can cast in a single day, are listed on the Ruinguard Spell Progression table. Like a mage, a ruinguard’s spell selection is limited to the spells in his **repertoire**. A ruinguard’s repertoire can include the number of spells up to the number and level of spells listed for his level, increased by his Intellect bonus. Unlike (human) mages, a Zaharan ruinguard can cast spells while wearing any type of armor.
+
+**Arcane Striking (2nd level):** The Zaharan ruinguard learns to channel arcane energy through his melee weapons. Whenever the ruinguard successfully hits a target with a melee attack, he can immediately expend one of his daily spell slots to increase damage. Damage is increased by 1d6 per level of the spell slot expended. Damage dealt by arcane striking counts as extraordinary arcane damage. If the target is slain by his arcane strike, the ruinguard is eligible to cleave as if he had slain the target in melee.
+
+EXAMPLE: Moruvai needs to make an attack throw of 14+ to strike the great dragon Orm. Finally, he does so! He immediately expends a 1st level spell slot to do an extra 1d6 damage on his hit.
+
+**Death Healing (4th level):** The Zaharan ruinguard learns to drain the life force of fallen foes in order to heal himself. Whenever the ruinguard successfully slays a sentient creature with a melee attack, he can expend a spell slot to heal himself. Healing is 1d6 per level of the spell slot expended, to a maximum value equal to the slain victim’s maximum (starting) hit points. The ruinguard can cleave after death healing if he has any cleaves remaining. A ruinguard with sufficient spell slots can combine death healing and arcane striking.
+
+EXAMPLE: Moruvai slays a hobgoblin (hp 7). He sacrifices a 2nd level spell and heals himself 2d6 hit points. The 2d6 roll is an 8; Moruvai heals 7 hp because he cannot heal more than the slain victim’s hit points.
+
+**Dark Charisma (5th level):** The ruinguard’s sinister presence begins to inspire the forces of evil to follow him. Any Chaotic characters or monsters in the ruinguard’s service gain a +1 bonus to their morale score whenever he personally leads them. The bonus stacks with any modifiers from the ruinguard’s Charisma or proficiencies.
+
+**Minor Magical Research (7th level):** The Zaharan ruinguard can research spells, scribe magical scrolls, and brew potions as if he were a 5th level mage.
+
+**Dark Fortress (9th level):** By acquiring a **dark fortress** worth at least 15,000gp, the Zaharan ruinguard can attract followers to his service. 5d6 x 10 0th level or beastman troops and 1d6 Zaharan ruinguards of 1st – 3rd level arrive to serve him within 1d3 months of him acquiring the fortress. If the ruinguard already has a fortress, the followers arrive to serve him within 1d3 months of him reaching 9th level. The ruinguard must pay his followers the ordinary rates for mercenaries and henchmen or they leave his service. Should he prove a powerful, ruthless leader, the ruinguard’s power may spread like a dark blight across the realm as those drawn to dark power flock to his banner. Additional rules for dark fortresses are detailed in the **Campaigns** chapter (p. XX).
+
+**Spell Storing (9th level):** The ruinguard learns to channel his spells into his weapon. Whenever a ruinguard casts a spell that would normally target a creature, he can instead cast it into his melee weapon, where it remains stored until discharged. The effect will discharge onto the next creature the ruinguard strikes with the weapon, resulting in both melee damage and the normal effects of the spell. The ruinguard can only store one spell at a time, and the spell will discharge harmlessly if not used in 1 turn (10 minutes),if the weapon is sundered, or if the ruinguard loses his grip on the weapon. A ruinguard with sufficient spell slots can combine spell storing, death healing, and/or arcane striking. A character being killed by a stored spell does not allow the ruinguard to cleave.
+
+EXAMPLE: Moruvai casts *dismember*into his two-handed sword, spell storing it. He then attacks a minotaur, and hits, dealing his normal melee damage. Upon hitting, Moruvai uses his arcane striking power, expending a 2nd level spell slot to deal an additional 2d6 damage. *Dismember*also discharges, and the minotaur fails its save, taking an additional 3d6 damage and a permanent wound from the spell. The cumulative damage slays the minotaur. Moruvai then expends a 3rd level spell slot and death heals himself 3d6 damage. Because the damage from *dismember* was needed to kill the minotaur, Moruvai cannot cleave.
+
+**Major Magical Research (12th level)**: The Zaharan ruinguard can an create more powerful magic items such as weapons, rings, and staffs, as if he were a 9th level mage.
+
+###### Racial Traits
+
+As true Zaharans, all ruinguards also possess certain inhuman benefits and drawbacks from their near-extinct bloodline.
+
+**After the Flesh:** For most mortals, undeath is a curse. For Zaharans, it is a pathway to power. If transformed into intelligent undead, the Zaharan ruinguard retains his racial powers and his class abilities. Once transformed, the ruinguard can continue to advance in Hit Dice without limit, even past his class’s maximum level. A 1 HD undead ruinguard requires 4,000 XP to advance to 2 HD plus an additional 500 XP per \* the undead possesses. The amount of XP required to advance as an undead doubles with each HD thereafter (round values greater than 20,000 XP to the nearest 1,000). All of the ruinguard’s class abilities will continue to progress without regard to his class’s maximum level, to a maximum of 14th level. The ***ACKS II Judges Journal***offers additional rules for characters advancing via this power (p. XX).
+
+**Ancient Pacts:** The lords of Zahar ensorcelled the dark powers of the world with ancient pactsof service and obedience. Some creatures still remember these pacts and will aid Zaharans when commanded. All ruinguards gain a +1 bonus to reaction rolls when encountering intelligent Chaotic monsters. Intelligent Chaotic monsters suffer a -2 penalty to saving throws against any enchantment spells cast by a Zaharan ruinguard.
+
+**Dark Souls:** Because of their black spirits, the grim embrace of death holds special perils for Zaharans. Whenever a deceased Zaharan rolls on the Tampering With Mortality table, he suffers a penalty on the 1d20 roll of -1 per level of experience.
+
+**Inexorable:** Ruinguards are inexorable in the face of horrors that terrify normal men. They are immune to all natural and magical **fear** effects.
+
+**Zaharan Tongues:** Due to their background and training, all Zaharan ruinguards can speak Ancient Zaharan, Common, Goblin, Orc, and Kemeshi.
+
+###### Class Proficiencies
+
+**Proficiency Progression:** At 1st level, ruinguards select one class proficiency from their class proficiency list and one general proficiency from the general proficiency list. They select an additional class proficiency at 3rd, 6th, 9th, and 12th level. They select an additional general proficiency at 5th and 9th level.
+
+**Zaharan Ruinguard Proficiency List**: Alertness, Ambushing, Battle Magic, Berserkergang, Black Lore of Zahar, Blind Fighting, Combat Ferocity, Combat Trickery (force back, knock down, overrun, sunder), Command, Dungeonbashing Expertise, Elementalism, Familiar, Fighting Style Specialization, Kin-Slaying, Leadership, Martial Training, Mastery of Conjuration & Summoning, Military Strategy, Mounted Combat, Mystic Aura, Sensing Good, Sensing Power, Skirmishing, Unflappable Casting, Wakefulness
+
+###### Zaharan Ruinguard Templates
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| **3d6**  **Roll** | **Template** | **Proficiencies** | **Starting Equipment** | |
+| 3 – 4 | Flesheater | Kin-Slaying  Craft (cooking)  **Weapon Focus (swords)** | | Serrated sword, wooden shield, curiously pale-colored hide armor, blood-stained wool tunic and pants, belt embossed with tooth marks, low boots, backpack, waterskin, 2 weeks’ dried white meat, 2gp (enc. 4 3/6 st) |
+| 5 – 6 | Hatemonger | Berserkergang  Intimidation  **Weapon Focus (axes)** | | Great axe tipped with a spike, chain mail armor, torn wool tunic and pants, spiked belt, low boots, backpack, 1 week’s iron rations, 4gp (enc. 6 2/6 st) |
+| 7 – 8 | Grimguard | Fighting Style Spec. (weapon and shield)  Manual of Arms 2  **Weapon Focus (axes)** | | Jagged battle axe, iron-shod shield, grey banded plate armor, grey hooded cloak, wool tunic and pants, embossed belt, low boots, backpack, waterskin, 1 week’s iron rations, 6gp (enc. 7 3/6 st) |
+| 9 – 10 | Avenger | Sensing Good  Profession (torturer)  **Weapon Focus (swords)** | | Serrated sword, copper-barbed scourge, iron-shod shield, grey plate armor, wool tunic and pants, embossed belt, low boots, backpack, waterskin, 1 week’s iron rations, 9gp (enc. 8 4/6 st) |
+| 11 – 12 | Doomwielder | Fighting Style Spec. (two-handed weapon)  Endurance  **Weapon Focus (swords)** | | Serrated two-handed sword, barbed morning star, plate armor adorned with skulls, skull-shaped heavy helmet, blood-stained wool tunic and pants, embossed belt, low boots, backpack, waterskin, 1 week’s iron rations, 9gp (enc. 9 2/6 st) |
+| 13 – 14 | Warmaster | Combat Ferocity  Military Strategy  **Weapon Focus (maces, flails, and hammers)** | | Ball-and-chain, black steel shield bearing taloned hand of Bel, black plate armor, heavy black horned helmet, black armiger’s tunic and pants, leather belt, high boots, backpack, crowbar, tinderbox, 6 torches, flask of military oil, waterskin, 1 week’s iron rations, 27gp (enc. 10 st) |
+| 15 – 16 | Ruinbinder | Familiar (vulture)  Knowledge (occult)  **Weapon Focus (swords)** | | **Vulture****familiar**,rune-carved two-handed sword, red-lacquered plate armor, heavy helmet with crimson crest, red armiger’s tunic and pants, embossed belt, low boots, backpack, 2 flasks of unholy water, waterskin, 1 week’s iron rations, 1gp (enc. 8 4/6 st) |
+| 17 – 18 | Shadowcrown | Command  Riding  **Weapon Focus (swords)** | | Polished sword, black steel shield bearing red eye of fire, black plate armor, heavy helmet affixed with black iron crown, black armiger’s tunic and pants, riding boots, medium riding horse, riding saddle and tack, saddlebags, waterskin, 1 week’s iron rations, 13gp (enc. 7 2/6 st with rations on horse) |
+
+**Notes:** The weapon focus that each ruinguard template begins with is noted in bold in the Proficiencies column. The flesheater’s dried white meat is a type of iron rations. The avenger’s scourge is a type of whip. The warmaster’s ball-and-chain is a type of flail. The ruinbinder’s vulture familiar grants Black Lore of Zahar proficiency to him.

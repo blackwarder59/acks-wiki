@@ -1,0 +1,5 @@
+## Starting Proficiencies
+
+All characters begin with the Adventuring proficiency as well as one proficiency chosen from their class list and one proficiency chosen from the general list. Characters with an Intellect bonus may choose to begin the game knowing one or more additional proficiencies from the general list. The number of additional general proficiencies that may be learned is equal to their Intellect bonus (+1, +2, or +3). The player can choose to leave one or more bonus proficiency “slots” open, to be filled during play as circumstances suggest appropriate choices. However, bonus proficiencies from high Intellect can onlybe used to select proficiencies from the general list.
+
+Note that some proficiencies appear on both the general list and the class lists. For example, Military Strategy appears on both the general list and the fighter class list. This is because Military Strategy is both a common trade skill (general list) and specialized training that is useful to fighters (class list).

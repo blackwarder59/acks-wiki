@@ -1,0 +1,7 @@
+## What are the Elemental Spheres?
+
+The Elemental Spheres are reservoirs of matter and energy that drift within the Cosmos. Some of the gods believe that they are detritus of the Cosmarch accidental byproducts of the act of creation. Others believe that the Cosmarch specifically created the Elemental Spheres as a source for the gods to tap, or from which it might one day reconstruct itself. Whatever the truth, the gods manipulate the substances of the Elemental Spheres to forge new spheres of existence; and both gods and men call on them as a source when they cast spells.
+
+Much of each Elemental Sphere’s substance is animate, with the Logos thickly concentrated within it even though the form is not that of a living creature. When this animate substance is summoned to another sphere of existence, it temporarily becomes an independent entity called an elemental. When animate elemental substance is permanently fastened into the shapes of men or beasts, it becomes an elemental creature such as a djinni, efreeti, hell hound, or salamander. Many such creatures were created in past eras as servitors and soldiers of the gods.
+
+Such acts are rarer now, for over aeons of use by gods and men, the Elemental Spheres have gradually diminished in size. This has made the greatest acts of creation increasingly harder to accomplish, forcing the gods to accumulate ever greater levels of divine power to continue their works.

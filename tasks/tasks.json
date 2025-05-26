@@ -1,0 +1,277 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "title": "Project Setup and Foundation",
+      "description": "Set up Next.js 14 project with TypeScript and Tailwind CSS, including responsive layout, dark mode support, and basic routing structure.",
+      "status": "pending",
+      "dependencies": [],
+      "priority": "high",
+      "details": "Initialize a Next.js 14 project with TypeScript support using `create-next-app`. Configure Tailwind CSS with custom theme variables for light/dark mode as specified in the PRD. Create the basic project structure following the file structure outlined in the PRD. Implement responsive layout components including header, sidebar, and main content area. Add dark mode toggle with system preference detection. Set up basic routing for content categories (monsters, spells, classes, equipment, domain rules, judge tools). Ensure mobile-first design with hamburger menu for smaller screens.",
+      "testStrategy": "Verify project builds without errors. Test responsive layout across multiple screen sizes (320px to 1440px). Confirm dark mode toggle works and persists user preference. Validate basic navigation between routes. Run Lighthouse audit to establish baseline performance metrics."
+    },
+    {
+      "id": 2,
+      "title": "Content Processing System",
+      "description": "Develop TypeScript interfaces and parsing functions to process ACKS II markdown content into structured JSON data.",
+      "status": "pending",
+      "dependencies": [
+        1
+      ],
+      "priority": "high",
+      "details": "Create TypeScript interfaces for all content types (monsters, spells, classes, equipment) based on the examples in the PRD. Develop parsing functions that can extract structured data from markdown files. Implement a content processing pipeline that handles the different content categories (Rulebook, Judges_Journal, Monstrous_Manual). Create utility functions to handle special formatting, tables, and embedded images. Generate JSON output files for each content type that will be used by the application. Implement validation to ensure data integrity and completeness. Set up scripts to batch process all content files.",
+      "testStrategy": "Test parsing functions with sample content from each category. Validate output JSON against expected structure. Check for data integrity issues like missing fields or malformed content. Measure processing performance for large batches of files. Verify all cross-references are correctly identified and preserved.",
+      "subtasks": [
+        {
+          "id": 1,
+          "title": "Define TypeScript Interfaces for Content Types",
+          "description": "Create comprehensive TypeScript interfaces for all ACKS II content types based on the PRD examples.",
+          "dependencies": [],
+          "details": "Implementation details:\n1. Analyze the PRD examples for each content type (monsters, spells, classes, equipment)\n2. Define base interfaces for common properties across content types\n3. Create specific interfaces for each content type with appropriate property types:\n   - Monster interface (stats, abilities, attacks, etc.)\n   - Spell interface (level, range, duration, effects, etc.)\n   - Character Class interface (requirements, abilities, progression tables, etc.)\n   - Equipment interface (cost, weight, damage, properties, etc.)\n4. Define enum types for categorical data (e.g., monster types, spell schools)\n5. Include JSDoc comments for all interfaces\n6. Create a test file with sample objects that implement each interface\n7. Ensure interfaces account for edge cases like optional properties\n\nTesting approach: Create sample objects that implement each interface and verify TypeScript compilation succeeds without errors.",
+          "status": "pending",
+          "parentTaskId": 2
+        },
+        {
+          "id": 2,
+          "title": "Implement Markdown Parsing Functions",
+          "description": "Develop core parsing functions to extract structured data from markdown files for different content types.",
+          "dependencies": [
+            1
+          ],
+          "details": "Implementation details:\n1. Set up a markdown parsing library (e.g., marked or remark)\n2. Create a base parser class/function with common parsing logic\n3. Implement specialized parsing functions for each content type:\n   - parseMonster(markdown: string): Monster\n   - parseSpell(markdown: string): Spell\n   - parseClass(markdown: string): CharacterClass\n   - parseEquipment(markdown: string): Equipment\n4. Develop regex patterns to identify and extract key sections and properties\n5. Implement error handling for malformed markdown\n6. Create helper functions for common parsing tasks (e.g., extracting property lists, parsing stat blocks)\n7. Add logging to track parsing progress and issues\n\nTesting approach: Create unit tests with sample markdown snippets for each content type and verify the parsed output matches expected structure.",
+          "status": "pending",
+          "parentTaskId": 2
+        },
+        {
+          "id": 3,
+          "title": "Build Content Processing Pipeline",
+          "description": "Implement a processing pipeline that handles different content categories and orchestrates the parsing workflow.",
+          "dependencies": [
+            2
+          ],
+          "details": "Implementation details:\n1. Create a pipeline class/module that manages the end-to-end processing\n2. Implement content category detection (Rulebook, Judges_Journal, Monstrous_Manual)\n3. Develop file reading utilities to load markdown content from the filesystem\n4. Create a content router that directs content to appropriate parsers based on category and content type\n5. Implement a processing queue to handle batches of content\n6. Add progress tracking and reporting\n7. Implement error recovery to continue processing despite individual file failures\n8. Create hooks for pre-processing and post-processing steps\n\nTesting approach: Create integration tests with sample directory structures containing different content categories and verify the pipeline correctly processes and routes each file type.",
+          "status": "pending",
+          "parentTaskId": 2
+        },
+        {
+          "id": 4,
+          "title": "Develop Special Formatting and Table Utilities",
+          "description": "Create utility functions to handle special markdown formatting, tables, and embedded images.",
+          "dependencies": [
+            2
+          ],
+          "details": "Implementation details:\n1. Implement table parsing functions to convert markdown tables to structured data\n   - Support for different table formats (simple, complex, nested)\n   - Handle column headers and row spans\n2. Create utilities for processing special formatting:\n   - Bold/italic text extraction\n   - Bullet and numbered lists\n   - Block quotes and callouts\n3. Develop image reference extraction and processing\n   - Extract image paths and captions\n   - Handle relative paths and convert to appropriate format\n4. Implement functions to process special ACKS II notation (e.g., dice notation, range formats)\n5. Create utilities to handle cross-references between content items\n6. Develop functions to normalize text (remove extra whitespace, standardize formatting)\n\nTesting approach: Create specialized unit tests for each utility function with various edge cases (complex tables, nested formatting, etc.) and verify correct transformation.",
+          "status": "pending",
+          "parentTaskId": 2
+        },
+        {
+          "id": 5,
+          "title": "Implement JSON Output Generation with Validation",
+          "description": "Create functions to generate validated JSON output files for each content type with data integrity checks.",
+          "dependencies": [
+            1,
+            3,
+            4
+          ],
+          "details": "Implementation details:\n1. Implement JSON serialization functions for each content type\n2. Create a validation system to ensure data integrity:\n   - Required fields presence check\n   - Data type validation\n   - Cross-reference validation\n   - Logical consistency checks (e.g., stats within valid ranges)\n3. Develop schema validation using JSON Schema or similar\n4. Implement error reporting with specific validation failure details\n5. Create pretty-printing options for human-readable output\n6. Add support for different output formats (single file per item, collection files)\n7. Implement versioning for output files\n8. Create functions to merge related content (e.g., monsters with their abilities)\n\nTesting approach: Create validation test suites with both valid and invalid sample data, verify validation correctly identifies issues, and confirm output files match expected structure.",
+          "status": "pending",
+          "parentTaskId": 2
+        },
+        {
+          "id": 6,
+          "title": "Create Batch Processing Scripts",
+          "description": "Set up command-line scripts to batch process all content files with configuration options.",
+          "dependencies": [
+            3,
+            5
+          ],
+          "details": "Implementation details:\n1. Create a main CLI script with command-line argument parsing\n2. Implement configuration options:\n   - Input directory/files specification\n   - Output directory/format options\n   - Processing options (validation level, error handling)\n   - Filtering options (by content type, category)\n3. Add support for configuration files (JSON/YAML)\n4. Implement parallel processing for better performance\n5. Create progress reporting with ETA estimation\n6. Add detailed logging with different verbosity levels\n7. Implement incremental processing (only process changed files)\n8. Create summary reports of processing results\n9. Add watch mode for continuous processing during development\n\nTesting approach: Create end-to-end tests with sample content directories, run batch processing with various configuration options, and verify all files are correctly processed and output as expected.",
+          "status": "pending",
+          "parentTaskId": 2
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Search and Navigation System",
+      "description": "Implement comprehensive search functionality with filters and develop intuitive navigation system optimized for mobile gaming.",
+      "status": "pending",
+      "dependencies": [
+        1,
+        2
+      ],
+      "priority": "high",
+      "details": "Integrate Fuse.js for client-side fuzzy search. Implement real-time search with results appearing as user types. Create filters for content types (monsters, spells, classes, equipment, domain rules, judge tools) and ACKS-specific attributes (spell level, character level, monster HD, class type). Add search suggestions and autocomplete functionality. Develop breadcrumb navigation showing content hierarchy. Create mobile-optimized menu with swipe gestures. Implement bookmark system using local storage. Add recently viewed content tracking. Ensure all navigation elements have proper accessibility attributes.",
+      "testStrategy": "Test search performance with the full dataset, ensuring results appear within 100ms. Verify filters correctly narrow search results. Test navigation on various mobile devices and screen sizes. Validate bookmarking and history features persist correctly. Conduct accessibility testing on navigation elements. Test keyboard navigation for all interactive elements.",
+      "subtasks": [
+        {
+          "id": 1,
+          "title": "Integrate Fuse.js for Real-time Search",
+          "description": "Set up Fuse.js library and implement real-time search functionality that updates results as the user types.",
+          "dependencies": [],
+          "details": "1. Install and configure Fuse.js library\n2. Create a search input component with event listeners for input changes\n3. Implement debounce functionality to limit API calls during typing\n4. Set up Fuse.js with appropriate configuration options (threshold, keys to search, etc.)\n5. Create a search results component that updates in real-time\n6. Implement highlighting of matched text in search results\n7. Optimize for performance by limiting result set size and using virtualized lists for large result sets\n8. Test search functionality with various query types and ensure results appear within 200ms of typing\n9. Add keyboard navigation support for search results",
+          "status": "pending",
+          "parentTaskId": 3
+        },
+        {
+          "id": 2,
+          "title": "Implement Content Filters and Search Attributes",
+          "description": "Create a comprehensive filtering system for different content types and ACKS-specific attributes.",
+          "dependencies": [
+            1
+          ],
+          "details": "1. Design filter UI components (dropdowns, checkboxes, sliders) for different filter types\n2. Implement content type filters (monsters, spells, classes, equipment, domain rules, judge tools)\n3. Add ACKS-specific attribute filters (spell level, character level, monster HD, class type)\n4. Create filter state management that integrates with the search system\n5. Implement filter combination logic (AND/OR relationships between filters)\n6. Add clear filters and reset functionality\n7. Ensure filters update search results in real-time\n8. Make filters collapsible/expandable on mobile devices\n9. Test filter combinations to ensure correct results are displayed\n10. Implement filter persistence across sessions using local storage",
+          "status": "pending",
+          "parentTaskId": 3
+        },
+        {
+          "id": 3,
+          "title": "Develop Search Suggestions and Autocomplete",
+          "description": "Create intelligent search suggestions and autocomplete functionality to enhance user search experience.",
+          "dependencies": [
+            1
+          ],
+          "details": "1. Design and implement a suggestions dropdown component\n2. Create an API or data structure for common search terms and popular content\n3. Implement autocomplete logic that shows suggestions as user types\n4. Add recently searched terms to suggestions\n5. Implement category-based suggestions (e.g., popular monsters, common spells)\n6. Add keyboard navigation for selecting suggestions\n7. Implement click/tap handling for suggestions\n8. Ensure suggestions appear within 100ms of typing\n9. Add analytics tracking for suggestion usage\n10. Test suggestion relevance and accuracy with various input patterns\n11. Implement proper accessibility attributes for the suggestions dropdown",
+          "status": "pending",
+          "parentTaskId": 3
+        },
+        {
+          "id": 4,
+          "title": "Create Breadcrumb and Mobile-Optimized Navigation",
+          "description": "Implement intuitive navigation system with breadcrumbs and mobile-optimized menus with gesture support.",
+          "dependencies": [],
+          "details": "1. Design breadcrumb component showing content hierarchy\n2. Implement breadcrumb state management based on navigation path\n3. Create mobile-optimized menu component with hamburger icon\n4. Implement swipe gestures for navigation (swipe right for menu, swipe left to close)\n5. Add smooth animations for menu transitions\n6. Ensure menu is accessible via keyboard and screen readers\n7. Implement collapsible sections in the navigation menu\n8. Create context-aware navigation that highlights current section\n9. Test navigation on various mobile devices and screen sizes\n10. Ensure navigation elements have appropriate touch target sizes (minimum 44x44px)\n11. Implement navigation history management with browser back/forward support",
+          "status": "pending",
+          "parentTaskId": 3
+        },
+        {
+          "id": 5,
+          "title": "Implement Bookmarks and Recently Viewed Content",
+          "description": "Create a system for bookmarking content and tracking recently viewed items using local storage.",
+          "dependencies": [
+            1,
+            4
+          ],
+          "details": "1. Design UI components for bookmarks and recently viewed content\n2. Implement bookmark toggle functionality for all content types\n3. Create local storage management for saving bookmarks\n4. Implement recently viewed content tracking that saves last 10-20 items\n5. Add bookmark categories or tags for organization\n6. Create a bookmarks management page for viewing and removing bookmarks\n7. Implement export/import functionality for bookmarks\n8. Add recently viewed section to homepage or navigation\n9. Ensure bookmarks sync across tabs using localStorage events\n10. Implement clear history functionality\n11. Test storage limits and implement fallback behavior when local storage is full\n12. Add visual indicators for bookmarked content throughout the application",
+          "status": "pending",
+          "parentTaskId": 3
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Content Display Components",
+      "description": "Build components for displaying different content types with responsive design and implement cross-reference linking system.",
+      "status": "pending",
+      "dependencies": [
+        2,
+        3
+      ],
+      "priority": "medium",
+      "details": "Create React components for displaying each content type: MonsterCard, SpellList, ClassDescription, EquipmentTable, etc. Ensure all components are responsive and maintain readability on mobile devices. Implement the cross-reference system that automatically links related content. Create hover tooltips that show quick previews of referenced content. Add bidirectional linking (backlinks). Ensure tables render correctly across all devices. Implement lazy loading for images with appropriate placeholders. Add copy-to-clipboard functionality for stat blocks and descriptions. Ensure all components follow the design principles and color scheme specified in the PRD.",
+      "testStrategy": "Test components with various content examples to ensure correct rendering. Verify responsive behavior across different screen sizes. Test cross-reference links to confirm they resolve to the correct content. Check tooltip functionality and content preview accuracy. Validate accessibility of all components with screen readers. Test image lazy loading behavior with throttled network connections."
+    },
+    {
+      "id": 5,
+      "title": "Performance Optimization",
+      "description": "Optimize application for fast loading and responsive interface, meeting performance benchmarks specified in the PRD.",
+      "status": "pending",
+      "dependencies": [
+        3,
+        4
+      ],
+      "priority": "medium",
+      "details": "Implement Static Site Generation (SSG) for optimal performance. Configure image optimization with Next.js Image component. Add code splitting to reduce initial bundle size. Implement lazy loading for components and routes. Set up service worker for offline functionality. Optimize search index for faster queries. Configure proper caching strategies. Minimize CSS and JavaScript bundles. Implement preloading for critical resources. Add error boundaries and loading states for better user experience. Optimize fonts and icons for performance. Ensure bundle size remains under 500KB as specified in the PRD.",
+      "testStrategy": "Run Lighthouse audits targeting 90+ scores for Performance, Accessibility, SEO, and Best Practices. Measure Core Web Vitals (LCP, FID, CLS) against targets. Test page load times on 3G connection (target < 2s). Verify search response times (target < 100ms). Test offline functionality with service worker. Analyze JavaScript bundle size and composition. Test performance on low-end mobile devices.",
+      "subtasks": [
+        {
+          "id": 1,
+          "title": "Implement Static Site Generation (SSG)",
+          "description": "Configure Next.js for Static Site Generation to pre-render pages at build time for optimal performance",
+          "dependencies": [],
+          "details": "1. Identify pages suitable for SSG in the application\n2. Implement getStaticProps for data fetching at build time\n3. Configure getStaticPaths for dynamic routes with fallback strategy\n4. Set up incremental static regeneration where appropriate\n5. Measure and document Time to First Byte (TTFB) improvements\n6. Testing approach: Compare Lighthouse scores before and after implementation, verify TTFB < 100ms, ensure content doesn't flicker on load",
+          "status": "pending",
+          "parentTaskId": 5
+        },
+        {
+          "id": 2,
+          "title": "Optimize Images and Assets",
+          "description": "Implement Next.js Image component and optimize all static assets to reduce page load time",
+          "dependencies": [
+            1
+          ],
+          "details": "1. Replace all <img> tags with Next.js Image component\n2. Configure image sizes, quality, and formats (WebP/AVIF)\n3. Implement responsive images with appropriate srcsets\n4. Set up proper width and height attributes to prevent layout shifts\n5. Optimize SVGs and icons\n6. Implement font loading strategy with font-display: swap\n7. Testing approach: Measure Largest Contentful Paint (LCP) before and after, verify Core Web Vitals pass, use WebPageTest to confirm image optimization",
+          "status": "pending",
+          "parentTaskId": 5
+        },
+        {
+          "id": 3,
+          "title": "Implement Code Splitting and Lazy Loading",
+          "description": "Reduce initial bundle size through code splitting and implement lazy loading for non-critical components",
+          "dependencies": [
+            1
+          ],
+          "details": "1. Analyze current bundle with tools like webpack-bundle-analyzer\n2. Implement dynamic imports for route-based code splitting\n3. Create lazy-loaded components with React.lazy() and Suspense\n4. Set up route-based prefetching strategy\n5. Prioritize critical CSS and defer non-critical styles\n6. Testing approach: Measure First Input Delay (FID) and Time to Interactive (TTI), verify initial JS bundle < 170KB, ensure smooth user experience during navigation",
+          "status": "pending",
+          "parentTaskId": 5
+        },
+        {
+          "id": 4,
+          "title": "Set Up Service Worker and Offline Functionality",
+          "description": "Implement service worker for offline access and caching of critical resources",
+          "dependencies": [
+            1,
+            2
+          ],
+          "details": "1. Configure next-pwa or workbox for service worker generation\n2. Implement cache-first strategy for static assets\n3. Set up network-first strategy for API requests\n4. Create offline fallback pages\n5. Implement background sync for offline actions\n6. Add install prompt for Progressive Web App\n7. Testing approach: Test offline functionality in Chrome DevTools, verify cached resources load when offline, measure performance improvements from cached assets",
+          "status": "pending",
+          "parentTaskId": 5
+        },
+        {
+          "id": 5,
+          "title": "Optimize Search Index and Query Performance",
+          "description": "Improve search functionality performance through index optimization and efficient query processing",
+          "dependencies": [
+            1,
+            3
+          ],
+          "details": "1. Analyze current search implementation and identify bottlenecks\n2. Implement efficient indexing strategy (consider Algolia or Elasticsearch)\n3. Optimize search queries with debouncing and throttling\n4. Implement client-side caching for recent search results\n5. Add search result prefetching for common queries\n6. Optimize relevance scoring algorithm\n7. Testing approach: Measure search response time before and after optimization, verify search results appear in < 200ms, test with large datasets",
+          "status": "pending",
+          "parentTaskId": 5
+        },
+        {
+          "id": 6,
+          "title": "Reduce Bundle Size and Implement Caching Strategies",
+          "description": "Minimize JavaScript and CSS bundles while implementing effective caching strategies",
+          "dependencies": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "details": "1. Audit and remove unused dependencies\n2. Configure tree shaking and dead code elimination\n3. Implement proper cache headers for all static assets\n4. Set up CDN caching strategy\n5. Minify and compress all JavaScript and CSS\n6. Implement resource hints (preload, prefetch, preconnect)\n7. Configure HTTP/2 server push for critical resources\n8. Testing approach: Verify total bundle size < 500KB as specified in PRD, measure repeat visit performance, use Lighthouse to confirm effective caching",
+          "status": "pending",
+          "parentTaskId": 5
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Deployment and Quality Assurance",
+      "description": "Deploy application to Vercel, implement analytics, and conduct comprehensive testing across devices and browsers.",
+      "status": "pending",
+      "dependencies": [
+        5
+      ],
+      "priority": "medium",
+      "details": "Configure Vercel deployment with proper environment variables and build settings. Set up continuous integration for automated testing and deployment. Implement analytics for tracking user engagement metrics. Add user feedback collection mechanism. Conduct cross-browser testing (Chrome, Firefox, Safari, Edge). Test on various mobile devices (iOS and Android). Perform accessibility testing with screen readers and keyboard navigation. Validate content accuracy and completeness. Check for any missing cross-references or broken links. Ensure all success metrics from the PRD can be measured. Create documentation for future development.",
+      "testStrategy": "Verify successful deployment to production environment. Test the live application across specified browsers and devices. Run automated accessibility tests with axe-core. Conduct manual testing with screen readers. Verify analytics are correctly tracking user interactions. Test feedback submission functionality. Validate that all launch criteria from the PRD are met. Measure initial performance metrics against targets."
+    }
+  ],
+  "metadata": {
+    "projectName": "ACKS II Wiki Rapid Prototype",
+    "totalTasks": 6,
+    "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/scripts/prd.txt",
+    "generatedAt": "2023-11-28"
+  }
+}

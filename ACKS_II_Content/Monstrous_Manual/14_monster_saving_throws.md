@@ -1,0 +1,3 @@
+## Monster Saving Throws
+
+Most monsters save as fighters. At your discretion, a monster can be assigned a saving throw progression of a crusader, dwarven craftpriest, dwarven vaultguard, elven nightblade, elven spellsword, mage, or thief in lieu of fighter. Crusader saving throws are appropriate for monsters with divine spellcasting or spell-like abilities. Mage saving throws are appropriate for monsters with arcane spellcasting or spell-like abilities. Thief saving throws are unusual, but might be appropriate for monsters with thief class abilities or a general focus on ambush and stealth. Dwarf and elf saving throws should only be assigned to monsters that have some close kinship with those races.

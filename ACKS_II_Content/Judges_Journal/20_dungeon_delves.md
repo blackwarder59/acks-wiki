@@ -1,0 +1,119 @@
+## Dungeon Delves
+
+Dungeon delves are the primary focus of the early stages of most campaigns (1st – 3rd levels), and can remain an important type of gameplay all the way to the end of a campaign. The following rules are intended to assist you in running dungeon delves.
+
+### Sequence of Play (Dungeon Delves)
+
+Dungeon delves can be divided up into three stages: pre-delve, delve, and post-delve.
+
+#### Pre-Delve Stage
+
+Before entering the dungeon, the adventurers should:
+
+1. Determine party marching order.
+2. Select one or more mappers. A mapper requires bright light and becomes **vulnerable** while mapping.
+3. Establish light sources. Torches and lanterns shed bright light in a 15’ radius and dim light out another 15’ beyond that.
+
+#### Delve stage
+
+Once a dungeon delve begins, gameplay is handled in increments of **turns**. Each turn, you should follow the procedure below:
+
+1. Determine each adventurer’s action during the turn. Actions can be methodical (requiring a full turn) or hasty (requiring 1 round.
+2. Roll to see if any random encounters are triggered by the party’s actions. If an encounter is triggered:
+   1. Choose or roll 1d10 to determine the minute during the turn that the encounter occurs. This may affect the flow of later events.
+   2. Roll on the Random Encounter table for the dungeon to determine the nature of the encounter.
+   3. Follow the encounter procedure to determine encounter distance, monster reactions, and surprise.
+   4. If the party engages in combat, shift play to rounds and follow the combat sequence.
+3. Adjudicate the results of any attempts to batter down doors, pick locks, disarm traps, listen for noises, or other stationary dungeon activities.
+4. Adjudicate the results of movement and determine if the party will encounter any traps in the dungeon. If so, then:
+   1. Are any adventurers searching the area of the trap, either hastily as they move or methodically in a 10’ x 10’ area that includes the trap?
+      1. If so, make a proficiency throw for each to see if the character detects the trap.
+      2. If so, describe the trap trigger and allow them to update their actions during the remainder of the turn.
+   2. Are any adventurers using 10’ poles to probe ahead of the party’s formation?
+      1. If so, roll to see if the pole triggers the trap.
+      2. Adjudicate the results of the trap if triggered.
+   3. Are any adventurers taking actions that might trigger the trap?
+      1. If so, roll for each (usually in marching order) to see if each triggers the trap.
+      2. Adjudicate the results of the trap if triggered.
+5. Determine if there will be any deliberate encounters triggered by the party’s actions. If a deliberate encounter is triggered:
+   1. Choose or roll 1d10 to determine the minute during the turn that the encounter occurs.
+   2. Follow the encounter procedure to determine encounter distance, monster reactions, and surprise.
+   3. If the party engages in combat, shift play to rounds and follow the combat sequence.
+6. Mark off 1 turn (10 minutes) of game time.
+   1. Check to see if any spell durations expire.
+   2. Check to see if the adventurers need to rest. (After 5 turns, all adventurers must rest for 1 turn.)
+   3. Check to see if any lit torches or lanterns go out. (A torch burns out in 6 turns, a lantern for 24 turns.)
+
+Throughout this process, you should be describing what the adventurers see, hear, smell, and feel at each step. It’s your job to make the dungeon, in all its splendor and horror, come alive for them.
+
+Do not feel strictly beholden to this sequence. Sometimes, to adjudicate the action, you’ll need to segment each turn into 10 rounds, during which the adventurers advance at 1/10th exploration speed per round. Sometimes they’ll trigger an encounter before a trap, or they’ll decide to backtrack partway through the turn based on the results of other actions. You should segment or re-order the steps as necessary to maintain the flow of the game. The sequence of a play is intended to be applied by a live Judge using common sense.
+
+#### Post-Delve stage
+
+When a dungeon delve ends, it’s a good idea to do some bookkeeping.
+
+1. Write down the names of the adventurers who participated in the delve and make note of any **curses**, permanent wounds, or other effects that they suffered.
+2. Write down any treasure recovered and monsters slain by the party. When the party returns to civilization, this will determine their adventuring XP.
+
+### Encounters in the Dungeon
+
+Monsters often live in the tunnels, caves, and chambers of dungeons. However, monsters do not only stay where they live. They also wander, hunt, and explore. Indeed, some monsters never stop moving long enough to make a lair at all. Such creatures are called **wandering monsters**, and they can represent a dire threat to adventures, who may suffer **random encounters** with them while exploring.
+
+When the characters are in a dungeon, you should make an encounter throw of 1d6 every 2 turns. An encounter throw of 6+ indicates a random encounter with wandering monsters. When an encounter occurs with wandering monsters in the dungeon, follow these steps:
+
+1. Find the row of the **Dungeon Random Encounters** table that shows the dungeon level on which the monster has been encountered. Roll 1d12 and read across to find the column specifying which Monster Level column will be used to generate the monster.
+2. Roll 1d12 on the resulting **Wandering Monsters by Level** table to determine the type of creature encountered. You can use the default table provided on the following page, or create your own. For information on designing your own random encounter tables, see Chapter 8, **Dungeons** (p. XX – p. XX).
+3. Roll the appropriate **number encountered** for the creature to determine how many are present. Increase or decrease this roll by 50% for each step of difference between the dungeon level and the Monster Level column used (round up). For example, imagine that the adventurers are on Dungeon Level 1 but have had the misfortune to have a random encounter with a Level 3 monster — 1d6 wights. The roll is a 4. Since there are two steps of difference, 4 x 0.5 x 0.5 = 1. Only 1 wight is encountered on Dungeon Level 1. On the other hand, the same monster and roll (4 wights), if encountered on Dungeon Level 5, would yield 4 x 1.5 x 1.5 = 9 wights.
+4. Determine the **encounter distance**. Start by rolling 2d6 x 10 to determine the maximum encounter distance in feet at the start of the encounter. Then choose or randomly roll for the direction from which the monsters approach. Be sure to take into account the dungeon layout and known placement of other monsters to determine the direction from which the wandering monsters are approaching. Reduce the distance (using your dungeon map as a guide) until either the monster(s) can see the adventurers or the adventurers’ light source, or the adventurers can see the monster(s) or their light source (if any).
+5. Roll for surprise and reactions as described in the ***ACKS II Revised Rulebook*** and this book (p. XX). Modify the reaction roll by the difference between the Random Monster table used and the dungeon level of the encounter. For instance, if the wights (Level 3 monsters) are encountered on Dungeon level 5, they have a -2 penalty to reaction rolls; if encountered on level 1, they have a +2 bonus to reaction rolls. The numerical superiority of monsters traveling deeper into the dungeon makes them more likely to attack. On the other hand, powerful monsters wandering on an upper level are more inclined to view the party as tools than threats.
+
+At your discretion, you can change both or either the frequency and/or the target value of the encounter throw. For instance, if a dungeon has regular patrols every 30 minutes but few wandering monsters in between, you could make an encounter throw every 3 turns with a target value of 4+ representing encountering a patrol.
+
+The concept of dungeon level is inherited from the earliest days of tabletop gaming, when huge multi-level megadungeons dominated campaigns. Outside of a megadungeon context, dungeon level need not be interpreted literally. A dungeon might be just one level but if it is a very dangerous or deadly dungeon, it might count as Dungeon Level 6. For information on designing your own dungeons and creating your own dungeon random encounters, see Chapter 8: **Dungeons** (p. XX – p. XX).
+
+#### Dungeon Random Encounters
+
+|  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- |
+| **Monster Level** | | | | | | |
+| **Dungeon Level** | **1** | **2** | **3** | **4** | **5** | **6** |
+| 1 | 1 – 9 | 10 – 11 | 12 | - | - | - |
+| 2 | 1 – 3 | 4 – 9 | 10 – 11 | 12 | - | - |
+| 3 | 1 | 2 – 3 | 4 – 9 | 10 – 11 | 12 | - |
+| 4 | - | 1 | 2 – 3 | 4 – 9 | 10 – 11 | 12 |
+| 5 | - | - | 1 | 2 – 3 | 4 – 9 | 10 – 12 |
+| 6 | - | - | - | 1 | 2 - 3 | 4 - 12 |
+
+#### Wandering Monsters by Level
+
+|  |  |  |  |
+| --- | --- | --- | --- |
+| **Roll** | **Monster Level 1** | **Monster Level 2** | **Monster Level 3** |
+| **1** | Beastman, Goblin (2d4) | Beastman, Gnoll (1d6) | Bugbear (2d4) |
+| **2** | Beastman, Kobold (4d4) | Beastman, Hobgoblin (1d6) | Lycanthrope, Werewolf (1d6) |
+| **3** | Morlock (1d12) | Lizardman (2d4) | Ogre (1d6) |
+| **4** | Beastman, Orc (2d4) | Troglodyte (1d8) | Hobgholl (1d6) |
+| **5** | Beetle, Luminous (1d8) | Fly, Giant Carnivorous (1d8) | Ant, Giant (2d4) |
+| **6** | Centipede, Giant (2d4) | Locust, Cavern (1d10) | Scorpion, Giant (1d6) |
+| **7** | Ferret, Giant (1d8) | Bat, Giant (1d10) | Wolf, Dire (1d4) |
+| **8** | Rat, Giant (3d6) | Snake, Viper (1d8) | Carrion Horror (1d3) |
+| **9** | Man, Brigand (2d4) | Attercop, Foul (1d4) | Attercop, Hideous (1d3) |
+| **10** | Strige (1d10) | Ghoul, Grave (1d6) | Owlbeast (1d4) |
+| **11** | Skeleton (3d4) | Zombie (2d4) | Wight (1d6) |
+| **12** | NPC Party (Lvl 1) (1d4+2) | NPC Party (Lvl 2) (1d4+2) | NPC Party (Lvl 4) (1d4+2) |
+
+|  |  |  |  |
+| --- | --- | --- | --- |
+| **Roll** | **Monster Level 4** | **Monster Level 5** | **Monster Level 6** |
+| **1** | Lycanthrope, Wereboar (1d4) | Ettin (1d2) | Cyclops (1) |
+| **2** | Lycanthrope, Weretiger (1d4) | Giant, Hill (1d4) | Giant, Fire or Frost (1d2) |
+| **3** | Minotaur (1d6) | Giant, Stone (1d2) | Hag (1d2) |
+| **4** | Medusa (1d3) | Troll (1d8) | Titan, Lesser (1d2) |
+| **5** | Acanthaspis, Giant (1d4) | Amphisbaena (1) | Blob, Black (1) |
+| **6** | Bear, Cave (1) | Wasp, Giant Parasitic (1) | Crocodile, Giant (1d3) |
+| **7** | Spider, Tarantula | Worm, Giant Grey (1d3) | Skittering Maw (1) |
+| **8** | Snake, Python (1d3) | Ooze, Ochre (1) | Worm, Giant Black (1d2) |
+| **9** | Attercop, Monstrous (1d3) | Arane (1) | Attercop, Demonic (1) |
+| **10** | Gargoyle (1d6) | Basilisk, Petrifying (1d6) | Gorgon (1d2) |
+| **11** | Mummy (1d4) | Necropede (1d2) | Mummy Lord (1) |
+| **12** | NPC Party (Lvl 5) (1d4+2) | NPC Party (Lvl 8) (1d4+3) | NPC Party (Lvl 11) (1d4+3) |

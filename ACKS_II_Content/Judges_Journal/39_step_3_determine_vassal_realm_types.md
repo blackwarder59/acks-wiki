@@ -1,0 +1,7 @@
+## Step 3: Determine Vassal Realm Types
+
+Consulting the Political Divisions of Realms table, we see that a typical Principality has 4 to 6 Duchies beneath it. Recall that in step 7(b)(iii) of your setting construction, you placed another 4 to 6 smaller urban settlements in a loose ring around the capital city. Each of those settlements is ruled by a Duke of 9th to 10th level who controls a Duchy of 67 – 172 6-mile hexes as a vassal to the Prince.
+
+If you are feeling bold, you can pick one settlement (whichever is furthest from the capital) and make it an independent city-state, dwarven vault, elven fastness, or other settlement outside the Principality. You can replace it with one of the strongholds you placed in step 7(b)(iv) if desired to make sure you still have 4 to 6 Duchies within the Principality.
+
+In the Auran Empire campaign setting, Duchies are called “Palatinates” and ruled by Palatines. We placed four settlements around Cyfaraun – Azen Radokh, Menicos, Samos, and Siadanos. However, we made Azen Radokh a dwarven vault that was outside the direct rule of the prefect. We replaced it by making the huge stronghold of Türos Orn one of the seats of power for the vassal ruler. Thus, the Prefect Basilio has four Palatines as vassals, ruling Palatinates around Menicos, Samos, Siadanos, and Türos Orn respectively.

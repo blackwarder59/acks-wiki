@@ -1,0 +1,3 @@
+## Step 6. Build Settlement Story Web
+
+It’s time now to re-open the story web you created back in Step 7D of **Chapter 5**: **Settings**. Review the strands of your web to see if any of the points of interest in your sandbox can be linked back to your settlement. If you’ve taken our advice and chosen a starting settlement that is close to one of your low-level dungeons, you’ll want to create a number of strands that lead from the settlement to that dungeon. If you’ve included a dungeon or sewer in your settlement, make sure there are strands that lead from some of the settlement’s other points of interest into those adventure sites.

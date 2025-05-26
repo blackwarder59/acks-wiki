@@ -1,0 +1,94 @@
+## Aftermath of Battles
+
+When a battle ends, the defeated army immediately **retreats**. The victorious army has the opportunity to **pursue** the defeated army. After pursuit is resolved, each army determines **casualties** and gathers the **spoils of war**. Finally, each army calculates **experience points** for its leaders, heroes, and troops.
+
+An army that fights a battle cannot make any further movement that day, apart from retreating.
+
+### Retreat
+
+After a battle, the defeated army must retreat. A retreating army generally retreats 1 6-mile hex along its line of supply. If there is a friendly stronghold or urban settlement in the same 6-mile hex, the army may retreat into the stronghold or settlement. The victorious army might then begin a **siege**, as described in Chapter 5.
+
+If an army’s line of supply is occupied by enemy troops, the army may choose to retreat into an adjacent empty hex (risking loss of supply), or it may retreat along its line of supply (risking a second battle with enemy troops, if they detect the retreating army).
+
+### Pursuit
+
+As the defeated army retreats, the victorious army is eligible to **pursue**. Pursuit is handled with a series of **pursuit throws**. The victorious army receives one pursuit throw per **eligible** pursuing unit. Pursuing occurs within the same 6-mile hex that the battle took place in. The pursuing army does not follow the retreating army into its new hex.
+
+###### Pursuit Eligibility
+
+Determine which units from the victorious army are eligible to pursue as follows:
+
+1. Did the defeated army end the battle without any cavalry or flyer units (i.e. all such units were routed or destroyed)? If yes, then all units in the victorious army are eligible to pursue.
+2. In all other cases, only cavalry and flying units in the victorious army are eligible to pursue.
+
+EXAMPLE #1: A battle between Army A and Army B ended when all of Army B’s units were destroyed or routed. Army A had eight heavy infantry and four light cavalry units remaining when the battle ended. Army B had two light cavalry and four light infantry remaining, but all routed. Because Army B ended the battle with all of its cavalry units routed, Army A is eligible to pursue with all of its units.
+
+EXAMPLE #2: A battle between Army A and Army B ended when Army B voluntarily withdrew from the battle. Army A had eight heavy infantry and four light cavalry units remaining when the battle ended. Army B had two light cavalry and four light infantry remaining, all of which voluntarily retreated. Because Army B still has unrouted cavalry units in its army, Army A is eligible to pursue with onlyits four light cavalry.
+
+|  |  |
+| --- | --- |
+| **Pursuing Unit** | **Pursuit Throw** |
+| Light Cavalry or Flyer | 11+ |
+| Other Cavalry | 14+ |
+| Light Infantry | 14+ |
+| Other Infantry | 18+ |
+
+**Pursuit Throws:** For each eligible pursuing unit, the victorious army’s commander makes a pursuit throw against the appropriate value from the table below. Add +4 to the pursuit throw if all of the defeated army’s cavalry or flyer units were destroyed or routed. Each successful throw eliminates one enemy unit. If the defeated army ended the battle without any cavalry or flyer units, the victorious army commander may choose which unit(s) are eliminated. Otherwise the defeated army’s general may choose which unit(s) are eliminated.
+
+EXAMPLE: Army B routed off the battlefield. Army A is pursuing with four light cavalry units. A’s commander makes four pursuit throws against 11+, with a +4 bonus for all of Army B’s cavalry being destroyed or routed. He rolls a modified 6, 9, 12 and a 16, so two units of Army B are eliminated. Since all of Army B’s cavalry units were destroyed or routed, Army A’s general chooses which units are eliminated. He elects to destroy both of B’s light cavalry (which had routed from the battle).
+
+**Pursuit against Evading Armies:** As explained in **Types of Battles** earlier in this chapter, certain battles (rear guard actions, rear guard envelopments, and skirmishes) involve offensive armies fighting evading armies. The longer it takes to defeat an evading army, the harder it is for the offensive army to pursue. Each battle turn imposes a cumulative -1 penalty to subsequent pursuit throws against a defeated evading army. A natural roll of 20 always eliminates a unit, regardless of any modifiers.
+
+EXAMPLE: Army A confronts Army B in a rear guard action. After six battle turns, Army B’s rear guard units have all been defeated. Army A is now eligible to pursue Army B but all its pursuing units suffer a -6 penalty to their pursuit throws.
+
+### Casualties
+
+After pursuit, each army’s leader will determine his army’s casualties, using the following rules.
+
+**Destroyed Units:** For each unit that was destroyed, 50% of its troops (rounded up) are crippled or dead, while the other 50% (rounded down) are lightly wounded. The victorious army’s wounded troops return to their unit in one week. The defeated army’s wounded troops become prisoners.
+
+EXAMPLE: An army containing a unit of 120 orcs was destroyed. 60 of the orcs are crippled or dead, while 60 are lightly wounded. If the orc’s army won the battle, it will recover its wounded; it will be able to field a unit of 60 orcs in one week. If the orc’s army lost the battle, the wounded orcs become prisoners of the victorious army.
+
+**Routed Units:** For each unit that was routed, 25% of its troops (rounded up) are crippled or dead, while another 25% (rounded up) are lightly wounded. 50% of the victorious army’s routed, wounded troops are lost to desertion (round up); the rest return to the unit in one week. 50% of a defeated army’s routed, wounded troops become prisoners of the victorious army (round up); the other wounded troops are lost to desertion.
+
+EXAMPLE: A unit of 120 orcs routed. 30 troops are crippled or dead, while another 30 are lightly wounded. If the orc’s army won the battle, 15 of the wounded troops are lost to desertion, reducing the unit to 75 orcs. If the orc’s army lost the battle, 15 of the wounded troops become prisoners of the victorious army and the other 15 are lost to desertion. The unit is reduced to 60 orcs.
+
+Half-strength units may be consolidated to form a smaller number of full-strength units, if desired.
+
+**Officer Casualties:** If an officer’s unit is destroyed, the officer(s) must roll on the Mortal Wounds table. Apply the officer’s modifiers from Constitution, Equipment, and Hit Dice value. Do not apply any modifier for Hit Points unless the officer was incapacitated in a heroic foray. For officers of the victorious army, apply a +3 proficiency modifier and a -3 treatment time modifier (for a net modifier of 0). For officers of the defeated army, apply a +1 proficiency modifier and -5 treatment modifier (for a net modifier of -4). The effects of the roll are as follows:
+
+* *Instantly Killed:* The officer died on the battlefield. His body is in the hands of the victorious army.
+* *Mortally Wounded:* The officer died while receiving treatment. His body in the hands of the victorious army.
+* *Grievously Wounded:* If part of the defeated army, the officer died while receiving treatment. His body is in the hands of the victorious army. If part of the victorious army, the officer was saved by the healers. Roll 1d6 for permanent wound.
+* *Critically Wounded or Shocked:* The officer was saved by the healers. Roll 1d6 for permanent wound. If part of the defeated army, the officer was captured.
+* *Knocked Out or Just Dazed:* The officer wasn’t that badly hurt. Roll 1d6 for permanent wound. If part of the defeated army, the officer was able to escape before being captured.
+
+If an officer’s unit is routed, the officer has two options. He can roll on the Mortal Wounds table as if his unit were destroyed, or he can allow himself to be captured by the opposing army without risking the roll.
+
+**Heroic Casualties:** If a hero functioning as a unit with BR on the battlefield is destroyed or routed, apply the rules for officer casualties to the hero. If a hero on a heroic foray is incapacitated, he can be treated during the foray or in the lull immediately after; if not so treated, apply the rules for officer casualties to the hero.
+
+### Spoils of War
+
+Historically, most soldiers fought for the **spoils of war**. Those spoils could come in the form of booty from a pillaged city, food, wine and women from plundered cities, land captured in combat, or ransoms from captured nobility, but it was ultimately the prospect of economic gains that motivated ancient and medieval fighters. It was the nobility and leadership that were most motivated by the prospect of glory and renown from winning battles. To reflect this, ***ACKS***rewards leaders and heroes for the army’s valor at arms, while the common soldiers are rewarded only for their personal material gain.
+
+The spoils of war from a victorious battle are equal to one month’s wages of each destroyed or routed unit (consisting of salvaged equipment, valuables, wages on hand, etc.). In addition, each prisoner captured is worth 40gp if sold as a slave or ransomed. (Higher level NPCs, monsters, and similar creatures can be ransomed for greater sums, at the Judge’s discretion.) If kept, prisoners can be used as **construction workers** (p. XX).
+
+EXAMPLE: In a great battle, an army has destroyed or routed 7 units of 60 heavy cavalry (60gp/month per troop) and 10 units of 120 heavy infantry (12gp/month per troop). From the defeated units, the victorious army captured and ransomed 550 prisoners. The spoils for defeating the heavy cavalry are (7 x 60 x 60) 25,200gp. The spoils for defeating the heavy infantry are (10 x 120 x 12) 14,400gp. The spoils from ransoming the prisoners are (550 x 40) 22,000gp. The total spoils are 61,600gp.
+
+Remember that casualties and prisoners can be consumed as supplies by **carnivorous units** (p. XX).
+
+###### Experience Points from Spoils
+
+Each participant (whether a commander, a hero, or a creature in a unit) earns 1 XP for each gold piece he collects from the spoils of war. The troops will expect that at least 50% of any spoils captured will be shared equally among all units. If this does not occur, the Judge should make a loyalty roll for any unpaid troops. The leader can distribute 50% of the spoils captured to himself and/or his commanders as he sees fit, although it is traditional to do so in proportion to their units commanded. If a commander who performed well in the battle is given an unreasonably small share of the spoils (Judge’s discretion), it counts as a calamity.
+
+EXAMPLE: An army consisting of 8 units of 120 heavy infantry and 8 units of 60 heavy cavalry, led by a 9th level fighter, has gathered battle loot worth 16,000gp. The leader claims half (8,000gp) for himself and shares the remaining 8,000gp among the 16 units. Each of the 16 units gets 500gp each. The leader earns 8,000XP, each heavy infantryman receives (500/120) = 4 XP and each heavy cavalryman receives (500 / 60) = 8 XP.
+
+For ease of play, troops’ XP can be tracked on a unit-by-unit basis. 0th level characters can be advanced to 1st level as per the rules in under **0th Level Characters and Experience from Adventuring** (p. XXX). It requires 500 XP for a 0th level mercenary to become a 1st level fighter. It requires 500 XP for a 0th level untrained militia to become a 0th level mercenary.
+
+###### Experience Points from Combat
+
+The army’s commanders earn XP equal to the value of enemy units defeated, less the value of friendly units defeated. 50% of the XP goes to the army’s leader, while the remaining XP is divided proportionately among the commanders based on the number of units each commander had in his division, excluding the army leader’s division. (This is why ambitious commanders always demand to lead more troops!)
+
+EXAMPLE: An army of 10 human heavy infantry companies (5XP per man equals 600XP per unit) defeats 12 orc light infantry companies (10 XP per orc equals 1,200 XP per unit) while losing 3 units itself. The overall leader and three commanders of the army will split [(12 x 1,200) – (3 x 600)] 12,600 XP. The leader, with a division of four companies, receives 6,300 XP. The first commander had three companies, the second had two companies,, and the third had one company, so the commanders receive 3150 XP, 2100 XP, and 1050 XP respectively.
+
+Characters also earn XP for the creatures they personally defeated. Troops (i.e. non-heroes) on the winning side receive 75 x (enemy army BR / friendly army BR) XP from combat each. Troops on the losing side gets no XP from combat.

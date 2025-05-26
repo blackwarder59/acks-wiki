@@ -1,0 +1,13 @@
+## Noncombatant Monsters
+
+Some species of monster are differentiated into combatants and noncombatants. This differentiation typically occurs when the species has substantial sexual dimorphism (where one sex is much larger and more aggressive than the other) and/or when the species is sapient and not all of its members are equally trained for combat. Beastmen are an example of both, so their monster listings in *ACKS* show sharp differentiation in the characteristics for combatants and noncombatants.
+
+Depending on how much they differ in size, aggression, and training, noncombatant monsters may have anywhere from 25% to 75% of the HD and average hit points of combatants of the same species. A noncombatant monster’s AC, damage, and morale are also typically adjusted to reflect that of a similar creature of reduced HD. Noncombatants with fewer than ¼ HD have 1 hp and ML -4. If attacked, they must make a morale roll every round, and if defeated, they do not provide XP.
+
+EXAMPLE: A bugbear has 3+1 HD (13.5 average hp). A noncombatant bugbear has 1+1 HD (5.5 average hp, or 40% of 13.5), and have their damage and morale adjusted to reflect that of a 1+1 HD hobgoblin.
+
+### Noncombatant Monsters and Experience Points
+
+Noncombatant monsters that earn XP can become combatants. For noncombatant monsters of 1 HD or less to become a combatant, it must earn 100 XP plus 15 XP per hit point bonus or special ability (\*). The amount of XP required doubles with each HD (round values greater than 20,000 XP to the nearest 1,000). Noncombatants that become combatants immediately get +1 hit point per full Hit Die; each 4 hit points gained in this manner equals 1 Hit Die. The new combatant may thereafter gain HD or levels following the normal rules (see *ACKS,* p. XX, XX, and XX).
+
+EXAMPLE: A noncombatant troll (4+1 HD, one special ability) requires [(100+15+15) x 2x2x2] 1,040 XP to become a combatant. Upon becoming a combatant, it immediately gets +4 hp; since every full +4 hp equals 1 HD, the troll becomes a 5+1 HD monster.

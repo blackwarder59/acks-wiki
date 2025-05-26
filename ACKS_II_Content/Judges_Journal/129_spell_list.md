@@ -1,0 +1,7 @@
+## Spell List
+
+The final stage of creating a new magic type is to create a spell list of 10 to 20 spells of each level for your new magic type. This spell list will serve as the basis from which studious and inherited casters of the new type learn spells, or from which prayerful caster classes select their repertoire. If the new magic type is Prayerful, you should create multiple spell lists, reflecting the varying spell selection offered by different deities and higher beings.
+
+Spell lists can include new spells custom-created for your magic type and/or existing spells imported from the various Arcane and Divine spell lists. (For rules on creating custom spells, see XXX). Remember to apply the appropriate magic type’s source factors when building its spells.
+
+When importing spells from the various Arcane and Divine spell lists, you will need to compare the source modifier applied to spells of its category based on its type (Arcane or Divine) with the source modifier for that category of spells applied by your new magic type. If your new magic type has the same source modifier for that category as magic type from which you’re importing it, no modification is required. However, if your new magic type has a different source modifier, you’ll need to increase or decrease the spell’s level accordingly.

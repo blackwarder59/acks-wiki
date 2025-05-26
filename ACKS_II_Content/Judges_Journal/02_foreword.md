@@ -1,0 +1,11 @@
+# Foreword
+
+The ***Adventurer Conqueror King System***(***ACKS***)is a set of rules for role-playing in a world of swords, sorcery, and strongholds. As the name suggests, in ***ACKS*** players begin the game as adventurers in an imaginary land drawn from the epics and legends of the past. By conquering foes, gathering treasure, and accumulating land and followers, the adventurers accumulate the fame, wealth, and power they need to rise to greatness. If they are skilled and lucky, they can reign as kings, overlords, archmages, theocrats, merchant princes, and master thieves, holding the destiny of thousands in their hands.
+
+The core rules for ***ACKS***were first published in 2012. A revised edition of the core rules, called the ***ACKS Imperial Imprint (ACKS II)***,was released in 2023. In the ***ACKS II Revised******Rulebook***,you will find all the rules for character creation, proficiencies, spells, equipment, dungeon delving, wilderness exploration, and combat necessary to run games of high adventure. But ***ACKS II***goes further — further than any other tabletop RPG on the market. ***ACKS II***offers rules for commerce, construction, criminal enterprises, domain and realm rulership, magic research, naval operations, and large-scale warfare with pitched battles, sieges, and more. Whatever you can imagine a fantasy RPG ruleset doing — ***ACKS***already does that.
+
+It is the only game in the market that provides rules for everything from a skirmish between low-level fighters, to a diplomatic summit with a jealous senate, to a heist by a criminal syndicate, to a battle with 50,000 combatants. Because of its vast scope and mechanical depth, **ACKS II** is the ultimate tabletop role-playing game for players interested in long-term fantasy sandbox campaigns.
+
+But running a long-term fantasy sandbox campaign isn’t easy. That’s where this book comes in.
+
+Within these pages, you'll find the advice, inspiration, rules, and tools you need to create and run a legendary fantasy campaign that will be remembered for decades. Whether your players end up going on dangerous adventures in forgotten ruins, exploring the wilds beyond civilized ken, sailing the high seas as merchants or pirates, creating and running thieves’ guilds, or building mighty empires by sword and flame, the **ACKS Judges Journal** will be your indispensable guide.

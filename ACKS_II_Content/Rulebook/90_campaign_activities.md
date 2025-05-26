@@ -1,0 +1,18 @@
+## Campaign Activities
+
+When on campaign, armies generally take actions in time increments of **weeks.** During each week of a military campaign, the Judge should follow the procedure below:
+
+1. **Initial Reconnaissance:** The Judge makes an initial **reconnaissance roll** (p. XX) for each army to determine what intelligence it learns about nearby opposing armies, if any. This represents information gleaned from scouting reports, spies, etc.
+2. **Initiative:** Each army’s leader calculates his initiative score by rolling 1d6 and adding his **strategic ability** (p. XX) to the roll. Before rolling, the leader may order a **forced march** (p. XX) in order to gain a +2 bonus to their initiative score. Resolve any ties in favor of the leader with higher strategic ability; if still tied, re-roll.
+3. **Movement, Reconnaissance, and Battles:** Starting with the leader with highest initiative score and counting downward, each leader now has the opportunity to move his army. A leader may choose to delay his army’s initiative until a lower count is reached, down to the negative value of his initiative score. The army with the initiative is called the “acting army.”
+   1. The acting army selects its **strategic stance** (p. XX),either offensive, defensive, or evasive.
+   2. The acting army conducts any desired **movement** (p. XX) on the regional map. If this takes the acting army into a domain controlled by another leader without his permission, the army is considered to have **invaded** the domain (p. XX).
+   3. If, as the acting army moves, it enters the same 6-mile hex as an opposing army, the Judge makes an additional **reconnaissance roll** for the acting and opposing army to determine what intelligence they learn about each other.
+   4. If the acting army is in the same 6-mile hex as an opposing army, those armies might fight a **battle**. Battles are discussed in Chapter 11, **Battles**. If one of the armies is in a stronghold, a **siege** might result. Sieges are discussed in Chapter 12, **Sieges**. If no battle occurs, the acting army continues its movement.
+   5. After the results of any battles or sieges triggered by the acting army are resolved, the initiative passes to the leader with the next highest initiative score. His army now becomes the acting army.
+4. **Supply:** Each army checks if it is in **supply** (p. XX). If so, it pays its supply cost. If not, it resolves the consequences of lack of supplies.
+5. **Occupation and Conquest:** The outcome of any **invasions** by the various armies are resolved. Successful invaders get an opportunity for **occupation**, **conquest**,and **pillage**.These mechanics are discussed in the **Invading, Occupying, Conquering, and Pillaging Domains** section (p. XX).
+
+When opposing armies are within one week’s movement of each other, the Judge should shift the time increment to **days** instead of weeks. This allows for close maneuver of the opposing forces. When resolving actions in daily increments, the Judge should follow the same steps as above. Movement, battles, invasion, reconnaissance rolls, and other activities should be addressed daily. However, supply should still only be checked once per week unless the army is in barrens or desert terrain.
+
+Conversely, if the opposing armies are so far apart as to make interaction impossible, the Judge should dispense with these steps and simply adjudicate each army’s movement and activities in a more casual manner. The weekly increments can be thought of as similar to the turns of a dungeon crawl — sometimes tracking turns is very important, and other times it’s not at all.

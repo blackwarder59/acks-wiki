@@ -1,0 +1,11 @@
+## Naming Arms and Armor
+
+When creating a magic weapon, shield, or suit of armor, its creator must give the item a name. Only those who confidently speak the name of the item receive the full benefit of its powers. If a character is unsure of an item’s name, he may guess once; if incorrect, he may not guess again until reaching a higher level of experience.
+
+Alternatively, when an item is found, it may be given a new name by its wielder or wearer. Upon first naming the item, the character receives the benefit of one of its bonuses in one category (e.g. +1 to hit, +1 to damage, +1 to AC, -1 to encumbrance) or of a special power or ceremonial spell. With each level of experience earned wielding or wearing his re-named item, the character unlocks an additional point of bonus in one category, until all bonuses in all categories are unlocked. You make the determination of the order in which the item’s powers unlock.
+
+EXAMPLE: In the tomb of Durin Blackfist, Raknar discovers an ancient war hammer, gleaming and rune-carved. He decides this must be Durin’s hammer Fist of Iron and announces such. In battle, the war hammer reveals itself a +3 weapon – Raknar was right!
+
+Like a true Jutland hero, Raknar dies fighting, his body sprawled on a mound of orc corpses. Later, a young 1st level fighter named Marcus finds the rune-carved war hammer. Knowing it to be magical, but not having any idea of its origin, he names the hammer Tooth-Breaker. In his next fight, Marcus gets a +1 bonus to damage from Tooth-breaker. When he reaches 2nd level, Marcus finds that Tooth-Breaker is +1 to hit and damage. When he is 3rd level, it becomes +1 to hit and +2 to damage, and so on, until at 6th level it reaches its full power of +3 to hit and damage.
+
+But what if Marcus were slain at 4th level, after unlocking Fist of Iron / Tooth-Breaker’s powers to the level of +2 to hit and +2 to damage? Assume his henchman, Peristo, now claims Tooth-Breaker. It is a +2 weapon in his hands. When Peristo gains a level, Tooth-Breaker will become +2 to hit and +3 to damage. If Peristo were to discover that this weapon is also Fist of Iron, it would immediately reach its full +3 powers.

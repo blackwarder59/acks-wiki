@@ -1,0 +1,5 @@
+## About the Game
+
+The ***Adventurer Conqueror King System*** (***ACKS***)is a set of rules for role-playing in a world of swords, sorcery, and strongholds, where you take on the role of an adventurer in an imaginary land drawn from the epics and legends of the past. The core rules for ***ACKS***were first published in 2012. The core rules were re-published as a three-volume set known as the ***Adventurer Conqueror King System Imperial Imprint***(***ACKS II***).
+
+The first volume, the ***ACKS II Revised Rulebook (ACKS II RR)***,covers the basic mechanics, character creation, adventure, campaign play, and warfare. The second volume, the ***ACKS II******Judges Journal (ACKS II JJ)***,is a guide for gamemasters that explains how to run campaigns and build worlds using ***ACKS****.* This third volume is the ***ACKS II*** ***Monstrous Manual (ACKS II MM)***,a compendium of creatures that provides Judges with hundreds of monsters with which to assail, befriend, confound, or combat his adventurers.

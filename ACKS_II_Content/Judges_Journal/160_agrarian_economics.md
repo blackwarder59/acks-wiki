@@ -1,0 +1,73 @@
+## Agrarian Economics
+
+By default, ***ACKS***assumes an agrarian economy where most peasants generate revenue by laboring on a “mixed” farm with both crops and livestock, producing wheat, barley, and other grains; milk, meat, wool, and other animal products; and various ancillary domestic goods such as ale, timber, clothing, and furniture. From the lord’s perspective, this is collected in the form of land value, service value, and tax value, typically totaling 12gp per family per month. But what’s going on at the level of the peasant family?
+
+### Mixed Farms
+
+A typical peasant family manages 30 acres, with 20 acres farmed and 10 acres fallow each year. Each year, each of the 20 farmed acres is seeded with 2 bushels of grain. Each farmed acre then yields 10 bushels of grain. 2 bushels must be set aside for next year’s seed, so the result is a 4:1 yield of (10 – 2) 8 bushels per acre, or 1 quarter per acre. Therefore, 20 acres yields 160 bushels or 20 quarters of grain. A quarter of grain costs 4gp in ***ACKS***. Therefore, the peasant’s farmland produces (20 acres x 1 quarter/acre x 4gp/quarter) 80gp per year.
+
+In addition, the family manages 1 ox, 3 cows, 1 pig, and 32 sheep. Each ox and cow requires 1.33 acres of pasture. The pig requires no acreage, as it is fed from fallen nuts and farm refuse. One sheep may graze in each ox or cow’s acreage; the other sheep require 0.167 acres of pasture each. The peasant family therefore requires [(1 x 1.33) + (3 x 1.33) + ({32-4} x 0.167)] 10 acres of pasture for its livestock – the same 10 acres it leaves fallow each year.
+
+The ox is used to plough the field, and its value is already represented by the yields noted above. The 3 cows produce 10.41gp of revenue each. The pig produces 1.14gp of revenue. The 32 sheep produce 1.58gp of revenue each. Total revenue for the field is therefore [(3 x 10.41) + (1 x 1.14) + (32 x 1.58) 82.93gp. For ease, we round to 83gp. (See the next section for details on how this was calculated.)
+
+Across its members, a peasant family has 500 days of labor available. The family first attends to its crops and animals, then its garden, and thereafter performs unskilled labor for other purposes.
+
+The labor of farming can be divided into plowing, reaping, harvesting, and threshing. Plowing an acre takes 1.1 days of labor, or 22 days for 20 acres. Reaping an acre requires 1.5 days, or 30 days for 20 acres. Harvesting an acre requires 1.4 days, or 28 days for 20 acres. Threshing 4 bushels requires 1 day, or 40 days for 160 bushels. In total, farming 20 acres requires (22 + 30 + 28 + 40) 120 days of labor, or about 6 days per acre.
+
+The labor of animal husbandry is dependent on the livestock. Each cow requires 5 days of labor annually. Each pig requires 3 days of labor annually. Each sheep requires 1.33 days of labor annually. A farm with 3 cows, 1 pig, and 32 sheep uses [(3 x 5) + (1 x 3) + (32 x 1.33)] 60.56 days of labor, or about 6 days per acre.
+
+The peasant family therefore has [500 – (120 + 60)] 320 days of labor available after tending to crops and animals. Unskilled labor is worth 1sp per day, so this yields an additional 32gp for the household.
+
+The total value produced is 80gp from crops, 83gp from livestock, and 32gp from other labor, for a total of 195gp per year. With 12 months per year, the peasant family produces 16.25gp of crops, milk, wool, meat, and goods per month.
+
+***ACKS***is agnostic with regard to whether any individual peasant family is an owner, renter, or serf of its land. The economic system simplyassumes that most of a peasant family’s production is extracted by landlords and tax collectors in some manner, such that the family is able to maintain only a subsistence lifestyle.
+
+A peasant family requires a minimum of 11,000 calories per day, with 10,625 from bread and 375 from meat. A one-pound loaf of bread provides 1,000 calories per day. A bushel of wheat produces 72 one-pound loaves of bread. As each bushel costs (4gp/quarter / 8 bushels/quarter) 0.5gp, each loaf of bread costs 0.69cp. Therefore each family needs (10.625 x 0.69)7.33cp per day for bread. 375 calories of beef, pork, or milk costs (375 x 4/1000) = 1.5cp, so each family spent another 1.5cp per day. In total, the family needs 8.83cp per day, or 264.9cp per month, or 2.65gp.
+
+Historically the cost of food represented at least 60% of total costs for a peasant household. Using this as a baseline, we can calculate that total subsistence consumption could not exceed 2.65gp/0.6, or 4.41gp per month. We shall set the value at 4.25gp per month. The peasant family consumes (4.25gp – 2.65gp) 1.6gp of goods other than food per month. In total it consumes (4.25gp/month x 12 months/year) 51gp per year.
+
+If the family produces 16.25gp per month, and subsists on 4.25gp per month, then the monthly surplus remaining for landlords and tax collectors is 12gp. In ***ACKS II***, this is represented with the tax, service, and land values generated by each peasant family, which average 12gp per month for average land (land value 6gp). About 75% of the peasant’s production is thus claimed by the ruler.
+
+Note that if the family were to abandon its farm to work as unskilled labor, it would have a full 500 days of labor available. The wages of unskilled labor are 1sp per day, so the family might hope to earn 500sp per year, but that is only 50gp per year or 4.16gp per month. Thus, even assuming full employment, a laborer family is worse off than a peasant family.
+
+In most cases, the peasant family will enjoy an even higher standard of living, as the local lord returns a portion of his taxes and rents in the form of feasts and festivals. In ***ACKS***these are called liturgy expenses and are typically 1gp per month. The peasant family thus might consume as much as 5.25gp per month.
+
+###### Return on Investment
+
+Arable farmland can be purchased at 15gp per acre, so purchasing 30 acres costs 450gp. The cost of the livestock is another 71gp. Total investment is therefore 521gp. According to ***ACKS***secret ratio, that should yield 15.63gp per month or 187.6gp per year profit. At 144gp per year profit, mixed farming yields a rate of return of 27% annually, only 81% of the value predicted by the secret ratio. This is counterbalanced by the fact that mixed farming has the highest caloric return of any activity (see below). In order to seek returns, market forces will move as many peasants as possible to other types of farming, but this will be limited by the caloric needs of the population.
+
+###### Caloric Return on Acreage
+
+A mixed farm produces 20 quarters of wheat. Each quarter of wheat consists of 8 bushels, each of which produces 72 loaves of bread worth 1,000-calories each. Therefore, each quarter has (8 x 72 x 1,000) = 576,000 calories. That yields 11,520,000 wheat calories per farm. A mixed farm also produces 3,978 gallons of milk, each worth 2,400 calories per gallon, for another 952,800 calories. Finally, it produces 388 lbs of beef and mutton (1,000 calories per pound) and 38 pounds of pork (650 calories per pound), for another 388,000 and 24,523 calories respectively. Total caloric return is 12,884,823 calories per 30 acres, or 429,494 calories per acre. The peasant family consumes 4,015,000 calories per year. It is the surplus calories from mixed farming that enable all other types of economic activities in the setting.
+
+### Olive Groves
+
+A typical olive grove is 20 acres. Olive trees were planted with 25 feet between each tree, such that each tree had 625 square feet allocated to it. With 43,560 square feet per acre, that permits (43,560 / 625) = 70 trees per acre, for a total of 1,400 trees per olive grove. Each tree produces around 50 lbs of olives per year. It requires 5lbs of olives to produce 1 pint of olive oil.
+
+Since 1 stone (15 lbs) of oil is worth 30cp, 1 pint of olive oil is worth 2cp. Therefore each tree generates (50 / 5 x 2) = 20cp worth of olive oil. The grove as a whole produces (1,400 x 0.2) = 280gp per year.
+
+According to ancient sources, an olive grove needed between 1 laborer per 22 *iugera* and 1 laborer per 30 *iugera.* An *iugera* was about two-thirds of an acre, so the grove needs somewhere around 1 laborer per 14 to 20 acres. We assume 1 laborer per 20 acres, at 250 labor days per laborer. At 1sp per day of labor, the cost is 25gp per year. The profit for the olive grove is therefore (280 – 25) = 255gp per year.
+
+###### Return on Investment
+
+It then takes about 5 years for the trees planted on the land to begin to yield olives. During that time, an investor who invested in mixed farmland might earn 27% annually. Therefore, the net present value of the land on an olive grove is around (15gp x 1.275) or 49.6gp. We’ll round it to 50gp for simplicity. Therefore, the investment required to buy 20 acres of olive trees is (20 x 50) 1,000gp. With a profit of 255gp per year, the return is 25.5% per year, or about 77% of the secret ratio and a little less than mixed farming. Interestingly enough, Pliny the Elder in the *Natural History* says that it can be difficult to make a profit from olives.
+
+###### Caloric Return on Acreage
+
+A pint of olive oil has 3,840 calories. Since each of its 1,400 trees produces 10 pints of olive oil, the olive grove produces (1,400 x 10 x 3840) 53,760,000 calories per year. That works out to 2,6885,000 calories per acre. Olive groves thus exceed mixed farming in pure caloric productivity. However, they require a longer time horizon, offer a lower rate of return, and provide less nutritional diversity, with no protein or carbohydrates. Man cannot survive on olive oil alone, and his domesticated animals cannot survive on it at all.
+
+### Vineyards
+
+According to ancient sources, a typical vineyard is 7 *iugera* and produces 1.5 *culleus* of wine per *iugerum,* 10.5 *culleus* total. Each *iugera* is about 0.66 acres, so 7 *iugera* is 4.62 acres. Each *culleus* is a little over 138 gallons, so production is 314 gallons per acre or 1,449 gallons total.
+
+Since 1 stone (15lbs) of wine is worth 19cp, 1 gallon of wine is worth (8.33 / 15 x 19) = 10.5cp, or 1sp. Therefore the vineyard produces wine worth (1449 x 0.1) = 145gp annually.
+
+According to ancient sources, a vineyard needed between 1 laborer per 7 *iugera*. Since that’s the size of our vineyard, we need just 1 laborer for our vineyard. At 250 labor days per laborer and 1sp per day of labor, the cost is 25gp per year. The profit for the olive grove is therefore (145 – 25) = 120gp per year.
+
+###### Return on Investment
+
+Vine-land was a valuable investment in the ancient world, and most soils and climates were unsuitable. We price vine-land at 50gp per acre. Since 4.62 acres required, the cost of the vineyard’s land will cost 231gp. With a profit of 120gp per year, the return is 52% per year, or about 157% of the secret ratio. Vineyards are the most profitable agriculture venture.
+
+###### Caloric Return on Acreage
+
+A gallon of wine has 18,875 calories. Since the vineyard produces 1,449 gallons per year, the olive grove produces (1,449 x 18,875) 27,349,875 calories per year. That works out to 6,837,468 calories per acre. Vineyards considerably exceed mixed farming in pure caloric productivity. As with olive groves, however, the calories do not provide the right nutrients to keep a man alive, nor can they support the existence of domesticated animals.

@@ -1,0 +1,5 @@
+## Step 3: Map the Dungeon
+
+After the dungeon type is determined, you have to find or draw a map for the location. Often you can find unkeyed free maps online and simply customize them to your needs. If you draw your dungeon maps, use square graph paper (or the digital equivalent thereof) . The assumed scale for *ACKS* is that each square on the graph paper equal 10’. If you are using a large play mat with grids on it for using figurines, you can draw the map at a scale of 1” equals 5’, which provides an appropriate scale for use with typical 25 mm scaled figurines. The map itself should be drawn to suit the type of dungeon, such as twisting tunnels in a cavern, endless rooms in a dank dungeon, or hallways and rooms in a ruined castle.
+
+At the end of this chapter, we have included a number of maps from the Auran Empire setting that you can use for your campaign.

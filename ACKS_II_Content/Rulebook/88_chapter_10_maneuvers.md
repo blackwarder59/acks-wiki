@@ -1,0 +1,3 @@
+# Chapter 10: Maneuvers
+
+Once a leader has raised and equipped his army, he may begin to wage war. Wars are fought in a series of **military campaigns**. A military campaign begins when an army’s troops are taken out of their garrisons, and ends when the army’s troops return to garrison. A short military campaign will last one month. Longer campaigns can last seasons or even years. Hannibal of Carthage fought a ten year campaign against the Romans during the Second Punic War.

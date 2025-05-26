@@ -1,0 +1,34 @@
+## Step 6: Estimate Urban Settlement Sizes
+
+The **Villages, Towns, and Cities of the Realm** table shows the overall urban population based on the number of peasant families present in any given realm (or portion thereof). Note that the monthly revenue of various urban settlements has already been factored into the values listed on the Revenue by Realm Type table.
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| **Villages, Towns, and Cities Placement** | | | | |
+| **Realm/Domain**  **Population**  **(families)** | **Urban**  **Population**  **(families)** | **Largest**  **Settlement**  **(families)** | **Monthly**  **Income (gp)** | **Market**  **Class** |
+| 3,749- | 374- | Hamlets (74-) | 0gp | Class VI\* |
+| 3,750-4,999 | 375-499 | Small Village (75-99) | 150- 199gp | Class VI |
+| 5,000-7,999 | 500-799 | Village (100-159) | 200 – 319gp | Class VI |
+| 8,000-12,499 | 800-1,249 | Village (160-249) | 320 – 624gp | Class VI |
+| 12,500-22,499 | 1,250-2,249 | Large village (250-499) | 625 – 1124gp | Class V |
+| 22,500-31,249 | 2,500-3,124 | Small town (500-624) | 1125 – 1559gp | Class IV |
+| 31,250-62,499 | 3,125-6,249 | Large town (625-1,249) | 1560 – 3124gp | Class IV |
+| 62,500-124,999 | 6,250-12,499 | Small city (1,250-2,499) | 3125 – 6249gp | Class IV |
+| 125,000-249,999 | 12,500-24,999 | City (2,500-4,999) | 6250 – 14,999gp | Class III |
+| 250,000-499,999 | 25,000-49,999 | Large city (5,000-9,999) | 15,000 – 29,999go | Class II |
+| 500,000-749,999 | 50,000-74,999 | Large city (10,000-14,999) | 30,000 – 44,999gp | Class II |
+| 750,000-1,999,999 | 75,000-199,999 | Large city (15,000-19,999) | 45,000 – 69,999gp | Class II |
+| 2,000,000-3,999,999 | 200,000-399,999 | Metropolis (20,000-39,999) | 70,000 – 139,999gp | Class I |
+| 4,000,000+ | 400,000+ | Metropolis (40,000+) | 140,000+ | Class I |
+
+\*A Class VI market will exist at the domain’s stronghold only.
+
+Use this table to estimate the size and market class of each of the urban settlements you’ve placed in your sandbox, starting with the Principality, then proceeding on to the Duchies and Counties. Again, don’t worry about anything smaller than the Counties at this point.
+
+Your Principality will have 87,000 to 322,000 families. Therefore, the Principality’s largest settlement could be a small city (1,250 – 2,499 families), a city (2,500 – 4,999 families), or a large city (5,000 – 9,999), of market class III, III, or II respectively. We recommend making the capital city of your Principality a city with 2,500 to 4,9999 families that functions as Class III market.
+
+Your Duchies will each have 20,000 to 52,000 families. Therefore, each Duchy’s largest settlement could be a large village (250 – 499 families), a small town (500 – 624 families), or a large town (625 – 12,49 families), of market class V, IV, or IV respectively. We recommend having each Duchy’s settlement be a small town with 500 to 624 families that functions as a Class IV market. You can make the settlements smaller, but we do not recommend making them larger; large towns will transform too much of your sandbox into civilization (see Step 8).
+
+Finally, your Counties will each have 4,600 to 8,500 families. Therefore, each County’s largest settlement will be a small village (75-99 families) or village (100-249 families). We recommend having each County’s settlement be a village of 100 to 249 families that functions as a Class VI market. If the adventurers will be based out of one of the Counties when the campaign begins, you can bump the market class to Class V to make their lives a little easier.
+
+In the Borderlands, Cyfaraun is a city with 2,550 families and market class III. Menicos is a small town with 568 families and market class IV. Samos is a small town with 532 families and market class IV. Siadanos is a small town with 551 families and market class IV. Türos Orn is a small town with 549 families and market class IV; and all of the forts have villages with 75 – 160 families and market class VI. Türos Tem is bumped to market class V because it’s the starting settlement for the Borderlands sandbox; this is justified in-world by Türos Tem’s key position in the middle of the Unbroken Line.

@@ -1,0 +1,7 @@
+## What are the Celestial Spheres?
+
+The celestial spheres are pocket universes created by the Lawful gods as strongholds to protect living creatures from the predations of Chaotic gods. Within them, huge populations of mortals are able to flourish in relative safety. The Lawful gods periodically gather in pantheons and construct these pocket universes using substances drawn from the Elemental Spheres of Water, Air, Fire, and Earth, manipulated by their own raw divine power.
+
+After they fasten a celestial sphere, the gods introduce a variety of ensouled life forms on it, their forms drawn from successful archetypes such as men, elves, dwarves, and dragons. To make them harder to find and destroy, the spheres are set adrift through the Cosmos, eternally on the move.
+
+**Designer’s Note:** Any fantasy campaign world can be placed within a celestial sphere. Each campaign world will have its own gods, who created the celestial sphere, and who occupy their own divine spheres. Particular physical and magical laws may vary depending on the decisions of the celestial sphere’s creators. Since the celestial spheres move over time, they may occasionally touch or overlap. This structure allows for adventures to travel to different campaign worlds while remaining within the Cosmos. It also allows the Judge to introduce travelers from other spheres into his campaign, or alien gods, strange artifacts, or anything else imagine.
