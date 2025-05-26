@@ -44,7 +44,7 @@ This project transforms the ACKS II rulebooks, monster manual, and judge's journ
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/acks-wiki.git
+git clone https://github.com/blackwarder59/acks-wiki.git
 cd acks-wiki
 
 # Install dependencies
@@ -164,9 +164,10 @@ git push origin main
 
 ## 🚀 Deployment
 
-The application is deployed on Vercel with automatic deployments:
+The application will be deployed on Vercel with automatic deployments:
 
-- **Production**: [Coming Soon]
+- **Repository**: https://github.com/blackwarder59/acks-wiki.git
+- **Production**: [Coming Soon - will be deployed after Task 6]
 - **Preview**: Automatic preview deployments for pull requests
 - **Analytics**: Built-in Vercel analytics
 
