@@ -65,7 +65,7 @@ Additional implementation notes:
 - Added string literal types for enumerated values to ensure type safety
 </info added on 2025-05-26T06:18:10.334Z>
 
-## 2. Implement Markdown Parsing Functions [pending]
+## 2. Implement Markdown Parsing Functions [in-progress]
 ### Dependencies: 2.1
 ### Description: Develop core parsing functions to extract structured data from markdown files for different content types.
 ### Details:
@@ -83,6 +83,124 @@ Implementation details:
 7. Add logging to track parsing progress and issues
 
 Testing approach: Create unit tests with sample markdown snippets for each content type and verify the parsed output matches expected structure.
+
+<info added on 2025-05-26T06:19:27.518Z>
+Here's additional information for subtask 2:
+
+```
+## Implementation Specifics
+
+### Markdown Table Parsing Strategy
+- Use regex patterns like `/\|(.+)\|(.+)\|/g` to extract table rows and cells
+- Implement `parseMarkdownTable(markdown: string): { headers: string[], rows: string[][] }` utility function
+- Handle merged cells and multi-line table content with careful regex patterns
+
+### Content Type Detection
+- Implement `detectContentType(markdown: string): ContentType` function that analyzes headers and structure
+- Use heuristics like presence of "Hit Dice" for monsters, "Spell Level" for spells
+- Create content fingerprints (combinations of headers/sections that identify content types)
+
+### Parsing Implementation Examples
+
+For monster parsing:
+```typescript
+function parseMonsterStats(tableContent: string): MonsterStats {
+  const rows = tableContent.split('\n').filter(row => row.trim().startsWith('|'));
+  const stats: Partial<MonsterStats> = {};
+  
+  for (const row of rows) {
+    const [key, value] = row.split('|').filter(Boolean).map(s => s.trim());
+    if (key === 'Hit Dice') stats.hitDice = parseHitDice(value);
+    if (key === 'Armor Class') stats.armorClass = parseInt(value);
+    // Additional properties...
+  }
+  
+  return stats as MonsterStats;
+}
+```
+
+### Error Recovery Strategies
+- Implement graceful degradation for partially malformed content
+- Create warning system to flag potential parsing issues without failing
+- Add recovery functions like `attemptRepair(markdown: string): string` for common formatting issues
+
+### Performance Considerations
+- Cache parsed results to avoid redundant parsing
+- Use streaming approach for large files to minimize memory usage
+- Implement batch processing for multiple files
+```
+</info added on 2025-05-26T06:19:27.518Z>
+
+<info added on 2025-05-26T06:20:57.256Z>
+```
+## Complete Content Type Parsing Implementation
+
+### Full Content Type Coverage
+- Implement parsers for all 8 identified content types using 6 specialized functions:
+  - For RULE, DOMAIN_RULE, and JUDGE_TOOL, create a unified `parseRule()` function with a `type` discriminator
+  - Add content type detection logic in `detectContentType()` for RULE, DOMAIN_RULE, JUDGE_TOOL, and PROFICIENCY
+
+### Rule Content Parsing
+```typescript
+function parseRule(markdown: string): Rule {
+  const baseRule = parseBaseRule(markdown);
+  
+  // Determine rule subtype
+  if (markdown.includes('## Domain Application')) {
+    return {
+      ...baseRule,
+      type: 'DOMAIN_RULE',
+      domainApplications: extractDomainApplications(markdown)
+    };
+  } else if (markdown.includes('## Judge Guidelines')) {
+    return {
+      ...baseRule,
+      type: 'JUDGE_TOOL',
+      judgeGuidelines: extractJudgeGuidelines(markdown)
+    };
+  }
+  
+  return {
+    ...baseRule,
+    type: 'RULE'
+  };
+}
+```
+
+### Proficiency Parsing
+```typescript
+function parseProficiency(markdown: string): Proficiency {
+  const sections = splitIntoSections(markdown);
+  
+  return {
+    name: extractHeader(sections.title),
+    description: sections.description,
+    category: determineProficiencyCategory(sections),
+    skillBonus: extractSkillBonus(sections.mechanics),
+    requirements: extractRequirements(sections.requirements)
+  };
+}
+```
+
+### Parser Factory Implementation
+```typescript
+function createContentParser(contentType: ContentType): (markdown: string) => any {
+  const parsers = {
+    'MONSTER': parseMonster,
+    'SPELL': parseSpell,
+    'CLASS': parseClass,
+    'EQUIPMENT': parseEquipment,
+    'RULE': parseRule,
+    'DOMAIN_RULE': parseRule,
+    'JUDGE_TOOL': parseRule,
+    'PROFICIENCY': parseProficiency
+  };
+  
+  return parsers[contentType] || ((md) => ({ raw: md }));
+}
+```
+```
+</info added on 2025-05-26T06:20:57.256Z>
 
 ## 3. Build Content Processing Pipeline [pending]
 ### Dependencies: 2.2
