@@ -1,0 +1,201 @@
+---
+description:
+globs:
+alwaysApply: false
+---
+# Git Workflow & Safety
+
+**Repository**: https://github.com/blackwarder59/acks-wiki.git
+
+## **Branch Strategy**
+
+- **Main Branch (`main`)**: Always deployable, protected
+- **Feature Branches**: `task-<number>-<short-description>`
+- **Emergency Branches**: `hotfix-<description>` or `rollback-<timestamp>`
+
+## **TaskMaster Integration Workflow**
+
+### **Before Starting Any Task**
+```bash
+# Always start clean
+git status
+git pull origin main
+git checkout -b task-<id>-<description>
+```
+
+### **During Task Development**
+- **Commit frequently** after each working piece
+- **Use conventional commits**: `feat(scope): description`
+- **Test before committing**: Ensure code runs without errors
+
+```bash
+# Example commits during task work
+git add .
+git commit -m "feat(task-1): initialize Next.js with TypeScript"
+git commit -m "feat(task-1): configure Tailwind CSS setup"
+git commit -m "feat(task-1): add basic project structure"
+```
+
+### **After Task Completion**
+```bash
+# Test thoroughly first
+npm run build  # or equivalent test
+git checkout main
+git merge task-<id>-<description>
+git push origin main
+# Update TaskMaster status to 'done'
+```
+
+## **Commit Message Standards**
+
+### **Format**
+```
+<type>(<scope>): <description>
+
+[optional body with details]
+
+Closes: Task <id>
+Testing: <brief testing notes>
+```
+
+### **Types**
+- `feat`: New feature implementation
+- `fix`: Bug fixes
+- `docs`: Documentation updates
+- `refactor`: Code restructuring
+- `style`: Formatting changes
+- `test`: Adding tests
+- `chore`: Maintenance tasks
+
+### **Examples**
+```bash
+git commit -m "feat(content): implement markdown processing pipeline
+
+- Add TypeScript interfaces for ACKS content types
+- Create parsing functions for monsters and spells
+- Implement validation for processed data
+
+Closes: Task 2.1
+Testing: Processed 292 monster files successfully"
+```
+
+## **Emergency Rollback Procedures**
+
+### **Quick Rollback (Last Commit)**
+```bash
+# Keep changes, undo commit
+git reset --soft HEAD~1
+
+# Discard changes, undo commit
+git reset --hard HEAD~1
+```
+
+### **Rollback to Specific Commit**
+```bash
+# View history
+git log --oneline -10
+
+# Rollback (replace <hash> with actual commit)
+git reset --hard <commit-hash>
+```
+
+### **Create Safety Branch Before Risky Changes**
+```bash
+git checkout -b backup-$(date +%Y%m%d-%H%M%S)
+git checkout main
+# Now make risky changes
+```
+
+## **Safety Checklist**
+
+### **Before Every Commit**
+- [ ] Code runs without errors
+- [ ] No console errors or warnings
+- [ ] Basic functionality tested
+- [ ] No sensitive data included
+- [ ] Commit message is descriptive
+
+### **Before Every Push**
+- [ ] All tests pass (when available)
+- [ ] Code is properly formatted
+- [ ] Documentation updated if needed
+- [ ] TaskMaster status will be updated
+
+## **Common Commands**
+
+### **Status & History**
+```bash
+git status                    # Current status
+git log --oneline -10        # Recent commits
+git branch -a                # All branches
+git remote -v                # Remote info
+```
+
+### **Emergency Recovery**
+```bash
+git stash                    # Save current work
+git stash list               # View stashed work
+git stash apply              # Restore stashed work
+git reset --hard HEAD       # Nuclear reset to last commit
+```
+
+### **Branch Management**
+```bash
+git checkout main            # Switch to main
+git pull origin main         # Get latest changes
+git branch -d task-1-setup   # Delete completed branch
+```
+
+## **TaskMaster-Specific Guidelines**
+
+### **Task Branch Naming**
+- Task 1: `task-1-project-setup`
+- Task 2.1: `task-2-1-typescript-interfaces`
+- Task 3.4: `task-3-4-search-filters`
+
+### **Commit Frequency**
+- **After each subtask completion**
+- **After each working feature**
+- **Before attempting risky changes**
+- **At end of each development session**
+
+### **Integration Points**
+1. **Start Task**: Create branch, update TaskMaster status to 'in-progress'
+2. **During Task**: Commit frequently, update subtask details
+3. **Complete Task**: Merge to main, push, mark TaskMaster as 'done'
+4. **Next Task**: Use `next_task` to get next work item
+
+## **Recovery Scenarios**
+
+### **"I Broke Everything"**
+```bash
+git stash                    # Save any good work
+git reset --hard HEAD       # Reset to last commit
+git stash apply              # Restore good work if needed
+```
+
+### **"I Need to Go Back 3 Commits"**
+```bash
+git log --oneline -10        # Find the commit hash
+git reset --hard <hash>      # Go back to that commit
+```
+
+### **"I Want to Try Something Risky"**
+```bash
+git checkout -b experiment-$(date +%H%M%S)
+# Make risky changes
+# If it works: merge back
+# If it fails: git checkout main
+```
+
+## **Best Practices**
+
+- **Commit early, commit often** - easier to rollback small changes
+- **Test before committing** - don't commit broken code
+- **Use descriptive messages** - future you will thank you
+- **Keep main branch clean** - only merge working features
+- **Document major decisions** - in commit messages or task updates
+
+---
+
+**Remember**: Git is your safety net. Use it liberally and don't be afraid to commit frequently!

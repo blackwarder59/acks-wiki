@@ -106,19 +106,16 @@ This project uses TaskMaster for organized development:
 
 ### Git Workflow
 
-We use a structured Git workflow with frequent commits:
+We use a structured Git workflow with TaskMaster integration and rollback safety. See [git_workflow.mdc](mdc:.cursor/rules/git_workflow.mdc) for complete guidelines.
 
 ```bash
-# Feature development
-git checkout -b feature/task-name
-# Make changes
+# TaskMaster-integrated workflow
+git checkout -b task-<id>-<description>
+# Work on task, commit frequently
 git add .
-git commit -m "feat: implement feature X for task Y"
-git push origin feature/task-name
-
-# Merge to main
-git checkout main
-git merge feature/task-name
+git commit -m "feat(task-<id>): implement feature X"
+# Test, merge, and update TaskMaster
+git checkout main && git merge task-<id>-<description>
 git push origin main
 ```
 

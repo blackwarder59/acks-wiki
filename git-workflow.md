@@ -1,6 +1,10 @@
-# Git Workflow Guide for ACKS II Wiki
+# Git Workflow Reference for ACKS II Wiki
 
 ## 🎯 Overview
+
+This is a comprehensive reference document for Git workflow procedures. For quick access during development, see the **Cursor rule**: [git_workflow.mdc](mdc:.cursor/rules/git_workflow.mdc)
+
+> **💡 Quick Access**: The essential Git workflow is available as a Cursor rule for instant access during development. This document provides additional context and detailed procedures.
 
 This guide establishes a safe development workflow with rollback capabilities for the ACKS II Wiki project. Every successful implementation will be committed to Git, allowing us to rollback if we encounter unsolvable errors.
 
