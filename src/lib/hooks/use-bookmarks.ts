@@ -183,9 +183,15 @@ export function useBookmarks(): UseBookmarksReturn {
   const [error, setError] = useState<string | null>(null);
 
   /**
-   * Load data from localStorage
+   * Load data from localStorage (client-side only)
    */
   const loadData = useCallback(() => {
+    // Only access localStorage on the client side
+    if (typeof window === 'undefined') {
+      setIsLoading(false);
+      return;
+    }
+    
     try {
       setIsLoading(true);
       setError(null);
@@ -228,7 +234,9 @@ export function useBookmarks(): UseBookmarksReturn {
           { id: 'rules', name: 'Rules', description: 'Game mechanics and rulings', color: '#10b981', count: 0 }
         ];
         setCategories(defaultCategories);
-        localStorage.setItem(STORAGE_KEYS.CATEGORIES, JSON.stringify(defaultCategories));
+        if (typeof window !== 'undefined') {
+          localStorage.setItem(STORAGE_KEYS.CATEGORIES, JSON.stringify(defaultCategories));
+        }
       }
     } catch (err) {
       console.error('Failed to load bookmark data:', err);
@@ -239,13 +247,18 @@ export function useBookmarks(): UseBookmarksReturn {
   }, []);
 
   /**
-   * Save data to localStorage
+   * Save data to localStorage (client-side only)
    */
   const saveData = useCallback((
     newBookmarks?: BookmarkItem[],
     newRecentlyViewed?: RecentlyViewedItem[],
     newCategories?: BookmarkCategory[]
   ) => {
+    // Only access localStorage on the client side
+    if (typeof window === 'undefined') {
+      return true; // Return success on server side
+    }
+    
     try {
       if (newBookmarks) {
         localStorage.setItem(STORAGE_KEYS.BOOKMARKS, JSON.stringify(newBookmarks));

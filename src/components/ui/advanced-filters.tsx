@@ -376,9 +376,14 @@ export function AdvancedFilters({
   });
 
   /**
-   * Load saved filters from localStorage
+   * Load saved filters from localStorage (client-side only)
    */
   useEffect(() => {
+    // Only access localStorage on the client side
+    if (typeof window === 'undefined') {
+      return;
+    }
+    
     try {
       const saved = localStorage.getItem('acks-advanced-filters');
       if (saved) {
@@ -391,9 +396,14 @@ export function AdvancedFilters({
   }, [onFiltersChange]);
 
   /**
-   * Save filters to localStorage
+   * Save filters to localStorage (client-side only)
    */
   useEffect(() => {
+    // Only access localStorage on the client side
+    if (typeof window === 'undefined') {
+      return;
+    }
+    
     try {
       localStorage.setItem('acks-advanced-filters', JSON.stringify(filters));
     } catch (error) {

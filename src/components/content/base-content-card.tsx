@@ -20,7 +20,9 @@
 
 import React, { useState, useCallback, ReactNode } from 'react';
 import { Copy, Check, AlertCircle, Loader2 } from 'lucide-react';
-import { type BaseContent } from '../../lib/types/content';
+import { type BaseContent, type ContentType } from '../../lib/types/content';
+import { CopyButton, Backlinks, createCopyContent } from '@/components/ui';
+import { ReferenceRegistry } from '@/lib/cross-references';
 
 /**
  * Base content card props
@@ -38,10 +40,14 @@ export interface BaseContentCardProps {
   variant?: 'default' | 'compact' | 'detailed';
   /** Whether to show copy button */
   showCopyButton?: boolean;
+  /** Whether to show backlinks section */
+  showBacklinks?: boolean;
+  /** Reference registry for backlinks */
+  referenceRegistry?: ReferenceRegistry;
   /** Custom header content */
   headerContent?: ReactNode;
   /** Main content area */
-  children: ReactNode;
+  children?: ReactNode;
   /** Footer content */
   footerContent?: ReactNode;
   /** Callback when copy button is clicked */
@@ -107,9 +113,10 @@ function ContentError({ error }: { error: string }) {
 }
 
 /**
- * Copy button component
+ * Legacy copy button component (kept for backward compatibility)
+ * Use the new CopyButton from @/components/ui for enhanced functionality
  */
-function CopyButton({ 
+function LegacyCopyButton({ 
   content, 
   onCopy 
 }: { 
@@ -166,6 +173,8 @@ export function BaseContentCard({
   className = '',
   variant = 'default',
   showCopyButton = false,
+  showBacklinks = false,
+  referenceRegistry,
   headerContent,
   children,
   footerContent,
@@ -181,7 +190,7 @@ export function BaseContentCard({
   };
 
   // Generate content for copying
-  const copyContent = content ? `${content.title}\n\n${content.description || ''}` : '';
+  const copyContent = content ? createCopyContent(content) : { text: '' };
 
   return (
     <div
@@ -236,7 +245,18 @@ export function BaseContentCard({
               
               {/* Copy Button */}
               {showCopyButton && copyContent && (
-                <CopyButton content={copyContent} onCopy={onCopy} />
+                <CopyButton 
+                  content={copyContent}
+                  size="sm"
+                  variant="outline"
+                  position="inline"
+                  onCopySuccess={(content, format) => onCopy?.(content)}
+                  config={{
+                    showFormatSelector: true,
+                    successMessage: 'Content copied!',
+                    enableHaptics: true
+                  }}
+                />
               )}
             </div>
           )}
@@ -245,6 +265,26 @@ export function BaseContentCard({
           <div className="space-y-4">
             {children}
           </div>
+
+          {/* Backlinks */}
+          {showBacklinks && content && referenceRegistry && (
+            <div className="mt-6 pt-4 border-t border-border">
+              <Backlinks
+                contentId={content.id}
+                contentType={content.contentType}
+                registry={referenceRegistry}
+                config={{
+                  initialLimit: 5,
+                  showConfidence: true,
+                  showReferenceTypes: true,
+                  groupByContentType: true,
+                  enableSorting: true,
+                  enableFiltering: false, // Simplified for card view
+                  minConfidence: 0.6
+                }}
+              />
+            </div>
+          )}
 
           {/* Footer */}
           {footerContent && (

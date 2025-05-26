@@ -521,9 +521,14 @@ export class SearchSuggestionsEngine {
   }
 
   /**
-   * Load popularity data from localStorage
+   * Load popularity data from localStorage (client-side only)
    */
   private loadPopularityData(): void {
+    // Only access localStorage on the client side
+    if (typeof window === 'undefined') {
+      return;
+    }
+    
     try {
       const saved = localStorage.getItem('acks-search-popularity');
       if (saved) {
@@ -536,9 +541,14 @@ export class SearchSuggestionsEngine {
   }
 
   /**
-   * Save popularity data to localStorage
+   * Save popularity data to localStorage (client-side only)
    */
   private savePopularityData(): void {
+    // Only access localStorage on the client side
+    if (typeof window === 'undefined') {
+      return;
+    }
+    
     try {
       const data = Object.fromEntries(this.popularityMap);
       localStorage.setItem('acks-search-popularity', JSON.stringify(data));

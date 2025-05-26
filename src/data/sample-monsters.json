@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "generatedAt": "2025-05-26T10:14:59.604Z",
+    "contentType": "MONSTER",
+    "itemCount": 3,
+    "source": "ACKS II Monstrous Manual",
+    "note": "Sample monsters extracted for wiki development"
+  },
+  "data": [
+    {
+      "id": "acanthaspis-giant",
+      "name": "Acanthaspis, Giant",
+      "contentType": "MONSTER",
+      "description": "|  |  | | --- | --- | | **Giant Acanthaspis Encounters** | | | **Lair:** | 15% | | **Dungeon Enc:** | Cluster (1d6) / Nest (1d8) | | **Wilderness Enc:** | Cluster (1d6) / Nest (1d8) | | **Alignment:** | Neutral | | **Treasure Type:** | K | | **XP:** | 500 |",
+      "stats": {
+        "type": "Vermin |",
+        "size": "Large (80 st.) |",
+        "speed": "40’ / 120’ |",
+        "armorClass": "8 |",
+        "hitDice": "5\\*\\* |",
+        "attacks": "1 (bite 6+) |",
+        "damage": "3d6 {P!} + grab/acid |",
+        "save": "F5 |",
+        "morale": "-1 |",
+        "alignment": "Neutral |",
+        "xp": "500 |"
+      },
+      "sourceFile": "01_chapter_2_monster_listings.md",
+      "category": "Monstrous Manual"
+    },
+    {
+      "id": "amphisbaena",
+      "name": "Amphisbaena",
+      "contentType": "MONSTER",
+      "description": "|  |  | | --- | --- | | **Amphisbaena Encounters** | | | **Lair:** | 10% | | **Dungeon Enc:** | Solitary (1) / Den (1d2) | | **Wilderness Enc:** | Solitary (1) / Den (1d2) | | **Alignment:** | Neutral | | **Treasure Type:** | I | | **XP:** | 820 |",
+      "stats": {
+        "type": "Monstrosity (bestial) |",
+        "size": "Huge (22 st.) |",
+        "speed": "40’ / 120’ |",
+        "armorClass": "5 |",
+        "hitDice": "6\\*\\* |",
+        "attacks": "3 (2 bite, 1 constriction 5+) |",
+        "damage": "1d4 {P!} + poison /  2d8 {B} + restraint |",
+        "save": "F3 |",
+        "morale": "0 |",
+        "alignment": "Neutral |",
+        "xp": "820 |"
+      },
+      "sourceFile": "01_chapter_2_monster_listings.md",
+      "category": "Monstrous Manual"
+    },
+    {
+      "id": "ant-giant",
+      "name": "Ant, Giant",
+      "contentType": "MONSTER",
+      "description": "Like their diminutive cousins, ants are divided into castes of workers, soldiers, and queens. Workers are about 5' long and weigh about 150 lbs. Soldiers are about 6’ to 7’ long and weigh approximately 250 lbs. Queens are immense, measuring 7’ to 9’ long and weighing about 400 lbs.",
+      "stats": {},
+      "sourceFile": "01_chapter_2_monster_listings.md",
+      "category": "Monstrous Manual"
+    }
+  ]
+}

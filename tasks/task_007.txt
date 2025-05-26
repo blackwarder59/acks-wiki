@@ -1,0 +1,111 @@
+# Task ID: 7
+# Title: Fix TypeScript/ESLint Linting and Code Quality Issues
+# Status: in-progress
+# Dependencies: 4
+# Priority: medium
+# Description: Address linting and code quality issues while prioritizing content extraction for immediate user value. Focus on balancing code quality with delivering actual ACKS II content to users.
+# Details:
+The task has been reprioritized to focus on content extraction while still addressing critical linting issues. The team has already:
+
+1. Created scripts/extract-sample-monsters.js to parse real ACKS II content
+2. Extracted 3 real monsters from the 13,128-line monster listings file
+3. Created src/data/sample-monsters.json with structured data
+4. Updated src/app/monsters/page.tsx to display real ACKS II monsters instead of 'Coming Soon'
+5. Successfully resolved the critical localStorage server-side rendering (SSR) error that was causing runtime failures
+
+The localStorage SSR fix was a major achievement that resolved runtime errors caused by attempting to access localStorage during server-side rendering. The solution implemented adds `typeof window === 'undefined'` checks to all localStorage operations across 6 files:
+
+1. `src/lib/search/search-suggestions.ts` - Fixed loadPopularityData() and savePopularityData()
+2. `src/lib/search/search-context.tsx` - Fixed search history loading/saving
+3. `src/lib/hooks/use-bookmarks.ts` - Fixed bookmark data loading/saving
+4. `src/components/ui/advanced-filters.tsx` - Fixed filter persistence
+5. `src/lib/theme-provider.tsx` - Fixed theme storage
+6. `src/components/ui/adaptive-table.tsx` - Already had proper checks
+
+This approach provides immediate user value by showing actual ACKS II content and ensuring the application renders properly on both server and client sides.
+
+For the remaining linting work, create a new branch named `fix/linting-issues` from the main branch. Focus on fixing the most critical issues first:
+
+1. Remove or use all unused variables throughout the codebase, specifically:
+   - `removeBookmark` in `src/app/bookmarks/page.tsx` - declared but never used
+   - `Loader2` in `src/components/content/base-content-card.tsx` - imported but never used  
+   - `Plus` in `src/components/ui/bookmark-button.tsx` - imported but never used
+   - `Clock` in `src/components/ui/mobile-navigation.tsx` - imported but never used
+   - `ExternalLink` in `src/components/ui/recently-viewed.tsx` - imported but never used
+   - `itemCount` in `src/components/ui/search-input.tsx` - assigned but never used
+   - `contentTypes` and `onExpandedChange` in `src/components/ui/advanced-filters.tsx` - function parameters declared but never used
+   - `selectedCategory` in `src/components/ui/bookmark-button.tsx` - parameter declared but never used
+
+2. Replace critical 'any' type annotations with proper TypeScript types, focusing on:
+   - `src/lib/hooks/use-bookmarks.ts` (3 instances)  
+   - `src/lib/search/search-context.tsx` (6 instances)
+
+3. Add missing dependencies to React hooks, specifically:
+   - Missing dependency `suggestionsEngine` in `useCallback` hook in `src/lib/search/search-context.tsx`
+
+Make incremental commits for each category of fixes. Prioritize fixes that impact actual content pages over demo/placeholder pages. Document any significant changes or decisions made during the cleanup process.
+
+# Test Strategy:
+1. Before making any changes, run the full test suite to establish a baseline
+2. After each set of related fixes, run the test suite again to ensure no functionality was broken
+3. Run ESLint with the --max-warnings=0 flag on critical files first, focusing on those related to content display
+4. Run the TypeScript compiler with --noEmit and --strict flags to verify type correctness in core functionality
+5. Perform a manual smoke test of key application features, especially the newly added monster content pages
+6. Verify that the monster content is displayed correctly and that the extraction script works as expected
+7. Create before/after reports of linting issues to document the improvements
+8. Verify that the build process completes without critical TypeScript or ESLint warnings
+9. Document any suppressions or exceptions that were necessary and the reasoning behind them
+10. Specifically verify that all identified issues in the following files have been resolved:
+    - `src/app/monsters/page.tsx` (highest priority - contains real content)
+    - `src/lib/hooks/use-bookmarks.ts`
+    - `src/lib/search/search-context.tsx`
+    - Then address remaining files as time permits
+11. Verify that the localStorage SSR fix works correctly across all environments:
+    - Development server
+    - Production build
+    - Different browsers
+    - Server-side rendering scenarios
+
+# Subtasks:
+## 7.1. Fix unused variables issues [pending]
+### Dependencies: None
+### Description: Remove or properly use all 8 identified unused variables across the codebase
+### Details:
+
+
+## 7.2. Fix TypeScript 'any' type issues [pending]
+### Dependencies: None
+### Description: Replace all 'any' type annotations with proper TypeScript types in the identified files
+### Details:
+
+
+## 7.3. Fix React Hook dependency warnings [pending]
+### Dependencies: None
+### Description: Add missing dependency 'suggestionsEngine' to useCallback hook in src/lib/search/search-context.tsx
+### Details:
+
+
+## 7.4. Run final linting and type checking [pending]
+### Dependencies: None
+### Description: Perform final ESLint and TypeScript checks to ensure all issues are resolved
+### Details:
+
+
+## 7.5. Content extraction implementation [completed]
+### Dependencies: None
+### Description: Created scripts/extract-sample-monsters.js to parse real ACKS II content, extracted 3 monsters, created src/data/sample-monsters.json, and updated src/app/monsters/page.tsx to display real content
+### Details:
+
+
+## 7.6. Evaluate content extraction expansion [pending]
+### Dependencies: None
+### Description: Assess whether to continue with more content extraction or prioritize remaining linting fixes based on user value and development priorities
+### Details:
+
+
+## 7.7. Fix localStorage SSR issues [completed]
+### Dependencies: None
+### Description: Resolved critical localStorage server-side rendering errors by adding proper 'typeof window === undefined' checks across 6 files that use localStorage
+### Details:
+
+

@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/lib/theme-provider";
 import { SearchProvider } from "@/lib/search/search-context";
+import { TooltipProvider } from "@/components/ui/tooltip-provider";
 import { Header } from "@/components/layout/header";
 import { Sidebar } from "@/components/layout/sidebar";
 
@@ -66,15 +67,17 @@ export default function RootLayout({
           storageKey="acks-wiki-theme"
         >
           <SearchProvider>
-            <div className="min-h-screen bg-background">
-              <Header />
-              <div className="flex">
-                <Sidebar className="hidden lg:block" />
-                <main className="flex-1 p-6">
-                  {children}
-                </main>
+            <TooltipProvider>
+              <div className="min-h-screen bg-background">
+                <Header />
+                <div className="flex">
+                  <Sidebar className="hidden lg:block" />
+                  <main className="flex-1 p-6">
+                    {children}
+                  </main>
+                </div>
               </div>
-            </div>
+            </TooltipProvider>
           </SearchProvider>
         </ThemeProvider>
       </body>

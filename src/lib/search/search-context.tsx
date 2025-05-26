@@ -257,9 +257,14 @@ export function SearchProvider({ children }: { children: React.ReactNode }) {
   const [debouncedQuery, setDebouncedQuery] = useState('');
 
   /**
-   * Load search history from localStorage
+   * Load search history from localStorage (client-side only)
    */
   useEffect(() => {
+    // Only access localStorage on the client side
+    if (typeof window === 'undefined') {
+      return;
+    }
+    
     try {
       const savedHistory = localStorage.getItem('acks-search-history');
       if (savedHistory) {
@@ -271,9 +276,14 @@ export function SearchProvider({ children }: { children: React.ReactNode }) {
   }, []);
 
   /**
-   * Save search history to localStorage
+   * Save search history to localStorage (client-side only)
    */
   useEffect(() => {
+    // Only access localStorage on the client side
+    if (typeof window === 'undefined') {
+      return;
+    }
+    
     try {
       localStorage.setItem('acks-search-history', JSON.stringify(history));
     } catch (error) {
