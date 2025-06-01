@@ -1,0 +1,1830 @@
+{
+  "metadata": {
+    "generatedAt": "2025-05-26T11:11:05.538Z",
+    "contentType": "monster",
+    "itemCount": 34,
+    "formatVersion": "1.0.0",
+    "validation": {
+      "totalItems": 34,
+      "validItems": 34,
+      "errorCount": 0,
+      "warningCount": 0
+    },
+    "crossReferences": {
+      "totalReferences": 34,
+      "resolvedReferences": 34,
+      "unresolvedReferences": []
+    }
+  },
+  "data": [
+    {
+      "id": "placeholder-monster",
+      "title": "Placeholder Monster",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/04_part_i_praxis.md",
+      "category": "Judges_Journal",
+      "contentType": "monster",
+      "primaryCharacteristics": {
+        "type": "Unknown",
+        "size": "Medium",
+        "armorClass": 10,
+        "hitDice": "1d8",
+        "attacks": "1",
+        "damage": "1d6",
+        "save": "F1",
+        "morale": "0",
+        "vision": "Normal"
+      },
+      "encounterSetup": {
+        "alignment": "Neutral",
+        "xp": 10
+      },
+      "description": "Placeholder monster description"
+    },
+    {
+      "id": "placeholder-monster",
+      "title": "Placeholder Monster",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/103_experience_points_per_level.md",
+      "category": "Judges_Journal",
+      "contentType": "monster",
+      "primaryCharacteristics": {
+        "type": "Unknown",
+        "size": "Medium",
+        "armorClass": 10,
+        "hitDice": "1d8",
+        "attacks": "1",
+        "damage": "1d6",
+        "save": "F1",
+        "morale": "0",
+        "vision": "Normal"
+      },
+      "encounterSetup": {
+        "alignment": "Neutral",
+        "xp": 10
+      },
+      "description": "Placeholder monster description"
+    },
+    {
+      "id": "placeholder-monster",
+      "title": "Placeholder Monster",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/112_chapter_13_custom_races.md",
+      "category": "Judges_Journal",
+      "contentType": "monster",
+      "primaryCharacteristics": {
+        "type": "Unknown",
+        "size": "Medium",
+        "armorClass": 10,
+        "hitDice": "1d8",
+        "attacks": "1",
+        "damage": "1d6",
+        "save": "F1",
+        "morale": "0",
+        "vision": "Normal"
+      },
+      "encounterSetup": {
+        "alignment": "Neutral",
+        "xp": 10
+      },
+      "description": "Placeholder monster description"
+    },
+    {
+      "id": "placeholder-monster",
+      "title": "Placeholder Monster",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/145_part_v_appendices.md",
+      "category": "Judges_Journal",
+      "contentType": "monster",
+      "primaryCharacteristics": {
+        "type": "Unknown",
+        "size": "Medium",
+        "armorClass": 10,
+        "hitDice": "1d8",
+        "attacks": "1",
+        "damage": "1d6",
+        "save": "F1",
+        "morale": "0",
+        "vision": "Normal"
+      },
+      "encounterSetup": {
+        "alignment": "Neutral",
+        "xp": 10
+      },
+      "description": "Placeholder monster description"
+    },
+    {
+      "id": "placeholder-monster",
+      "title": "Placeholder Monster",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/148_what_is_the_cosmos.md",
+      "category": "Judges_Journal",
+      "contentType": "monster",
+      "primaryCharacteristics": {
+        "type": "Unknown",
+        "size": "Medium",
+        "armorClass": 10,
+        "hitDice": "1d8",
+        "attacks": "1",
+        "damage": "1d6",
+        "save": "F1",
+        "morale": "0",
+        "vision": "Normal"
+      },
+      "encounterSetup": {
+        "alignment": "Neutral",
+        "xp": 10
+      },
+      "description": "Placeholder monster description"
+    },
+    {
+      "id": "placeholder-monster",
+      "title": "Placeholder Monster",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/168_recommended_movies_and_shows.md",
+      "category": "Judges_Journal",
+      "contentType": "monster",
+      "primaryCharacteristics": {
+        "type": "Unknown",
+        "size": "Medium",
+        "armorClass": 10,
+        "hitDice": "1d8",
+        "attacks": "1",
+        "damage": "1d6",
+        "save": "F1",
+        "morale": "0",
+        "vision": "Normal"
+      },
+      "encounterSetup": {
+        "alignment": "Neutral",
+        "xp": 10
+      },
+      "description": "Placeholder monster description"
+    },
+    {
+      "id": "placeholder-monster",
+      "title": "Placeholder Monster",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/31_chapter_4_treasure.md",
+      "category": "Judges_Journal",
+      "contentType": "monster",
+      "primaryCharacteristics": {
+        "type": "Unknown",
+        "size": "Medium",
+        "armorClass": 10,
+        "hitDice": "1d8",
+        "attacks": "1",
+        "damage": "1d6",
+        "save": "F1",
+        "morale": "0",
+        "vision": "Normal"
+      },
+      "encounterSetup": {
+        "alignment": "Neutral",
+        "xp": 10
+      },
+      "description": "Placeholder monster description"
+    },
+    {
+      "id": "placeholder-monster",
+      "title": "Placeholder Monster",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/34_part_ii_construction.md",
+      "category": "Judges_Journal",
+      "contentType": "monster",
+      "primaryCharacteristics": {
+        "type": "Unknown",
+        "size": "Medium",
+        "armorClass": 10,
+        "hitDice": "1d8",
+        "attacks": "1",
+        "damage": "1d6",
+        "save": "F1",
+        "morale": "0",
+        "vision": "Normal"
+      },
+      "encounterSetup": {
+        "alignment": "Neutral",
+        "xp": 10
+      },
+      "description": "Placeholder monster description"
+    },
+    {
+      "id": "placeholder-monster",
+      "title": "Placeholder Monster",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/47_step_11_determine_npc_classes_and_levels.md",
+      "category": "Judges_Journal",
+      "contentType": "monster",
+      "primaryCharacteristics": {
+        "type": "Unknown",
+        "size": "Medium",
+        "armorClass": 10,
+        "hitDice": "1d8",
+        "attacks": "1",
+        "damage": "1d6",
+        "save": "F1",
+        "morale": "0",
+        "vision": "Normal"
+      },
+      "encounterSetup": {
+        "alignment": "Neutral",
+        "xp": 10
+      },
+      "description": "Placeholder monster description"
+    },
+    {
+      "id": "placeholder-monster",
+      "title": "Placeholder Monster",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/59_step_1_select_dungeon_size.md",
+      "category": "Judges_Journal",
+      "contentType": "monster",
+      "primaryCharacteristics": {
+        "type": "Unknown",
+        "size": "Medium",
+        "armorClass": 10,
+        "hitDice": "1d8",
+        "attacks": "1",
+        "damage": "1d6",
+        "save": "F1",
+        "morale": "0",
+        "vision": "Normal"
+      },
+      "encounterSetup": {
+        "alignment": "Neutral",
+        "xp": 10
+      },
+      "description": "Placeholder monster description"
+    },
+    {
+      "id": "placeholder-monster",
+      "title": "Placeholder Monster",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/66_step_8_place_unique_encounters.md",
+      "category": "Judges_Journal",
+      "contentType": "monster",
+      "primaryCharacteristics": {
+        "type": "Unknown",
+        "size": "Medium",
+        "armorClass": 10,
+        "hitDice": "1d8",
+        "attacks": "1",
+        "damage": "1d6",
+        "save": "F1",
+        "morale": "0",
+        "vision": "Normal"
+      },
+      "encounterSetup": {
+        "alignment": "Neutral",
+        "xp": 10
+      },
+      "description": "Placeholder monster description"
+    },
+    {
+      "id": "placeholder-monster",
+      "title": "Placeholder Monster",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/69_step_11_finish_the_dungeon_design.md",
+      "category": "Judges_Journal",
+      "contentType": "monster",
+      "primaryCharacteristics": {
+        "type": "Unknown",
+        "size": "Medium",
+        "armorClass": 10,
+        "hitDice": "1d8",
+        "attacks": "1",
+        "damage": "1d6",
+        "save": "F1",
+        "morale": "0",
+        "vision": "Normal"
+      },
+      "encounterSetup": {
+        "alignment": "Neutral",
+        "xp": 10
+      },
+      "description": "Placeholder monster description"
+    },
+    {
+      "id": "placeholder-monster",
+      "title": "Placeholder Monster",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/76_part_iii_abstraction.md",
+      "category": "Judges_Journal",
+      "contentType": "monster",
+      "primaryCharacteristics": {
+        "type": "Unknown",
+        "size": "Medium",
+        "armorClass": 10,
+        "hitDice": "1d8",
+        "attacks": "1",
+        "damage": "1d6",
+        "save": "F1",
+        "morale": "0",
+        "vision": "Normal"
+      },
+      "encounterSetup": {
+        "alignment": "Neutral",
+        "xp": 10
+      },
+      "description": "Placeholder monster description"
+    },
+    {
+      "id": "placeholder-monster",
+      "title": "Placeholder Monster",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/86_chapter_11_abstract_wilderness.md",
+      "category": "Judges_Journal",
+      "contentType": "monster",
+      "primaryCharacteristics": {
+        "type": "Unknown",
+        "size": "Medium",
+        "armorClass": 10,
+        "hitDice": "1d8",
+        "attacks": "1",
+        "damage": "1d6",
+        "save": "F1",
+        "morale": "0",
+        "vision": "Normal"
+      },
+      "encounterSetup": {
+        "alignment": "Neutral",
+        "xp": 10
+      },
+      "description": "Placeholder monster description"
+    },
+    {
+      "id": "placeholder-monster",
+      "title": "Placeholder Monster",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/88_abstract_wilderness_encounter_resolution.md",
+      "category": "Judges_Journal",
+      "contentType": "monster",
+      "primaryCharacteristics": {
+        "type": "Unknown",
+        "size": "Medium",
+        "armorClass": 10,
+        "hitDice": "1d8",
+        "attacks": "1",
+        "damage": "1d6",
+        "save": "F1",
+        "morale": "0",
+        "vision": "Normal"
+      },
+      "encounterSetup": {
+        "alignment": "Neutral",
+        "xp": 10
+      },
+      "description": "Placeholder monster description"
+    },
+    {
+      "id": "placeholder-monster",
+      "title": "Placeholder Monster",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/89_abstract_wilderness_encounters_evasion.md",
+      "category": "Judges_Journal",
+      "contentType": "monster",
+      "primaryCharacteristics": {
+        "type": "Unknown",
+        "size": "Medium",
+        "armorClass": 10,
+        "hitDice": "1d8",
+        "attacks": "1",
+        "damage": "1d6",
+        "save": "F1",
+        "morale": "0",
+        "vision": "Normal"
+      },
+      "encounterSetup": {
+        "alignment": "Neutral",
+        "xp": 10
+      },
+      "description": "Placeholder monster description"
+    },
+    {
+      "id": "placeholder-monster",
+      "title": "Placeholder Monster",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/92_part_iv_customization.md",
+      "category": "Judges_Journal",
+      "contentType": "monster",
+      "primaryCharacteristics": {
+        "type": "Unknown",
+        "size": "Medium",
+        "armorClass": 10,
+        "hitDice": "1d8",
+        "attacks": "1",
+        "damage": "1d6",
+        "save": "F1",
+        "morale": "0",
+        "vision": "Normal"
+      },
+      "encounterSetup": {
+        "alignment": "Neutral",
+        "xp": 10
+      },
+      "description": "Placeholder monster description"
+    },
+    {
+      "id": "placeholder-monster",
+      "title": "Placeholder Monster",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/93_chapter_12_custom_classes.md",
+      "category": "Judges_Journal",
+      "contentType": "monster",
+      "primaryCharacteristics": {
+        "type": "Unknown",
+        "size": "Medium",
+        "armorClass": 10,
+        "hitDice": "1d8",
+        "attacks": "1",
+        "damage": "1d6",
+        "save": "F1",
+        "morale": "0",
+        "vision": "Normal"
+      },
+      "encounterSetup": {
+        "alignment": "Neutral",
+        "xp": 10
+      },
+      "description": "Placeholder monster description"
+    },
+    {
+      "id": "placeholder-monster",
+      "title": "Placeholder Monster",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/04_how_to_use_this_book.md",
+      "category": "Monstrous_Manual",
+      "contentType": "monster",
+      "primaryCharacteristics": {
+        "type": "Unknown",
+        "size": "Medium",
+        "armorClass": 10,
+        "hitDice": "1d8",
+        "attacks": "1",
+        "damage": "1d6",
+        "save": "F1",
+        "morale": "0",
+        "vision": "Normal"
+      },
+      "encounterSetup": {
+        "alignment": "Neutral",
+        "xp": 10
+      },
+      "description": "Placeholder monster description"
+    },
+    {
+      "id": "placeholder-monster",
+      "title": "Placeholder Monster",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/05_chapter_1_monster_overview.md",
+      "category": "Monstrous_Manual",
+      "contentType": "monster",
+      "primaryCharacteristics": {
+        "type": "Unknown",
+        "size": "Medium",
+        "armorClass": 10,
+        "hitDice": "1d8",
+        "attacks": "1",
+        "damage": "1d6",
+        "save": "F1",
+        "morale": "0",
+        "vision": "Normal"
+      },
+      "encounterSetup": {
+        "alignment": "Neutral",
+        "xp": 10
+      },
+      "description": "Placeholder monster description"
+    },
+    {
+      "id": "placeholder-monster",
+      "title": "Placeholder Monster",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/05_noncombatant_monsters.md",
+      "category": "Monstrous_Manual",
+      "contentType": "monster",
+      "primaryCharacteristics": {
+        "type": "Unknown",
+        "size": "Medium",
+        "armorClass": 10,
+        "hitDice": "1d8",
+        "attacks": "1",
+        "damage": "1d6",
+        "save": "F1",
+        "morale": "0",
+        "vision": "Normal"
+      },
+      "encounterSetup": {
+        "alignment": "Neutral",
+        "xp": 10
+      },
+      "description": "Placeholder monster description"
+    },
+    {
+      "id": "placeholder-monster",
+      "title": "Placeholder Monster",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/06_monster_types.md",
+      "category": "Monstrous_Manual",
+      "contentType": "monster",
+      "primaryCharacteristics": {
+        "type": "Unknown",
+        "size": "Medium",
+        "armorClass": 10,
+        "hitDice": "1d8",
+        "attacks": "1",
+        "damage": "1d6",
+        "save": "F1",
+        "morale": "0",
+        "vision": "Normal"
+      },
+      "encounterSetup": {
+        "alignment": "Neutral",
+        "xp": 10
+      },
+      "description": "Placeholder monster description"
+    },
+    {
+      "id": "placeholder-monster",
+      "title": "Placeholder Monster",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/12_monster_type.md",
+      "category": "Monstrous_Manual",
+      "contentType": "monster",
+      "primaryCharacteristics": {
+        "type": "Unknown",
+        "size": "Medium",
+        "armorClass": 10,
+        "hitDice": "1d8",
+        "attacks": "1",
+        "damage": "1d6",
+        "save": "F1",
+        "morale": "0",
+        "vision": "Normal"
+      },
+      "encounterSetup": {
+        "alignment": "Neutral",
+        "xp": 10
+      },
+      "description": "Placeholder monster description"
+    },
+    {
+      "id": "placeholder-monster",
+      "title": "Placeholder Monster",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/16_monster_weight_size_category_and_armor_class.md",
+      "category": "Monstrous_Manual",
+      "contentType": "monster",
+      "primaryCharacteristics": {
+        "type": "Unknown",
+        "size": "Medium",
+        "armorClass": 10,
+        "hitDice": "1d8",
+        "attacks": "1",
+        "damage": "1d6",
+        "save": "F1",
+        "morale": "0",
+        "vision": "Normal"
+      },
+      "encounterSetup": {
+        "alignment": "Neutral",
+        "xp": 10
+      },
+      "description": "Placeholder monster description"
+    },
+    {
+      "id": "placeholder-monster",
+      "title": "Placeholder Monster",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/18_monster_special_senses.md",
+      "category": "Monstrous_Manual",
+      "contentType": "monster",
+      "primaryCharacteristics": {
+        "type": "Unknown",
+        "size": "Medium",
+        "armorClass": 10,
+        "hitDice": "1d8",
+        "attacks": "1",
+        "damage": "1d6",
+        "save": "F1",
+        "morale": "0",
+        "vision": "Normal"
+      },
+      "encounterSetup": {
+        "alignment": "Neutral",
+        "xp": 10
+      },
+      "description": "Placeholder monster description"
+    },
+    {
+      "id": "placeholder-monster",
+      "title": "Placeholder Monster",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/23_monster_alignment.md",
+      "category": "Monstrous_Manual",
+      "contentType": "monster",
+      "primaryCharacteristics": {
+        "type": "Unknown",
+        "size": "Medium",
+        "armorClass": 10,
+        "hitDice": "1d8",
+        "attacks": "1",
+        "damage": "1d6",
+        "save": "F1",
+        "morale": "0",
+        "vision": "Normal"
+      },
+      "encounterSetup": {
+        "alignment": "Neutral",
+        "xp": 10
+      },
+      "description": "Placeholder monster description"
+    },
+    {
+      "id": "placeholder-monster",
+      "title": "Placeholder Monster",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/26_monster_treasure_type.md",
+      "category": "Monstrous_Manual",
+      "contentType": "monster",
+      "primaryCharacteristics": {
+        "type": "Unknown",
+        "size": "Medium",
+        "armorClass": 10,
+        "hitDice": "1d8",
+        "attacks": "1",
+        "damage": "1d6",
+        "save": "F1",
+        "morale": "0",
+        "vision": "Normal"
+      },
+      "encounterSetup": {
+        "alignment": "Neutral",
+        "xp": 10
+      },
+      "description": "Placeholder monster description"
+    },
+    {
+      "id": "placeholder-monster",
+      "title": "Placeholder Monster",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/09_chapter_1_characters.md",
+      "category": "Rulebook",
+      "contentType": "monster",
+      "primaryCharacteristics": {
+        "type": "Unknown",
+        "size": "Medium",
+        "armorClass": 10,
+        "hitDice": "1d8",
+        "attacks": "1",
+        "damage": "1d6",
+        "save": "F1",
+        "morale": "0",
+        "vision": "Normal"
+      },
+      "encounterSetup": {
+        "alignment": "Neutral",
+        "xp": 10
+      },
+      "description": "Placeholder monster description"
+    },
+    {
+      "id": "placeholder-monster",
+      "title": "Placeholder Monster",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/116_languages.md",
+      "category": "Rulebook",
+      "contentType": "monster",
+      "primaryCharacteristics": {
+        "type": "Unknown",
+        "size": "Medium",
+        "armorClass": 10,
+        "hitDice": "1d8",
+        "attacks": "1",
+        "damage": "1d6",
+        "save": "F1",
+        "morale": "0",
+        "vision": "Normal"
+      },
+      "encounterSetup": {
+        "alignment": "Neutral",
+        "xp": 10
+      },
+      "description": "Placeholder monster description"
+    },
+    {
+      "id": "placeholder-monster",
+      "title": "Placeholder Monster",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/21_size_and_weight.md",
+      "category": "Rulebook",
+      "contentType": "monster",
+      "primaryCharacteristics": {
+        "type": "Unknown",
+        "size": "Medium",
+        "armorClass": 10,
+        "hitDice": "1d8",
+        "attacks": "1",
+        "damage": "1d6",
+        "save": "F1",
+        "morale": "0",
+        "vision": "Normal"
+      },
+      "encounterSetup": {
+        "alignment": "Neutral",
+        "xp": 10
+      },
+      "description": "Placeholder monster description"
+    },
+    {
+      "id": "placeholder-monster",
+      "title": "Placeholder Monster",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/30_chapter_3_proficiencies.md",
+      "category": "Rulebook",
+      "contentType": "monster",
+      "primaryCharacteristics": {
+        "type": "Unknown",
+        "size": "Medium",
+        "armorClass": 10,
+        "hitDice": "1d8",
+        "attacks": "1",
+        "damage": "1d6",
+        "save": "F1",
+        "morale": "0",
+        "vision": "Normal"
+      },
+      "encounterSetup": {
+        "alignment": "Neutral",
+        "xp": 10
+      },
+      "description": "Placeholder monster description"
+    },
+    {
+      "id": "placeholder-monster",
+      "title": "Placeholder Monster",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/31_the_basics_of_proficiencies.md",
+      "category": "Rulebook",
+      "contentType": "monster",
+      "primaryCharacteristics": {
+        "type": "Unknown",
+        "size": "Medium",
+        "armorClass": 10,
+        "hitDice": "1d8",
+        "attacks": "1",
+        "damage": "1d6",
+        "save": "F1",
+        "morale": "0",
+        "vision": "Normal"
+      },
+      "encounterSetup": {
+        "alignment": "Neutral",
+        "xp": 10
+      },
+      "description": "Placeholder monster description"
+    },
+    {
+      "id": "placeholder-monster",
+      "title": "Placeholder Monster",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/36_chapter_4_equipment.md",
+      "category": "Rulebook",
+      "contentType": "monster",
+      "primaryCharacteristics": {
+        "type": "Unknown",
+        "size": "Medium",
+        "armorClass": 10,
+        "hitDice": "1d8",
+        "attacks": "1",
+        "damage": "1d6",
+        "save": "F1",
+        "morale": "0",
+        "vision": "Normal"
+      },
+      "encounterSetup": {
+        "alignment": "Neutral",
+        "xp": 10
+      },
+      "description": "Placeholder monster description"
+    },
+    {
+      "id": "placeholder-monster",
+      "title": "Placeholder Monster",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/48_chapter_5_spells.md",
+      "category": "Rulebook",
+      "contentType": "monster",
+      "primaryCharacteristics": {
+        "type": "Unknown",
+        "size": "Medium",
+        "armorClass": 10,
+        "hitDice": "1d8",
+        "attacks": "1",
+        "damage": "1d6",
+        "save": "F1",
+        "morale": "0",
+        "vision": "Normal"
+      },
+      "encounterSetup": {
+        "alignment": "Neutral",
+        "xp": 10
+      },
+      "description": "Placeholder monster description"
+    }
+  ],
+  "crossReferences": {
+    "placeholder-monster": [
+      "placeholder-monster"
+    ]
+  },
+  "validationResults": [
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-monster",
+        "title": "Placeholder Monster",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/04_part_i_praxis.md",
+        "category": "Judges_Journal",
+        "contentType": "monster",
+        "primaryCharacteristics": {
+          "type": "Unknown",
+          "size": "Medium",
+          "armorClass": 10,
+          "hitDice": "1d8",
+          "attacks": "1",
+          "damage": "1d6",
+          "save": "F1",
+          "morale": "0",
+          "vision": "Normal"
+        },
+        "encounterSetup": {
+          "alignment": "Neutral",
+          "xp": 10
+        },
+        "description": "Placeholder monster description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.538Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-monster",
+        "title": "Placeholder Monster",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/103_experience_points_per_level.md",
+        "category": "Judges_Journal",
+        "contentType": "monster",
+        "primaryCharacteristics": {
+          "type": "Unknown",
+          "size": "Medium",
+          "armorClass": 10,
+          "hitDice": "1d8",
+          "attacks": "1",
+          "damage": "1d6",
+          "save": "F1",
+          "morale": "0",
+          "vision": "Normal"
+        },
+        "encounterSetup": {
+          "alignment": "Neutral",
+          "xp": 10
+        },
+        "description": "Placeholder monster description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.538Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-monster",
+        "title": "Placeholder Monster",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/112_chapter_13_custom_races.md",
+        "category": "Judges_Journal",
+        "contentType": "monster",
+        "primaryCharacteristics": {
+          "type": "Unknown",
+          "size": "Medium",
+          "armorClass": 10,
+          "hitDice": "1d8",
+          "attacks": "1",
+          "damage": "1d6",
+          "save": "F1",
+          "morale": "0",
+          "vision": "Normal"
+        },
+        "encounterSetup": {
+          "alignment": "Neutral",
+          "xp": 10
+        },
+        "description": "Placeholder monster description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.538Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-monster",
+        "title": "Placeholder Monster",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/145_part_v_appendices.md",
+        "category": "Judges_Journal",
+        "contentType": "monster",
+        "primaryCharacteristics": {
+          "type": "Unknown",
+          "size": "Medium",
+          "armorClass": 10,
+          "hitDice": "1d8",
+          "attacks": "1",
+          "damage": "1d6",
+          "save": "F1",
+          "morale": "0",
+          "vision": "Normal"
+        },
+        "encounterSetup": {
+          "alignment": "Neutral",
+          "xp": 10
+        },
+        "description": "Placeholder monster description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.538Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-monster",
+        "title": "Placeholder Monster",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/148_what_is_the_cosmos.md",
+        "category": "Judges_Journal",
+        "contentType": "monster",
+        "primaryCharacteristics": {
+          "type": "Unknown",
+          "size": "Medium",
+          "armorClass": 10,
+          "hitDice": "1d8",
+          "attacks": "1",
+          "damage": "1d6",
+          "save": "F1",
+          "morale": "0",
+          "vision": "Normal"
+        },
+        "encounterSetup": {
+          "alignment": "Neutral",
+          "xp": 10
+        },
+        "description": "Placeholder monster description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.538Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-monster",
+        "title": "Placeholder Monster",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/168_recommended_movies_and_shows.md",
+        "category": "Judges_Journal",
+        "contentType": "monster",
+        "primaryCharacteristics": {
+          "type": "Unknown",
+          "size": "Medium",
+          "armorClass": 10,
+          "hitDice": "1d8",
+          "attacks": "1",
+          "damage": "1d6",
+          "save": "F1",
+          "morale": "0",
+          "vision": "Normal"
+        },
+        "encounterSetup": {
+          "alignment": "Neutral",
+          "xp": 10
+        },
+        "description": "Placeholder monster description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.538Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-monster",
+        "title": "Placeholder Monster",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/31_chapter_4_treasure.md",
+        "category": "Judges_Journal",
+        "contentType": "monster",
+        "primaryCharacteristics": {
+          "type": "Unknown",
+          "size": "Medium",
+          "armorClass": 10,
+          "hitDice": "1d8",
+          "attacks": "1",
+          "damage": "1d6",
+          "save": "F1",
+          "morale": "0",
+          "vision": "Normal"
+        },
+        "encounterSetup": {
+          "alignment": "Neutral",
+          "xp": 10
+        },
+        "description": "Placeholder monster description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.538Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-monster",
+        "title": "Placeholder Monster",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/34_part_ii_construction.md",
+        "category": "Judges_Journal",
+        "contentType": "monster",
+        "primaryCharacteristics": {
+          "type": "Unknown",
+          "size": "Medium",
+          "armorClass": 10,
+          "hitDice": "1d8",
+          "attacks": "1",
+          "damage": "1d6",
+          "save": "F1",
+          "morale": "0",
+          "vision": "Normal"
+        },
+        "encounterSetup": {
+          "alignment": "Neutral",
+          "xp": 10
+        },
+        "description": "Placeholder monster description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.538Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-monster",
+        "title": "Placeholder Monster",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/47_step_11_determine_npc_classes_and_levels.md",
+        "category": "Judges_Journal",
+        "contentType": "monster",
+        "primaryCharacteristics": {
+          "type": "Unknown",
+          "size": "Medium",
+          "armorClass": 10,
+          "hitDice": "1d8",
+          "attacks": "1",
+          "damage": "1d6",
+          "save": "F1",
+          "morale": "0",
+          "vision": "Normal"
+        },
+        "encounterSetup": {
+          "alignment": "Neutral",
+          "xp": 10
+        },
+        "description": "Placeholder monster description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.538Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-monster",
+        "title": "Placeholder Monster",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/59_step_1_select_dungeon_size.md",
+        "category": "Judges_Journal",
+        "contentType": "monster",
+        "primaryCharacteristics": {
+          "type": "Unknown",
+          "size": "Medium",
+          "armorClass": 10,
+          "hitDice": "1d8",
+          "attacks": "1",
+          "damage": "1d6",
+          "save": "F1",
+          "morale": "0",
+          "vision": "Normal"
+        },
+        "encounterSetup": {
+          "alignment": "Neutral",
+          "xp": 10
+        },
+        "description": "Placeholder monster description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.538Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-monster",
+        "title": "Placeholder Monster",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/66_step_8_place_unique_encounters.md",
+        "category": "Judges_Journal",
+        "contentType": "monster",
+        "primaryCharacteristics": {
+          "type": "Unknown",
+          "size": "Medium",
+          "armorClass": 10,
+          "hitDice": "1d8",
+          "attacks": "1",
+          "damage": "1d6",
+          "save": "F1",
+          "morale": "0",
+          "vision": "Normal"
+        },
+        "encounterSetup": {
+          "alignment": "Neutral",
+          "xp": 10
+        },
+        "description": "Placeholder monster description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.538Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-monster",
+        "title": "Placeholder Monster",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/69_step_11_finish_the_dungeon_design.md",
+        "category": "Judges_Journal",
+        "contentType": "monster",
+        "primaryCharacteristics": {
+          "type": "Unknown",
+          "size": "Medium",
+          "armorClass": 10,
+          "hitDice": "1d8",
+          "attacks": "1",
+          "damage": "1d6",
+          "save": "F1",
+          "morale": "0",
+          "vision": "Normal"
+        },
+        "encounterSetup": {
+          "alignment": "Neutral",
+          "xp": 10
+        },
+        "description": "Placeholder monster description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.538Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-monster",
+        "title": "Placeholder Monster",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/76_part_iii_abstraction.md",
+        "category": "Judges_Journal",
+        "contentType": "monster",
+        "primaryCharacteristics": {
+          "type": "Unknown",
+          "size": "Medium",
+          "armorClass": 10,
+          "hitDice": "1d8",
+          "attacks": "1",
+          "damage": "1d6",
+          "save": "F1",
+          "morale": "0",
+          "vision": "Normal"
+        },
+        "encounterSetup": {
+          "alignment": "Neutral",
+          "xp": 10
+        },
+        "description": "Placeholder monster description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.538Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-monster",
+        "title": "Placeholder Monster",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/86_chapter_11_abstract_wilderness.md",
+        "category": "Judges_Journal",
+        "contentType": "monster",
+        "primaryCharacteristics": {
+          "type": "Unknown",
+          "size": "Medium",
+          "armorClass": 10,
+          "hitDice": "1d8",
+          "attacks": "1",
+          "damage": "1d6",
+          "save": "F1",
+          "morale": "0",
+          "vision": "Normal"
+        },
+        "encounterSetup": {
+          "alignment": "Neutral",
+          "xp": 10
+        },
+        "description": "Placeholder monster description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.538Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-monster",
+        "title": "Placeholder Monster",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/88_abstract_wilderness_encounter_resolution.md",
+        "category": "Judges_Journal",
+        "contentType": "monster",
+        "primaryCharacteristics": {
+          "type": "Unknown",
+          "size": "Medium",
+          "armorClass": 10,
+          "hitDice": "1d8",
+          "attacks": "1",
+          "damage": "1d6",
+          "save": "F1",
+          "morale": "0",
+          "vision": "Normal"
+        },
+        "encounterSetup": {
+          "alignment": "Neutral",
+          "xp": 10
+        },
+        "description": "Placeholder monster description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.538Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-monster",
+        "title": "Placeholder Monster",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/89_abstract_wilderness_encounters_evasion.md",
+        "category": "Judges_Journal",
+        "contentType": "monster",
+        "primaryCharacteristics": {
+          "type": "Unknown",
+          "size": "Medium",
+          "armorClass": 10,
+          "hitDice": "1d8",
+          "attacks": "1",
+          "damage": "1d6",
+          "save": "F1",
+          "morale": "0",
+          "vision": "Normal"
+        },
+        "encounterSetup": {
+          "alignment": "Neutral",
+          "xp": 10
+        },
+        "description": "Placeholder monster description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.538Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-monster",
+        "title": "Placeholder Monster",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/92_part_iv_customization.md",
+        "category": "Judges_Journal",
+        "contentType": "monster",
+        "primaryCharacteristics": {
+          "type": "Unknown",
+          "size": "Medium",
+          "armorClass": 10,
+          "hitDice": "1d8",
+          "attacks": "1",
+          "damage": "1d6",
+          "save": "F1",
+          "morale": "0",
+          "vision": "Normal"
+        },
+        "encounterSetup": {
+          "alignment": "Neutral",
+          "xp": 10
+        },
+        "description": "Placeholder monster description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.538Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-monster",
+        "title": "Placeholder Monster",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/93_chapter_12_custom_classes.md",
+        "category": "Judges_Journal",
+        "contentType": "monster",
+        "primaryCharacteristics": {
+          "type": "Unknown",
+          "size": "Medium",
+          "armorClass": 10,
+          "hitDice": "1d8",
+          "attacks": "1",
+          "damage": "1d6",
+          "save": "F1",
+          "morale": "0",
+          "vision": "Normal"
+        },
+        "encounterSetup": {
+          "alignment": "Neutral",
+          "xp": 10
+        },
+        "description": "Placeholder monster description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.538Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-monster",
+        "title": "Placeholder Monster",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/04_how_to_use_this_book.md",
+        "category": "Monstrous_Manual",
+        "contentType": "monster",
+        "primaryCharacteristics": {
+          "type": "Unknown",
+          "size": "Medium",
+          "armorClass": 10,
+          "hitDice": "1d8",
+          "attacks": "1",
+          "damage": "1d6",
+          "save": "F1",
+          "morale": "0",
+          "vision": "Normal"
+        },
+        "encounterSetup": {
+          "alignment": "Neutral",
+          "xp": 10
+        },
+        "description": "Placeholder monster description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.538Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-monster",
+        "title": "Placeholder Monster",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/05_chapter_1_monster_overview.md",
+        "category": "Monstrous_Manual",
+        "contentType": "monster",
+        "primaryCharacteristics": {
+          "type": "Unknown",
+          "size": "Medium",
+          "armorClass": 10,
+          "hitDice": "1d8",
+          "attacks": "1",
+          "damage": "1d6",
+          "save": "F1",
+          "morale": "0",
+          "vision": "Normal"
+        },
+        "encounterSetup": {
+          "alignment": "Neutral",
+          "xp": 10
+        },
+        "description": "Placeholder monster description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.538Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-monster",
+        "title": "Placeholder Monster",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/05_noncombatant_monsters.md",
+        "category": "Monstrous_Manual",
+        "contentType": "monster",
+        "primaryCharacteristics": {
+          "type": "Unknown",
+          "size": "Medium",
+          "armorClass": 10,
+          "hitDice": "1d8",
+          "attacks": "1",
+          "damage": "1d6",
+          "save": "F1",
+          "morale": "0",
+          "vision": "Normal"
+        },
+        "encounterSetup": {
+          "alignment": "Neutral",
+          "xp": 10
+        },
+        "description": "Placeholder monster description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.538Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-monster",
+        "title": "Placeholder Monster",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/06_monster_types.md",
+        "category": "Monstrous_Manual",
+        "contentType": "monster",
+        "primaryCharacteristics": {
+          "type": "Unknown",
+          "size": "Medium",
+          "armorClass": 10,
+          "hitDice": "1d8",
+          "attacks": "1",
+          "damage": "1d6",
+          "save": "F1",
+          "morale": "0",
+          "vision": "Normal"
+        },
+        "encounterSetup": {
+          "alignment": "Neutral",
+          "xp": 10
+        },
+        "description": "Placeholder monster description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.538Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-monster",
+        "title": "Placeholder Monster",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/12_monster_type.md",
+        "category": "Monstrous_Manual",
+        "contentType": "monster",
+        "primaryCharacteristics": {
+          "type": "Unknown",
+          "size": "Medium",
+          "armorClass": 10,
+          "hitDice": "1d8",
+          "attacks": "1",
+          "damage": "1d6",
+          "save": "F1",
+          "morale": "0",
+          "vision": "Normal"
+        },
+        "encounterSetup": {
+          "alignment": "Neutral",
+          "xp": 10
+        },
+        "description": "Placeholder monster description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.538Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-monster",
+        "title": "Placeholder Monster",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/16_monster_weight_size_category_and_armor_class.md",
+        "category": "Monstrous_Manual",
+        "contentType": "monster",
+        "primaryCharacteristics": {
+          "type": "Unknown",
+          "size": "Medium",
+          "armorClass": 10,
+          "hitDice": "1d8",
+          "attacks": "1",
+          "damage": "1d6",
+          "save": "F1",
+          "morale": "0",
+          "vision": "Normal"
+        },
+        "encounterSetup": {
+          "alignment": "Neutral",
+          "xp": 10
+        },
+        "description": "Placeholder monster description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.538Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-monster",
+        "title": "Placeholder Monster",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/18_monster_special_senses.md",
+        "category": "Monstrous_Manual",
+        "contentType": "monster",
+        "primaryCharacteristics": {
+          "type": "Unknown",
+          "size": "Medium",
+          "armorClass": 10,
+          "hitDice": "1d8",
+          "attacks": "1",
+          "damage": "1d6",
+          "save": "F1",
+          "morale": "0",
+          "vision": "Normal"
+        },
+        "encounterSetup": {
+          "alignment": "Neutral",
+          "xp": 10
+        },
+        "description": "Placeholder monster description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.538Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-monster",
+        "title": "Placeholder Monster",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/23_monster_alignment.md",
+        "category": "Monstrous_Manual",
+        "contentType": "monster",
+        "primaryCharacteristics": {
+          "type": "Unknown",
+          "size": "Medium",
+          "armorClass": 10,
+          "hitDice": "1d8",
+          "attacks": "1",
+          "damage": "1d6",
+          "save": "F1",
+          "morale": "0",
+          "vision": "Normal"
+        },
+        "encounterSetup": {
+          "alignment": "Neutral",
+          "xp": 10
+        },
+        "description": "Placeholder monster description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.538Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-monster",
+        "title": "Placeholder Monster",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/26_monster_treasure_type.md",
+        "category": "Monstrous_Manual",
+        "contentType": "monster",
+        "primaryCharacteristics": {
+          "type": "Unknown",
+          "size": "Medium",
+          "armorClass": 10,
+          "hitDice": "1d8",
+          "attacks": "1",
+          "damage": "1d6",
+          "save": "F1",
+          "morale": "0",
+          "vision": "Normal"
+        },
+        "encounterSetup": {
+          "alignment": "Neutral",
+          "xp": 10
+        },
+        "description": "Placeholder monster description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.538Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-monster",
+        "title": "Placeholder Monster",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/09_chapter_1_characters.md",
+        "category": "Rulebook",
+        "contentType": "monster",
+        "primaryCharacteristics": {
+          "type": "Unknown",
+          "size": "Medium",
+          "armorClass": 10,
+          "hitDice": "1d8",
+          "attacks": "1",
+          "damage": "1d6",
+          "save": "F1",
+          "morale": "0",
+          "vision": "Normal"
+        },
+        "encounterSetup": {
+          "alignment": "Neutral",
+          "xp": 10
+        },
+        "description": "Placeholder monster description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.538Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-monster",
+        "title": "Placeholder Monster",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/116_languages.md",
+        "category": "Rulebook",
+        "contentType": "monster",
+        "primaryCharacteristics": {
+          "type": "Unknown",
+          "size": "Medium",
+          "armorClass": 10,
+          "hitDice": "1d8",
+          "attacks": "1",
+          "damage": "1d6",
+          "save": "F1",
+          "morale": "0",
+          "vision": "Normal"
+        },
+        "encounterSetup": {
+          "alignment": "Neutral",
+          "xp": 10
+        },
+        "description": "Placeholder monster description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.538Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-monster",
+        "title": "Placeholder Monster",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/21_size_and_weight.md",
+        "category": "Rulebook",
+        "contentType": "monster",
+        "primaryCharacteristics": {
+          "type": "Unknown",
+          "size": "Medium",
+          "armorClass": 10,
+          "hitDice": "1d8",
+          "attacks": "1",
+          "damage": "1d6",
+          "save": "F1",
+          "morale": "0",
+          "vision": "Normal"
+        },
+        "encounterSetup": {
+          "alignment": "Neutral",
+          "xp": 10
+        },
+        "description": "Placeholder monster description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.538Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-monster",
+        "title": "Placeholder Monster",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/30_chapter_3_proficiencies.md",
+        "category": "Rulebook",
+        "contentType": "monster",
+        "primaryCharacteristics": {
+          "type": "Unknown",
+          "size": "Medium",
+          "armorClass": 10,
+          "hitDice": "1d8",
+          "attacks": "1",
+          "damage": "1d6",
+          "save": "F1",
+          "morale": "0",
+          "vision": "Normal"
+        },
+        "encounterSetup": {
+          "alignment": "Neutral",
+          "xp": 10
+        },
+        "description": "Placeholder monster description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.538Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-monster",
+        "title": "Placeholder Monster",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/31_the_basics_of_proficiencies.md",
+        "category": "Rulebook",
+        "contentType": "monster",
+        "primaryCharacteristics": {
+          "type": "Unknown",
+          "size": "Medium",
+          "armorClass": 10,
+          "hitDice": "1d8",
+          "attacks": "1",
+          "damage": "1d6",
+          "save": "F1",
+          "morale": "0",
+          "vision": "Normal"
+        },
+        "encounterSetup": {
+          "alignment": "Neutral",
+          "xp": 10
+        },
+        "description": "Placeholder monster description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.538Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-monster",
+        "title": "Placeholder Monster",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/36_chapter_4_equipment.md",
+        "category": "Rulebook",
+        "contentType": "monster",
+        "primaryCharacteristics": {
+          "type": "Unknown",
+          "size": "Medium",
+          "armorClass": 10,
+          "hitDice": "1d8",
+          "attacks": "1",
+          "damage": "1d6",
+          "save": "F1",
+          "morale": "0",
+          "vision": "Normal"
+        },
+        "encounterSetup": {
+          "alignment": "Neutral",
+          "xp": 10
+        },
+        "description": "Placeholder monster description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.538Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-monster",
+        "title": "Placeholder Monster",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/48_chapter_5_spells.md",
+        "category": "Rulebook",
+        "contentType": "monster",
+        "primaryCharacteristics": {
+          "type": "Unknown",
+          "size": "Medium",
+          "armorClass": 10,
+          "hitDice": "1d8",
+          "attacks": "1",
+          "damage": "1d6",
+          "save": "F1",
+          "morale": "0",
+          "vision": "Normal"
+        },
+        "encounterSetup": {
+          "alignment": "Neutral",
+          "xp": 10
+        },
+        "description": "Placeholder monster description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.538Z",
+      "schemaVersion": "1.0.0"
+    }
+  ]
+}

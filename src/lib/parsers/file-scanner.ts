@@ -22,10 +22,11 @@ export class FileSystemScanner {
   constructor(options: DiscoveryOptions) {
     this.options = {
       ...options,
-      includePatterns: options.includePatterns.length > 0 ? options.includePatterns : ['**/*.md'],
-      excludePatterns: options.excludePatterns.length > 0 ? options.excludePatterns : ['**/node_modules/**', '**/.git/**', '**/README.md'],
+      includePatterns: options.includePatterns && options.includePatterns.length > 0 ? options.includePatterns : ['**/*.md'],
+      excludePatterns: options.excludePatterns && options.excludePatterns.length > 0 ? options.excludePatterns : ['**/node_modules/**', '**/.git/**', '**/README.md'],
       followSymlinks: options.followSymlinks ?? false
     };
+    console.log('[FileSystemScanner] Initialized with options:', JSON.stringify(this.options, null, 2)); // DEBUG
   }
   
   /**
@@ -138,10 +139,10 @@ export class FileSystemScanner {
   private detectContentCategory(relativePath: string): ContentCategory {
     const normalizedPath = relativePath.toLowerCase().replace(/\\/g, '/');
     
-    // Path-based detection
-    if (normalizedPath.includes('monstrous_manual/')) {
+    // Path-based detection - handle both lowercase and original case
+    if (normalizedPath.includes('monstrous_manual/') || normalizedPath.includes('monstrous manual/')) {
       return ContentCategory.MONSTROUS_MANUAL;
-    } else if (normalizedPath.includes('judges_journal/')) {
+    } else if (normalizedPath.includes('judges_journal/') || normalizedPath.includes('judges journal/')) {
       return ContentCategory.JUDGES_JOURNAL;
     } else if (normalizedPath.includes('rulebook/')) {
       return ContentCategory.RULEBOOK;
@@ -159,10 +160,14 @@ export class FileSystemScanner {
    */
   private shouldIncludeFile(file: ContentFile): boolean {
     const relativePath = file.relativePath.replace(/\\/g, '/');
-    
+    console.log(`[FileSystemScanner] shouldIncludeFile: Checking path '${relativePath}'`); // DEBUG
+    console.log(`[FileSystemScanner] using includePatterns: ${JSON.stringify(this.options.includePatterns)}`); // DEBUG
+    console.log(`[FileSystemScanner] using excludePatterns: ${JSON.stringify(this.options.excludePatterns)}`); // DEBUG
+
     // Check exclude patterns first
     for (const pattern of this.options.excludePatterns) {
       if (this.matchesPattern(relativePath, pattern)) {
+        console.log(`[FileSystemScanner] Path '${relativePath}' MATCHED exclude pattern '${pattern}'`); // DEBUG
         return false;
       }
     }
@@ -170,10 +175,12 @@ export class FileSystemScanner {
     // Check include patterns
     for (const pattern of this.options.includePatterns) {
       if (this.matchesPattern(relativePath, pattern)) {
+        console.log(`[FileSystemScanner] Path '${relativePath}' MATCHED include pattern '${pattern}'`); // DEBUG
         return true;
       }
     }
     
+    console.log(`[FileSystemScanner] Path '${relativePath}' did NOT match any include patterns. Excluding by default.`); // DEBUG
     // Default to exclude if no include patterns match
     return false;
   }
@@ -187,14 +194,29 @@ export class FileSystemScanner {
    */
   private matchesPattern(filePath: string, pattern: string): boolean {
     // Convert glob pattern to regex
-    const regexPattern = pattern
-      .replace(/\*\*/g, '.*')  // ** matches any number of directories
-      .replace(/\*/g, '[^/]*') // * matches any characters except /
-      .replace(/\?/g, '[^/]')  // ? matches any single character except /
-      .replace(/\./g, '\\.');   // Escape dots
+    let regexPattern = pattern
+      .replace(/\./g, '\\.')    // Escape dots first
+      .replace(/\*\*/g, '___DOUBLESTAR___')  // Temporarily replace ** 
+      .replace(/\*/g, '[^/]*')  // * matches any characters except /
+      .replace(/___DOUBLESTAR___/g, '.*')  // ** matches any number of directories/chars
+      .replace(/\?/g, '[^/]');  // ? matches any single character except /
+
+    // Specific fix for patterns like '**/*.md' which became '.*/[^/]*\.md'
+    // This regex expects a directory. To match files at the root as well,
+    // make the initial 'directory part' optional.
+    if (regexPattern.startsWith('.*/')) {
+      // Check if the original pattern started with '**/' to justify this change.
+      // This avoids altering patterns like 'foo/.*/bar.txt' incorrectly.
+      if (pattern.startsWith('**/')) {
+        regexPattern = '(?:.*/)?' + regexPattern.substring('.*/'.length);
+      }
+    }
     
     const regex = new RegExp(`^${regexPattern}$`, 'i');
-    return regex.test(filePath);
+    // console.log(`[FileSystemScanner] Testing path '${filePath}' against pattern '${pattern}' (source pattern: '${pattern}', regex: ${regex.source})`);
+    const isMatch = regex.test(filePath);
+    // if (isMatch) console.log(`[FileSystemScanner] MATCH!`); else console.log(`[FileSystemScanner] NO MATCH.`);
+    return isMatch;
   }
   
   /**

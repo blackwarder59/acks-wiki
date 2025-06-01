@@ -32,11 +32,10 @@ export function useDebounce<T extends (...args: any[]) => any>(
   delay: number,
   immediate = false
 ): [T, () => void] {
-  const timeoutRef = useRef<NodeJS.Timeout>();
+  const timeoutRef = useRef<NodeJS.Timeout | null>(null);
   const callbackRef = useRef(callback);
   const [isDebouncing, setIsDebouncing] = useState(false);
 
-  // Update callback ref when callback changes
   useEffect(() => {
     callbackRef.current = callback;
   }, [callback]);
@@ -47,16 +46,13 @@ export function useDebounce<T extends (...args: any[]) => any>(
         setIsDebouncing(false);
         return callbackRef.current(...args);
       };
-
       if (timeoutRef.current) {
         clearTimeout(timeoutRef.current);
       }
-
       if (immediate && !isDebouncing) {
         setIsDebouncing(true);
         return executeCallback();
       }
-
       setIsDebouncing(true);
       timeoutRef.current = setTimeout(executeCallback, delay);
     }) as T,
@@ -91,7 +87,7 @@ export function useThrottle<T extends (...args: any[]) => any>(
   trailing = true
 ): T {
   const lastCallTime = useRef<number>(0);
-  const timeoutRef = useRef<NodeJS.Timeout>();
+  const timeoutRef = useRef<NodeJS.Timeout | null>(null);
   const callbackRef = useRef(callback);
 
   useEffect(() => {
@@ -102,18 +98,15 @@ export function useThrottle<T extends (...args: any[]) => any>(
     ((...args: Parameters<T>) => {
       const now = Date.now();
       const timeSinceLastCall = now - lastCallTime.current;
-
       const executeCallback = () => {
         lastCallTime.current = now;
         return callbackRef.current(...args);
       };
-
       if (timeSinceLastCall >= delay) {
         if (leading) {
           return executeCallback();
         }
       }
-
       if (trailing) {
         if (timeoutRef.current) {
           clearTimeout(timeoutRef.current);
@@ -147,14 +140,18 @@ export function useDeepMemo<T>(
   deps: DependencyList,
   equalityFn?: (a: DependencyList, b: DependencyList) => boolean
 ): T {
-  const ref = useRef<{ deps: DependencyList; value: T }>();
+  const ref = useRef<{ deps: DependencyList; value: T } | null>(null);
 
   const defaultEqualityFn = useCallback((a: DependencyList, b: DependencyList) => {
     if (a.length !== b.length) return false;
     return a.every((item, index) => {
       const other = b[index];
       if (typeof item === 'object' && item !== null && typeof other === 'object' && other !== null) {
+        try {
         return JSON.stringify(item) === JSON.stringify(other);
+        } catch (e) {
+          return false;
+        }
       }
       return item === other;
     });
@@ -175,10 +172,10 @@ export function useDeepMemo<T>(
 /**
  * Intersection Observer hook for lazy loading
  */
-export function useIntersectionObserver(
+export function useIntersection(
   options: IntersectionObserverInit = {}
-): [React.RefObject<Element>, boolean, IntersectionObserverEntry | null] {
-  const elementRef = useRef<Element>(null);
+): [React.RefObject<Element | null>, boolean, IntersectionObserverEntry | null] {
+  const elementRef = useRef<Element | null>(null);
   const [isIntersecting, setIsIntersecting] = useState(false);
   const [entry, setEntry] = useState<IntersectionObserverEntry | null>(null);
 
@@ -203,28 +200,26 @@ export function useIntersectionObserver(
     return () => {
       observer.disconnect();
     };
-  }, [options.threshold, options.rootMargin, options.root]);
+  }, [options.root, options.rootMargin, options.threshold]);
 
   return [elementRef, isIntersecting, entry];
 }
 
 /**
- * Performance monitoring hook
+ * Performance monitoring hook for components
  */
 export function usePerformanceMonitor(name: string, enabled = true) {
-  const startTimeRef = useRef<number>();
+  const startTimeRef = useRef<number | null>(null);
   const metricsRef = useRef<{
     renderCount: number;
     totalRenderTime: number;
     averageRenderTime: number;
-    maxRenderTime: number;
-    minRenderTime: number;
+    lastRenderTime: number;
   }>({
     renderCount: 0,
     totalRenderTime: 0,
     averageRenderTime: 0,
-    maxRenderTime: 0,
-    minRenderTime: Infinity
+    lastRenderTime: 0
   });
 
   useEffect(() => {
@@ -233,28 +228,23 @@ export function usePerformanceMonitor(name: string, enabled = true) {
     startTimeRef.current = performance.now();
 
     return () => {
-      if (startTimeRef.current) {
+      if (startTimeRef.current && metricsRef.current) {
         const renderTime = performance.now() - startTimeRef.current;
         const metrics = metricsRef.current;
 
         metrics.renderCount++;
         metrics.totalRenderTime += renderTime;
         metrics.averageRenderTime = metrics.totalRenderTime / metrics.renderCount;
-        metrics.maxRenderTime = Math.max(metrics.maxRenderTime, renderTime);
-        metrics.minRenderTime = Math.min(metrics.minRenderTime, renderTime);
+        metrics.lastRenderTime = renderTime;
 
-        // Log performance warnings
-        if (renderTime > 16) { // More than one frame at 60fps
+        if (renderTime > 16) {
           console.warn(`Slow render detected in ${name}: ${renderTime.toFixed(2)}ms`);
         }
-
-        // Log metrics every 100 renders
         if (metrics.renderCount % 100 === 0) {
           console.log(`Performance metrics for ${name}:`, {
             renders: metrics.renderCount,
             avgTime: metrics.averageRenderTime.toFixed(2) + 'ms',
-            maxTime: metrics.maxRenderTime.toFixed(2) + 'ms',
-            minTime: metrics.minRenderTime.toFixed(2) + 'ms'
+            lastTime: metrics.lastRenderTime.toFixed(2) + 'ms'
           });
         }
       }
@@ -281,11 +271,24 @@ export function useStableCallback<T extends (...args: any[]) => any>(
   const callbackRef = useRef<T>(callback);
   const depsRef = useRef<DependencyList>(deps);
 
-  // Update refs when dependencies change
-  if (!deps.every((dep, index) => dep === depsRef.current[index])) {
+  useEffect(() => {
+    let depsChanged = false;
+    if (deps.length !== depsRef.current.length) {
+      depsChanged = true;
+    } else {
+      for (let i = 0; i < deps.length; i++) {
+        if (deps[i] !== depsRef.current[i]) {
+          depsChanged = true;
+          break;
+        }
+      }
+    }
+
+    if (depsChanged) {
     callbackRef.current = callback;
     depsRef.current = deps;
   }
+  }, [callback, ...deps]);
 
   return useCallback(
     ((...args: Parameters<T>) => callbackRef.current(...args)) as T,
@@ -297,7 +300,7 @@ export default {
   useDebounce,
   useThrottle,
   useDeepMemo,
-  useIntersectionObserver,
+  useIntersection,
   usePerformanceMonitor,
   useShallowMemo,
   useStableCallback

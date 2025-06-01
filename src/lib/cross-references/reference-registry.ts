@@ -174,6 +174,24 @@ export class ReferenceRegistry {
   }
 
   /**
+   * Get the title of a content item by its ID
+   * @param id The ID of the content item
+   * @returns The title of the content item, or undefined if not found
+   */
+  getContentTitle(id: string): string | undefined {
+    return this.contentIndex.get(id)?.title;
+  }
+
+  /**
+   * Get the content type of a content item by its ID
+   * @param id The ID of the content item
+   * @returns The content type of the content item, or undefined if not found
+   */
+  getContentType(id: string): ContentType | undefined {
+    return this.contentIndex.get(id)?.contentType;
+  }
+
+  /**
    * Query references with filters
    */
   queryReferences(query: ReferenceQuery = {}): ReferenceEntry[] {
@@ -204,7 +222,8 @@ export class ReferenceRegistry {
     }
 
     if (query.minConfidence !== undefined) {
-      results = results.filter(ref => ref.confidence >= query.minConfidence);
+      const minConfidenceValue = query.minConfidence;
+      results = results.filter(ref => ref.confidence >= minConfidenceValue);
     }
 
     if (query.validatedOnly) {

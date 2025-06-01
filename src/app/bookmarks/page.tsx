@@ -276,7 +276,6 @@ export default function BookmarksPage() {
   const {
     bookmarks,
     categories,
-    removeBookmark,
     updateBookmark,
     exportBookmarks,
     importBookmarks,

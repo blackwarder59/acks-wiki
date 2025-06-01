@@ -35,9 +35,9 @@ import {
 import { BaseContentCard } from './base-content-card';
 import { 
   type Rule, 
-  type RuleCategory,
+  RuleCategory,
   type CrossReference,
-  type ReferenceType
+  ReferenceType
 } from '../../lib/types/content';
 
 /**
@@ -376,7 +376,7 @@ Related Rules: ${rule.relatedRules.join(', ')}
 
   // Format rule text with proper line breaks and emphasis
   const formattedRuleText = useMemo(() => {
-    if (!rule?.ruleText) return '';
+    if (!rule?.ruleText) return [];
     
     // Split into paragraphs and format
     return rule.ruleText

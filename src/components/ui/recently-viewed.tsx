@@ -19,9 +19,9 @@
  */
 
 import React, { useState, useCallback } from 'react';
-import { Clock, X, Trash2, Eye, ExternalLink } from 'lucide-react';
+import { Clock, X, Trash2, Eye } from 'lucide-react';
 import { useBookmarks, type RecentlyViewedItem } from '../../lib/hooks/use-bookmarks';
-import { type ContentType } from '../../lib/types/content';
+import { ContentType } from '../../lib/types/content';
 
 /**
  * Recently viewed props
@@ -47,22 +47,28 @@ export interface RecentlyViewedProps {
  * Content type icon mapping
  */
 const contentTypeIcons: Record<ContentType, string> = {
-  monster: '🐉',
-  spell: '✨',
-  class: '⚔️',
-  equipment: '🛡️',
-  rule: '📜'
+  [ContentType.MONSTER]: '🐉',
+  [ContentType.SPELL]: '✨',
+  [ContentType.CLASS]: '⚔️',
+  [ContentType.EQUIPMENT]: '🛡️',
+  [ContentType.RULE]: '📜',
+  [ContentType.PROFICIENCY]: '🎯',
+  [ContentType.DOMAIN_RULE]: '⚖️',
+  [ContentType.JUDGE_TOOL]: '🛠️'
 };
 
 /**
  * Content type colors
  */
 const contentTypeColors: Record<ContentType, string> = {
-  monster: 'text-red-600',
-  spell: 'text-purple-600',
-  class: 'text-blue-600',
-  equipment: 'text-amber-600',
-  rule: 'text-green-600'
+  [ContentType.MONSTER]: 'text-red-600',
+  [ContentType.SPELL]: 'text-purple-600',
+  [ContentType.CLASS]: 'text-blue-600',
+  [ContentType.EQUIPMENT]: 'text-amber-600',
+  [ContentType.RULE]: 'text-green-600',
+  [ContentType.PROFICIENCY]: 'text-teal-600',
+  [ContentType.DOMAIN_RULE]: 'text-indigo-600',
+  [ContentType.JUDGE_TOOL]: 'text-gray-600'
 };
 
 /**

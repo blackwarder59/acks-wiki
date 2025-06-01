@@ -273,6 +273,8 @@ export interface Spell extends BaseContent {
   duration: string;
   /** Full spell description */
   description: string;
+  /** Character classes that can cast this spell */
+  classes?: string[];
   /** Spell school or category */
   school?: string;
   /** Components required for casting */
@@ -566,13 +568,41 @@ export enum ProficiencyCategory {
 }
 
 // ============================================================================
+// DOMAIN RULE AND JUDGE TOOL INTERFACES (NEW)
+// ============================================================================
+
+/**
+ * Domain Rule definition (shares structure with Rule for now)
+ */
+export interface DomainRule extends BaseContent {
+  contentType: ContentType.DOMAIN_RULE;
+  // Assuming similar properties to Rule for preview purposes
+  ruleCategory?: RuleCategory; // Optional for now, might differ from general rules
+  ruleText: string;
+  examples?: string[];
+  relatedRules?: string[];
+}
+
+/**
+ * Judge Tool definition (shares structure with Rule for now)
+ */
+export interface JudgeTool extends BaseContent {
+  contentType: ContentType.JUDGE_TOOL;
+  // Assuming similar properties to Rule for preview purposes
+  toolCategory?: string; // Example: 'Generator', 'Reference Chart' - can be defined later
+  toolText: string; // Or perhaps 'details' or 'usage' depending on actual content
+  examples?: string[];
+  relatedTools?: string[]; // Or relatedRules if applicable
+}
+
+// ============================================================================
 // UTILITY TYPES
 // ============================================================================
 
 /**
  * Union type for all content types
  */
-export type AnyContent = Monster | Spell | CharacterClass | Equipment | Rule | Proficiency;
+export type AnyContent = Monster | Spell | CharacterClass | Equipment | Rule | Proficiency | DomainRule | JudgeTool;
 
 /**
  * Content search result

@@ -32,11 +32,11 @@ import { watch } from 'chokidar';
 import yaml from 'js-yaml';
 
 // Import our content processing components
-import { ContentProcessor } from '../src/lib/parsers/content-processor';
-import { generateJsonOutput, validateContent, OutputOptions, OutputFile } from '../src/lib/parsers/json-output';
-import { ContentType, ContentCategory, AnyContent } from '../src/lib/types/content';
-import type { ProcessorConfig, ProcessingResults, ProcessingEvent } from '../src/lib/parsers/pipeline-types';
-import { ParsingOptions } from '../src/lib/parsers/types';
+import { ContentProcessor } from '../src/lib/parsers/content-processor.ts';
+import { generateJsonOutput, validateContent, OutputOptions, OutputFile } from '../src/lib/parsers/json-output.ts';
+import { ContentType, ContentCategory, AnyContent } from '../src/lib/types/content.ts';
+import type { ProcessorConfig, ProcessingResults, ProcessingEvent } from '../src/lib/parsers/pipeline-types.ts';
+import { ParsingOptions } from '../src/lib/parsers/types.ts';
 
 /**
  * CLI Configuration interface
@@ -536,6 +536,12 @@ async function processContent(config: CLIConfig): Promise<void> {
         results: results
       };
       
+      // Ensure output directory exists for the report
+      const outputDirForReport = dirname(reportPath);
+      if (!existsSync(outputDirForReport)) {
+        mkdirSync(outputDirForReport, { recursive: true });
+      }
+
       writeFileSync(reportPath, JSON.stringify(reportData, null, 2));
       
       if (config.verbose > 1) {

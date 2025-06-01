@@ -29,7 +29,8 @@ import {
   FileText,
   ExternalLink,
   Loader2,
-  AlertCircle
+  AlertCircle,
+  Image
 } from 'lucide-react';
 import { 
   type Monster, 
@@ -39,7 +40,8 @@ import {
   type Rule,
   type Proficiency,
   ContentType,
-  type AnyContent
+  type AnyContent,
+  ContentCategory
 } from '../../lib/types/content';
 
 /**
@@ -110,7 +112,7 @@ function MonsterPreview({ monster, compact = false }: { monster: Monster; compac
             {monster.title}
           </h3>
           <p className="text-xs text-muted-foreground">
-            {monster.size} {monster.type}, {monster.alignment}
+            {monster.primaryCharacteristics.size} {monster.primaryCharacteristics.type}, {monster.encounterSetup.alignment}
           </p>
         </div>
       </div>
@@ -119,19 +121,19 @@ function MonsterPreview({ monster, compact = false }: { monster: Monster; compac
       <div className="grid grid-cols-2 gap-2 text-xs">
         <div>
           <span className="text-muted-foreground">AC:</span>
-          <span className="ml-1 font-medium">{monster.armorClass}</span>
+          <span className="ml-1 font-medium">{monster.primaryCharacteristics.armorClass}</span>
         </div>
         <div>
           <span className="text-muted-foreground">HD:</span>
-          <span className="ml-1 font-medium">{monster.hitDice}</span>
-        </div>
-        <div>
-          <span className="text-muted-foreground">HP:</span>
-          <span className="ml-1 font-medium">{monster.hitPoints}</span>
+          <span className="ml-1 font-medium">{monster.primaryCharacteristics.hitDice}</span>
         </div>
         <div>
           <span className="text-muted-foreground">MV:</span>
-          <span className="ml-1 font-medium">{monster.movement}</span>
+          <span className="ml-1 font-medium">{monster.primaryCharacteristics.speedLand || 'N/A'}</span>
+        </div>
+        <div>
+          <span className="text-muted-foreground">XP:</span>
+          <span className="ml-1 font-medium">{monster.encounterSetup.xp}</span>
         </div>
       </div>
 
@@ -204,7 +206,7 @@ function ClassPreview({ characterClass, compact = false }: { characterClass: Cha
             {characterClass.title}
           </h3>
           <p className="text-xs text-muted-foreground">
-            {characterClass.classType} Class
+            {characterClass.title} Class
           </p>
         </div>
       </div>
@@ -217,10 +219,10 @@ function ClassPreview({ characterClass, compact = false }: { characterClass: Cha
             <span className="ml-1 font-medium">{characterClass.requirements}</span>
           </div>
         )}
-        {characterClass.hitDie && (
+        {characterClass.hitDice && (
           <div>
-            <span className="text-muted-foreground">Hit Die:</span>
-            <span className="ml-1 font-medium">{characterClass.hitDie}</span>
+            <span className="text-muted-foreground">Hit Dice:</span>
+            <span className="ml-1 font-medium">{characterClass.hitDice}</span>
           </div>
         )}
       </div>
@@ -361,38 +363,28 @@ export function ContentPreview({
   error, 
   compact = false 
 }: ContentPreviewProps) {
-  // Loading state
   if (isLoading) {
     return <LoadingPreview compact={compact} />;
   }
-
-  // Error state
   if (error) {
     return <ErrorPreview error={error} compact={compact} />;
   }
 
-  // Render appropriate preview based on content type
   switch (content.contentType) {
     case ContentType.MONSTER:
       return <MonsterPreview monster={content as Monster} compact={compact} />;
-    
     case ContentType.SPELL:
       return <SpellPreview spell={content as Spell} compact={compact} />;
-    
     case ContentType.CLASS:
       return <ClassPreview characterClass={content as CharacterClass} compact={compact} />;
-    
     case ContentType.EQUIPMENT:
       return <EquipmentPreview equipment={content as Equipment} compact={compact} />;
-    
     case ContentType.RULE:
     case ContentType.DOMAIN_RULE:
     case ContentType.JUDGE_TOOL:
       return <RulePreview rule={content as Rule} compact={compact} />;
-    
     case ContentType.PROFICIENCY:
       return <ProficiencyPreview proficiency={content as Proficiency} compact={compact} />;
-    
     default:
       return (
         <div className={`${compact ? 'p-2' : 'p-3'}`}>
@@ -429,25 +421,19 @@ export function AsyncContentPreview({
       try {
         setIsLoading(true);
         setError(null);
-
-        // Simulate API call - replace with actual content loading logic
         await new Promise(resolve => setTimeout(resolve, 300));
-        
         if (isCancelled) return;
-
-        // Mock content - replace with actual content fetching
-        const mockContent: AnyContent = {
+        const mockContentData: AnyContent = {
           id: contentId,
           title: `Sample ${contentType}`,
           description: 'This is a sample description for preview purposes.',
           contentType,
-          tags: [],
-          createdAt: new Date(),
-          updatedAt: new Date()
+          category: ContentCategory.RULEBOOK,
+          sourceFile: 'mock.md',
         } as AnyContent;
 
-        setContent(mockContent);
-        onContentLoad?.(mockContent);
+        setContent(mockContentData);
+        onContentLoad?.(mockContentData);
       } catch (err) {
         if (!isCancelled) {
           setError(err instanceof Error ? err.message : 'Failed to load content');
@@ -466,11 +452,7 @@ export function AsyncContentPreview({
     };
   }, [contentId, contentType, onContentLoad]);
 
-  if (!content) {
-    return <ContentPreview content={{} as AnyContent} isLoading={isLoading} error={error || undefined} compact={compact} />;
-  }
-
-  return <ContentPreview content={content} compact={compact} />;
+  return <ContentPreview content={content || {} as AnyContent} isLoading={isLoading} error={error || undefined} compact={compact} />;
 }
 
 export default ContentPreview; 

@@ -19,7 +19,7 @@
  */
 
 import React, { useState, useCallback, ReactNode } from 'react';
-import { Copy, Check, AlertCircle, Loader2 } from 'lucide-react';
+import { Copy, Check, AlertCircle } from 'lucide-react';
 import { type BaseContent, type ContentType } from '../../lib/types/content';
 import { CopyButton, Backlinks, createCopyContent } from '@/components/ui';
 import { ReferenceRegistry } from '@/lib/cross-references';
@@ -190,7 +190,7 @@ export function BaseContentCard({
   };
 
   // Generate content for copying
-  const copyContent = content ? createCopyContent(content) : { text: '' };
+  const copyContent = content ? createCopyContent(content) : '';
 
   return (
     <div

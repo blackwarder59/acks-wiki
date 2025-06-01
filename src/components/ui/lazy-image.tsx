@@ -132,8 +132,8 @@ const LoadingSpinner: React.FC<{ className?: string }> = ({ className }) => (
  */
 function useIntersectionObserver(
   config: Required<LazyImageConfig>
-): [React.RefObject<HTMLElement>, boolean] {
-  const ref = useRef<HTMLElement>(null);
+): [React.RefObject<HTMLDivElement | null>, boolean] {
+  const ref = useRef<HTMLDivElement | null>(null);
   const [isIntersecting, setIsIntersecting] = useState(false);
 
   useEffect(() => {

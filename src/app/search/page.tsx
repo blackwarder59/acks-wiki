@@ -73,82 +73,60 @@ function SearchPageInner() {
   }, [initialQuery, query, setQuery]);
 
   /**
-   * Initialize search index with mock data for now
-   * In a real implementation, this would load from your content API
+   * Initialize search index with real ACKS II content
    */
   useEffect(() => {
     if (!isInitialized && !isIndexReady) {
-      // Mock data for demonstration
-      const mockContent: AnyContent[] = [
-        {
-          id: 'griffon',
-          title: 'Griffon',
-          description: 'A majestic creature with the body of a lion and the head and wings of an eagle.',
-          sourceFile: 'mock/griffon.md',
-          category: ContentCategory.MONSTROUS_MANUAL,
-          contentType: ContentType.MONSTER,
-          primaryCharacteristics: {
-            type: 'Monstrosity',
-            size: 'Large',
-            armorClass: 17,
-            hitDice: '7d8',
-            attacks: '2 claws, 1 bite',
-            damage: '1d4/1d4/2d8',
-            save: 'F7',
-            morale: '+1',
-            vision: 'Normal'
-          },
-          encounterSetup: {
-            alignment: 'Neutral',
-            xp: 1100
-          }
-        } as AnyContent,
-        {
-          id: 'fireball',
-          title: 'Fireball',
-          description: 'A bright streak flashes from your pointing finger to a point you choose.',
-          sourceFile: 'mock/fireball.md',
-          category: ContentCategory.RULEBOOK,
-          contentType: ContentType.SPELL,
-          magicType: MagicType.ARCANE,
-          spellType: 'Evocation',
-          level: 3,
-          range: '150 feet',
-          duration: 'Instantaneous'
-        } as AnyContent,
-        {
-          id: 'fighter',
-          title: 'Fighter',
-          description: 'A master of martial combat, skilled with a variety of weapons and armor.',
-          sourceFile: 'mock/fighter.md',
-          category: ContentCategory.RULEBOOK,
-          contentType: ContentType.CLASS,
-          keyAttribute: 'Strength',
-          requirements: 'None',
-          hitDice: 'd10',
-          maximumLevel: 14,
-          levelProgression: [],
-          combatProgression: [],
-          combatCharacteristics: {
-            weaponProficiencies: 'All',
-            armorProficiencies: 'All',
-            fightingStyles: 'All',
-            progressionNotes: 'Standard fighter progression'
-          },
-          startingPowers: [],
-          additionalPowers: [],
-          proficiencyProgression: {
-            starting: '4',
-            classProficiencies: '1 per 2 levels',
-            generalProficiencies: '1 per 4 levels'
-          },
-          classProficiencies: [],
-          templates: []
-        } as AnyContent
-      ];
+      // Import real ACKS II content
+      import('@/data/all-monsters.json').then(({ default: allMonsters }) => {
+        import('@/data/real-spells.json').then(({ default: realSpells }) => {
+          // Convert monsters to search format
+          const monsterContent: AnyContent[] = allMonsters.map(monster => ({
+            id: monster.id,
+            title: monster.name,
+            description: monster.description || `${monster.stats.type} creature with AC ${monster.stats.armorClass}, HD ${monster.stats.hitDice}`,
+            sourceFile: monster.sourceFile,
+            category: ContentCategory.MONSTROUS_MANUAL,
+            contentType: ContentType.MONSTER,
+            primaryCharacteristics: {
+              type: monster.stats.type,
+              size: monster.stats.size,
+              armorClass: monster.stats.armorClass,
+              hitDice: monster.stats.hitDice,
+              attacks: monster.stats.attacks,
+              damage: monster.stats.damage,
+              save: monster.stats.save,
+              morale: monster.stats.morale,
+              vision: monster.stats.vision
+            },
+            encounterSetup: {
+              alignment: monster.encounterInfo.alignment,
+              xp: monster.encounterInfo.xp
+            }
+          })) as AnyContent[];
 
-      initializeIndex(mockContent);
-      setIsInitialized(true);
+          // Convert spells to search format
+          const spellContent: AnyContent[] = realSpells.map(spell => ({
+            id: spell.id,
+            title: spell.name,
+            description: spell.description || `${spell.magicType} ${spell.level} spell of ${spell.spellType}`,
+            sourceFile: spell.sourceFile,
+            category: ContentCategory.RULEBOOK,
+            contentType: ContentType.SPELL,
+            magicType: spell.magicType === 'Arcane' ? MagicType.ARCANE : MagicType.DIVINE,
+            spellType: spell.spellType,
+            level: spell.level,
+            range: spell.range,
+            duration: spell.duration
+          })) as AnyContent[];
+
+          // Combine all content
+          const allContent = [...monsterContent, ...spellContent];
+          
+          initializeIndex(allContent);
+          setIsInitialized(true);
+        });
+      });
     }
   }, [isInitialized, isIndexReady, initializeIndex]);
 
@@ -196,6 +174,7 @@ function SearchPageInner() {
         characterLevel: [1, 14],
         monsterHD: [0.25, 20],
         classType: [],
+        spellClass: [],
         equipmentCategory: [],
         spellSchool: [],
         monsterType: [],

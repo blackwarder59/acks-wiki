@@ -425,16 +425,16 @@ export const LazyComponents = {
 
   // UI components
   AdvancedFilters: createLazyComponent(
-    () => import('@/components/ui/advanced-filters')
+    () => import('@/components/ui/advanced-filters').then(module => ({ default: module.AdvancedFilters }))
   ),
   
   SearchResults: createLazyComponent(
-    () => import('@/components/ui/search-results')
+    () => import('@/components/ui/search-results').then(module => ({ default: module.SearchResults }))
   ),
 
-  // Tooltip demo (for development)
-  TooltipDemo: createLazyComponent(
-    () => import('@/app/tooltip-demo/page')
+  // Performance demo (for development)
+  PerformanceDemo: createLazyComponent(
+    () => import('@/app/performance-demo/page')
   )
 };
 

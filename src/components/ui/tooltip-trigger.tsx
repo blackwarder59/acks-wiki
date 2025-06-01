@@ -62,12 +62,12 @@ export interface TooltipTriggerProps {
  * Touch interaction hook
  */
 function useTouchInteraction(
-  elementRef: React.RefObject<HTMLElement>,
+  elementRef: React.RefObject<HTMLElement | null>,
   onTouchStart: () => void,
   onTouchEnd: () => void,
   enabled: boolean = true
 ) {
-  const touchTimeoutRef = useRef<NodeJS.Timeout>();
+  const touchTimeoutRef = useRef<NodeJS.Timeout | null>(null);
   const isTouchingRef = useRef(false);
 
   const handleTouchStart = useCallback((event: TouchEvent) => {
@@ -91,7 +91,7 @@ function useTouchInteraction(
     
     if (touchTimeoutRef.current) {
       clearTimeout(touchTimeoutRef.current);
-      touchTimeoutRef.current = undefined;
+      touchTimeoutRef.current = null;
     }
     
     onTouchEnd();
@@ -121,7 +121,7 @@ function useTouchInteraction(
  * Keyboard interaction hook
  */
 function useKeyboardInteraction(
-  elementRef: React.RefObject<HTMLElement>,
+  elementRef: React.RefObject<HTMLElement | null>,
   onKeyboardShow: () => void,
   onKeyboardHide: () => void,
   enabled: boolean = true
@@ -315,21 +315,31 @@ export const TooltipTrigger = forwardRef<HTMLElement, TooltipTriggerProps>(({
   );
 
   // Clone child element with event handlers
+  const { tabIndex: currentTabIndex, style: currentStyle, ...otherChildProps } = (children.props || {}) as Record<string, any>;
+
+  let newTabIndex = currentTabIndex;
+  if (enableKeyboard && !disabled) {
+    newTabIndex = currentTabIndex ?? 0;
+  }
+
+  const newStyle = {
+    ...currentStyle,
+    ...(enableKeyboard && !disabled && {
+      outline: 'none',
+      cursor: 'pointer'
+    })
+  };
+
   const childElement = React.cloneElement(children, {
+    ...otherChildProps,
     ref: combinedRef,
     onMouseEnter: handleMouseEnter,
     onMouseLeave: handleMouseLeave,
-    tabIndex: enableKeyboard && !disabled ? (children.props.tabIndex ?? 0) : children.props.tabIndex,
+    tabIndex: newTabIndex,
     'aria-describedby': disabled ? undefined : 'tooltip',
     'data-tooltip-trigger': !disabled ? 'true' : undefined,
-    style: {
-      ...children.props.style,
-      ...(enableKeyboard && !disabled && {
-        outline: 'none',
-        cursor: 'pointer'
-      })
-    }
-  });
+    style: newStyle,
+  } as any);
 
   return childElement;
 });

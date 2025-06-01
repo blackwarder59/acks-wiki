@@ -18,7 +18,7 @@
  */
 
 import React, { useState, useCallback } from 'react';
-import { Bookmark, BookmarkCheck, Loader2, Plus } from 'lucide-react';
+import { Bookmark, BookmarkCheck, Loader2 } from 'lucide-react';
 import { useBookmarks, type BookmarkCategory } from '../../lib/hooks/use-bookmarks';
 import { type AnyContent } from '../../lib/types/content';
 
@@ -51,12 +51,10 @@ export interface BookmarkButtonProps {
  */
 function CategorySelector({
   categories,
-  selectedCategory,
   onCategorySelect,
   onClose
 }: {
   categories: BookmarkCategory[];
-  selectedCategory?: string;
   onCategorySelect: (categoryId: string) => void;
   onClose: () => void;
 }) {
@@ -277,7 +275,6 @@ export function BookmarkButton({
           {/* Dropdown */}
           <CategorySelector
             categories={categories}
-            selectedCategory={defaultCategory}
             onCategorySelect={handleCategorySelect}
             onClose={() => setShowCategories(false)}
           />

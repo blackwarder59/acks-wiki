@@ -1,15 +1,15 @@
-import { Sword, Shield, Scroll, BookOpen, Crown, Hammer } from 'lucide-react'
+import { Sword, Shield, Scroll, BookOpen, Crown, Hammer, Star, Users, Trophy, Zap } from 'lucide-react'
 import Link from 'next/link'
 
 /**
- * ACKS II Wiki Homepage
+ * Enhanced ACKS II Wiki Homepage
  * 
  * Features:
- * - Welcome message and overview
- * - Quick access cards to main content categories
- * - Recent updates and popular content
- * - Mobile-responsive grid layout
- * - Call-to-action for getting started
+ * - Stunning hero section with gradients
+ * - Visually appealing cards with depth
+ * - Better visual hierarchy and spacing
+ * - Intuitive navigation patterns
+ * - Book-inspired design elements
  */
 export default function HomePage() {
   const contentCategories = [
@@ -19,7 +19,9 @@ export default function HomePage() {
       icon: <Sword className="h-8 w-8" />,
       href: '/monsters',
       count: '292 entries',
-      color: 'text-red-600 dark:text-red-400'
+      gradient: 'from-red-500 to-orange-600',
+      bgGradient: 'from-red-50 to-orange-50 dark:from-red-950/30 dark:to-orange-950/30',
+      iconColor: 'text-red-600 dark:text-red-400'
     },
     {
       title: 'Spells',
@@ -27,7 +29,9 @@ export default function HomePage() {
       icon: <Scroll className="h-8 w-8" />,
       href: '/spells',
       count: '300+ spells',
-      color: 'text-purple-600 dark:text-purple-400'
+      gradient: 'from-purple-500 to-violet-600',
+      bgGradient: 'from-purple-50 to-violet-50 dark:from-purple-950/30 dark:to-violet-950/30',
+      iconColor: 'text-purple-600 dark:text-purple-400'
     },
     {
       title: 'Classes',
@@ -35,7 +39,9 @@ export default function HomePage() {
       icon: <Shield className="h-8 w-8" />,
       href: '/classes',
       count: '20+ classes',
-      color: 'text-blue-600 dark:text-blue-400'
+      gradient: 'from-blue-500 to-indigo-600',
+      bgGradient: 'from-blue-50 to-indigo-50 dark:from-blue-950/30 dark:to-indigo-950/30',
+      iconColor: 'text-blue-600 dark:text-blue-400'
     },
     {
       title: 'Equipment',
@@ -43,7 +49,9 @@ export default function HomePage() {
       icon: <Hammer className="h-8 w-8" />,
       href: '/equipment',
       count: 'Complete catalog',
-      color: 'text-amber-600 dark:text-amber-400'
+      gradient: 'from-amber-500 to-yellow-600',
+      bgGradient: 'from-amber-50 to-yellow-50 dark:from-amber-950/30 dark:to-yellow-950/30',
+      iconColor: 'text-amber-600 dark:text-amber-400'
     },
     {
       title: 'Rules',
@@ -51,7 +59,9 @@ export default function HomePage() {
       icon: <BookOpen className="h-8 w-8" />,
       href: '/rules',
       count: 'Full rulebook',
-      color: 'text-green-600 dark:text-green-400'
+      gradient: 'from-green-500 to-emerald-600',
+      bgGradient: 'from-green-50 to-emerald-50 dark:from-green-950/30 dark:to-emerald-950/30',
+      iconColor: 'text-green-600 dark:text-green-400'
     },
     {
       title: 'Judge Tools',
@@ -59,110 +69,176 @@ export default function HomePage() {
       icon: <Crown className="h-8 w-8" />,
       href: '/judge-tools',
       count: 'GM resources',
-      color: 'text-indigo-600 dark:text-indigo-400'
+      gradient: 'from-indigo-500 to-purple-600',
+      bgGradient: 'from-indigo-50 to-purple-50 dark:from-indigo-950/30 dark:to-purple-950/30',
+      iconColor: 'text-indigo-600 dark:text-indigo-400'
     },
   ]
 
   return (
-    <div className="max-w-7xl mx-auto">
-      {/* Hero Section */}
-      <div className="text-center mb-12">
-        <h1 className="text-4xl md:text-6xl font-bold text-foreground mb-4">
-          Welcome to the <span className="text-primary">ACKS II</span> Wiki
-        </h1>
-        <p className="text-xl text-muted-foreground mb-8 max-w-3xl mx-auto">
-          Your comprehensive guide to the Adventurer Conqueror King System II. 
-          Explore monsters, spells, classes, and rules for epic fantasy campaigns 
-          in the declining Auran Empire.
-        </p>
-        <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <Link
-            href="/monsters"
-            className="inline-flex items-center px-6 py-3 bg-primary text-primary-foreground rounded-lg hover:bg-primary/90 transition-colors font-medium"
-          >
-            <Sword className="h-5 w-5 mr-2" />
-            Browse Monsters
-          </Link>
-          <Link
-            href="/rules/character-creation"
-            className="inline-flex items-center px-6 py-3 border border-input bg-background hover:bg-accent hover:text-accent-foreground rounded-lg transition-colors font-medium"
-          >
-            <Shield className="h-5 w-5 mr-2" />
-            Create Character
-          </Link>
-        </div>
-      </div>
-
-      {/* Content Categories Grid */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
-        {contentCategories.map((category) => (
-          <Link
-            key={category.title}
-            href={category.href}
-            className="group block p-6 bg-card border border-border rounded-lg hover:shadow-lg transition-all duration-200 hover:border-primary/50"
-          >
-            <div className="flex items-start space-x-4">
-              <div className={`${category.color} group-hover:scale-110 transition-transform`}>
-                {category.icon}
+    <div className="min-h-screen">
+      {/* Enhanced Hero Section */}
+      <div className="relative overflow-hidden">
+        {/* Background with multiple gradients for depth */}
+        <div className="absolute inset-0 bg-gradient-to-br from-slate-50 via-amber-50/50 to-orange-50/30 dark:from-slate-900 dark:via-slate-800 dark:to-slate-700" />
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_120%,rgba(120,119,198,0.1),rgba(255,255,255,0))]" />
+        
+        {/* Decorative elements */}
+        <div className="absolute top-10 left-10 w-32 h-32 bg-gradient-to-br from-amber-200/20 to-orange-300/20 rounded-full blur-xl" />
+        <div className="absolute bottom-10 right-10 w-24 h-24 bg-gradient-to-br from-purple-200/20 to-blue-300/20 rounded-full blur-xl" />
+        
+        <div className="relative max-w-7xl mx-auto px-4 py-20 sm:py-32">
+          <div className="text-center">
+            {/* Main heading with enhanced typography */}
+            <div className="mb-8">
+              <div className="inline-flex items-center gap-2 px-4 py-2 bg-amber-100 dark:bg-amber-900/30 text-amber-800 dark:text-amber-300 text-sm font-medium rounded-full mb-6">
+                <Star className="h-4 w-4" />
+                The Complete ACKS II Reference
               </div>
-              <div className="flex-1">
-                <h3 className="text-lg font-semibold text-card-foreground mb-2 group-hover:text-primary transition-colors">
-                  {category.title}
-                </h3>
-                <p className="text-sm text-muted-foreground mb-3">
-                  {category.description}
-                </p>
-                <span className="text-xs font-medium text-primary bg-primary/10 px-2 py-1 rounded-full">
-                  {category.count}
+              
+              <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold tracking-tight mb-6">
+                <span className="block text-slate-900 dark:text-white">Welcome to the</span>
+                <span className="block bg-gradient-to-r from-amber-600 via-orange-600 to-red-600 bg-clip-text text-transparent">
+                  ACKS II Wiki
                 </span>
-              </div>
+              </h1>
+              
+              <p className="text-xl sm:text-2xl text-slate-600 dark:text-slate-300 max-w-4xl mx-auto leading-relaxed">
+                Your complete companion to the <strong>Adventurer Conqueror King System II</strong>. 
+                Explore 292 monsters, 300+ spells, and comprehensive rules for epic fantasy campaigns.
+              </p>
             </div>
-          </Link>
-        ))}
-      </div>
 
-      {/* Quick Stats */}
-      <div className="bg-muted rounded-lg p-8 mb-12">
-        <h2 className="text-2xl font-bold text-foreground mb-6 text-center">
-          Content Overview
-        </h2>
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
-          <div>
-            <div className="text-3xl font-bold text-primary mb-2">292</div>
-            <div className="text-sm text-muted-foreground">Monsters</div>
-          </div>
-          <div>
-            <div className="text-3xl font-bold text-primary mb-2">300+</div>
-            <div className="text-sm text-muted-foreground">Spells</div>
-          </div>
-          <div>
-            <div className="text-3xl font-bold text-primary mb-2">20+</div>
-            <div className="text-sm text-muted-foreground">Classes</div>
-          </div>
-          <div>
-            <div className="text-3xl font-bold text-primary mb-2">620+</div>
-            <div className="text-sm text-muted-foreground">Total Pages</div>
+            {/* Enhanced action buttons */}
+            <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16">
+              <Link
+                href="/monsters"
+                className="group inline-flex items-center px-8 py-4 bg-gradient-to-r from-red-600 to-orange-600 text-white rounded-xl font-semibold shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-200"
+              >
+                <Sword className="h-5 w-5 mr-3 group-hover:rotate-12 transition-transform" />
+                Explore Monsters
+                <div className="ml-2 opacity-0 group-hover:opacity-100 transition-opacity">→</div>
+              </Link>
+              <Link
+                href="/rules/character-creation"
+                className="group inline-flex items-center px-8 py-4 bg-white dark:bg-slate-800 text-slate-900 dark:text-white border-2 border-slate-200 dark:border-slate-600 rounded-xl font-semibold shadow-lg hover:shadow-xl hover:border-slate-300 dark:hover:border-slate-500 transform hover:scale-105 transition-all duration-200"
+              >
+                <Shield className="h-5 w-5 mr-3 group-hover:rotate-12 transition-transform" />
+                Create Character
+                <div className="ml-2 opacity-0 group-hover:opacity-100 transition-opacity">→</div>
+              </Link>
+            </div>
+
+            {/* Quick stats with visual appeal */}
+            <div className="grid grid-cols-2 sm:grid-cols-4 gap-6 max-w-3xl mx-auto">
+              {[
+                { number: '292', label: 'Monsters', icon: Sword },
+                { number: '300+', label: 'Spells', icon: Scroll },
+                { number: '20+', label: 'Classes', icon: Shield },
+                { number: '620+', label: 'Total Pages', icon: BookOpen },
+              ].map((stat, index) => (
+                <div key={index} className="text-center">
+                  <div className="inline-flex items-center justify-center w-12 h-12 bg-white dark:bg-slate-800 rounded-lg shadow-md mb-3">
+                    <stat.icon className="h-6 w-6 text-slate-600 dark:text-slate-400" />
+                  </div>
+                  <div className="text-2xl font-bold text-slate-900 dark:text-white">{stat.number}</div>
+                  <div className="text-sm text-slate-600 dark:text-slate-400">{stat.label}</div>
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       </div>
 
-      {/* Getting Started */}
-      <div className="text-center">
-        <h2 className="text-2xl font-bold text-foreground mb-4">
-          New to ACKS II?
-        </h2>
-        <p className="text-muted-foreground mb-6 max-w-2xl mx-auto">
-          Start your journey in the world of sword and sorcery. Learn the basics 
-          of character creation, explore the setting, and discover what makes 
-          ACKS II unique among fantasy RPGs.
-        </p>
-        <Link
-          href="/rules/getting-started"
-          className="inline-flex items-center px-6 py-3 bg-secondary text-secondary-foreground rounded-lg hover:bg-secondary/80 transition-colors font-medium"
-        >
-          <BookOpen className="h-5 w-5 mr-2" />
-          Getting Started Guide
-        </Link>
+      {/* Enhanced Content Categories */}
+      <div className="max-w-7xl mx-auto px-4 py-20">
+        <div className="text-center mb-16">
+          <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 dark:text-white mb-4">
+            Explore the Archive
+          </h2>
+          <p className="text-lg text-slate-600 dark:text-slate-400 max-w-2xl mx-auto">
+            Dive deep into the world of ACKS II with our comprehensive collection of rules, creatures, and lore.
+          </p>
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {contentCategories.map((category, index) => (
+            <Link
+              key={category.title}
+              href={category.href}
+              className="group relative block"
+            >
+              <div className={`relative overflow-hidden rounded-2xl bg-gradient-to-br ${category.bgGradient} p-8 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105 border border-white/20`}>
+                {/* Decorative gradient overlay */}
+                <div className={`absolute top-0 right-0 w-24 h-24 bg-gradient-to-br ${category.gradient} opacity-10 rounded-full blur-xl transform translate-x-8 -translate-y-8`} />
+                
+                {/* Icon with enhanced styling */}
+                <div className={`inline-flex items-center justify-center w-16 h-16 rounded-xl bg-gradient-to-br ${category.gradient} shadow-lg mb-6 group-hover:scale-110 transition-transform duration-300`}>
+                  <div className="text-white">
+                    {category.icon}
+                  </div>
+                </div>
+
+                {/* Content */}
+                <div className="relative z-10">
+                  <h3 className="text-xl font-bold text-slate-900 dark:text-white mb-3 group-hover:text-transparent group-hover:bg-gradient-to-r group-hover:bg-clip-text group-hover:from-slate-900 group-hover:to-slate-600 dark:group-hover:from-white dark:group-hover:to-slate-300 transition-all duration-300">
+                    {category.title}
+                  </h3>
+                  <p className="text-slate-600 dark:text-slate-400 mb-4 leading-relaxed">
+                    {category.description}
+                  </p>
+                  
+                  {/* Count badge */}
+                  <div className="inline-flex items-center gap-2">
+                    <span className={`px-3 py-1 bg-gradient-to-r ${category.gradient} text-white text-sm font-medium rounded-full shadow-sm`}>
+                      {category.count}
+                    </span>
+                    <div className="opacity-0 group-hover:opacity-100 transition-opacity duration-300 text-slate-600 dark:text-slate-400">
+                      →
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </Link>
+          ))}
+        </div>
+      </div>
+
+      {/* Enhanced Getting Started Section */}
+      <div className="bg-gradient-to-br from-slate-50 to-slate-100 dark:from-slate-800 dark:to-slate-900">
+        <div className="max-w-4xl mx-auto px-4 py-20 text-center">
+          <div className="inline-flex items-center gap-2 px-4 py-2 bg-blue-100 dark:bg-blue-900/30 text-blue-800 dark:text-blue-300 text-sm font-medium rounded-full mb-6">
+            <Users className="h-4 w-4" />
+            New Player Friendly
+          </div>
+          
+          <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 dark:text-white mb-6">
+            New to ACKS II?
+          </h2>
+          <p className="text-lg text-slate-600 dark:text-slate-400 mb-8 max-w-2xl mx-auto leading-relaxed">
+            Start your journey in the world of sword and sorcery. Learn the basics of character creation, 
+            explore the setting, and discover what makes ACKS II unique among fantasy RPGs.
+          </p>
+          
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <Link
+              href="/rules/getting-started"
+              className="group inline-flex items-center px-8 py-4 bg-gradient-to-r from-blue-600 to-indigo-600 text-white rounded-xl font-semibold shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-200"
+            >
+              <BookOpen className="h-5 w-5 mr-3 group-hover:rotate-12 transition-transform" />
+              Getting Started Guide
+              <div className="ml-2 opacity-0 group-hover:opacity-100 transition-opacity">→</div>
+            </Link>
+            <Link
+              href="/rules/quick-reference"
+              className="group inline-flex items-center px-8 py-4 bg-white dark:bg-slate-800 text-slate-900 dark:text-white border-2 border-slate-200 dark:border-slate-600 rounded-xl font-semibold shadow-lg hover:shadow-xl hover:border-slate-300 dark:hover:border-slate-500 transform hover:scale-105 transition-all duration-200"
+            >
+              <Zap className="h-5 w-5 mr-3 group-hover:rotate-12 transition-transform" />
+              Quick Reference
+              <div className="ml-2 opacity-0 group-hover:opacity-100 transition-opacity">→</div>
+            </Link>
+          </div>
+        </div>
       </div>
     </div>
   )

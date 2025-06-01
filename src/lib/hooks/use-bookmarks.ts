@@ -165,6 +165,16 @@ const STORAGE_KEYS = {
   CATEGORIES: 'acks-wiki-bookmark-categories'
 } as const;
 
+// Types for localStorage data (with string dates before conversion)
+interface BookmarkItemFromStorage extends Omit<BookmarkItem, 'createdAt' | 'lastAccessed'> {
+  createdAt: string;
+  lastAccessed?: string;
+}
+
+interface RecentlyViewedItemFromStorage extends Omit<RecentlyViewedItem, 'viewedAt'> {
+  viewedAt: string;
+}
+
 // Configuration
 const CONFIG = {
   MAX_RECENTLY_VIEWED: 20,
@@ -199,8 +209,8 @@ export function useBookmarks(): UseBookmarksReturn {
       // Load bookmarks
       const bookmarksData = localStorage.getItem(STORAGE_KEYS.BOOKMARKS);
       if (bookmarksData) {
-        const parsed = JSON.parse(bookmarksData);
-        const bookmarksWithDates = parsed.map((bookmark: any) => ({
+        const parsed: BookmarkItemFromStorage[] = JSON.parse(bookmarksData);
+        const bookmarksWithDates = parsed.map((bookmark: BookmarkItemFromStorage) => ({
           ...bookmark,
           createdAt: new Date(bookmark.createdAt),
           lastAccessed: bookmark.lastAccessed ? new Date(bookmark.lastAccessed) : undefined
@@ -211,8 +221,8 @@ export function useBookmarks(): UseBookmarksReturn {
       // Load recently viewed
       const recentlyViewedData = localStorage.getItem(STORAGE_KEYS.RECENTLY_VIEWED);
       if (recentlyViewedData) {
-        const parsed = JSON.parse(recentlyViewedData);
-        const recentlyViewedWithDates = parsed.map((item: any) => ({
+        const parsed: RecentlyViewedItemFromStorage[] = JSON.parse(recentlyViewedData);
+        const recentlyViewedWithDates = parsed.map((item: RecentlyViewedItemFromStorage) => ({
           ...item,
           viewedAt: new Date(item.viewedAt)
         }));
@@ -282,7 +292,7 @@ export function useBookmarks(): UseBookmarksReturn {
    */
   useEffect(() => {
     const handleStorageChange = (e: StorageEvent) => {
-      if (Object.values(STORAGE_KEYS).includes(e.key as any)) {
+      if (e.key && Object.values(STORAGE_KEYS).includes(e.key as typeof STORAGE_KEYS[keyof typeof STORAGE_KEYS])) {
         loadData();
       }
     };

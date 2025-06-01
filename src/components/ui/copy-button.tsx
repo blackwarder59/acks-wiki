@@ -220,7 +220,7 @@ export const CopyButton: React.FC<CopyButtonProps> = ({
   const [copyState, setCopyState] = useState<CopyState>('idle');
   const [selectedFormat, setSelectedFormat] = useState<CopyFormat>(config.defaultFormat);
   const [showFormatDropdown, setShowFormatDropdown] = useState(false);
-  const timeoutRef = useRef<NodeJS.Timeout>();
+  const timeoutRef = useRef<NodeJS.Timeout | null>(null);
 
   // Determine available formats
   const availableFormats: CopyFormat[] = typeof content === 'string' 

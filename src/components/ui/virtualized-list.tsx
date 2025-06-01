@@ -109,6 +109,15 @@ export interface VirtualizedListProps<T> {
 }
 
 /**
+ * Handle exposed by VirtualizedList via ref
+ */
+export interface VirtualizedListHandle {
+  scrollToIndex: (index: number, behavior?: ScrollBehavior) => void;
+  scrollToTop: (behavior?: ScrollBehavior) => void;
+  getScrollPosition: () => number;
+}
+
+/**
  * Default configuration
  */
 const DEFAULT_CONFIG: Required<VirtualizedListConfig> = {
@@ -200,31 +209,44 @@ function useVirtualization<T>(
 }
 
 /**
- * Individual virtualized item wrapper
+ * Individual virtualized item wrapper - Props definition
  */
-const VirtualizedItem = React.memo(<T,>({
-  item,
-  index,
-  renderItem: RenderItem,
-  position,
-  onHeightChange,
-  ...props
-}: {
+interface StandaloneVirtualizedItemProps<T> {
   item: T;
   index: number;
   renderItem: React.ComponentType<VirtualizedListItemProps<T>>;
   position: number;
   onHeightChange: (index: number, height: number) => void;
-} & Omit<VirtualizedListItemProps<T>, 'item' | 'index' | 'isVisible'>) => {
+  searchQuery?: string;
+  style?: React.CSSProperties;
+  onClick?: (item: T, index: number) => void;
+  // We need to ensure all props expected by `renderItem` (via VirtualizedListItemProps<T>)
+  // that are not explicitly listed here are handled or passed if necessary.
+  // The original used: & Omit<VirtualizedListItemProps<T>, 'item' | 'index' | 'isVisible'>
+  // For simplicity, we'll explicitly pass known ones. If renderItem needs more, they must be added.
+}
+
+/**
+ * Individual virtualized item wrapper - Component definition
+ */
+const StandaloneVirtualizedItem = <T,>({
+  item,
+  index,
+  renderItem: RenderItem,
+  position,
+  onHeightChange,
+  searchQuery,
+  style,
+  onClick,
+}: StandaloneVirtualizedItemProps<T>) => {
   const ref = useRef<HTMLDivElement>(null);
 
-  // Measure height when component mounts or updates
   useEffect(() => {
     if (ref.current) {
       const height = ref.current.offsetHeight;
       onHeightChange(index, height);
     }
-  });
+  }); // Consider adding dependencies if re-measuring isn't always needed
 
   return (
     <div
@@ -234,20 +256,27 @@ const VirtualizedItem = React.memo(<T,>({
         top: position,
         left: 0,
         right: 0,
-        ...props.style
+        ...style
       }}
     >
       <RenderItem
         item={item}
         index={index}
-        isVisible={true}
-        {...props}
+        isVisible={true} // This was part of the Omit, so it must be provided by VirtualizedItem itself.
+        searchQuery={searchQuery}
+        style={style} // Pass down style
+        onClick={onClick} // Pass down onClick
+        // Any other props from VirtualizedListItemProps should be explicitly passed here
+        // if they were previously covered by the spread from Omit.
       />
     </div>
   );
-});
+};
 
-VirtualizedItem.displayName = 'VirtualizedItem';
+const VirtualizedItem = React.memo(StandaloneVirtualizedItem) as typeof StandaloneVirtualizedItem;
+
+// VirtualizedItem.displayName = 'VirtualizedItem'; // displayName is usually set on the memoized component
+// React.memo typically forwards displayName from the wrapped component.
 
 /**
  * Default empty state component
@@ -272,7 +301,11 @@ const DefaultErrorComponent: React.FC<{ error: string }> = ({ error }) => (
 /**
  * VirtualizedList component with comprehensive virtualization features
  */
-export const VirtualizedList = forwardRef(<T,>({
+export const VirtualizedList = forwardRef(<T,>(
+  props: VirtualizedListProps<T>,
+  ref: React.Ref<VirtualizedListHandle>
+) => {
+  const {
   items,
   renderItem,
   getItemKey,
@@ -290,7 +323,8 @@ export const VirtualizedList = forwardRef(<T,>({
   className,
   onItemClick,
   onScroll
-}: VirtualizedListProps<T>, ref) => {
+  } = props; // Destructure props here
+
   const config = { ...DEFAULT_CONFIG, ...userConfig };
   const containerRef = useRef<HTMLDivElement>(null);
   const [focusedIndex, setFocusedIndex] = useState(-1);

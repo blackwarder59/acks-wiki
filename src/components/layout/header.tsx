@@ -32,12 +32,9 @@ export function Header() {
 
   const navigationItems = [
     { href: '/monsters', label: 'Monsters' },
-    { href: '/spells', label: 'Spells' },
-    { href: '/classes', label: 'Classes' },
-    { href: '/equipment', label: 'Equipment' },
     { href: '/rules', label: 'Rules' },
-    { href: '/judge-tools', label: 'Judge Tools' },
-    { href: '/bookmarks', label: 'Bookmarks' },
+    { href: '/judges-journal', label: 'Judges Journal' },
+    { href: '/spells', label: 'Spells' },
   ]
 
   // Show breadcrumbs on content pages (not on home page)

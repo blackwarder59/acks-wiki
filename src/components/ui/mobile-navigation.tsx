@@ -65,7 +65,7 @@ interface MobileNavigationProps {
 }
 
 /**
- * Navigation structure for ACKS II content
+ * Navigation structure for ACKS II content - Updated to only include working routes
  */
 const navigationItems: NavigationItem[] = [
   {
@@ -82,66 +82,44 @@ const navigationItems: NavigationItem[] = [
     href: '/monsters',
     label: 'Monsters',
     icon: Shield,
-    children: [
-      { href: '/monsters/by-type', label: 'By Type', icon: ChevronRight },
-      { href: '/monsters/by-hd', label: 'By Hit Dice', icon: ChevronRight },
-      { href: '/monsters/undead', label: 'Undead', icon: ChevronRight },
-      { href: '/monsters/dragons', label: 'Dragons', icon: ChevronRight }
-    ]
+    badge: '167'
   },
   {
     href: '/spells',
     label: 'Spells',
     icon: Scroll,
     children: [
-      { href: '/spells/arcane', label: 'Arcane Spells', icon: ChevronRight },
-      { href: '/spells/divine', label: 'Divine Spells', icon: ChevronRight },
-      { href: '/spells/by-level', label: 'By Level', icon: ChevronRight },
-      { href: '/spells/by-school', label: 'By School', icon: ChevronRight }
-    ]
-  },
-  {
-    href: '/classes',
-    label: 'Classes',
-    icon: Crown,
-    children: [
-      { href: '/classes/fighter', label: 'Fighting Classes', icon: ChevronRight },
-      { href: '/classes/spellcaster', label: 'Spellcasting Classes', icon: ChevronRight },
-      { href: '/classes/hybrid', label: 'Hybrid Classes', icon: ChevronRight },
-      { href: '/classes/custom', label: 'Custom Classes', icon: ChevronRight }
-    ]
-  },
-  {
-    href: '/equipment',
-    label: 'Equipment',
-    icon: Hammer,
-    children: [
-      { href: '/equipment/weapons', label: 'Weapons', icon: ChevronRight },
-      { href: '/equipment/armor', label: 'Armor', icon: ChevronRight },
-      { href: '/equipment/gear', label: 'Adventuring Gear', icon: ChevronRight },
-      { href: '/equipment/magical', label: 'Magical Items', icon: ChevronRight }
+      { href: '/spells?magicType=Arcane', label: 'Arcane Spells', icon: ChevronRight },
+      { href: '/spells?magicType=Divine', label: 'Divine Spells', icon: ChevronRight },
+      { href: '/spells?level=1', label: 'Level 1', icon: ChevronRight },
+      { href: '/spells?level=2', label: 'Level 2', icon: ChevronRight },
+      { href: '/spells?level=3', label: 'Level 3', icon: ChevronRight },
+      { href: '/spells?level=4', label: 'Level 4', icon: ChevronRight },
+      { href: '/spells?level=5', label: 'Level 5', icon: ChevronRight },
+      { href: '/spells?level=6', label: 'Level 6', icon: ChevronRight }
     ]
   },
   {
     href: '/rules',
     label: 'Rules',
     icon: BookOpen,
+    badge: '118',
     children: [
-      { href: '/rules/core', label: 'Core Rules', icon: ChevronRight },
-      { href: '/rules/combat', label: 'Combat', icon: ChevronRight },
-      { href: '/rules/magic', label: 'Magic', icon: ChevronRight },
-      { href: '/rules/domains', label: 'Domain Rules', icon: ChevronRight }
+      { href: '/rules/character-creation', label: 'Character Creation', icon: ChevronRight },
+      { href: '/rules/classes', label: 'Character Classes', icon: ChevronRight },
+      { href: '/rules/proficiencies', label: 'Proficiencies', icon: ChevronRight },
+      { href: '/rules/equipment', label: 'Equipment & Gear', icon: ChevronRight },
+      { href: '/rules/spells', label: 'Spells & Magic', icon: ChevronRight },
+      { href: '/rules/adventures', label: 'Adventures', icon: ChevronRight },
+      { href: '/rules/campaigns', label: 'Campaigns', icon: ChevronRight },
+      { href: '/rules/armies', label: 'Armies & War', icon: ChevronRight }
     ]
   },
   {
-    href: '/judge-tools',
-    label: 'Judge Tools',
-    icon: Gavel,
-    children: [
-      { href: '/judge-tools/generators', label: 'Generators', icon: ChevronRight },
-      { href: '/judge-tools/tables', label: 'Reference Tables', icon: ChevronRight },
-      { href: '/judge-tools/campaign', label: 'Campaign Tools', icon: ChevronRight }
-    ]
+    href: '/judges-journal',
+    label: 'Judges Journal',
+    icon: Crown,
+    badge: '175'
   },
   {
     href: '/bookmarks',

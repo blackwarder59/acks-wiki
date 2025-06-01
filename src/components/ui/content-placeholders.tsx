@@ -51,10 +51,11 @@ export const SkeletonText: React.FC<{
   height?: string | number;
   className?: string;
 }> = ({ width = '100%', height = '1rem', className }) => (
+  <div style={{ width, height }}> 
   <SkeletonBase
-    className={cn("rounded", className)}
-    style={{ width, height }}
+      className={cn("rounded h-full w-full", className)} 
   />
+  </div>
 );
 
 /**

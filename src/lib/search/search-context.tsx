@@ -20,7 +20,7 @@
 
 import React, { createContext, useContext, useState, useEffect, useCallback, useMemo } from 'react';
 import Fuse, { type IFuseOptions } from 'fuse.js';
-import { AnyContent, ContentType } from '../types/content';
+import { AnyContent, ContentType, Monster, Spell, CharacterClass, Equipment } from '../types/content';
 import { SearchSuggestionsEngine, type SearchSuggestion } from './search-suggestions';
 
 /**
@@ -61,6 +61,8 @@ export interface ACKSFilters {
   monsterHD: [number, number];
   /** Class types */
   classType: string[];
+  /** Spell classes (which classes can cast the spell) */
+  spellClass: string[];
   /** Equipment categories */
   equipmentCategory: string[];
   /** Spell schools */
@@ -178,6 +180,7 @@ const DEFAULT_ACKS_FILTERS: ACKSFilters = {
   characterLevel: [1, 14],
   monsterHD: [0.25, 20],
   classType: [],
+  spellClass: [],
   equipmentCategory: [],
   spellSchool: [],
   monsterType: [],
@@ -351,13 +354,14 @@ export function SearchProvider({ children }: { children: React.ReactNode }) {
       
       // Spell level filter
       if (acksFilters.spellLevel.length > 0 && item.contentType === ContentType.SPELL) {
-        const spellLevel = (item as any).level;
-        checks.push(spellLevel && acksFilters.spellLevel.includes(spellLevel));
+        const spell = item as Spell;
+        checks.push(spell.level !== undefined && acksFilters.spellLevel.includes(spell.level));
       }
       
       // Character level filter (for classes)
       if (item.contentType === ContentType.CLASS) {
-        const maxLevel = (item as any).maximumLevel || 14;
+        const characterClass = item as CharacterClass;
+        const maxLevel = characterClass.maximumLevel || 14;
         checks.push(
           maxLevel >= acksFilters.characterLevel[0] && 
           maxLevel <= acksFilters.characterLevel[1]
@@ -366,7 +370,8 @@ export function SearchProvider({ children }: { children: React.ReactNode }) {
       
       // Monster HD filter
       if (item.contentType === ContentType.MONSTER) {
-        const hdString = (item as any).primaryCharacteristics?.hitDice || '';
+        const monster = item as Monster;
+        const hdString = monster.primaryCharacteristics?.hitDice || '';
         const hdMatch = hdString.match(/(\d+(?:\.\d+)?)/);
         if (hdMatch) {
           const hd = parseFloat(hdMatch[1]);
@@ -385,9 +390,20 @@ export function SearchProvider({ children }: { children: React.ReactNode }) {
         ));
       }
       
+      // Spell class filter (which classes can cast the spell)
+      if (acksFilters.spellClass.length > 0 && item.contentType === ContentType.SPELL) {
+        const spell = item as Spell;
+        if (spell.classes && Array.isArray(spell.classes)) {
+          checks.push(acksFilters.spellClass.some(className => 
+            (spell.classes as string[]).includes(className)
+          ));
+        }
+      }
+      
       // Equipment category filter
       if (acksFilters.equipmentCategory.length > 0 && item.contentType === ContentType.EQUIPMENT) {
-        const category = (item as any).category?.toLowerCase() || '';
+        const equipment = item as Equipment;
+        const category = equipment.category?.toLowerCase() || '';
         checks.push(acksFilters.equipmentCategory.some(cat => 
           category.includes(cat.toLowerCase())
         ));
@@ -395,7 +411,8 @@ export function SearchProvider({ children }: { children: React.ReactNode }) {
       
       // Spell school filter
       if (acksFilters.spellSchool.length > 0 && item.contentType === ContentType.SPELL) {
-        const school = (item as any).spellType?.toLowerCase() || '';
+        const spell = item as Spell;
+        const school = spell.spellType?.toLowerCase() || '';
         checks.push(acksFilters.spellSchool.some(sch => 
           school.includes(sch.toLowerCase())
         ));
@@ -403,7 +420,8 @@ export function SearchProvider({ children }: { children: React.ReactNode }) {
       
       // Monster type filter
       if (acksFilters.monsterType.length > 0 && item.contentType === ContentType.MONSTER) {
-        const type = (item as any).primaryCharacteristics?.type?.toLowerCase() || '';
+        const monster = item as Monster;
+        const type = monster.primaryCharacteristics?.type?.toLowerCase() || '';
         checks.push(acksFilters.monsterType.some(mt => 
           type.includes(mt.toLowerCase())
         ));
@@ -411,8 +429,13 @@ export function SearchProvider({ children }: { children: React.ReactNode }) {
       
       // Alignment filter
       if (acksFilters.alignment.length > 0) {
-        const alignment = (item as any).encounterSetup?.alignment?.toLowerCase() || 
-                         (item as any).alignment?.toLowerCase() || '';
+        let alignment = '';
+        if (item.contentType === ContentType.MONSTER) {
+          const monster = item as Monster;
+          alignment = monster.encounterSetup?.alignment?.toLowerCase() || '';
+        } else if ('alignment' in item) {
+          alignment = (item as any).alignment?.toLowerCase() || '';
+        }
         checks.push(acksFilters.alignment.some(al => 
           alignment.includes(al.toLowerCase())
         ));
@@ -420,7 +443,8 @@ export function SearchProvider({ children }: { children: React.ReactNode }) {
       
       // Magic type filter
       if (acksFilters.magicType.length > 0 && item.contentType === ContentType.SPELL) {
-        const magicType = (item as any).magicType?.toLowerCase() || '';
+        const spell = item as Spell;
+        const magicType = spell.magicType?.toLowerCase() || '';
         checks.push(acksFilters.magicType.some(mt => 
           magicType.includes(mt.toLowerCase())
         ));

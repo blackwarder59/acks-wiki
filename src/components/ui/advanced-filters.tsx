@@ -35,6 +35,8 @@ export interface ACKSFilters {
   monsterHD: [number, number];
   /** Class types */
   classType: string[];
+  /** Spell class (which classes can cast the spell) */
+  spellClass: string[];
   /** Equipment categories */
   equipmentCategory: string[];
   /** Spell schools */
@@ -88,6 +90,7 @@ const DEFAULT_ACKS_FILTERS: ACKSFilters = {
   characterLevel: [1, 14],
   monsterHD: [0.25, 20],
   classType: [],
+  spellClass: [],
   equipmentCategory: [],
   spellSchool: [],
   monsterType: [],
@@ -105,6 +108,20 @@ const FILTER_PRESETS: FilterPreset[] = [
     name: 'Low Level Spells',
     description: 'Spells for beginning characters (levels 1-2)',
     filters: { spellLevel: [1, 2] },
+    contentTypes: [ContentType.SPELL]
+  },
+  {
+    id: 'mage-spells',
+    name: 'Mage Spells',
+    description: 'All spells available to Mages',
+    filters: { spellClass: ['Mage'] },
+    contentTypes: [ContentType.SPELL]
+  },
+  {
+    id: 'cleric-spells',
+    name: 'Cleric Spells',
+    description: 'All divine spells available to Clerics',
+    filters: { spellClass: ['Cleric'] },
     contentTypes: [ContentType.SPELL]
   },
   {
@@ -146,6 +163,11 @@ const FILTER_OPTIONS = {
     'barbarian', 'bard', 'bladedancer', 'dwarven craftpriest', 'dwarven vaultguard',
     'elven enchanter', 'elven ranger', 'elven spellsword', 'explorer', 'mystic',
     'nobiran wonderworker', 'priestess', 'shaman', 'warlock', 'witch'
+  ],
+  spellClass: [
+    'Mage', 'Cleric', 'Bladedancer', 'Shaman', 'Warlock', 'Witch', 
+    'Elven Enchanter', 'Elven Spellsword', 'Nobiran Wonderworker', 
+    'Dwarven Craftpriest', 'Priestess', 'Mystic'
   ],
   equipmentCategory: [
     'weapons', 'armor', 'shields', 'adventuring gear', 'tools', 'containers',
@@ -365,7 +387,6 @@ export function AdvancedFilters({
   onFiltersChange,
   onContentTypesChange,
   isExpanded = false,
-  onExpandedChange,
   className = ''
 }: AdvancedFiltersProps) {
   const [expandedSections, setExpandedSections] = useState<Record<string, boolean>>({
@@ -608,6 +629,14 @@ export function AdvancedFilters({
               onChange={(value) => handleFilterChange('classType', value)}
               label="Class Types"
               placeholder="Select class types..."
+            />
+            
+            <MultiSelect
+              options={FILTER_OPTIONS.spellClass}
+              value={filters.spellClass}
+              onChange={(value) => handleFilterChange('spellClass', value)}
+              label="Spell Classes"
+              placeholder="Select classes that can cast..."
             />
             
             <MultiSelect

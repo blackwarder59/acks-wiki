@@ -1,0 +1,674 @@
+{
+  "totalMonsters": 167,
+  "processedAt": "2025-05-31T10:09:52.541Z",
+  "monsters": [
+    {
+      "id": "acanthaspis-giant",
+      "name": "Acanthaspis, Giant"
+    },
+    {
+      "id": "amphisbaena",
+      "name": "Amphisbaena"
+    },
+    {
+      "id": "ant-giant",
+      "name": "Ant, Giant"
+    },
+    {
+      "id": "arane",
+      "name": "Arane"
+    },
+    {
+      "id": "attercop-demonic",
+      "name": "Attercop, Demonic"
+    },
+    {
+      "id": "attercop-foul",
+      "name": "Attercop, Foul"
+    },
+    {
+      "id": "attercop-hideous",
+      "name": "Attercop, Hideous"
+    },
+    {
+      "id": "attercop-monstrous",
+      "name": "Attercop, Monstrous"
+    },
+    {
+      "id": "baboon-rock",
+      "name": "Baboon, Rock"
+    },
+    {
+      "id": "b-leygr",
+      "name": "Báleygr"
+    },
+    {
+      "id": "barghest-greater",
+      "name": "Barghest, Greater"
+    },
+    {
+      "id": "barghest-lesser",
+      "name": "Barghest, Lesser"
+    },
+    {
+      "id": "basilisk-noxious",
+      "name": "Basilisk, Noxious"
+    },
+    {
+      "id": "basilisk-petrifying",
+      "name": "Basilisk, Petrifying"
+    },
+    {
+      "id": "bat-common",
+      "name": "Bat, Common"
+    },
+    {
+      "id": "bat-giant",
+      "name": "Bat, Giant"
+    },
+    {
+      "id": "bat-giant-vampire",
+      "name": "Bat, Giant Vampire"
+    },
+    {
+      "id": "bear-black",
+      "name": "Bear, Black"
+    },
+    {
+      "id": "bear-brown",
+      "name": "Bear, Brown"
+    },
+    {
+      "id": "bear-cave",
+      "name": "Bear, Cave"
+    },
+    {
+      "id": "bear-polar",
+      "name": "Bear, Polar"
+    },
+    {
+      "id": "beastman",
+      "name": "Beastman"
+    },
+    {
+      "id": "beastman-bugbear",
+      "name": "Beastman, Bugbear"
+    },
+    {
+      "id": "beastman-gnoll",
+      "name": "Beastman, Gnoll"
+    },
+    {
+      "id": "beastman-goblin",
+      "name": "Beastman, Goblin"
+    },
+    {
+      "id": "beastman-hobgoblin",
+      "name": "Beastman, Hobgoblin"
+    },
+    {
+      "id": "beastman-kobold",
+      "name": "Beastman, Kobold"
+    },
+    {
+      "id": "beastman-orc",
+      "name": "Beastman, Orc"
+    },
+    {
+      "id": "beastman-special-rules",
+      "name": "Beastman, Special Rules"
+    },
+    {
+      "id": "bee-giant-killer",
+      "name": "Bee, Giant Killer"
+    },
+    {
+      "id": "beetle-giant-bombardier",
+      "name": "Beetle, Giant Bombardier"
+    },
+    {
+      "id": "beetle-giant-luminous",
+      "name": "Beetle, Giant Luminous"
+    },
+    {
+      "id": "beetle-giant-tiger",
+      "name": "Beetle, Giant Tiger"
+    },
+    {
+      "id": "blob-black",
+      "name": "Blob, Black"
+    },
+    {
+      "id": "blood-hound",
+      "name": "Blood Hound"
+    },
+    {
+      "id": "boar-common",
+      "name": "Boar, Common"
+    },
+    {
+      "id": "boar-giant",
+      "name": "Boar, Giant"
+    },
+    {
+      "id": "bronze-bull",
+      "name": "Bronze Bull"
+    },
+    {
+      "id": "cacodemon",
+      "name": "Cacodemon"
+    },
+    {
+      "id": "camel",
+      "name": "Camel"
+    },
+    {
+      "id": "cairn-dwellers",
+      "name": "Cairn Dwellers"
+    },
+    {
+      "id": "carrion-horror",
+      "name": "Carrion Horror"
+    },
+    {
+      "id": "cat-catamount",
+      "name": "Cat, Catamount"
+    },
+    {
+      "id": "cat-cheetah",
+      "name": "Cat, Cheetah"
+    },
+    {
+      "id": "cat-leopard",
+      "name": "Cat, Leopard"
+    },
+    {
+      "id": "cat-lion",
+      "name": "Cat, Lion"
+    },
+    {
+      "id": "cat-lynx",
+      "name": "Cat, Lynx"
+    },
+    {
+      "id": "cat-saber-tooth-tiger",
+      "name": "Cat, Saber-Tooth Tiger"
+    },
+    {
+      "id": "cat-tiger",
+      "name": "Cat, Tiger"
+    },
+    {
+      "id": "catoblepas",
+      "name": "Catoblepas"
+    },
+    {
+      "id": "centaur",
+      "name": "Centaur"
+    },
+    {
+      "id": "centipede-giant",
+      "name": "Centipede, Giant"
+    },
+    {
+      "id": "chaos-hulk",
+      "name": "Chaos Hulk"
+    },
+    {
+      "id": "child-of-nasga",
+      "name": "Child of Nasga"
+    },
+    {
+      "id": "chimera",
+      "name": "Chimera"
+    },
+    {
+      "id": "crab-giant",
+      "name": "Crab, Giant"
+    },
+    {
+      "id": "crocodile-common",
+      "name": "Crocodile, Common"
+    },
+    {
+      "id": "crocodile-giant",
+      "name": "Crocodile, Giant"
+    },
+    {
+      "id": "crocodile-large",
+      "name": "Crocodile, Large"
+    },
+    {
+      "id": "cyclops",
+      "name": "Cyclops"
+    },
+    {
+      "id": "dakhanavar-greater",
+      "name": "Dakhanavar, Greater"
+    },
+    {
+      "id": "dakhanavar-lesser",
+      "name": "Dakhanavar, Lesser"
+    },
+    {
+      "id": "death-charger",
+      "name": "Death Charger"
+    },
+    {
+      "id": "death-knight",
+      "name": "Death Knight"
+    },
+    {
+      "id": "devil-boar",
+      "name": "Devil Boar"
+    },
+    {
+      "id": "devil-ray-giant",
+      "name": "Devil Ray, Giant"
+    },
+    {
+      "id": "dog-hunting",
+      "name": "Dog, Hunting"
+    },
+    {
+      "id": "dog-war",
+      "name": "Dog, War"
+    },
+    {
+      "id": "doppelg-nger",
+      "name": "Doppelgänger"
+    },
+    {
+      "id": "dolphin-common",
+      "name": "Dolphin, Common"
+    },
+    {
+      "id": "dragon",
+      "name": "Dragon"
+    },
+    {
+      "id": "dragonfly-giant",
+      "name": "Dragonfly, Giant"
+    },
+    {
+      "id": "dragon-turtle",
+      "name": "Dragon Turtle"
+    },
+    {
+      "id": "draugr",
+      "name": "Draugr"
+    },
+    {
+      "id": "dwarf",
+      "name": "Dwarf"
+    },
+    {
+      "id": "elemental",
+      "name": "Elemental"
+    },
+    {
+      "id": "elephant",
+      "name": "Elephant"
+    },
+    {
+      "id": "elf",
+      "name": "Elf"
+    },
+    {
+      "id": "equine-donkey",
+      "name": "Equine, Donkey"
+    },
+    {
+      "id": "equine-heavy-horse",
+      "name": "Equine, Heavy Horse"
+    },
+    {
+      "id": "equine-light-horse",
+      "name": "Equine, Light Horse"
+    },
+    {
+      "id": "equine-medium-horse",
+      "name": "Equine, Medium Horse"
+    },
+    {
+      "id": "equine-mule",
+      "name": "Equine, Mule"
+    },
+    {
+      "id": "equine-steppe-horse",
+      "name": "Equine, Steppe Horse"
+    },
+    {
+      "id": "ettin",
+      "name": "Ettin"
+    },
+    {
+      "id": "faerie-brownie-boggart-",
+      "name": "Faerie, Brownie (Boggart)"
+    },
+    {
+      "id": "faerie-knocker",
+      "name": "Faerie, Knocker"
+    },
+    {
+      "id": "faerie-nixie",
+      "name": "Faerie, Nixie"
+    },
+    {
+      "id": "faerie-piskie",
+      "name": "Faerie, Piskie"
+    },
+    {
+      "id": "faerie-pixie",
+      "name": "Faerie, Pixie"
+    },
+    {
+      "id": "faerie-redcap",
+      "name": "Faerie, Redcap"
+    },
+    {
+      "id": "faerie-spriggan",
+      "name": "Faerie, Spriggan"
+    },
+    {
+      "id": "faerie-sprite",
+      "name": "Faerie, Sprite"
+    },
+    {
+      "id": "faravahar",
+      "name": "Faravahar"
+    },
+    {
+      "id": "fish-giant-catfish",
+      "name": "Fish, Giant Catfish"
+    },
+    {
+      "id": "fish-giant-piranha",
+      "name": "Fish, Giant Piranha"
+    },
+    {
+      "id": "fish-giant-rockfish",
+      "name": "Fish, Giant Rockfish"
+    },
+    {
+      "id": "fish-giant-sturgeon",
+      "name": "Fish, Giant Sturgeon"
+    },
+    {
+      "id": "flay-fiend",
+      "name": "Flay Fiend"
+    },
+    {
+      "id": "fly-giant-carnivorous",
+      "name": "Fly, Giant Carnivorous"
+    },
+    {
+      "id": "frog-giant",
+      "name": "Frog, Giant"
+    },
+    {
+      "id": "fungus-shrieking",
+      "name": "Fungus, Shrieking"
+    },
+    {
+      "id": "fungus-violet",
+      "name": "Fungus, Violet"
+    },
+    {
+      "id": "galdrtr-",
+      "name": "Galdrtré"
+    },
+    {
+      "id": "gargoyle",
+      "name": "Gargoyle"
+    },
+    {
+      "id": "genie-efreet",
+      "name": "Genie, Efreet"
+    },
+    {
+      "id": "genie-hafar",
+      "name": "Genie, Hafar"
+    },
+    {
+      "id": "genie-jann",
+      "name": "Genie, Jann"
+    },
+    {
+      "id": "genie-marid",
+      "name": "Genie, Marid"
+    },
+    {
+      "id": "ghoul-desert",
+      "name": "Ghoul, Desert"
+    },
+    {
+      "id": "ghoul-grave",
+      "name": "Ghoul, Grave"
+    },
+    {
+      "id": "ghoul-marsh",
+      "name": "Ghoul, Marsh"
+    },
+    {
+      "id": "giant-fire",
+      "name": "Giant, Fire"
+    },
+    {
+      "id": "giant-frost",
+      "name": "Giant, Frost"
+    },
+    {
+      "id": "giant-hill",
+      "name": "Giant, Hill"
+    },
+    {
+      "id": "giant-stone",
+      "name": "Giant, Stone"
+    },
+    {
+      "id": "gnome",
+      "name": "Gnome"
+    },
+    {
+      "id": "golem-amber",
+      "name": "Golem, Amber"
+    },
+    {
+      "id": "golem-bone",
+      "name": "Golem, Bone"
+    },
+    {
+      "id": "golem-bronze",
+      "name": "Golem, Bronze"
+    },
+    {
+      "id": "golem-iron",
+      "name": "Golem, Iron"
+    },
+    {
+      "id": "golem-stone",
+      "name": "Golem, Stone"
+    },
+    {
+      "id": "golem-wood",
+      "name": "Golem, Wood"
+    },
+    {
+      "id": "goo-grey",
+      "name": "Goo, Grey"
+    },
+    {
+      "id": "gorgon",
+      "name": "Gorgon"
+    },
+    {
+      "id": "gorilla-cave",
+      "name": "Gorilla, Cave"
+    },
+    {
+      "id": "griffon",
+      "name": "Griffon"
+    },
+    {
+      "id": "grimlock",
+      "name": "Grimlock"
+    },
+    {
+      "id": "hag",
+      "name": "Hag"
+    },
+    {
+      "id": "halfling",
+      "name": "Halfling"
+    },
+    {
+      "id": "harpy",
+      "name": "Harpy"
+    },
+    {
+      "id": "haugbui",
+      "name": "Haugbui"
+    },
+    {
+      "id": "haunt",
+      "name": "Haunt"
+    },
+    {
+      "id": "hellhawk",
+      "name": "Hellhawk"
+    },
+    {
+      "id": "hellhound-greater",
+      "name": "Hellhound, Greater"
+    },
+    {
+      "id": "hellhound-lesser",
+      "name": "Hellhound, Lesser"
+    },
+    {
+      "id": "herald-angel",
+      "name": "Herald Angel"
+    },
+    {
+      "id": "herd-animal",
+      "name": "Herd Animal"
+    },
+    {
+      "id": "hippogriff",
+      "name": "Hippogriff"
+    },
+    {
+      "id": "hippopotamus-common",
+      "name": "Hippopotamus, Common"
+    },
+    {
+      "id": "hoarflesh",
+      "name": "Hoarflesh"
+    },
+    {
+      "id": "hobgholl",
+      "name": "Hobgholl"
+    },
+    {
+      "id": "hydra",
+      "name": "Hydra"
+    },
+    {
+      "id": "hyena-common",
+      "name": "Hyena, Common"
+    },
+    {
+      "id": "hyena-giant",
+      "name": "Hyena, Giant"
+    },
+    {
+      "id": "invisible-stalker",
+      "name": "Invisible Stalker"
+    },
+    {
+      "id": "jackal-common",
+      "name": "Jackal, Common"
+    },
+    {
+      "id": "jellyfish-giant",
+      "name": "Jellyfish, Giant"
+    },
+    {
+      "id": "khepri",
+      "name": "Khepri"
+    },
+    {
+      "id": "kraken",
+      "name": "Kraken"
+    },
+    {
+      "id": "lamia",
+      "name": "Lamia"
+    },
+    {
+      "id": "lammasu",
+      "name": "Lammasu"
+    },
+    {
+      "id": "leech-giant",
+      "name": "Leech, Giant"
+    },
+    {
+      "id": "leyak",
+      "name": "Leyak"
+    },
+    {
+      "id": "living-ancestor",
+      "name": "Living Ancestor"
+    },
+    {
+      "id": "lizardman",
+      "name": "Lizardman"
+    },
+    {
+      "id": "lizard-giant-draco",
+      "name": "Lizard, Giant Draco"
+    },
+    {
+      "id": "lizard-giant-gecko",
+      "name": "Lizard, Giant Gecko"
+    },
+    {
+      "id": "lizard-giant-horned-chameleon",
+      "name": "Lizard, Giant Horned Chameleon"
+    },
+    {
+      "id": "lizard-giant-tuatara",
+      "name": "Lizard, Giant Tuatara"
+    },
+    {
+      "id": "locust-cavern",
+      "name": "Locust, Cavern"
+    },
+    {
+      "id": "lycanthrope",
+      "name": "Lycanthrope"
+    },
+    {
+      "id": "lycanthrope-werebear",
+      "name": "Lycanthrope, Werebear"
+    },
+    {
+      "id": "lycanthrope-wereboar",
+      "name": "Lycanthrope, Wereboar"
+    },
+    {
+      "id": "lycanthrope-wererat",
+      "name": "Lycanthrope, Wererat"
+    },
+    {
+      "id": "lycanthrope-weretiger",
+      "name": "Lycanthrope, Weretiger"
+    },
+    {
+      "id": "lycanthrope-werewolf",
+      "name": "Lycanthrope, Werewolf"
+    }
+  ]
+}

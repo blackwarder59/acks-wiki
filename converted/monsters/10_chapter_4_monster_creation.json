@@ -1,0 +1,16 @@
+{
+  "html": "<h1>Chapter 4: Monster Creation</h1>\n<p>The monsters that appear in <em>Adventurer Conqueror King System</em> run the gamut from ordinary animals and normal men to titanic dragons and awe-inspiring rocs. Despite the vast difference in scale and power these monsters can demonstrate, the mathematics behind them remains the same. The following steps will enable you to generate monsters that fall within the typical ranges of creatures in <em>ACKS.</em></p>\n",
+  "sections": [
+    {
+      "title": "Chapter 4: Monster Creation",
+      "level": 1,
+      "html": "<p>The monsters that appear in <em>Adventurer Conqueror King System</em> run the gamut from ordinary animals and normal men to titanic dragons and awe-inspiring rocs. Despite the vast difference in scale and power these monsters can demonstrate, the mathematics behind them remains the same. The following steps will enable you to generate monsters that fall within the typical ranges of creatures in <em>ACKS.</em></p>\n"
+    }
+  ],
+  "metadata": {
+    "name": "",
+    "stats": {},
+    "encounterInfo": {}
+  },
+  "rawMarkdown": "# Chapter 4: Monster Creation\n\nThe monsters that appear in *Adventurer Conqueror King System* run the gamut from ordinary animals and normal men to titanic dragons and awe-inspiring rocs. Despite the vast difference in scale and power these monsters can demonstrate, the mathematics behind them remains the same. The following steps will enable you to generate monsters that fall within the typical ranges of creatures in *ACKS.*\n"
+}

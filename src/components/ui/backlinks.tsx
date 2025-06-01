@@ -34,10 +34,10 @@ import {
 } from 'lucide-react';
 import { cn } from '@/lib/utils';
 import { 
-  type Reference, 
   type ContentType, 
   type ReferenceType,
-  ReferenceRegistry 
+  ReferenceRegistry,
+  type ReferenceEntry
 } from '@/lib/cross-references';
 
 /**
@@ -98,7 +98,7 @@ export interface BacklinksProps {
   /** Custom CSS classes */
   className?: string;
   /** Callback when backlink is clicked */
-  onBacklinkClick?: (reference: Reference) => void;
+  onBacklinkClick?: (reference: ReferenceEntry) => void;
   /** Custom empty state component */
   emptyState?: React.ComponentType;
 }
@@ -107,7 +107,7 @@ export interface BacklinksProps {
  * Grouped backlinks by content type
  */
 interface GroupedBacklinks {
-  [contentType: string]: Reference[];
+  [contentType: string]: ReferenceEntry[];
 }
 
 /**
@@ -152,21 +152,27 @@ const CONTENT_TYPE_LABELS = {
 /**
  * Sort backlinks based on selected option
  */
-function sortBacklinks(backlinks: Reference[], sortOption: BacklinkSortOption): Reference[] {
+function sortBacklinks(backlinks: ReferenceEntry[], sortOption: BacklinkSortOption, registry: ReferenceRegistry): ReferenceEntry[] {
   return [...backlinks].sort((a, b) => {
     switch (sortOption) {
       case 'confidence-desc':
         return (b.confidence || 0) - (a.confidence || 0);
       case 'confidence-asc':
         return (a.confidence || 0) - (b.confidence || 0);
-      case 'title-asc':
-        return (a.sourceTitle || '').localeCompare(b.sourceTitle || '');
-      case 'title-desc':
-        return (b.sourceTitle || '').localeCompare(a.sourceTitle || '');
+      case 'title-asc': {
+        const titleA = registry.getContentTitle(a.sourceId) || '';
+        const titleB = registry.getContentTitle(b.sourceId) || '';
+        return titleA.localeCompare(titleB);
+      }
+      case 'title-desc': {
+        const titleA = registry.getContentTitle(a.sourceId) || '';
+        const titleB = registry.getContentTitle(b.sourceId) || '';
+        return titleB.localeCompare(titleA);
+      }
       case 'type-asc':
         return a.referenceType.localeCompare(b.referenceType);
       case 'recent-first':
-        return (b.lastUpdated || 0) - (a.lastUpdated || 0);
+        return (b.createdAt?.getTime() || 0) - (a.createdAt?.getTime() || 0);
       default:
         return 0;
     }
@@ -176,33 +182,28 @@ function sortBacklinks(backlinks: Reference[], sortOption: BacklinkSortOption): 
 /**
  * Filter backlinks based on criteria
  */
-function filterBacklinks(backlinks: Reference[], filters: BacklinkFilters): Reference[] {
+function filterBacklinks(backlinks: ReferenceEntry[], filters: BacklinkFilters, registry: ReferenceRegistry): ReferenceEntry[] {
   return backlinks.filter(backlink => {
-    // Content type filter
-    if (filters.contentTypes.length > 0 && !filters.contentTypes.includes(backlink.sourceType)) {
+    if (filters.contentTypes.length > 0) {
+      const sourceContentType = registry.getContentType(backlink.sourceId);
+      if (!sourceContentType || !filters.contentTypes.includes(sourceContentType)) {
       return false;
+      }
     }
-    
-    // Reference type filter
     if (filters.referenceTypes.length > 0 && !filters.referenceTypes.includes(backlink.referenceType)) {
       return false;
     }
-    
-    // Confidence filter
     if ((backlink.confidence || 0) < filters.minConfidence) {
       return false;
     }
-    
-    // Search query filter
     if (filters.searchQuery) {
       const query = filters.searchQuery.toLowerCase();
-      const title = (backlink.sourceTitle || '').toLowerCase();
+      const title = (registry.getContentTitle(backlink.sourceId) || '').toLowerCase();
       const context = (backlink.context || '').toLowerCase();
       if (!title.includes(query) && !context.includes(query)) {
         return false;
       }
     }
-    
     return true;
   });
 }
@@ -210,13 +211,15 @@ function filterBacklinks(backlinks: Reference[], filters: BacklinkFilters): Refe
 /**
  * Group backlinks by content type
  */
-function groupBacklinks(backlinks: Reference[]): GroupedBacklinks {
+function groupBacklinks(backlinks: ReferenceEntry[], registry: ReferenceRegistry): GroupedBacklinks {
   return backlinks.reduce((groups, backlink) => {
-    const type = backlink.sourceType;
+    const type = registry.getContentType(backlink.sourceId);
+    if (type) {
     if (!groups[type]) {
       groups[type] = [];
     }
     groups[type].push(backlink);
+    }
     return groups;
   }, {} as GroupedBacklinks);
 }
@@ -225,10 +228,11 @@ function groupBacklinks(backlinks: Reference[]): GroupedBacklinks {
  * Individual backlink item component
  */
 const BacklinkItem: React.FC<{
-  reference: Reference;
+  reference: ReferenceEntry;
   config: Required<BacklinksConfig>;
-  onBacklinkClick?: (reference: Reference) => void;
-}> = ({ reference, config, onBacklinkClick }) => {
+  onBacklinkClick?: (reference: ReferenceEntry) => void;
+  registry: ReferenceRegistry;
+}> = ({ reference, config, onBacklinkClick, registry }) => {
   const [isExpanded, setIsExpanded] = useState(false);
   
   const handleClick = useCallback((e: React.MouseEvent) => {
@@ -238,8 +242,9 @@ const BacklinkItem: React.FC<{
     }
   }, [reference, onBacklinkClick]);
 
-  const referenceTypeConfig = REFERENCE_TYPE_CONFIG[reference.referenceType];
+  const referenceTypeConfig = REFERENCE_TYPE_CONFIG[reference.referenceType.toUpperCase() as keyof typeof REFERENCE_TYPE_CONFIG];
   const ReferenceIcon = referenceTypeConfig?.icon || LinkIcon;
+  const sourceContentType = registry.getContentType(reference.sourceId);
 
   return (
     <div className="border border-border rounded-lg p-3 hover:bg-muted/50 transition-colors">
@@ -248,11 +253,11 @@ const BacklinkItem: React.FC<{
           {/* Title and link */}
           <div className="flex items-center gap-2 mb-1">
             <Link
-              href={`/${reference.sourceType.toLowerCase()}/${reference.sourceId}`}
+              href={sourceContentType ? `/${sourceContentType.toLowerCase()}/${reference.sourceId}` : '#'}
               onClick={handleClick}
               className="font-medium text-foreground hover:text-primary transition-colors truncate"
             >
-              {reference.sourceTitle || reference.sourceId}
+              {registry.getContentTitle(reference.sourceId) || reference.sourceId}
             </Link>
             <ExternalLink className="w-3 h-3 text-muted-foreground flex-shrink-0" />
           </div>
@@ -307,10 +312,11 @@ const BacklinkItem: React.FC<{
  */
 const BacklinksGroup: React.FC<{
   contentType: string;
-  backlinks: Reference[];
+  backlinks: ReferenceEntry[];
   config: Required<BacklinksConfig>;
-  onBacklinkClick?: (reference: Reference) => void;
-}> = ({ contentType, backlinks, config, onBacklinkClick }) => {
+  onBacklinkClick?: (reference: ReferenceEntry) => void;
+  registry: ReferenceRegistry;
+}> = ({ contentType, backlinks, config, onBacklinkClick, registry }) => {
   const [isExpanded, setIsExpanded] = useState(true);
   
   return (
@@ -324,7 +330,7 @@ const BacklinksGroup: React.FC<{
         ) : (
           <ChevronRight className="w-4 h-4" />
         )}
-        <span>{CONTENT_TYPE_LABELS[contentType as ContentType] || contentType}</span>
+        <span>{CONTENT_TYPE_LABELS[contentType.toUpperCase() as keyof typeof CONTENT_TYPE_LABELS] || contentType}</span>
         <span className="text-muted-foreground">({backlinks.length})</span>
       </button>
       
@@ -336,6 +342,7 @@ const BacklinksGroup: React.FC<{
               reference={backlink}
               config={config}
               onBacklinkClick={onBacklinkClick}
+              registry={registry}
             />
           ))}
         </div>
@@ -385,7 +392,7 @@ const BacklinksFilter: React.FC<{
                       }}
                       className="rounded"
                     />
-                    <span>{CONTENT_TYPE_LABELS[type] || type}</span>
+                    <span>{CONTENT_TYPE_LABELS[type.toUpperCase() as keyof typeof CONTENT_TYPE_LABELS] || type}</span>
                   </label>
                 ))}
               </div>
@@ -408,7 +415,7 @@ const BacklinksFilter: React.FC<{
                       }}
                       className="rounded"
                     />
-                    <span>{REFERENCE_TYPE_CONFIG[type]?.label || type}</span>
+                    <span>{REFERENCE_TYPE_CONFIG[type.toUpperCase() as keyof typeof REFERENCE_TYPE_CONFIG]?.label || type}</span>
                   </label>
                 ))}
               </div>
@@ -477,13 +484,13 @@ export const Backlinks: React.FC<BacklinksProps> = ({
 
   // Get backlinks from registry
   const allBacklinks = useMemo(() => {
-    return registry.getBacklinks(contentId, contentType);
-  }, [registry, contentId, contentType]);
+    return registry.getIncomingReferences(contentId);
+  }, [registry, contentId]);
 
   // Get available filter options
   const availableContentTypes = useMemo(() => {
-    return Array.from(new Set(allBacklinks.map(b => b.sourceType)));
-  }, [allBacklinks]);
+    return Array.from(new Set(allBacklinks.map(b => registry.getContentType(b.sourceId)).filter(Boolean as any as (x: ContentType | undefined) => x is ContentType)));
+  }, [allBacklinks, registry]);
 
   const availableReferenceTypes = useMemo(() => {
     return Array.from(new Set(allBacklinks.map(b => b.referenceType)));
@@ -491,23 +498,23 @@ export const Backlinks: React.FC<BacklinksProps> = ({
 
   // Apply filters and sorting
   const processedBacklinks = useMemo(() => {
-    let filtered = filterBacklinks(allBacklinks, filters);
-    let sorted = sortBacklinks(filtered, sortOption);
+    let filtered = filterBacklinks(allBacklinks, filters, registry);
+    let sorted = sortBacklinks(filtered, sortOption, registry);
     
     if (!showAll && sorted.length > config.initialLimit) {
       sorted = sorted.slice(0, config.initialLimit);
     }
     
     return sorted;
-  }, [allBacklinks, filters, sortOption, showAll, config.initialLimit]);
+  }, [allBacklinks, filters, sortOption, showAll, config.initialLimit, registry]);
 
   // Group backlinks if enabled
   const groupedBacklinks = useMemo(() => {
     if (config.groupByContentType) {
-      return groupBacklinks(processedBacklinks);
+      return groupBacklinks(processedBacklinks, registry);
     }
     return { all: processedBacklinks };
-  }, [processedBacklinks, config.groupByContentType]);
+  }, [processedBacklinks, config.groupByContentType, registry]);
 
   // Default empty state
   const DefaultEmptyState = () => (
@@ -581,6 +588,7 @@ export const Backlinks: React.FC<BacklinksProps> = ({
                 backlinks={backlinks}
                 config={config}
                 onBacklinkClick={onBacklinkClick}
+                registry={registry}
               />
             ))
           ) : (
@@ -591,6 +599,7 @@ export const Backlinks: React.FC<BacklinksProps> = ({
                   reference={backlink}
                   config={config}
                   onBacklinkClick={onBacklinkClick}
+                  registry={registry}
                 />
               ))}
             </div>

@@ -161,7 +161,7 @@ function calculatePosition(
   }
 
   // Try all positions in order of preference
-  const fallbackOrder: TooltipPosition[] = ['bottom', 'top', 'right', 'left'];
+  const fallbackOrder: ('bottom' | 'top' | 'right' | 'left')[] = ['bottom', 'top', 'right', 'left'];
   
   for (const position of fallbackOrder) {
     if (checkFit(positions[position])) {
@@ -302,8 +302,8 @@ export function TooltipProvider({ children }: { children: React.ReactNode }) {
     config: DEFAULT_CONFIG
   });
 
-  const showTimeoutRef = useRef<NodeJS.Timeout>();
-  const hideTimeoutRef = useRef<NodeJS.Timeout>();
+  const showTimeoutRef = useRef<NodeJS.Timeout | null>(null);
+  const hideTimeoutRef = useRef<NodeJS.Timeout | null>(null);
   const isHoveringTooltip = useRef(false);
 
   // Clear timeouts on unmount
@@ -322,7 +322,7 @@ export function TooltipProvider({ children }: { children: React.ReactNode }) {
     // Clear any pending hide timeout
     if (hideTimeoutRef.current) {
       clearTimeout(hideTimeoutRef.current);
-      hideTimeoutRef.current = undefined;
+      hideTimeoutRef.current = null;
     }
 
     const mergedConfig = { ...DEFAULT_CONFIG, ...config };
@@ -331,6 +331,7 @@ export function TooltipProvider({ children }: { children: React.ReactNode }) {
     // Clear any pending show timeout
     if (showTimeoutRef.current) {
       clearTimeout(showTimeoutRef.current);
+      showTimeoutRef.current = null;
     }
 
     showTimeoutRef.current = setTimeout(() => {
@@ -348,7 +349,7 @@ export function TooltipProvider({ children }: { children: React.ReactNode }) {
     // Clear any pending show timeout
     if (showTimeoutRef.current) {
       clearTimeout(showTimeoutRef.current);
-      showTimeoutRef.current = undefined;
+      showTimeoutRef.current = null;
     }
 
     // Don't hide if hovering over interactive tooltip
@@ -365,7 +366,7 @@ export function TooltipProvider({ children }: { children: React.ReactNode }) {
     isHoveringTooltip.current = true;
     if (hideTimeoutRef.current) {
       clearTimeout(hideTimeoutRef.current);
-      hideTimeoutRef.current = undefined;
+      hideTimeoutRef.current = null;
     }
   }, []);
 

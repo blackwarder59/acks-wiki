@@ -210,7 +210,6 @@ export function SearchInput({
     }
 
     const items = showHistoryItems ? history : suggestions;
-    const itemCount = items.length;
     
     switch (event.key) {
       case 'ArrowDown':

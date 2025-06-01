@@ -1,0 +1,12 @@
+{
+  "html": "<h2>The Basics of Proficiencies</h2>\n<p>Proficiencies represent particular areas of expertise that your character has developed due to his background, homeland, and training. Each class has a <strong>class</strong> <strong>list</strong> of proficiencies, representing training that is particularly useful to the particular profession. In addition, there is a <strong>general list</strong> of proficiencies, which represent trade skills and knowledge that is widely available to all. Characters will learn proficiencies from both lists over time.</p>\n",
+  "sections": [
+    {
+      "title": "The Basics of Proficiencies",
+      "level": 2,
+      "html": "<p>Proficiencies represent particular areas of expertise that your character has developed due to his background, homeland, and training. Each class has a <strong>class</strong> <strong>list</strong> of proficiencies, representing training that is particularly useful to the particular profession. In addition, there is a <strong>general list</strong> of proficiencies, which represent trade skills and knowledge that is widely available to all. Characters will learn proficiencies from both lists over time.</p>\n"
+    }
+  ],
+  "metadata": {},
+  "rawMarkdown": "## The Basics of Proficiencies\n\nProficiencies represent particular areas of expertise that your character has developed due to his background, homeland, and training. Each class has a **class** **list** of proficiencies, representing training that is particularly useful to the particular profession. In addition, there is a **general list** of proficiencies, which represent trade skills and knowledge that is widely available to all. Characters will learn proficiencies from both lists over time.\n"
+}

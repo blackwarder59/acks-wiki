@@ -34,7 +34,7 @@ import {
   List as ListIcon
 } from 'lucide-react';
 import { BaseContentCard } from './base-content-card';
-import { type Spell, type MagicType } from '../../lib/types/content';
+import { type Spell, MagicType } from '../../lib/types/content';
 
 /**
  * Spell list component props
