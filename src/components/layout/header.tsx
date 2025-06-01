@@ -2,7 +2,7 @@
 
 import { useState } from 'react'
 import Link from 'next/link'
-import { usePathname } from 'next/navigation'
+import { usePathname, useRouter } from 'next/navigation'
 import { Sword } from 'lucide-react'
 import { ThemeToggle } from '@/components/ui/theme-toggle'
 import { CompactSearchInput } from '@/components/ui/search-input'
@@ -25,9 +25,20 @@ import { Breadcrumb } from '@/components/ui/breadcrumb'
 export function Header() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
   const pathname = usePathname()
+  const router = useRouter()
 
   const toggleMobileMenu = (open: boolean) => {
     setIsMobileMenuOpen(open)
+  }
+
+  /**
+   * Handle search from the global search input
+   * Navigate to search page with the query
+   */
+  const handleGlobalSearch = (query: string) => {
+    if (query.trim()) {
+      router.push(`/search?q=${encodeURIComponent(query.trim())}`)
+    }
   }
 
   const navigationItems = [
@@ -74,6 +85,7 @@ export function Header() {
             <CompactSearchInput 
               placeholder="Search monsters, spells, classes..."
               className="w-full"
+              onSearch={handleGlobalSearch}
             />
           </div>
 
