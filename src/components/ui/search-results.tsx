@@ -134,6 +134,13 @@ function SearchResultItem({
   };
 
   /**
+   * Escape special regex characters in a string
+   */
+  const escapeRegExp = (string: string): string => {
+    return string.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  };
+
+  /**
    * Highlight matched text
    */
   const highlightText = (text: string, matches: unknown[]): React.ReactNode => {
@@ -150,15 +157,21 @@ function SearchResultItem({
     
     if (relevantMatches.length === 0) return text;
     
-    // Simple highlighting - in a real implementation, you'd use the indices
+    // Simple highlighting - escape special regex characters
     let highlightedText = text;
     relevantMatches.forEach(match => {
-      if (match.value) {
-        const regex = new RegExp(`(${match.value})`, 'gi');
-        highlightedText = highlightedText.replace(
-          regex, 
-          '<mark class="bg-yellow-200 dark:bg-yellow-800 px-1 rounded">$1</mark>'
-        );
+      if (match.value && match.value.trim()) {
+        try {
+          const escapedValue = escapeRegExp(match.value);
+          const regex = new RegExp(`(${escapedValue})`, 'gi');
+          highlightedText = highlightedText.replace(
+            regex, 
+            '<mark class="bg-yellow-200 dark:bg-yellow-800 px-1 rounded">$1</mark>'
+          );
+        } catch (error) {
+          console.warn('Error highlighting text:', error, 'match value:', match.value);
+          // If regex fails, just return the text without highlighting
+        }
       }
     });
     
