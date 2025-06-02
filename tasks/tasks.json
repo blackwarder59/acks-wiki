@@ -517,6 +517,243 @@
           "description": "Ensure new filter controls work seamlessly with the existing search functionality."
         }
       ]
+    },
+    {
+      "id": 9,
+      "title": "Implement Enhanced Hero Section with Visual Elements and User Journey Guidance",
+      "description": "Transform the current basic hero section into a visually stunning centerpiece with gradients, decorative elements, and clear user journey paths that guide both new and experienced users to appropriate content.",
+      "details": "Create a hero section that serves as the visual anchor for the site redesign with these specific elements:\n\n1. **Background Design**:\n   - Implement a subtle gradient background transitioning from primary to secondary brand colors\n   - Add subtle animated decorative elements (e.g., floating shapes, particle effects) that don't distract from content\n   - Ensure the background adapts appropriately to different screen sizes\n\n2. **Content Structure**:\n   - Create a compelling headline that clearly communicates the site's value proposition\n   - Add a concise subheading that elaborates on the main benefits\n   - Include a brief description that sets expectations for users\n\n3. **User Journey Paths**:\n   - Implement two distinct CTA buttons: one for new users ('Get Started') and one for experienced users ('Advanced Features')\n   - Design visual indicators that subtly guide users to the appropriate path\n   - Ensure each path has a clear visual hierarchy and destination\n\n4. **Visual Elements**:\n   - Add subtle micro-interactions on hover states for interactive elements\n   - Implement a visual indicator showing the user's current position in the overall site journey\n   - Include decorative elements that reinforce the brand identity\n\n5. **Technical Requirements**:\n   - Use CSS variables for consistent color application\n   - Implement responsive design principles to ensure the hero section works on all devices\n   - Optimize all animations for performance (use CSS transitions where possible)\n   - Keep accessibility in mind with appropriate contrast ratios and semantic HTML\n\nThe hero section should load quickly and make an immediate visual impact while clearly guiding users to their next steps based on their experience level.",
+      "testStrategy": "Testing should verify both the visual implementation and user journey functionality:\n\n1. **Visual Testing**:\n   - Verify the gradient background renders correctly across Chrome, Firefox, Safari, and Edge\n   - Confirm decorative elements appear and animate as expected without performance issues\n   - Check that all visual elements maintain proper positioning across screen sizes (320px, 768px, 1024px, 1440px, and 1920px widths)\n   - Validate that the design matches approved mockups with a visual comparison tool\n\n2. **Functional Testing**:\n   - Verify all CTA buttons are correctly linked to their destination pages\n   - Test hover states and micro-interactions to ensure they trigger correctly\n   - Confirm that tab navigation works logically through the hero section elements\n\n3. **Performance Testing**:\n   - Measure load time of the hero section (should be under 1.5 seconds on standard connections)\n   - Use Chrome DevTools Performance panel to verify animations run at 60fps\n   - Check memory usage to ensure decorative elements don't cause excessive resource consumption\n\n4. **Accessibility Testing**:\n   - Verify contrast ratios meet WCAG AA standards (minimum 4.5:1 for normal text)\n   - Test with screen readers to ensure all content is properly announced\n   - Verify keyboard navigation works correctly for all interactive elements\n\n5. **User Testing**:\n   - Conduct A/B testing comparing the new hero section against the current one\n   - Track click-through rates on both user journey paths to verify they're being used as intended\n   - Collect qualitative feedback on visual appeal and clarity of user journey options",
+      "status": "pending",
+      "dependencies": [
+        7,
+        "13"
+      ],
+      "priority": "high",
+      "subtasks": [
+        {
+          "id": 1,
+          "title": "Design Approval - Hero Section Mockup",
+          "description": "Present detailed design mockup, visual examples, and implementation approach for the enhanced hero section. Get user approval before proceeding with implementation. This includes gradients, layout structure, messaging, and visual elements.",
+          "details": "",
+          "status": "pending",
+          "dependencies": [],
+          "parentTaskId": 9
+        },
+        {
+          "id": 2,
+          "title": "Implement Hero Section HTML Structure",
+          "description": "Create the basic HTML structure and semantic markup for the new hero section based on approved design.",
+          "details": "",
+          "status": "pending",
+          "dependencies": [
+            "9.1"
+          ],
+          "parentTaskId": 9
+        },
+        {
+          "id": 3,
+          "title": "Apply Visual Styling and Gradients",
+          "description": "Implement the approved gradient backgrounds, typography, spacing, and visual effects for the hero section.",
+          "details": "",
+          "status": "pending",
+          "dependencies": [
+            "9.2"
+          ],
+          "parentTaskId": 9
+        },
+        {
+          "id": 4,
+          "title": "Add Interactive Elements and Animations",
+          "description": "Implement hover effects, subtle animations, and interactive elements that enhance the user experience without overwhelming the content.",
+          "details": "",
+          "status": "pending",
+          "dependencies": [
+            "9.3"
+          ],
+          "parentTaskId": 9
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Implement 'Choose Your Path' User Journey Navigation Section",
+      "description": "Design and develop an interactive navigation section that guides users to appropriate content based on their experience level and specific needs, creating clear visual pathways between the hero section and detailed content.",
+      "details": "Create a responsive 'Choose Your Path' section that appears below the hero section and serves as a navigation hub. The implementation should include:\n\n1. Design at least three distinct user journey paths: 'New to Platform', 'Regular User', and 'Advanced Features'.\n2. Each path should have a clear visual card/container with:\n   - An appropriate icon representing the user type\n   - A concise heading (e.g., 'Just Getting Started?')\n   - A brief description of who this path is for (1-2 sentences)\n   - A clear CTA button with appropriate text (e.g., 'Start Here', 'Explore Features')\n3. Implement hover/focus states with subtle animations to improve interactivity\n4. Ensure the section is fully responsive:\n   - Cards should display in a row on desktop (3 across)\n   - Tablets should show 2 cards per row or a scrollable horizontal layout\n   - Mobile should stack cards vertically\n5. Each path should link to an appropriate landing page tailored to that user type\n6. Use appropriate ARIA attributes for accessibility\n7. Implement analytics tracking to measure which paths users select\n8. Add subtle visual cues (arrows or connectors) showing the flow from hero section to this navigation and then to specific content\n\nThe design should use the existing color scheme and typography while ensuring sufficient contrast for readability.",
+      "testStrategy": "Testing should verify both the functionality and user experience aspects:\n\n1. Visual Testing:\n   - Verify all three user journey paths are displayed correctly with appropriate icons, text, and CTAs\n   - Check that hover/focus states work as expected with smooth animations\n   - Test responsiveness across multiple device sizes (320px, 768px, 1024px, 1440px widths)\n   - Ensure visual hierarchy guides users naturally through the options\n\n2. Functional Testing:\n   - Verify all links/buttons direct to the correct destination pages\n   - Test keyboard navigation through all interactive elements\n   - Validate that all ARIA attributes are correctly implemented using accessibility tools\n\n3. User Testing:\n   - Conduct A/B testing with different variations of the section to determine optimal conversion\n   - Set up heat mapping to track where users click within the section\n   - Measure time spent on this section and subsequent navigation patterns\n   - Collect feedback from 5-7 users of varying experience levels to ensure the paths are intuitive\n\n4. Performance Testing:\n   - Ensure the section loads quickly (within 300ms of page load)\n   - Verify animations run at 60fps without causing layout shifts\n   - Check that image assets are properly optimized",
+      "status": "pending",
+      "dependencies": [
+        7
+      ],
+      "priority": "high",
+      "subtasks": [
+        {
+          "id": 1,
+          "title": "Design Approval - User Journey Section",
+          "description": "Present the user journey navigation design, including the 'Choose Your Path' concept, user experience flow, and visual approach. Get user approval for the guidance system before implementation.",
+          "details": "",
+          "status": "pending",
+          "dependencies": [],
+          "parentTaskId": 10
+        },
+        {
+          "id": 2,
+          "title": "Implement Journey Selection Logic",
+          "description": "Create the logic and components for user experience level detection and appropriate content pathway routing.",
+          "details": "",
+          "status": "pending",
+          "dependencies": [
+            "10.1"
+          ],
+          "parentTaskId": 10
+        },
+        {
+          "id": 3,
+          "title": "Style User Journey Components",
+          "description": "Apply the approved visual styling to the user journey navigation components, ensuring consistency with the overall design language.",
+          "details": "",
+          "status": "pending",
+          "dependencies": [
+            "10.2"
+          ],
+          "parentTaskId": 10
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Implement Enhanced Content Cards with Gradient Design and Interactive Elements",
+      "description": "Replace the current content grid with visually appealing, gradient-enhanced content cards that provide better visual hierarchy and improved call-to-action elements.",
+      "details": "Create a new component for enhanced content cards with the following specifications:\n\n1. Visual Design:\n   - Implement gradient backgrounds that transition smoothly between complementary colors\n   - Add subtle drop shadows for depth perception (3-5px offset, 10-15% opacity)\n   - Round corners consistently (8-10px radius)\n   - Ensure proper padding within cards (16-24px)\n\n2. Content Structure:\n   - Title area with appropriate typography hierarchy\n   - Brief description/excerpt area with truncation for consistency\n   - Relevant iconography that matches content type (use from our design system)\n   - Clear, visually distinct CTA button or link\n   - Optional metadata display (date, author, category, etc.)\n\n3. Interactive Elements:\n   - Implement smooth hover effects that slightly elevate the card (transform: translateY(-3px))\n   - Add transition for shadow depth on hover\n   - Include subtle background color shift on hover\n   - Ensure CTA elements have distinct hover states\n\n4. Responsive Behavior:\n   - Cards should reflow appropriately at all breakpoints\n   - Maintain consistent spacing between cards (16px on mobile, 24px on desktop)\n   - Adjust font sizes appropriately for different screen sizes\n\n5. Accessibility:\n   - Ensure sufficient color contrast between text and background\n   - Maintain focus states for keyboard navigation\n   - Add appropriate ARIA attributes\n   - Test with screen readers\n\nUse CSS Grid or Flexbox for the overall layout. Implement the component using our existing design system tokens for colors, spacing, and typography.",
+      "testStrategy": "1. Visual Testing:\n   - Compare screenshots of new cards against design mockups using visual regression testing\n   - Verify gradient rendering across different browsers (Chrome, Firefox, Safari, Edge)\n   - Confirm proper rendering at all standard breakpoints (320px, 768px, 1024px, 1440px)\n\n2. Functional Testing:\n   - Verify all hover effects work smoothly without performance issues\n   - Test keyboard navigation through all card elements\n   - Confirm that cards reflow correctly when browser is resized\n   - Ensure all CTAs function correctly and lead to appropriate destinations\n\n3. Accessibility Testing:\n   - Run automated accessibility tests (Axe, WAVE) to verify WCAG 2.1 AA compliance\n   - Test with screen readers (NVDA, VoiceOver) to ensure content is properly announced\n   - Verify color contrast ratios meet minimum 4.5:1 for normal text and 3:1 for large text\n   - Test keyboard-only navigation through the card grid\n\n4. Cross-browser Testing:\n   - Test on latest versions of Chrome, Firefox, Safari, and Edge\n   - Verify on iOS Safari and Chrome for Android\n\n5. Performance Testing:\n   - Measure and compare render times before and after implementation\n   - Check for layout shifts using Cumulative Layout Shift metrics\n   - Verify that hover animations maintain 60fps",
+      "status": "pending",
+      "dependencies": [
+        7
+      ],
+      "priority": "high",
+      "subtasks": [
+        {
+          "id": 1,
+          "title": "Design Approval - Content Cards System",
+          "description": "Present the enhanced content cards design, including gradient treatments, iconography, layout grid, and hover effects. Get user approval for the card system design and interaction patterns.",
+          "details": "",
+          "status": "pending",
+          "dependencies": [],
+          "parentTaskId": 11
+        },
+        {
+          "id": 2,
+          "title": "Build Enhanced Card Components",
+          "description": "Create the new card components with improved structure, accessibility, and semantic markup based on approved design.",
+          "details": "",
+          "status": "pending",
+          "dependencies": [
+            "11.1"
+          ],
+          "parentTaskId": 11
+        },
+        {
+          "id": 3,
+          "title": "Implement Card Styling and Effects",
+          "description": "Apply gradients, shadows, hover effects, and responsive behavior to the content cards for a polished appearance.",
+          "details": "",
+          "status": "pending",
+          "dependencies": [
+            "11.2"
+          ],
+          "parentTaskId": 11
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Implement Quick Stats and Features Dashboard",
+      "description": "Design and develop an engaging dashboard that displays wiki statistics and provides interactive elements for quick access to key features and recently updated content.",
+      "details": "Create a dashboard component with the following sections:\n\n1. Statistics Panel:\n   - Total number of articles/pages\n   - Number of contributors\n   - Total edits/revisions\n   - Content growth over time (with small chart)\n   - Categories breakdown\n\n2. Interactive Elements:\n   - Recently Updated Content: Display 5-7 most recently edited pages with timestamps\n   - Popular Searches: Show trending search terms based on user activity\n   - Quick Access Buttons: Create shortcut buttons to key features (create page, advanced search, etc.)\n\n3. Technical Implementation:\n   - Use responsive design to ensure dashboard works on all device sizes\n   - Implement data caching to minimize database load (refresh data every 30 minutes)\n   - Add subtle animations for statistics counters and transitions\n   - Ensure accessibility compliance with proper ARIA labels and keyboard navigation\n   - Include toggle/collapse functionality to allow users to customize their view\n\n4. Data Requirements:\n   - Create necessary database queries to gather statistics efficiently\n   - Implement analytics tracking to measure dashboard engagement\n   - Set up proper error handling for when data cannot be retrieved\n\nThe dashboard should be visually appealing with consistent styling that matches the wiki's design system while providing genuine utility to returning users.",
+      "testStrategy": "Testing should include:\n\n1. Functional Testing:\n   - Verify all statistics display correct values from the database\n   - Confirm recently updated content refreshes appropriately\n   - Test all quick access buttons navigate to correct destinations\n   - Validate that popular searches reflect actual user activity\n\n2. Performance Testing:\n   - Measure dashboard load time (should be under 1.5 seconds)\n   - Verify caching mechanism works correctly\n   - Test dashboard performance with large datasets\n\n3. Responsive Design Testing:\n   - Test on multiple screen sizes (mobile, tablet, desktop)\n   - Verify all elements remain accessible and usable at all breakpoints\n\n4. Accessibility Testing:\n   - Run automated accessibility tests (WCAG 2.1 AA compliance)\n   - Test keyboard navigation through all dashboard elements\n   - Verify screen reader compatibility\n\n5. User Testing:\n   - Conduct A/B testing with a sample of users to measure engagement\n   - Collect feedback on dashboard utility and visual appeal\n   - Track analytics on which dashboard features receive the most interaction\n\n6. Browser Compatibility:\n   - Test across Chrome, Firefox, Safari, and Edge\n   - Verify consistent appearance and functionality",
+      "status": "pending",
+      "dependencies": [
+        7
+      ],
+      "priority": "medium",
+      "subtasks": [
+        {
+          "id": 1,
+          "title": "Design Approval - Stats Dashboard",
+          "description": "Present the quick stats and features dashboard design, including layout, data visualization approach, and interactive elements. Get user approval for the dashboard concept and functionality.",
+          "details": "",
+          "status": "pending",
+          "dependencies": [],
+          "parentTaskId": 12
+        },
+        {
+          "id": 2,
+          "title": "Implement Stats Data Collection",
+          "description": "Create the logic to collect and calculate content statistics, recent activity, and user engagement metrics.",
+          "details": "",
+          "status": "pending",
+          "dependencies": [
+            "12.1"
+          ],
+          "parentTaskId": 12
+        },
+        {
+          "id": 3,
+          "title": "Build Dashboard UI Components",
+          "description": "Create the visual dashboard components with charts, counters, and interactive elements based on approved design.",
+          "details": "",
+          "status": "pending",
+          "dependencies": [
+            "12.2"
+          ],
+          "parentTaskId": 12
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Implement Design System Foundation with CSS Architecture",
+      "description": "Create a comprehensive CSS architecture that establishes the foundational styling framework for the homepage, including responsive layouts, animations, and consistent design tokens.",
+      "details": "Develop a modular CSS architecture using either SCSS or CSS-in-JS that includes:\n\n1. Design Token System:\n   - Create variables for colors, typography, spacing, shadows, and border-radius\n   - Implement a consistent naming convention (e.g., --color-primary, --spacing-md)\n   - Document all tokens in a style guide file\n\n2. Layout Components:\n   - Implement a responsive grid system with appropriate breakpoints (mobile, tablet, desktop)\n   - Create flexible container components with consistent padding/margins\n   - Develop utility classes for common layout patterns (e.g., flex containers, grids)\n\n3. Visual Enhancement Utilities:\n   - Build gradient generators with customizable directions and color stops\n   - Create animation utilities for transitions, fades, and micro-interactions\n   - Implement responsive image handling with appropriate sizing\n\n4. Component Base Styles:\n   - Establish base styles for typography, buttons, cards, and other UI elements\n   - Ensure all components follow accessibility guidelines (contrast, focus states)\n   - Create mixins or utility functions for commonly reused style patterns\n\n5. Responsive Strategy:\n   - Define standard breakpoints (e.g., 480px, 768px, 1024px, 1440px)\n   - Implement a mobile-first approach with appropriate media queries\n   - Create helper classes for responsive visibility and positioning\n\nEnsure all styles are optimized for performance with appropriate CSS specificity and minimal redundancy.",
+      "testStrategy": "Testing should verify both the technical implementation and visual consistency:\n\n1. Code Quality Validation:\n   - Run CSS linting tools to ensure code meets quality standards\n   - Verify CSS architecture follows the defined naming conventions\n   - Check for any unused styles or redundant declarations\n\n2. Cross-Browser Testing:\n   - Test in Chrome, Firefox, Safari, and Edge to ensure consistent rendering\n   - Verify gradients and animations work properly across browsers\n   - Confirm that polyfills are in place for any modern CSS features with limited support\n\n3. Responsive Testing:\n   - Test at all defined breakpoints using browser dev tools\n   - Verify on actual devices (minimum: iPhone, Android, iPad, desktop)\n   - Check that layouts adjust appropriately without horizontal scrolling or overflow issues\n\n4. Performance Testing:\n   - Measure CSS file size and loading performance\n   - Check for render-blocking CSS issues\n   - Verify efficient CSS selectors are used (avoid deep nesting)\n\n5. Visual Regression Testing:\n   - Create baseline screenshots of key components at different breakpoints\n   - Compare against future changes to ensure visual consistency\n   - Verify animations and transitions perform smoothly without jank\n\n6. Accessibility Testing:\n   - Verify color contrast meets WCAG AA standards\n   - Check that focus states are clearly visible\n   - Ensure text remains readable at all viewport sizes",
+      "status": "pending",
+      "dependencies": [
+        7
+      ],
+      "priority": "high",
+      "subtasks": [
+        {
+          "id": 1,
+          "title": "Design Approval - Styling Foundation",
+          "description": "Present the overall styling foundation including design tokens, gradient system, animation library, and responsive breakpoints. Get user approval for the foundational design system before implementation.",
+          "details": "",
+          "status": "pending",
+          "dependencies": [],
+          "parentTaskId": 13
+        },
+        {
+          "id": 2,
+          "title": "Create Design Token System",
+          "description": "Implement the design tokens for colors, spacing, typography, and other design constants that will be used across all components.",
+          "details": "",
+          "status": "pending",
+          "dependencies": [
+            "13.1"
+          ],
+          "parentTaskId": 13
+        },
+        {
+          "id": 3,
+          "title": "Build Gradient and Animation Utilities",
+          "description": "Create reusable CSS utility classes for gradients, animations, and visual effects that will be used throughout the homepage redesign.",
+          "details": "",
+          "status": "pending",
+          "dependencies": [
+            "13.2"
+          ],
+          "parentTaskId": 13
+        }
+      ]
     }
   ],
   "metadata": {
