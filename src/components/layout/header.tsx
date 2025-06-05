@@ -8,6 +8,7 @@ import { ThemeToggle } from '@/components/ui/theme-toggle'
 import { CompactSearchInput } from '@/components/ui/search-input'
 import { MobileNavigation, MobileNavToggle } from '@/components/ui/mobile-navigation'
 import { Breadcrumb } from '@/components/ui/breadcrumb'
+import { CompactPaletteSwitcher } from '@/components/ui/palette-switcher'
 
 /**
  * Main header component for the ACKS II Wiki.
@@ -18,7 +19,8 @@ import { Breadcrumb } from '@/components/ui/breadcrumb'
  * - ACKS II branding with sword icon
  * - Navigation links to main content categories
  * - Integrated search functionality
- * - Theme toggle button
+ * - Interactive color palette switcher for real-time theming
+ * - Theme toggle button (light/dark mode)
  * - Accessible navigation with proper ARIA labels
  * - Mobile-first design with smooth animations
  */
@@ -91,6 +93,23 @@ export function Header() {
 
           {/* Right Side Actions */}
           <div className="flex items-center space-x-2">
+            {/* Color Palette Switcher */}
+            <CompactPaletteSwitcher />
+            
+            {/* Visual palette indicator - shows current colors */}
+            <div className="hidden sm:flex items-center gap-1">
+              <div 
+                className="w-3 h-3 rounded-full border border-muted-foreground/30"
+                style={{ backgroundColor: 'var(--color-primary)' }}
+                title="Primary color"
+              />
+              <div 
+                className="w-3 h-3 rounded-full border border-muted-foreground/30"
+                style={{ backgroundColor: 'var(--color-secondary)' }}
+                title="Secondary color"
+              />
+            </div>
+            
             {/* Theme Toggle */}
             <ThemeToggle />
 

@@ -11,6 +11,7 @@
  * - Collapsible sections for content organization
  * - Touch-optimized with proper target sizes (44x44px minimum)
  * - Backdrop blur and overlay effects
+ * - Integrated color palette switcher for mobile theming
  * 
  * @author ACKS II Wiki Development Team
  * @version 1.0.0
@@ -38,6 +39,7 @@ import {
   Bookmark
 } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
+import { PaletteSwitcher } from '@/components/ui/palette-switcher';
 
 /**
  * Navigation item interface
@@ -432,6 +434,12 @@ export function MobileNavigation({
             {/* Navigation Items */}
             <div className="p-4 space-y-2">
               {navigationItems.map(item => renderNavigationItem(item))}
+            </div>
+
+            {/* Color Theme Section */}
+            <div className="p-4 border-t border-border">
+              <h3 className="text-sm font-medium text-muted-foreground mb-3">Color Theme</h3>
+              <PaletteSwitcher className="w-full" showLabels={true} />
             </div>
 
             {/* Footer */}

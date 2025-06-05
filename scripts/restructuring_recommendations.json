@@ -1,0 +1,74 @@
+{
+  "monsters": {
+    "total_found": 167,
+    "action": "Split into individual files",
+    "new_structure": "monsters/by-name/ and monsters/by-type/"
+  },
+  "classes": {
+    "total_found": 24,
+    "action": "Split into individual files",
+    "new_structure": "classes/core/, classes/campaign/, classes/demi-human/"
+  },
+  "large_files": [
+    {
+      "file": "41_equipment_descriptions.md",
+      "size_kb": 122.05,
+      "lines": 589,
+      "recommendation": "Split into smaller files"
+    },
+    {
+      "file": "61_combat.md",
+      "size_kb": 105.01,
+      "lines": 808,
+      "recommendation": "Split into smaller files"
+    },
+    {
+      "file": "78_magic_research.md",
+      "size_kb": 177.67,
+      "lines": 1143,
+      "recommendation": "Split into smaller files"
+    },
+    {
+      "file": "56_spell_descriptions.md",
+      "size_kb": 393.94,
+      "lines": 3633,
+      "recommendation": "Split into smaller files"
+    },
+    {
+      "file": "73_domains_and_realms.md",
+      "size_kb": 104.54,
+      "lines": 773,
+      "recommendation": "Split into smaller files"
+    },
+    {
+      "file": "28_campaign_classes.md",
+      "size_kb": 136.45,
+      "lines": 1193,
+      "recommendation": "Split into smaller files"
+    },
+    {
+      "file": "01_chapter_2_monster_listings.md",
+      "size_kb": 748.14,
+      "lines": 13128,
+      "recommendation": "Split into smaller files"
+    },
+    {
+      "file": "110_custom_powers.md",
+      "size_kb": 141.08,
+      "lines": 835,
+      "recommendation": "Split into smaller files"
+    },
+    {
+      "file": "21_wilderness_expeditions.md",
+      "size_kb": 151.42,
+      "lines": 1789,
+      "recommendation": "Split into smaller files"
+    },
+    {
+      "file": "33_magic_items.md",
+      "size_kb": 231.03,
+      "lines": 1810,
+      "recommendation": "Split into smaller files"
+    }
+  ]
+}

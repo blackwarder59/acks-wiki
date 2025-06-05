@@ -107,6 +107,12 @@ export {
   type BacklinkFilters
 } from './backlinks';
 
+// Hero section components
+export {
+  EnhancedHero,
+  type EnhancedHeroProps
+} from './enhanced-hero';
+
 // Base content card component
 export {
   BaseContentCard,

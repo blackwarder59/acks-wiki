@@ -1,0 +1,84 @@
+---
+title: "Beastman"
+slug: "beastman"
+type: "monster"
+category: "other"
+tags: ["other", "monster"]
+hit_dice: ""
+armor_class: ""
+xp_value: ""
+alignment: ""
+treasure_type: ""
+source: "ACKS II Monstrous Manual"
+layout: "monster"
+---
+
+### Beastman
+
+Beastmen are the crossbred creations of ancient Zahar, created by ancient magic and enslaved in
+service to their dark masters. The Zaharans created many breeds of beastmen, sometimes crossing
+different strains repeatedly in their quest for the perfect living weapon. Six major breeds of
+beastmen have been identified by the sages of Aura: kobolds, goblins, orcs, hobgoblins, gnolls, and
+bugbears. The Zaharans also bred ogres and trolls, though the sages of Aura consider them separate
+species (q.v.).
+
+Apart from kobolds, who were bred as pets, the other breeds of beastmen were created to be soldiers
+for the Zaharan army – ruthless and blood-thirsty, but susceptible to control by a powerful leader.
+In the absence of an external authority (such as a Zaharan sorcerer-king), beastmen organize
+themselves into bands of loosely-related gangs ruled by a chieftain. Endemic warfare between nearby
+bands is constant, until eventually one of the chieftains succeeds in unifying the bands into a clan
+under his rule. Born of evil magic, there is nothing redeemable about beastmen, and every Auran
+missionary who has ever attempted to find good in them has ended up dying painfully and being eaten.
+
+Isolated bands usually have no permanent home, living a nomadic existence that follows seasonably
+available wild plants and game. Nomadic beastmen dwell in tents made from animal hides sewn together
+or woven hair wrapped around wooden poles. These tents are usually small, but can be as large as
+thirty feet in diameter. Less fortunate nomads may just take shelter where they can find it. Nomadic
+beastmen survive by hunting wildlife, gathering wild forage, and raiding civilized settlements.
+Roving bands are often composed of only males, their females having been lost to stronger rivals.
+
+Established beastman clans tend to permanently or semi-permanently dwell in ruins, caves, captured
+strongholds, or villages. Beastmen in villages generally live in roundhouses constructed of whatever
+materials are at hand. In wet, wooded climates, roundhouses with timber or wattle-and-daub walls and
+thatched roofs will dominate. In other terrain, the walls are constructed of mudbrick or stone,
+mortared with sand, soil, and dung, while the roof covering is of woven hair or animal-hide, sewn to
+short spars. Stone-lined pits are dug for iron forges, kilns, food storage, and waste.
+
+Sometimes the buildings are gathered to form a ring fort or hill-fort, surrounded by ditches,
+moats, earthen ramparts or piled stone walls. The skulls of dead foes frequently adorn these
+defenses.
+
+When settled, beastmen clans practice horticulture, cultivating small plots of mixed crops using
+hand tools. Beastmen care nothing for crop rotation or soil sustainability, and will simply burn or
+cut away a clearing, then farm it until the soil is exhausted. It is not uncommon to find large
+tracts of exhausted scrub around beastmen settlements. In arid terrain, they may herd goats, sheep,
+cows, pigs, and other livestock that can graze on the scant vegetation. Beastmen tribes that have
+captured many prisoners in raids may have slave laborers working farms, but these are usually
+short-lived; beastmen do not breed or care for their slaves, and simply eat those that die.
+
+Family relations are brutal; beastmen males are considerably larger than the females, whom they
+dominate. Both sexes lack any capacity whatsoever for compassion, empathy, kindness, or love.
+High-status males maintain large harems, within which the females compete for provision and
+protection. Low-status males have no chance to mate at all, except by gaining status through
+violence or subterfuge. As a result, beastmen males typically spend much of their time fighting,
+hunting, and raiding. More than half die from wounds sustained in such activities before middle age.
+
+Beastmen care little for their prepubescent children, feeding them scraps and often exiling them to
+the edges of the camp fires. Many whelps die of exposure or under-nourishment, leaving just the
+toughest and most cunning to survive to adulthood, usually by murdering their siblings.
+
+Beastmen who lack the size and temperament to serve as warriors are known as drudges, and are
+forced to handle all of the chores the warriors refuse to do, such as farming, foraging, cooking,
+and camping. Most of these drudges are females, but some are males who through disability, injury,
+or other reasons are unable to serve as warriors.
+
+The drudges also craft blankets, clothing, furniture, tools, and shelter from the woven hair of
+sheep and goats, or the leather, bone, sinew, and hide of animals. Indeed, of the crafts, only
+metal-working is the province of warriors, and it is typically limited to working wrought iron in
+pit-furnaces. Knowledge of weapon- and armor-smithing is rare, with only a handful of smiths in a
+tribe. Knowledge is handed down orally within families, and blood feuds lasting generations can
+simmer between rival families.
+
+Beastmen speak a number of distinct languages, each of which is a barely-recognizable dialect of
+Ancient Zaharan. A beastman warrior has a 10% chance of speaking Common. A beastman champion, chief,
+shaman, sub-chieftain, or witch doctor has a 10% chance per HD of speaking Common.

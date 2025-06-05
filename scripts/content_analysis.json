@@ -1,0 +1,4080 @@
+{
+  "files_analyzed": 327,
+  "total_lines": 55274,
+  "monsters_found": 167,
+  "classes_found": 24,
+  "spells_found": 7,
+  "equipment_found": 1,
+  "files": [
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/06_dice.md",
+      "name": "06_dice.md",
+      "directory": "Rulebook",
+      "size_kb": 2.65,
+      "lines": 29,
+      "entities": {
+        "classes": 0,
+        "spells": 0,
+        "equipment": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/04_how_to_use_this_book.md",
+      "name": "04_how_to_use_this_book.md",
+      "directory": "Rulebook",
+      "size_kb": 1.87,
+      "lines": 28,
+      "entities": {
+        "classes": 0,
+        "spells": 0,
+        "equipment": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/87_unit_characteristics_summary.md",
+      "name": "87_unit_characteristics_summary.md",
+      "directory": "Rulebook",
+      "size_kb": 7.57,
+      "lines": 120,
+      "entities": {
+        "classes": 0,
+        "spells": 0,
+        "equipment": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/35_proficiency_descriptions.md",
+      "name": "35_proficiency_descriptions.md",
+      "directory": "Rulebook",
+      "size_kb": 83.73,
+      "lines": 654,
+      "entities": {
+        "classes": 0,
+        "spells": 0,
+        "equipment": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/53_spell_signatures.md",
+      "name": "53_spell_signatures.md",
+      "directory": "Rulebook",
+      "size_kb": 1.77,
+      "lines": 8,
+      "entities": {
+        "classes": 0,
+        "spells": 0,
+        "equipment": 0,
+        "other": 0
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/14_hit_points.md",
+      "name": "14_hit_points.md",
+      "directory": "Rulebook",
+      "size_kb": 3.53,
+      "lines": 26,
+      "entities": {
+        "classes": 0,
+        "spells": 0,
+        "equipment": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/45_hirelings_henchmen_mercenaries_and_specialists.md",
+      "name": "45_hirelings_henchmen_mercenaries_and_specialists.md",
+      "directory": "Rulebook",
+      "size_kb": 52.44,
+      "lines": 416,
+      "entities": {
+        "classes": 0,
+        "spells": 0,
+        "equipment": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/114_customs.md",
+      "name": "114_customs.md",
+      "directory": "Rulebook",
+      "size_kb": 23.58,
+      "lines": 126,
+      "entities": {
+        "classes": 0,
+        "spells": 0,
+        "equipment": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/76_mercantile_ventures.md",
+      "name": "76_mercantile_ventures.md",
+      "directory": "Rulebook",
+      "size_kb": 87.45,
+      "lines": 697,
+      "entities": {
+        "classes": 0,
+        "spells": 0,
+        "equipment": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/08_common_abbreviations.md",
+      "name": "08_common_abbreviations.md",
+      "directory": "Rulebook",
+      "size_kb": 0.64,
+      "lines": 29,
+      "entities": {
+        "classes": 0,
+        "spells": 0,
+        "equipment": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/86_troop_characteristics_summary.md",
+      "name": "86_troop_characteristics_summary.md",
+      "directory": "Rulebook",
+      "size_kb": 13.49,
+      "lines": 136,
+      "entities": {
+        "classes": 0,
+        "spells": 0,
+        "equipment": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/23_adventuring_parties.md",
+      "name": "23_adventuring_parties.md",
+      "directory": "Rulebook",
+      "size_kb": 0.88,
+      "lines": 4,
+      "entities": {
+        "classes": 0,
+        "spells": 0,
+        "equipment": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/49_spells_and_spell_casters.md",
+      "name": "49_spells_and_spell_casters.md",
+      "directory": "Rulebook",
+      "size_kb": 3.97,
+      "lines": 24,
+      "entities": {
+        "classes": 0,
+        "spells": 0,
+        "equipment": 0,
+        "other": 0
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/30_chapter_3_proficiencies.md",
+      "name": "30_chapter_3_proficiencies.md",
+      "directory": "Rulebook",
+      "size_kb": 0.03,
+      "lines": 2,
+      "entities": {
+        "classes": 0,
+        "spells": 0,
+        "equipment": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/88_chapter_10_maneuvers.md",
+      "name": "88_chapter_10_maneuvers.md",
+      "directory": "Rulebook",
+      "size_kb": 0.47,
+      "lines": 4,
+      "entities": {
+        "classes": 0,
+        "spells": 0,
+        "equipment": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/36_chapter_4_equipment.md",
+      "name": "36_chapter_4_equipment.md",
+      "directory": "Rulebook",
+      "size_kb": 0.02,
+      "lines": 2,
+      "entities": {
+        "classes": 0,
+        "spells": 0,
+        "equipment": 0,
+        "other": 0
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/63_chapter_7_voyages.md",
+      "name": "63_chapter_7_voyages.md",
+      "directory": "Rulebook",
+      "size_kb": 0.34,
+      "lines": 4,
+      "entities": {
+        "classes": 0,
+        "spells": 0,
+        "equipment": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/16_proficiencies.md",
+      "name": "16_proficiencies.md",
+      "directory": "Rulebook",
+      "size_kb": 1.91,
+      "lines": 18,
+      "entities": {
+        "classes": 0,
+        "spells": 0,
+        "equipment": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/80_earning_experience_from_campaigns.md",
+      "name": "80_earning_experience_from_campaigns.md",
+      "directory": "Rulebook",
+      "size_kb": 18.36,
+      "lines": 128,
+      "entities": {
+        "classes": 0,
+        "spells": 0,
+        "equipment": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/01_title_page.md",
+      "name": "01_title_page.md",
+      "directory": "Rulebook",
+      "size_kb": 1.48,
+      "lines": 24,
+      "entities": {
+        "classes": 0,
+        "spells": 0,
+        "equipment": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/03_about_the_game.md",
+      "name": "03_about_the_game.md",
+      "directory": "Rulebook",
+      "size_kb": 1.74,
+      "lines": 8,
+      "entities": {
+        "classes": 0,
+        "spells": 0,
+        "equipment": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/21_size_and_weight.md",
+      "name": "21_size_and_weight.md",
+      "directory": "Rulebook",
+      "size_kb": 0.9,
+      "lines": 10,
+      "entities": {
+        "classes": 0,
+        "spells": 0,
+        "equipment": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/46_expected_living_expenses_optional.md",
+      "name": "46_expected_living_expenses_optional.md",
+      "directory": "Rulebook",
+      "size_kb": 2.57,
+      "lines": 33,
+      "entities": {
+        "classes": 0,
+        "spells": 0,
+        "equipment": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/110_appendix_a_auran_empire.md",
+      "name": "110_appendix_a_auran_empire.md",
+      "directory": "Rulebook",
+      "size_kb": 0.51,
+      "lines": 4,
+      "entities": {
+        "classes": 0,
+        "spells": 0,
+        "equipment": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/69_river_voyages.md",
+      "name": "69_river_voyages.md",
+      "directory": "Rulebook",
+      "size_kb": 4.27,
+      "lines": 46,
+      "entities": {
+        "classes": 0,
+        "spells": 0,
+        "equipment": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/67_sea_encounters.md",
+      "name": "67_sea_encounters.md",
+      "directory": "Rulebook",
+      "size_kb": 3.36,
+      "lines": 35,
+      "entities": {
+        "classes": 0,
+        "spells": 0,
+        "equipment": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/48_chapter_5_spells.md",
+      "name": "48_chapter_5_spells.md",
+      "directory": "Rulebook",
+      "size_kb": 0.02,
+      "lines": 2,
+      "entities": {
+        "classes": 0,
+        "spells": 0,
+        "equipment": 0,
+        "other": 0
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/41_equipment_descriptions.md",
+      "name": "41_equipment_descriptions.md",
+      "directory": "Rulebook",
+      "size_kb": 122.05,
+      "lines": 589,
+      "entities": {
+        "classes": 0,
+        "spells": 0,
+        "equipment": 1,
+        "other": 0
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/70_chapter_8_campaigns.md",
+      "name": "70_chapter_8_campaigns.md",
+      "directory": "Rulebook",
+      "size_kb": 0.52,
+      "lines": 4,
+      "entities": {
+        "classes": 0,
+        "spells": 0,
+        "equipment": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/91_strategic_stance.md",
+      "name": "91_strategic_stance.md",
+      "directory": "Rulebook",
+      "size_kb": 1.17,
+      "lines": 8,
+      "entities": {
+        "classes": 0,
+        "spells": 0,
+        "equipment": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/74_politics_and_power.md",
+      "name": "74_politics_and_power.md",
+      "directory": "Rulebook",
+      "size_kb": 23.18,
+      "lines": 232,
+      "entities": {
+        "classes": 0,
+        "spells": 0,
+        "equipment": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/94_equipment_availability_on_campaign.md",
+      "name": "94_equipment_availability_on_campaign.md",
+      "directory": "Rulebook",
+      "size_kb": 0.64,
+      "lines": 13,
+      "entities": {
+        "classes": 0,
+        "spells": 0,
+        "equipment": 0,
+        "other": 0
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/20_starting_age.md",
+      "name": "20_starting_age.md",
+      "directory": "Rulebook",
+      "size_kb": 3.81,
+      "lines": 53,
+      "entities": {
+        "classes": 0,
+        "spells": 0,
+        "equipment": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/61_combat.md",
+      "name": "61_combat.md",
+      "directory": "Rulebook",
+      "size_kb": 105.01,
+      "lines": 808,
+      "entities": {
+        "classes": 0,
+        "spells": 0,
+        "equipment": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/43_scavenged_equipment.md",
+      "name": "43_scavenged_equipment.md",
+      "directory": "Rulebook",
+      "size_kb": 2.8,
+      "lines": 50,
+      "entities": {
+        "classes": 0,
+        "spells": 0,
+        "equipment": 0,
+        "other": 0
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/101_aftermath_of_battles.md",
+      "name": "101_aftermath_of_battles.md",
+      "directory": "Rulebook",
+      "size_kb": 12.39,
+      "lines": 95,
+      "entities": {
+        "classes": 0,
+        "spells": 0,
+        "equipment": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/75_hideouts_and_hijinks.md",
+      "name": "75_hideouts_and_hijinks.md",
+      "directory": "Rulebook",
+      "size_kb": 63.22,
+      "lines": 432,
+      "entities": {
+        "classes": 0,
+        "spells": 0,
+        "equipment": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/31_the_basics_of_proficiencies.md",
+      "name": "31_the_basics_of_proficiencies.md",
+      "directory": "Rulebook",
+      "size_kb": 0.49,
+      "lines": 4,
+      "entities": {
+        "classes": 0,
+        "spells": 0,
+        "equipment": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/50_spell_lists_by_magic_type.md",
+      "name": "50_spell_lists_by_magic_type.md",
+      "directory": "Rulebook",
+      "size_kb": 1.16,
+      "lines": 8,
+      "entities": {
+        "classes": 0,
+        "spells": 0,
+        "equipment": 0,
+        "other": 0
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/78_magic_research.md",
+      "name": "78_magic_research.md",
+      "directory": "Rulebook",
+      "size_kb": 177.67,
+      "lines": 1143,
+      "entities": {
+        "classes": 0,
+        "spells": 0,
+        "equipment": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/11_character_attributes.md",
+      "name": "11_character_attributes.md",
+      "directory": "Rulebook",
+      "size_kb": 5.14,
+      "lines": 46,
+      "entities": {
+        "classes": 0,
+        "spells": 0,
+        "equipment": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/47_construction_projects.md",
+      "name": "47_construction_projects.md",
+      "directory": "Rulebook",
+      "size_kb": 21.97,
+      "lines": 171,
+      "entities": {
+        "classes": 0,
+        "spells": 0,
+        "equipment": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/55_spell_lists_&_repertoires.md",
+      "name": "55_spell_lists_&_repertoires.md",
+      "directory": "Rulebook",
+      "size_kb": 22.22,
+      "lines": 860,
+      "entities": {
+        "classes": 0,
+        "spells": 0,
+        "equipment": 0,
+        "other": 0
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/112_lands.md",
+      "name": "112_lands.md",
+      "directory": "Rulebook",
+      "size_kb": 9.01,
+      "lines": 42,
+      "entities": {
+        "classes": 0,
+        "spells": 0,
+        "equipment": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/71_activities_during_the_campaign.md",
+      "name": "71_activities_during_the_campaign.md",
+      "directory": "Rulebook",
+      "size_kb": 4.74,
+      "lines": 84,
+      "entities": {
+        "classes": 0,
+        "spells": 0,
+        "equipment": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/95_reconnaissance_and_intelligence.md",
+      "name": "95_reconnaissance_and_intelligence.md",
+      "directory": "Rulebook",
+      "size_kb": 26.29,
+      "lines": 212,
+      "entities": {
+        "classes": 0,
+        "spells": 0,
+        "equipment": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/109_sieges_simplified.md",
+      "name": "109_sieges_simplified.md",
+      "directory": "Rulebook",
+      "size_kb": 5.79,
+      "lines": 68,
+      "entities": {
+        "classes": 0,
+        "spells": 0,
+        "equipment": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/25_chapter_2_classes.md",
+      "name": "25_chapter_2_classes.md",
+      "directory": "Rulebook",
+      "size_kb": 3.43,
+      "lines": 14,
+      "entities": {
+        "classes": 0,
+        "spells": 0,
+        "equipment": 0,
+        "other": 0
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/52_spell_reversal.md",
+      "name": "52_spell_reversal.md",
+      "directory": "Rulebook",
+      "size_kb": 1.35,
+      "lines": 6,
+      "entities": {
+        "classes": 0,
+        "spells": 0,
+        "equipment": 0,
+        "other": 0
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/22_alignment.md",
+      "name": "22_alignment.md",
+      "directory": "Rulebook",
+      "size_kb": 3.05,
+      "lines": 14,
+      "entities": {
+        "classes": 0,
+        "spells": 0,
+        "equipment": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/64_seafarers.md",
+      "name": "64_seafarers.md",
+      "directory": "Rulebook",
+      "size_kb": 8.75,
+      "lines": 58,
+      "entities": {
+        "classes": 0,
+        "spells": 0,
+        "equipment": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/98_strategic_situations.md",
+      "name": "98_strategic_situations.md",
+      "directory": "Rulebook",
+      "size_kb": 2.74,
+      "lines": 26,
+      "entities": {
+        "classes": 0,
+        "spells": 0,
+        "equipment": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/05_the_basics_of_the_game.md",
+      "name": "05_the_basics_of_the_game.md",
+      "directory": "Rulebook",
+      "size_kb": 5.1,
+      "lines": 20,
+      "entities": {
+        "classes": 0,
+        "spells": 0,
+        "equipment": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/65_sea_vessels.md",
+      "name": "65_sea_vessels.md",
+      "directory": "Rulebook",
+      "size_kb": 5.33,
+      "lines": 45,
+      "entities": {
+        "classes": 0,
+        "spells": 0,
+        "equipment": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/108_ending_sieges.md",
+      "name": "108_ending_sieges.md",
+      "directory": "Rulebook",
+      "size_kb": 3.29,
+      "lines": 32,
+      "entities": {
+        "classes": 0,
+        "spells": 0,
+        "equipment": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/103_methods_of_siege.md",
+      "name": "103_methods_of_siege.md",
+      "directory": "Rulebook",
+      "size_kb": 2.06,
+      "lines": 12,
+      "entities": {
+        "classes": 0,
+        "spells": 0,
+        "equipment": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/51_spell_repertoires.md",
+      "name": "51_spell_repertoires.md",
+      "directory": "Rulebook",
+      "size_kb": 17.23,
+      "lines": 93,
+      "entities": {
+        "classes": 0,
+        "spells": 2,
+        "equipment": 0,
+        "other": 0
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/24_activities.md",
+      "name": "24_activities.md",
+      "directory": "Rulebook",
+      "size_kb": 4.02,
+      "lines": 20,
+      "entities": {
+        "classes": 0,
+        "spells": 0,
+        "equipment": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/10_creating_a_character.md",
+      "name": "10_creating_a_character.md",
+      "directory": "Rulebook",
+      "size_kb": 5.29,
+      "lines": 30,
+      "entities": {
+        "classes": 0,
+        "spells": 0,
+        "equipment": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/15_armor_class.md",
+      "name": "15_armor_class.md",
+      "directory": "Rulebook",
+      "size_kb": 0.48,
+      "lines": 4,
+      "entities": {
+        "classes": 0,
+        "spells": 0,
+        "equipment": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/32_starting_proficiencies.md",
+      "name": "32_starting_proficiencies.md",
+      "directory": "Rulebook",
+      "size_kb": 0.99,
+      "lines": 6,
+      "entities": {
+        "classes": 0,
+        "spells": 0,
+        "equipment": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/116_languages.md",
+      "name": "116_languages.md",
+      "directory": "Rulebook",
+      "size_kb": 2.13,
+      "lines": 64,
+      "entities": {
+        "classes": 0,
+        "spells": 0,
+        "equipment": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/59_wilderness_expeditions.md",
+      "name": "59_wilderness_expeditions.md",
+      "directory": "Rulebook",
+      "size_kb": 39.96,
+      "lines": 310,
+      "entities": {
+        "classes": 0,
+        "spells": 0,
+        "equipment": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/83_army_organization.md",
+      "name": "83_army_organization.md",
+      "directory": "Rulebook",
+      "size_kb": 2.37,
+      "lines": 20,
+      "entities": {
+        "classes": 0,
+        "spells": 0,
+        "equipment": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/38_coins_and_money.md",
+      "name": "38_coins_and_money.md",
+      "directory": "Rulebook",
+      "size_kb": 2.42,
+      "lines": 31,
+      "entities": {
+        "classes": 0,
+        "spells": 0,
+        "equipment": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/118_appendix_c_wounds_and_woe.md",
+      "name": "118_appendix_c_wounds_and_woe.md",
+      "directory": "Rulebook",
+      "size_kb": 4.3,
+      "lines": 33,
+      "entities": {
+        "classes": 0,
+        "spells": 0,
+        "equipment": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/99_running_a_battle.md",
+      "name": "99_running_a_battle.md",
+      "directory": "Rulebook",
+      "size_kb": 28.69,
+      "lines": 266,
+      "entities": {
+        "classes": 0,
+        "spells": 0,
+        "equipment": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/54_spell_types.md",
+      "name": "54_spell_types.md",
+      "directory": "Rulebook",
+      "size_kb": 8.82,
+      "lines": 92,
+      "entities": {
+        "classes": 0,
+        "spells": 2,
+        "equipment": 0,
+        "other": 0
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/92_moving_armies.md",
+      "name": "92_moving_armies.md",
+      "directory": "Rulebook",
+      "size_kb": 7.11,
+      "lines": 86,
+      "entities": {
+        "classes": 0,
+        "spells": 0,
+        "equipment": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/17_speed_and_encumbrance.md",
+      "name": "17_speed_and_encumbrance.md",
+      "directory": "Rulebook",
+      "size_kb": 6.14,
+      "lines": 56,
+      "entities": {
+        "classes": 0,
+        "spells": 0,
+        "equipment": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/29_demi_human_classes.md",
+      "name": "29_demi_human_classes.md",
+      "directory": "Rulebook",
+      "size_kb": 81.36,
+      "lines": 702,
+      "entities": {
+        "classes": 7,
+        "spells": 0,
+        "equipment": 0,
+        "other": 0
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/84_army_command.md",
+      "name": "84_army_command.md",
+      "directory": "Rulebook",
+      "size_kb": 6.52,
+      "lines": 52,
+      "entities": {
+        "classes": 0,
+        "spells": 0,
+        "equipment": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/18_homeland.md",
+      "name": "18_homeland.md",
+      "directory": "Rulebook",
+      "size_kb": 0.82,
+      "lines": 6,
+      "entities": {
+        "classes": 0,
+        "spells": 0,
+        "equipment": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/111_overview.md",
+      "name": "111_overview.md",
+      "directory": "Rulebook",
+      "size_kb": 1.06,
+      "lines": 4,
+      "entities": {
+        "classes": 0,
+        "spells": 0,
+        "equipment": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/66_sea_voyages.md",
+      "name": "66_sea_voyages.md",
+      "directory": "Rulebook",
+      "size_kb": 20.75,
+      "lines": 188,
+      "entities": {
+        "classes": 0,
+        "spells": 0,
+        "equipment": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/56_spell_descriptions.md",
+      "name": "56_spell_descriptions.md",
+      "directory": "Rulebook",
+      "size_kb": 393.94,
+      "lines": 3633,
+      "entities": {
+        "classes": 0,
+        "spells": 3,
+        "equipment": 0,
+        "other": 0
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/58_dungeon_delves.md",
+      "name": "58_dungeon_delves.md",
+      "directory": "Rulebook",
+      "size_kb": 46.45,
+      "lines": 327,
+      "entities": {
+        "classes": 0,
+        "spells": 0,
+        "equipment": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/12_combat_characteristics.md",
+      "name": "12_combat_characteristics.md",
+      "directory": "Rulebook",
+      "size_kb": 4.76,
+      "lines": 46,
+      "entities": {
+        "classes": 0,
+        "spells": 0,
+        "equipment": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/100_ending_battles.md",
+      "name": "100_ending_battles.md",
+      "directory": "Rulebook",
+      "size_kb": 4.55,
+      "lines": 71,
+      "entities": {
+        "classes": 0,
+        "spells": 0,
+        "equipment": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/07_rolling_and_throwing_the_dice.md",
+      "name": "07_rolling_and_throwing_the_dice.md",
+      "directory": "Rulebook",
+      "size_kb": 6.37,
+      "lines": 50,
+      "entities": {
+        "classes": 0,
+        "spells": 0,
+        "equipment": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/102_chapter_12_sieges.md",
+      "name": "102_chapter_12_sieges.md",
+      "directory": "Rulebook",
+      "size_kb": 0.36,
+      "lines": 4,
+      "entities": {
+        "classes": 0,
+        "spells": 0,
+        "equipment": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/105_blockade.md",
+      "name": "105_blockade.md",
+      "directory": "Rulebook",
+      "size_kb": 8.92,
+      "lines": 71,
+      "entities": {
+        "classes": 0,
+        "spells": 0,
+        "equipment": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/42_masterwork_equipment_optional.md",
+      "name": "42_masterwork_equipment_optional.md",
+      "directory": "Rulebook",
+      "size_kb": 3.46,
+      "lines": 35,
+      "entities": {
+        "classes": 0,
+        "spells": 0,
+        "equipment": 0,
+        "other": 0
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/81_chapter_9_armies.md",
+      "name": "81_chapter_9_armies.md",
+      "directory": "Rulebook",
+      "size_kb": 0.37,
+      "lines": 4,
+      "entities": {
+        "classes": 0,
+        "spells": 0,
+        "equipment": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/73_domains_and_realms.md",
+      "name": "73_domains_and_realms.md",
+      "directory": "Rulebook",
+      "size_kb": 104.54,
+      "lines": 773,
+      "entities": {
+        "classes": 0,
+        "spells": 0,
+        "equipment": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/115_people.md",
+      "name": "115_people.md",
+      "directory": "Rulebook",
+      "size_kb": 30.59,
+      "lines": 198,
+      "entities": {
+        "classes": 0,
+        "spells": 0,
+        "equipment": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/89_regions.md",
+      "name": "89_regions.md",
+      "directory": "Rulebook",
+      "size_kb": 0.84,
+      "lines": 6,
+      "entities": {
+        "classes": 0,
+        "spells": 0,
+        "equipment": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/104_siege_mechanics.md",
+      "name": "104_siege_mechanics.md",
+      "directory": "Rulebook",
+      "size_kb": 2.3,
+      "lines": 20,
+      "entities": {
+        "classes": 0,
+        "spells": 0,
+        "equipment": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/106_reduction.md",
+      "name": "106_reduction.md",
+      "directory": "Rulebook",
+      "size_kb": 15.86,
+      "lines": 111,
+      "entities": {
+        "classes": 0,
+        "spells": 0,
+        "equipment": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/107_assault.md",
+      "name": "107_assault.md",
+      "directory": "Rulebook",
+      "size_kb": 24.16,
+      "lines": 198,
+      "entities": {
+        "classes": 0,
+        "spells": 0,
+        "equipment": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/13_class_powers.md",
+      "name": "13_class_powers.md",
+      "directory": "Rulebook",
+      "size_kb": 0.57,
+      "lines": 6,
+      "entities": {
+        "classes": 0,
+        "spells": 0,
+        "equipment": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/113_timeline.md",
+      "name": "113_timeline.md",
+      "directory": "Rulebook",
+      "size_kb": 4.07,
+      "lines": 26,
+      "entities": {
+        "classes": 0,
+        "spells": 0,
+        "equipment": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/62_earning_experience_from_adventures.md",
+      "name": "62_earning_experience_from_adventures.md",
+      "directory": "Rulebook",
+      "size_kb": 18.12,
+      "lines": 146,
+      "entities": {
+        "classes": 0,
+        "spells": 0,
+        "equipment": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/97_chapter_11_battles.md",
+      "name": "97_chapter_11_battles.md",
+      "directory": "Rulebook",
+      "size_kb": 3.07,
+      "lines": 41,
+      "entities": {
+        "classes": 0,
+        "spells": 0,
+        "equipment": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/79_congregants_and_divine_power.md",
+      "name": "79_congregants_and_divine_power.md",
+      "directory": "Rulebook",
+      "size_kb": 11.24,
+      "lines": 93,
+      "entities": {
+        "classes": 0,
+        "spells": 0,
+        "equipment": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/33_gaining_proficiencies.md",
+      "name": "33_gaining_proficiencies.md",
+      "directory": "Rulebook",
+      "size_kb": 6.49,
+      "lines": 58,
+      "entities": {
+        "classes": 0,
+        "spells": 0,
+        "equipment": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/60_encounters.md",
+      "name": "60_encounters.md",
+      "directory": "Rulebook",
+      "size_kb": 38.49,
+      "lines": 287,
+      "entities": {
+        "classes": 0,
+        "spells": 0,
+        "equipment": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/77_sanctums_and_dungeons.md",
+      "name": "77_sanctums_and_dungeons.md",
+      "directory": "Rulebook",
+      "size_kb": 11.74,
+      "lines": 80,
+      "entities": {
+        "classes": 0,
+        "spells": 0,
+        "equipment": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/96_invading_conquering_occupying_and_pillaging_domain.md",
+      "name": "96_invading_conquering_occupying_and_pillaging_domain.md",
+      "directory": "Rulebook",
+      "size_kb": 11.02,
+      "lines": 87,
+      "entities": {
+        "classes": 0,
+        "spells": 0,
+        "equipment": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/34_proficiency_lists.md",
+      "name": "34_proficiency_lists.md",
+      "directory": "Rulebook",
+      "size_kb": 10.4,
+      "lines": 46,
+      "entities": {
+        "classes": 0,
+        "spells": 0,
+        "equipment": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/93_supplying_armies.md",
+      "name": "93_supplying_armies.md",
+      "directory": "Rulebook",
+      "size_kb": 14.1,
+      "lines": 118,
+      "entities": {
+        "classes": 0,
+        "spells": 0,
+        "equipment": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/82_army_troops.md",
+      "name": "82_army_troops.md",
+      "directory": "Rulebook",
+      "size_kb": 39.59,
+      "lines": 355,
+      "entities": {
+        "classes": 0,
+        "spells": 0,
+        "equipment": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/19_languages.md",
+      "name": "19_languages.md",
+      "directory": "Rulebook",
+      "size_kb": 1.89,
+      "lines": 8,
+      "entities": {
+        "classes": 0,
+        "spells": 0,
+        "equipment": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/39_purchasing_equipment.md",
+      "name": "39_purchasing_equipment.md",
+      "directory": "Rulebook",
+      "size_kb": 5.63,
+      "lines": 35,
+      "entities": {
+        "classes": 0,
+        "spells": 0,
+        "equipment": 0,
+        "other": 0
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/40_equipment_lists.md",
+      "name": "40_equipment_lists.md",
+      "directory": "Rulebook",
+      "size_kb": 39.7,
+      "lines": 538,
+      "entities": {
+        "classes": 0,
+        "spells": 0,
+        "equipment": 0,
+        "other": 0
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/37_the_basics_of_equipment.md",
+      "name": "37_the_basics_of_equipment.md",
+      "directory": "Rulebook",
+      "size_kb": 0.67,
+      "lines": 6,
+      "entities": {
+        "classes": 0,
+        "spells": 0,
+        "equipment": 0,
+        "other": 0
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/26_character_templates_and_intellect_scores.md",
+      "name": "26_character_templates_and_intellect_scores.md",
+      "directory": "Rulebook",
+      "size_kb": 2.66,
+      "lines": 16,
+      "entities": {
+        "classes": 0,
+        "spells": 0,
+        "equipment": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/27_core_classes.md",
+      "name": "27_core_classes.md",
+      "directory": "Rulebook",
+      "size_kb": 84.36,
+      "lines": 727,
+      "entities": {
+        "classes": 7,
+        "spells": 0,
+        "equipment": 0,
+        "other": 0
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/90_campaign_activities.md",
+      "name": "90_campaign_activities.md",
+      "directory": "Rulebook",
+      "size_kb": 3.56,
+      "lines": 19,
+      "entities": {
+        "classes": 0,
+        "spells": 0,
+        "equipment": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/28_campaign_classes.md",
+      "name": "28_campaign_classes.md",
+      "directory": "Rulebook",
+      "size_kb": 136.45,
+      "lines": 1193,
+      "entities": {
+        "classes": 10,
+        "spells": 0,
+        "equipment": 0,
+        "other": 0
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/44_encumbrance_and_equipment.md",
+      "name": "44_encumbrance_and_equipment.md",
+      "directory": "Rulebook",
+      "size_kb": 4.74,
+      "lines": 45,
+      "entities": {
+        "classes": 0,
+        "spells": 0,
+        "equipment": 0,
+        "other": 0
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/68_sea_combat.md",
+      "name": "68_sea_combat.md",
+      "directory": "Rulebook",
+      "size_kb": 32.43,
+      "lines": 290,
+      "entities": {
+        "classes": 0,
+        "spells": 0,
+        "equipment": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/57_chapter_6_adventures.md",
+      "name": "57_chapter_6_adventures.md",
+      "directory": "Rulebook",
+      "size_kb": 1.33,
+      "lines": 10,
+      "entities": {
+        "classes": 0,
+        "spells": 0,
+        "equipment": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/02_introduction.md",
+      "name": "02_introduction.md",
+      "directory": "Rulebook",
+      "size_kb": 0.47,
+      "lines": 4,
+      "entities": {
+        "classes": 0,
+        "spells": 0,
+        "equipment": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/85_organization_and_command_in_very_small_or_very_lar.md",
+      "name": "85_organization_and_command_in_very_small_or_very_lar.md",
+      "directory": "Rulebook",
+      "size_kb": 5.97,
+      "lines": 50,
+      "entities": {
+        "classes": 0,
+        "spells": 0,
+        "equipment": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/117_appendix_b_conditions.md",
+      "name": "117_appendix_b_conditions.md",
+      "directory": "Rulebook",
+      "size_kb": 34.56,
+      "lines": 411,
+      "entities": {
+        "classes": 0,
+        "spells": 0,
+        "equipment": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/72_followers_and_strongholds.md",
+      "name": "72_followers_and_strongholds.md",
+      "directory": "Rulebook",
+      "size_kb": 10.89,
+      "lines": 120,
+      "entities": {
+        "classes": 0,
+        "spells": 0,
+        "equipment": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/09_chapter_1_characters.md",
+      "name": "09_chapter_1_characters.md",
+      "directory": "Rulebook",
+      "size_kb": 0.02,
+      "lines": 2,
+      "entities": {
+        "classes": 0,
+        "spells": 0,
+        "equipment": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/04_how_to_use_this_book.md",
+      "name": "04_how_to_use_this_book.md",
+      "directory": "Monstrous_Manual",
+      "size_kb": 1.05,
+      "lines": 12,
+      "entities": []
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/08_monster_parts_mundane.md",
+      "name": "08_monster_parts_mundane.md",
+      "directory": "Monstrous_Manual",
+      "size_kb": 23.17,
+      "lines": 294,
+      "entities": []
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/05_noncombatant_monsters.md",
+      "name": "05_noncombatant_monsters.md",
+      "directory": "Monstrous_Manual",
+      "size_kb": 1.99,
+      "lines": 14,
+      "entities": []
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/05_chapter_1_monster_overview.md",
+      "name": "05_chapter_1_monster_overview.md",
+      "directory": "Monstrous_Manual",
+      "size_kb": 0.03,
+      "lines": 2,
+      "entities": []
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/19_monster_special_abilities.md",
+      "name": "19_monster_special_abilities.md",
+      "directory": "Monstrous_Manual",
+      "size_kb": 18.45,
+      "lines": 92,
+      "entities": []
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/27_sample_monster_creation.md",
+      "name": "27_sample_monster_creation.md",
+      "directory": "Monstrous_Manual",
+      "size_kb": 7.93,
+      "lines": 32,
+      "entities": []
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/15_monster_body_form.md",
+      "name": "15_monster_body_form.md",
+      "directory": "Monstrous_Manual",
+      "size_kb": 4.66,
+      "lines": 53,
+      "entities": []
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/20_monster_experience_points.md",
+      "name": "20_monster_experience_points.md",
+      "directory": "Monstrous_Manual",
+      "size_kb": 1.12,
+      "lines": 44,
+      "entities": []
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/14_monster_saving_throws.md",
+      "name": "14_monster_saving_throws.md",
+      "directory": "Monstrous_Manual",
+      "size_kb": 0.69,
+      "lines": 4,
+      "entities": []
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/06_monster_types.md",
+      "name": "06_monster_types.md",
+      "directory": "Monstrous_Manual",
+      "size_kb": 8.45,
+      "lines": 57,
+      "entities": []
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/01_title_page.md",
+      "name": "01_title_page.md",
+      "directory": "Monstrous_Manual",
+      "size_kb": 1.48,
+      "lines": 24,
+      "entities": []
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/24_monster_parts_spoils.md",
+      "name": "24_monster_parts_spoils.md",
+      "directory": "Monstrous_Manual",
+      "size_kb": 0.46,
+      "lines": 6,
+      "entities": []
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/03_about_the_game.md",
+      "name": "03_about_the_game.md",
+      "directory": "Monstrous_Manual",
+      "size_kb": 0.98,
+      "lines": 6,
+      "entities": []
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/18_monster_special_senses.md",
+      "name": "18_monster_special_senses.md",
+      "directory": "Monstrous_Manual",
+      "size_kb": 0.59,
+      "lines": 10,
+      "entities": []
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/10_chapter_4_monster_creation.md",
+      "name": "10_chapter_4_monster_creation.md",
+      "directory": "Monstrous_Manual",
+      "size_kb": 0.42,
+      "lines": 4,
+      "entities": []
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/17_monster_natural_attack_table.md",
+      "name": "17_monster_natural_attack_table.md",
+      "directory": "Monstrous_Manual",
+      "size_kb": 4.42,
+      "lines": 36,
+      "entities": []
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/12_monster_type.md",
+      "name": "12_monster_type.md",
+      "directory": "Monstrous_Manual",
+      "size_kb": 1.83,
+      "lines": 20,
+      "entities": []
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/26_monster_treasure_type.md",
+      "name": "26_monster_treasure_type.md",
+      "directory": "Monstrous_Manual",
+      "size_kb": 4.88,
+      "lines": 58,
+      "entities": []
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/01_chapter_2_monster_listings.md",
+      "name": "01_chapter_2_monster_listings.md",
+      "directory": "Monstrous_Manual",
+      "size_kb": 748.14,
+      "lines": 13128,
+      "entities": [
+        "Acanthaspis, Giant",
+        "Amphisbaena",
+        "Ant, Giant",
+        "Arane",
+        "Attercop, Demonic",
+        "Attercop, Foul",
+        "Attercop, Hideous",
+        "Attercop, Monstrous",
+        "Baboon, Rock",
+        "B\u00e1leygr",
+        "Barghest, Greater",
+        "Barghest, Lesser",
+        "Basilisk, Noxious",
+        "Basilisk, Petrifying",
+        "Bat, Common",
+        "Bat, Giant",
+        "Bat, Giant Vampire",
+        "Bear, Black",
+        "Bear, Brown",
+        "Bear, Cave",
+        "Bear, Polar",
+        "Beastman",
+        "Beastman, Bugbear",
+        "Beastman, Gnoll",
+        "Beastman, Goblin",
+        "Beastman, Hobgoblin",
+        "Beastman, Kobold",
+        "Beastman, Orc",
+        "Beastman, Special Rules",
+        "Bee, Giant Killer",
+        "Beetle, Giant Bombardier",
+        "Beetle, Giant Luminous",
+        "Beetle, Giant Tiger",
+        "Blob, Black",
+        "Blood Hound",
+        "Boar, Common",
+        "Boar, Giant",
+        "Bronze Bull",
+        "Cacodemon",
+        "Camel",
+        "Cairn Dwellers",
+        "Carrion Horror",
+        "Cat, Catamount",
+        "Cat, Cheetah",
+        "Cat, Leopard",
+        "Cat, Lion",
+        "Cat, Lynx",
+        "Cat, Saber-Tooth Tiger",
+        "Cat, Tiger",
+        "Catoblepas",
+        "Centaur",
+        "Centipede, Giant",
+        "Chaos Hulk",
+        "Child of Nasga",
+        "Chimera",
+        "Crab, Giant",
+        "Crocodile, Common",
+        "Crocodile, Giant",
+        "Crocodile, Large",
+        "Cyclops",
+        "Dakhanavar, Greater",
+        "Dakhanavar, Lesser",
+        "Death Charger",
+        "Death Knight",
+        "Devil Boar",
+        "Devil Ray, Giant",
+        "Dog, Hunting",
+        "Dog, War",
+        "Doppelg\u00e4nger",
+        "Dolphin, Common",
+        "Dragon",
+        "Dragonfly, Giant",
+        "Dragon Turtle",
+        "Draugr",
+        "Dwarf",
+        "Elemental",
+        "Elephant",
+        "Elf",
+        "Equine, Donkey",
+        "Equine, Heavy Horse",
+        "Equine, Light Horse",
+        "Equine, Medium Horse",
+        "Equine, Mule",
+        "Equine, Steppe Horse",
+        "Ettin",
+        "Faerie, Brownie (Boggart)",
+        "Faerie, Knocker",
+        "Faerie, Nixie",
+        "Faerie, Piskie",
+        "Faerie, Pixie",
+        "Faerie, Redcap",
+        "Faerie, Spriggan",
+        "Faerie, Sprite",
+        "Faravahar",
+        "Fish, Giant Catfish",
+        "Fish, Giant Piranha",
+        "Fish, Giant Rockfish",
+        "Fish, Giant Sturgeon",
+        "Flay Fiend",
+        "Fly, Giant Carnivorous",
+        "Frog, Giant",
+        "Fungus, Shrieking",
+        "Fungus, Violet",
+        "Galdrtr\u00e9",
+        "Gargoyle",
+        "Genie, Efreet",
+        "Genie, Hafar",
+        "Genie, Jann",
+        "Genie, Marid",
+        "Ghoul, Desert",
+        "Ghoul, Grave",
+        "Ghoul, Marsh",
+        "Giant, Fire",
+        "Giant, Frost",
+        "Giant, Hill",
+        "Giant, Stone",
+        "Gnome",
+        "Golem, Amber",
+        "Golem, Bone",
+        "Golem, Bronze",
+        "Golem, Iron",
+        "Golem, Stone",
+        "Golem, Wood",
+        "Goo, Grey",
+        "Gorgon",
+        "Gorilla, Cave",
+        "Griffon",
+        "Grimlock",
+        "Hag",
+        "Halfling",
+        "Harpy",
+        "Haugbui",
+        "Haunt",
+        "Hellhawk",
+        "Hellhound, Greater",
+        "Hellhound, Lesser",
+        "Herald Angel",
+        "Herd Animal",
+        "Hippogriff",
+        "Hippopotamus, Common",
+        "Hoarflesh",
+        "Hobgholl",
+        "Hydra",
+        "Hyena, Common",
+        "Hyena, Giant",
+        "Invisible Stalker",
+        "Jackal, Common",
+        "Jellyfish, Giant",
+        "Khepri",
+        "Kraken",
+        "Lamia",
+        "Lammasu",
+        "Leech, Giant",
+        "Leyak",
+        "Living Ancestor",
+        "Lizardman",
+        "Lizard, Giant Draco",
+        "Lizard, Giant Gecko",
+        "Lizard, Giant Horned Chameleon",
+        "Lizard, Giant Tuatara",
+        "Locust, Cavern",
+        "Lycanthrope",
+        "Lycanthrope, Werebear",
+        "Lycanthrope, Wereboar",
+        "Lycanthrope, Wererat",
+        "Lycanthrope, Weretiger",
+        "Lycanthrope, Werewolf"
+      ]
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/25_monster_taming_and_training_characteristics.md",
+      "name": "25_monster_taming_and_training_characteristics.md",
+      "directory": "Monstrous_Manual",
+      "size_kb": 6.94,
+      "lines": 55,
+      "entities": []
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/07_monster_characteristics.md",
+      "name": "07_monster_characteristics.md",
+      "directory": "Monstrous_Manual",
+      "size_kb": 60.41,
+      "lines": 507,
+      "entities": []
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/13_monster_hit_dice.md",
+      "name": "13_monster_hit_dice.md",
+      "directory": "Monstrous_Manual",
+      "size_kb": 0.63,
+      "lines": 6,
+      "entities": []
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/22_monster_intelligence.md",
+      "name": "22_monster_intelligence.md",
+      "directory": "Monstrous_Manual",
+      "size_kb": 4.3,
+      "lines": 67,
+      "entities": []
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/06_young_and_old_monsters.md",
+      "name": "06_young_and_old_monsters.md",
+      "directory": "Monstrous_Manual",
+      "size_kb": 5.55,
+      "lines": 41,
+      "entities": []
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/01_chapter_3_monster_rules.md",
+      "name": "01_chapter_3_monster_rules.md",
+      "directory": "Monstrous_Manual",
+      "size_kb": 0.03,
+      "lines": 2,
+      "entities": []
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/07_taming_and_training_monsters.md",
+      "name": "07_taming_and_training_monsters.md",
+      "directory": "Monstrous_Manual",
+      "size_kb": 66.24,
+      "lines": 551,
+      "entities": []
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/03_proficiencies_for_monsters.md",
+      "name": "03_proficiencies_for_monsters.md",
+      "directory": "Monstrous_Manual",
+      "size_kb": 3.86,
+      "lines": 22,
+      "entities": []
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/02_attributes_for_monsters.md",
+      "name": "02_attributes_for_monsters.md",
+      "directory": "Monstrous_Manual",
+      "size_kb": 6.67,
+      "lines": 70,
+      "entities": []
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/09_monster_parts_special.md",
+      "name": "09_monster_parts_special.md",
+      "directory": "Monstrous_Manual",
+      "size_kb": 58.76,
+      "lines": 504,
+      "entities": []
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/21_monster_organization.md",
+      "name": "21_monster_organization.md",
+      "directory": "Monstrous_Manual",
+      "size_kb": 5.78,
+      "lines": 58,
+      "entities": []
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/11_monster_creation_steps.md",
+      "name": "11_monster_creation_steps.md",
+      "directory": "Monstrous_Manual",
+      "size_kb": 7.83,
+      "lines": 25,
+      "entities": []
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/23_monster_alignment.md",
+      "name": "23_monster_alignment.md",
+      "directory": "Monstrous_Manual",
+      "size_kb": 2.62,
+      "lines": 29,
+      "entities": []
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/04_monstrous_henchmen.md",
+      "name": "04_monstrous_henchmen.md",
+      "directory": "Monstrous_Manual",
+      "size_kb": 7.24,
+      "lines": 66,
+      "entities": []
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/02_introduction.md",
+      "name": "02_introduction.md",
+      "directory": "Monstrous_Manual",
+      "size_kb": 0.47,
+      "lines": 4,
+      "entities": []
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/16_monster_weight_size_category_and_armor_class.md",
+      "name": "16_monster_weight_size_category_and_armor_class.md",
+      "directory": "Monstrous_Manual",
+      "size_kb": 6.31,
+      "lines": 47,
+      "entities": []
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/108_nobiran_custom_classes.md",
+      "name": "108_nobiran_custom_classes.md",
+      "directory": "Judges_Journal",
+      "size_kb": 3.57,
+      "lines": 46,
+      "entities": {
+        "sections": 5,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/94_creating_a_custom_class.md",
+      "name": "94_creating_a_custom_class.md",
+      "directory": "Judges_Journal",
+      "size_kb": 3.04,
+      "lines": 19,
+      "entities": {
+        "sections": 1,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/110_custom_powers.md",
+      "name": "110_custom_powers.md",
+      "directory": "Judges_Journal",
+      "size_kb": 141.08,
+      "lines": 835,
+      "entities": {
+        "sections": 5,
+        "custom_powers": 15,
+        "other": 0
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/170_orison\u2019s_devotion.md",
+      "name": "170_orison\u2019s_devotion.md",
+      "directory": "Judges_Journal",
+      "size_kb": 14.23,
+      "lines": 130,
+      "entities": {
+        "sections": 1,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/30_additional_rules_for_campaigns.md",
+      "name": "30_additional_rules_for_campaigns.md",
+      "directory": "Judges_Journal",
+      "size_kb": 15.17,
+      "lines": 164,
+      "entities": {
+        "sections": 4,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/76_part_iii_abstraction.md",
+      "name": "76_part_iii_abstraction.md",
+      "directory": "Judges_Journal",
+      "size_kb": 0.02,
+      "lines": 2,
+      "entities": {
+        "sections": 0,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/06_what\u2019s_in_a_name.md",
+      "name": "06_what\u2019s_in_a_name.md",
+      "directory": "Judges_Journal",
+      "size_kb": 4.73,
+      "lines": 24,
+      "entities": {
+        "sections": 1,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/91_optional_rules.md",
+      "name": "91_optional_rules.md",
+      "directory": "Judges_Journal",
+      "size_kb": 8.46,
+      "lines": 50,
+      "entities": {
+        "sections": 5,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/120_spell_characteristics_by_type.md",
+      "name": "120_spell_characteristics_by_type.md",
+      "directory": "Judges_Journal",
+      "size_kb": 85.77,
+      "lines": 1519,
+      "entities": {
+        "sections": 12,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/140_rule_of_the_few.md",
+      "name": "140_rule_of_the_few.md",
+      "directory": "Judges_Journal",
+      "size_kb": 10.38,
+      "lines": 96,
+      "entities": {
+        "sections": 5,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/36_the_basics_of_realm_building.md",
+      "name": "36_the_basics_of_realm_building.md",
+      "directory": "Judges_Journal",
+      "size_kb": 6.44,
+      "lines": 44,
+      "entities": {
+        "sections": 1,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/162_urban_economics.md",
+      "name": "162_urban_economics.md",
+      "directory": "Judges_Journal",
+      "size_kb": 7.02,
+      "lines": 30,
+      "entities": {
+        "sections": 3,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/05_chapter_1_foundations.md",
+      "name": "05_chapter_1_foundations.md",
+      "directory": "Judges_Journal",
+      "size_kb": 1.72,
+      "lines": 10,
+      "entities": {
+        "sections": 0,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/62_step_4_stock_the_dungeon.md",
+      "name": "62_step_4_stock_the_dungeon.md",
+      "directory": "Judges_Journal",
+      "size_kb": 1.29,
+      "lines": 17,
+      "entities": {
+        "sections": 1,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/81_the_resolution_table.md",
+      "name": "81_the_resolution_table.md",
+      "directory": "Judges_Journal",
+      "size_kb": 2.63,
+      "lines": 34,
+      "entities": {
+        "sections": 1,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/34_part_ii_construction.md",
+      "name": "34_part_ii_construction.md",
+      "directory": "Judges_Journal",
+      "size_kb": 0.02,
+      "lines": 2,
+      "entities": {
+        "sections": 0,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/121_chapter_15_custom_magic_types.md",
+      "name": "121_chapter_15_custom_magic_types.md",
+      "directory": "Judges_Journal",
+      "size_kb": 2.72,
+      "lines": 19,
+      "entities": {
+        "sections": 0,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/158_appendix_e_economics.md",
+      "name": "158_appendix_e_economics.md",
+      "directory": "Judges_Journal",
+      "size_kb": 1.4,
+      "lines": 4,
+      "entities": {
+        "sections": 0,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/41_step_5_estimate_domain_populations_and_incomes.md",
+      "name": "41_step_5_estimate_domain_populations_and_incomes.md",
+      "directory": "Judges_Journal",
+      "size_kb": 2.87,
+      "lines": 22,
+      "entities": {
+        "sections": 1,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/113_creating_a_fantasy_race.md",
+      "name": "113_creating_a_fantasy_race.md",
+      "directory": "Judges_Journal",
+      "size_kb": 2.78,
+      "lines": 22,
+      "entities": {
+        "sections": 1,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/101_saving_throw_progression.md",
+      "name": "101_saving_throw_progression.md",
+      "directory": "Judges_Journal",
+      "size_kb": 4.19,
+      "lines": 45,
+      "entities": {
+        "sections": 5,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/39_step_3_determine_vassal_realm_types.md",
+      "name": "39_step_3_determine_vassal_realm_types.md",
+      "directory": "Judges_Journal",
+      "size_kb": 1.32,
+      "lines": 8,
+      "entities": {
+        "sections": 1,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/165_appendix_n_recommended_reading_for_judges.md",
+      "name": "165_appendix_n_recommended_reading_for_judges.md",
+      "directory": "Judges_Journal",
+      "size_kb": 0.04,
+      "lines": 2,
+      "entities": {
+        "sections": 0,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/01_title_page.md",
+      "name": "01_title_page.md",
+      "directory": "Judges_Journal",
+      "size_kb": 1.75,
+      "lines": 26,
+      "entities": {
+        "sections": 0,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/92_part_iv_customization.md",
+      "name": "92_part_iv_customization.md",
+      "directory": "Judges_Journal",
+      "size_kb": 0.02,
+      "lines": 2,
+      "entities": {
+        "sections": 0,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/72_0th_level_npcs.md",
+      "name": "72_0th_level_npcs.md",
+      "directory": "Judges_Journal",
+      "size_kb": 30.8,
+      "lines": 328,
+      "entities": {
+        "sections": 7,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/66_step_8_place_unique_encounters.md",
+      "name": "66_step_8_place_unique_encounters.md",
+      "directory": "Judges_Journal",
+      "size_kb": 2.73,
+      "lines": 17,
+      "entities": {
+        "sections": 1,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/128_saving_throw_progression.md",
+      "name": "128_saving_throw_progression.md",
+      "directory": "Judges_Journal",
+      "size_kb": 4.92,
+      "lines": 65,
+      "entities": {
+        "sections": 1,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/86_chapter_11_abstract_wilderness.md",
+      "name": "86_chapter_11_abstract_wilderness.md",
+      "directory": "Judges_Journal",
+      "size_kb": 0.45,
+      "lines": 4,
+      "entities": {
+        "sections": 0,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/166_recommended_books_fiction.md",
+      "name": "166_recommended_books_fiction.md",
+      "directory": "Judges_Journal",
+      "size_kb": 3.09,
+      "lines": 80,
+      "entities": {
+        "sections": 1,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/148_what_is_the_cosmos.md",
+      "name": "148_what_is_the_cosmos.md",
+      "directory": "Judges_Journal",
+      "size_kb": 0.74,
+      "lines": 6,
+      "entities": {
+        "sections": 1,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/89_abstract_wilderness_encounters_evasion.md",
+      "name": "89_abstract_wilderness_encounters_evasion.md",
+      "directory": "Judges_Journal",
+      "size_kb": 0.9,
+      "lines": 6,
+      "entities": {
+        "sections": 1,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/119_building_a_spell.md",
+      "name": "119_building_a_spell.md",
+      "directory": "Judges_Journal",
+      "size_kb": 1.68,
+      "lines": 23,
+      "entities": {
+        "sections": 2,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/83_treasure_and_experience.md",
+      "name": "83_treasure_and_experience.md",
+      "directory": "Judges_Journal",
+      "size_kb": 2.42,
+      "lines": 36,
+      "entities": {
+        "sections": 3,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/104_custom_racial_classes.md",
+      "name": "104_custom_racial_classes.md",
+      "directory": "Judges_Journal",
+      "size_kb": 4.12,
+      "lines": 59,
+      "entities": {
+        "sections": 10,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/61_step_3_map_the_dungeon.md",
+      "name": "61_step_3_map_the_dungeon.md",
+      "directory": "Judges_Journal",
+      "size_kb": 0.86,
+      "lines": 6,
+      "entities": {
+        "sections": 1,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/154_what_are_the_elemental_spheres.md",
+      "name": "154_what_are_the_elemental_spheres.md",
+      "directory": "Judges_Journal",
+      "size_kb": 1.4,
+      "lines": 8,
+      "entities": {
+        "sections": 1,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/65_step_7_place_traps.md",
+      "name": "65_step_7_place_traps.md",
+      "directory": "Judges_Journal",
+      "size_kb": 21.24,
+      "lines": 186,
+      "entities": {
+        "sections": 5,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/42_step_6_estimate_urban_settlement_sizes.md",
+      "name": "42_step_6_estimate_urban_settlement_sizes.md",
+      "directory": "Judges_Journal",
+      "size_kb": 4.14,
+      "lines": 35,
+      "entities": {
+        "sections": 1,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/105_dwarven_custom_classes.md",
+      "name": "105_dwarven_custom_classes.md",
+      "directory": "Judges_Journal",
+      "size_kb": 4.7,
+      "lines": 51,
+      "entities": {
+        "sections": 6,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/141_separating_land_and_lordship.md",
+      "name": "141_separating_land_and_lordship.md",
+      "directory": "Judges_Journal",
+      "size_kb": 13.28,
+      "lines": 93,
+      "entities": {
+        "sections": 1,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/147_appendix_c_cosmology.md",
+      "name": "147_appendix_c_cosmology.md",
+      "directory": "Judges_Journal",
+      "size_kb": 1.7,
+      "lines": 10,
+      "entities": {
+        "sections": 0,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/19_chapter_2_adventures.md",
+      "name": "19_chapter_2_adventures.md",
+      "directory": "Judges_Journal",
+      "size_kb": 0.59,
+      "lines": 4,
+      "entities": {
+        "sections": 0,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/156_how_do_the_gods_accumulate_divine_power.md",
+      "name": "156_how_do_the_gods_accumulate_divine_power.md",
+      "directory": "Judges_Journal",
+      "size_kb": 2.63,
+      "lines": 12,
+      "entities": {
+        "sections": 1,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/117_chapter_14_custom_spells.md",
+      "name": "117_chapter_14_custom_spells.md",
+      "directory": "Judges_Journal",
+      "size_kb": 1.67,
+      "lines": 10,
+      "entities": {
+        "sections": 0,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/135_heroic_fate.md",
+      "name": "135_heroic_fate.md",
+      "directory": "Judges_Journal",
+      "size_kb": 13.7,
+      "lines": 92,
+      "entities": {
+        "sections": 5,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/173_the_prophet\u2019s_entourage.md",
+      "name": "173_the_prophet\u2019s_entourage.md",
+      "directory": "Judges_Journal",
+      "size_kb": 11.48,
+      "lines": 134,
+      "entities": {
+        "sections": 1,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/07_it's_not_your_job_to_make_sure_people_have_fun.md",
+      "name": "07_it's_not_your_job_to_make_sure_people_have_fun.md",
+      "directory": "Judges_Journal",
+      "size_kb": 1.27,
+      "lines": 8,
+      "entities": {
+        "sections": 1,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/59_step_1_select_dungeon_size.md",
+      "name": "59_step_1_select_dungeon_size.md",
+      "directory": "Judges_Journal",
+      "size_kb": 1.04,
+      "lines": 12,
+      "entities": {
+        "sections": 1,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/159_baseline_assumptions.md",
+      "name": "159_baseline_assumptions.md",
+      "directory": "Judges_Journal",
+      "size_kb": 5.26,
+      "lines": 36,
+      "entities": {
+        "sections": 1,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/146_appendix_a_adventures_add_files_separately.md",
+      "name": "146_appendix_a_adventures_add_files_separately.md",
+      "directory": "Judges_Journal",
+      "size_kb": 0.61,
+      "lines": 4,
+      "entities": {
+        "sections": 0,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/132_combat.md",
+      "name": "132_combat.md",
+      "directory": "Judges_Journal",
+      "size_kb": 17.67,
+      "lines": 175,
+      "entities": {
+        "sections": 7,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/138_overcasting.md",
+      "name": "138_overcasting.md",
+      "directory": "Judges_Journal",
+      "size_kb": 10.62,
+      "lines": 102,
+      "entities": {
+        "sections": 6,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/149_who_created_the_cosmos.md",
+      "name": "149_who_created_the_cosmos.md",
+      "directory": "Judges_Journal",
+      "size_kb": 1.75,
+      "lines": 8,
+      "entities": {
+        "sections": 1,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/129_spell_list.md",
+      "name": "129_spell_list.md",
+      "directory": "Judges_Journal",
+      "size_kb": 1.3,
+      "lines": 8,
+      "entities": {
+        "sections": 1,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/11_adversarial_action.md",
+      "name": "11_adversarial_action.md",
+      "directory": "Judges_Journal",
+      "size_kb": 12.91,
+      "lines": 58,
+      "entities": {
+        "sections": 6,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/26_using_the_campaign_rules.md",
+      "name": "26_using_the_campaign_rules.md",
+      "directory": "Judges_Journal",
+      "size_kb": 2.16,
+      "lines": 10,
+      "entities": {
+        "sections": 1,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/153_what_are_the_celestial_spheres.md",
+      "name": "153_what_are_the_celestial_spheres.md",
+      "directory": "Judges_Journal",
+      "size_kb": 1.4,
+      "lines": 8,
+      "entities": {
+        "sections": 1,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/163_continental_economics.md",
+      "name": "163_continental_economics.md",
+      "directory": "Judges_Journal",
+      "size_kb": 6.13,
+      "lines": 87,
+      "entities": {
+        "sections": 3,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/124_spell_repertoire.md",
+      "name": "124_spell_repertoire.md",
+      "directory": "Judges_Journal",
+      "size_kb": 11.72,
+      "lines": 79,
+      "entities": {
+        "sections": 4,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/118_determining_spell_level.md",
+      "name": "118_determining_spell_level.md",
+      "directory": "Judges_Journal",
+      "size_kb": 12.6,
+      "lines": 90,
+      "entities": {
+        "sections": 9,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/03_how_to_use_this_book.md",
+      "name": "03_how_to_use_this_book.md",
+      "directory": "Judges_Journal",
+      "size_kb": 2.04,
+      "lines": 20,
+      "entities": {
+        "sections": 1,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/95_build_points_and_class_categories.md",
+      "name": "95_build_points_and_class_categories.md",
+      "directory": "Judges_Journal",
+      "size_kb": 2.0,
+      "lines": 12,
+      "entities": {
+        "sections": 1,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/29_vagaries.md",
+      "name": "29_vagaries.md",
+      "directory": "Judges_Journal",
+      "size_kb": 81.52,
+      "lines": 789,
+      "entities": {
+        "sections": 5,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/123_spell_progression_tables.md",
+      "name": "123_spell_progression_tables.md",
+      "directory": "Judges_Journal",
+      "size_kb": 31.44,
+      "lines": 826,
+      "entities": {
+        "sections": 1,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/82_after_the_foray.md",
+      "name": "82_after_the_foray.md",
+      "directory": "Judges_Journal",
+      "size_kb": 1.49,
+      "lines": 17,
+      "entities": {
+        "sections": 1,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/155_is_there_a_primary_sphere.md",
+      "name": "155_is_there_a_primary_sphere.md",
+      "directory": "Judges_Journal",
+      "size_kb": 1.71,
+      "lines": 8,
+      "entities": {
+        "sections": 1,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/31_chapter_4_treasure.md",
+      "name": "31_chapter_4_treasure.md",
+      "directory": "Judges_Journal",
+      "size_kb": 0.02,
+      "lines": 2,
+      "entities": {
+        "sections": 0,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/137_naming_arms_and_armor.md",
+      "name": "137_naming_arms_and_armor.md",
+      "directory": "Judges_Journal",
+      "size_kb": 2.14,
+      "lines": 12,
+      "entities": {
+        "sections": 1,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/40_step_4_determine_sub_vassal_realm_types.md",
+      "name": "40_step_4_determine_sub_vassal_realm_types.md",
+      "directory": "Judges_Journal",
+      "size_kb": 1.18,
+      "lines": 6,
+      "entities": {
+        "sections": 1,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/43_step_7_generate_demand_modifiers.md",
+      "name": "43_step_7_generate_demand_modifiers.md",
+      "directory": "Judges_Journal",
+      "size_kb": 11.61,
+      "lines": 112,
+      "entities": {
+        "sections": 6,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/100_arcane_value.md",
+      "name": "100_arcane_value.md",
+      "directory": "Judges_Journal",
+      "size_kb": 7.28,
+      "lines": 162,
+      "entities": {
+        "sections": 3,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/78_the_basics.md",
+      "name": "78_the_basics.md",
+      "directory": "Judges_Journal",
+      "size_kb": 1.29,
+      "lines": 12,
+      "entities": {
+        "sections": 1,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/57_step_7_update_settlement_encounter_tables.md",
+      "name": "57_step_7_update_settlement_encounter_tables.md",
+      "directory": "Judges_Journal",
+      "size_kb": 1.97,
+      "lines": 10,
+      "entities": {
+        "sections": 1,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/67_step_9_assign_treasure.md",
+      "name": "67_step_9_assign_treasure.md",
+      "directory": "Judges_Journal",
+      "size_kb": 3.26,
+      "lines": 28,
+      "entities": {
+        "sections": 1,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/18_running_a_campaign.md",
+      "name": "18_running_a_campaign.md",
+      "directory": "Judges_Journal",
+      "size_kb": 9.37,
+      "lines": 52,
+      "entities": {
+        "sections": 6,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/73_npc_parties.md",
+      "name": "73_npc_parties.md",
+      "directory": "Judges_Journal",
+      "size_kb": 4.77,
+      "lines": 49,
+      "entities": {
+        "sections": 1,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/09_judging_the_game.md",
+      "name": "09_judging_the_game.md",
+      "directory": "Judges_Journal",
+      "size_kb": 9.83,
+      "lines": 48,
+      "entities": {
+        "sections": 3,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/22_sea_voyages.md",
+      "name": "22_sea_voyages.md",
+      "directory": "Judges_Journal",
+      "size_kb": 43.15,
+      "lines": 438,
+      "entities": {
+        "sections": 3,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/151_what_are_souls.md",
+      "name": "151_what_are_souls.md",
+      "directory": "Judges_Journal",
+      "size_kb": 4.55,
+      "lines": 20,
+      "entities": {
+        "sections": 1,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/134_heroic_codes.md",
+      "name": "134_heroic_codes.md",
+      "directory": "Judges_Journal",
+      "size_kb": 2.56,
+      "lines": 21,
+      "entities": {
+        "sections": 2,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/111_ready_for_play_class_builds.md",
+      "name": "111_ready_for_play_class_builds.md",
+      "directory": "Judges_Journal",
+      "size_kb": 7.72,
+      "lines": 71,
+      "entities": {
+        "sections": 1,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/130_chapter_16_custom_rules.md",
+      "name": "130_chapter_16_custom_rules.md",
+      "directory": "Judges_Journal",
+      "size_kb": 0.15,
+      "lines": 4,
+      "entities": {
+        "sections": 0,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/53_step_3_determine_inhabitants.md",
+      "name": "53_step_3_determine_inhabitants.md",
+      "directory": "Judges_Journal",
+      "size_kb": 7.72,
+      "lines": 140,
+      "entities": {
+        "sections": 7,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/23_settlement_adventures.md",
+      "name": "23_settlement_adventures.md",
+      "directory": "Judges_Journal",
+      "size_kb": 27.62,
+      "lines": 155,
+      "entities": {
+        "sections": 4,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/02_foreword.md",
+      "name": "02_foreword.md",
+      "directory": "Judges_Journal",
+      "size_kb": 2.32,
+      "lines": 12,
+      "entities": {
+        "sections": 0,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/16_hosting_your_game.md",
+      "name": "16_hosting_your_game.md",
+      "directory": "Judges_Journal",
+      "size_kb": 7.08,
+      "lines": 40,
+      "entities": {
+        "sections": 4,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/84_example_of_abstract_dungeon_resolution.md",
+      "name": "84_example_of_abstract_dungeon_resolution.md",
+      "directory": "Judges_Journal",
+      "size_kb": 4.8,
+      "lines": 26,
+      "entities": {
+        "sections": 1,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/122_source_factor_per_spell_type.md",
+      "name": "122_source_factor_per_spell_type.md",
+      "directory": "Judges_Journal",
+      "size_kb": 13.28,
+      "lines": 126,
+      "entities": {
+        "sections": 1,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/08_the_agency_theory_of_fun.md",
+      "name": "08_the_agency_theory_of_fun.md",
+      "directory": "Judges_Journal",
+      "size_kb": 7.21,
+      "lines": 44,
+      "entities": {
+        "sections": 3,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/145_part_v_appendices.md",
+      "name": "145_part_v_appendices.md",
+      "directory": "Judges_Journal",
+      "size_kb": 0.02,
+      "lines": 2,
+      "entities": {
+        "sections": 0,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/24_additional_rules_for_adventures.md",
+      "name": "24_additional_rules_for_adventures.md",
+      "directory": "Judges_Journal",
+      "size_kb": 63.28,
+      "lines": 573,
+      "entities": {
+        "sections": 7,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/125_magic_type_class_category.md",
+      "name": "125_magic_type_class_category.md",
+      "directory": "Judges_Journal",
+      "size_kb": 7.56,
+      "lines": 54,
+      "entities": {
+        "sections": 1,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/97_fighting_value.md",
+      "name": "97_fighting_value.md",
+      "directory": "Judges_Journal",
+      "size_kb": 12.04,
+      "lines": 110,
+      "entities": {
+        "sections": 7,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/27_sequence_of_play_campaigns.md",
+      "name": "27_sequence_of_play_campaigns.md",
+      "directory": "Judges_Journal",
+      "size_kb": 7.2,
+      "lines": 82,
+      "entities": {
+        "sections": 4,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/150_what_are_the_gods.md",
+      "name": "150_what_are_the_gods.md",
+      "directory": "Judges_Journal",
+      "size_kb": 4.1,
+      "lines": 24,
+      "entities": {
+        "sections": 1,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/52_step_2_map_the_settlement.md",
+      "name": "52_step_2_map_the_settlement.md",
+      "directory": "Judges_Journal",
+      "size_kb": 2.51,
+      "lines": 19,
+      "entities": {
+        "sections": 1,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/14_fudging_the_dice.md",
+      "name": "14_fudging_the_dice.md",
+      "directory": "Judges_Journal",
+      "size_kb": 7.48,
+      "lines": 42,
+      "entities": {
+        "sections": 4,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/28_campaign_activities.md",
+      "name": "28_campaign_activities.md",
+      "directory": "Judges_Journal",
+      "size_kb": 10.18,
+      "lines": 116,
+      "entities": {
+        "sections": 3,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/136_item_loss_from_damage.md",
+      "name": "136_item_loss_from_damage.md",
+      "directory": "Judges_Journal",
+      "size_kb": 4.52,
+      "lines": 46,
+      "entities": {
+        "sections": 1,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/17_managing_problems_and_players.md",
+      "name": "17_managing_problems_and_players.md",
+      "directory": "Judges_Journal",
+      "size_kb": 23.02,
+      "lines": 110,
+      "entities": {
+        "sections": 4,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/133_encumbrance.md",
+      "name": "133_encumbrance.md",
+      "directory": "Judges_Journal",
+      "size_kb": 2.66,
+      "lines": 22,
+      "entities": {
+        "sections": 1,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/79_the_dungeon.md",
+      "name": "79_the_dungeon.md",
+      "directory": "Judges_Journal",
+      "size_kb": 1.06,
+      "lines": 18,
+      "entities": {
+        "sections": 1,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/77_chapter_10_abstract_dungeons.md",
+      "name": "77_chapter_10_abstract_dungeons.md",
+      "directory": "Judges_Journal",
+      "size_kb": 0.4,
+      "lines": 4,
+      "entities": {
+        "sections": 0,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/160_agrarian_economics.md",
+      "name": "160_agrarian_economics.md",
+      "directory": "Judges_Journal",
+      "size_kb": 11.16,
+      "lines": 74,
+      "entities": {
+        "sections": 4,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/44_step_8_demarcate_the_territory_of_the_realm.md",
+      "name": "44_step_8_demarcate_the_territory_of_the_realm.md",
+      "directory": "Judges_Journal",
+      "size_kb": 9.31,
+      "lines": 79,
+      "entities": {
+        "sections": 8,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/167_recommended_books_non_fiction.md",
+      "name": "167_recommended_books_non_fiction.md",
+      "directory": "Judges_Journal",
+      "size_kb": 2.63,
+      "lines": 92,
+      "entities": {
+        "sections": 1,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/157_game_mechanics_of_divine_power.md",
+      "name": "157_game_mechanics_of_divine_power.md",
+      "directory": "Judges_Journal",
+      "size_kb": 6.79,
+      "lines": 50,
+      "entities": {
+        "sections": 5,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/70_chapter_9_non_player_characters.md",
+      "name": "70_chapter_9_non_player_characters.md",
+      "directory": "Judges_Journal",
+      "size_kb": 0.49,
+      "lines": 4,
+      "entities": {
+        "sections": 0,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/93_chapter_12_custom_classes.md",
+      "name": "93_chapter_12_custom_classes.md",
+      "directory": "Judges_Journal",
+      "size_kb": 0.03,
+      "lines": 2,
+      "entities": {
+        "sections": 0,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/71_demographics_of_leveled_npcs.md",
+      "name": "71_demographics_of_leveled_npcs.md",
+      "directory": "Judges_Journal",
+      "size_kb": 26.18,
+      "lines": 348,
+      "entities": {
+        "sections": 7,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/131_characters.md",
+      "name": "131_characters.md",
+      "directory": "Judges_Journal",
+      "size_kb": 19.49,
+      "lines": 191,
+      "entities": {
+        "sections": 6,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/127_magic_research.md",
+      "name": "127_magic_research.md",
+      "directory": "Judges_Journal",
+      "size_kb": 6.62,
+      "lines": 53,
+      "entities": {
+        "sections": 1,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/48_step_12_name_the_realms_and_domains.md",
+      "name": "48_step_12_name_the_realms_and_domains.md",
+      "directory": "Judges_Journal",
+      "size_kb": 1.77,
+      "lines": 8,
+      "entities": {
+        "sections": 1,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/103_experience_points_per_level.md",
+      "name": "103_experience_points_per_level.md",
+      "directory": "Judges_Journal",
+      "size_kb": 1.55,
+      "lines": 18,
+      "entities": {
+        "sections": 2,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/152_what_is_undeath.md",
+      "name": "152_what_is_undeath.md",
+      "directory": "Judges_Journal",
+      "size_kb": 3.11,
+      "lines": 18,
+      "entities": {
+        "sections": 1,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/106_elven_custom_classes.md",
+      "name": "106_elven_custom_classes.md",
+      "directory": "Judges_Journal",
+      "size_kb": 5.45,
+      "lines": 60,
+      "entities": {
+        "sections": 5,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/107_halfling_custom_classes.md",
+      "name": "107_halfling_custom_classes.md",
+      "directory": "Judges_Journal",
+      "size_kb": 6.92,
+      "lines": 47,
+      "entities": {
+        "sections": 4,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/38_step_2_determine_realm_type.md",
+      "name": "38_step_2_determine_realm_type.md",
+      "directory": "Judges_Journal",
+      "size_kb": 0.73,
+      "lines": 6,
+      "entities": {
+        "sections": 1,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/169_appendix_p_parties.md",
+      "name": "169_appendix_p_parties.md",
+      "directory": "Judges_Journal",
+      "size_kb": 0.96,
+      "lines": 6,
+      "entities": {
+        "sections": 0,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/88_abstract_wilderness_encounter_resolution.md",
+      "name": "88_abstract_wilderness_encounter_resolution.md",
+      "directory": "Judges_Journal",
+      "size_kb": 7.21,
+      "lines": 74,
+      "entities": {
+        "sections": 5,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/102_strongholds_and_followers.md",
+      "name": "102_strongholds_and_followers.md",
+      "directory": "Judges_Journal",
+      "size_kb": 3.52,
+      "lines": 29,
+      "entities": {
+        "sections": 2,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/21_wilderness_expeditions.md",
+      "name": "21_wilderness_expeditions.md",
+      "directory": "Judges_Journal",
+      "size_kb": 151.42,
+      "lines": 1789,
+      "entities": {
+        "sections": 5,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/37_step_1_estimate_realm_size.md",
+      "name": "37_step_1_estimate_realm_size.md",
+      "directory": "Judges_Journal",
+      "size_kb": 1.05,
+      "lines": 8,
+      "entities": {
+        "sections": 1,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/45_step_9_classify_domains.md",
+      "name": "45_step_9_classify_domains.md",
+      "directory": "Judges_Journal",
+      "size_kb": 2.79,
+      "lines": 15,
+      "entities": {
+        "sections": 1,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/161_pastoralist_economics.md",
+      "name": "161_pastoralist_economics.md",
+      "directory": "Judges_Journal",
+      "size_kb": 14.21,
+      "lines": 133,
+      "entities": {
+        "sections": 5,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/47_step_11_determine_npc_classes_and_levels.md",
+      "name": "47_step_11_determine_npc_classes_and_levels.md",
+      "directory": "Judges_Journal",
+      "size_kb": 0.84,
+      "lines": 21,
+      "entities": {
+        "sections": 1,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/32_treasure.md",
+      "name": "32_treasure.md",
+      "directory": "Judges_Journal",
+      "size_kb": 31.7,
+      "lines": 386,
+      "entities": {
+        "sections": 5,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/12_handling_combat.md",
+      "name": "12_handling_combat.md",
+      "directory": "Judges_Journal",
+      "size_kb": 11.54,
+      "lines": 62,
+      "entities": {
+        "sections": 4,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/114_requirements.md",
+      "name": "114_requirements.md",
+      "directory": "Judges_Journal",
+      "size_kb": 2.95,
+      "lines": 15,
+      "entities": {
+        "sections": 1,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/56_step_6_build_settlement_story_web.md",
+      "name": "56_step_6_build_settlement_story_web.md",
+      "directory": "Judges_Journal",
+      "size_kb": 0.64,
+      "lines": 4,
+      "entities": {
+        "sections": 1,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/112_chapter_13_custom_races.md",
+      "name": "112_chapter_13_custom_races.md",
+      "directory": "Judges_Journal",
+      "size_kb": 0.24,
+      "lines": 4,
+      "entities": {
+        "sections": 0,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/35_chapter_6_realms.md",
+      "name": "35_chapter_6_realms.md",
+      "directory": "Judges_Journal",
+      "size_kb": 0.77,
+      "lines": 6,
+      "entities": {
+        "sections": 0,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/49_step_13_update_player_reference_guide.md",
+      "name": "49_step_13_update_player_reference_guide.md",
+      "directory": "Judges_Journal",
+      "size_kb": 0.85,
+      "lines": 6,
+      "entities": {
+        "sections": 1,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/126_codes_of_behavior.md",
+      "name": "126_codes_of_behavior.md",
+      "directory": "Judges_Journal",
+      "size_kb": 17.01,
+      "lines": 126,
+      "entities": {
+        "sections": 2,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/90_treasure_and_experience.md",
+      "name": "90_treasure_and_experience.md",
+      "directory": "Judges_Journal",
+      "size_kb": 3.01,
+      "lines": 31,
+      "entities": {
+        "sections": 3,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/80_abstract_dungeon_foray_resolution.md",
+      "name": "80_abstract_dungeon_foray_resolution.md",
+      "directory": "Judges_Journal",
+      "size_kb": 3.52,
+      "lines": 45,
+      "entities": {
+        "sections": 4,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/85_optional_rules.md",
+      "name": "85_optional_rules.md",
+      "directory": "Judges_Journal",
+      "size_kb": 6.43,
+      "lines": 77,
+      "entities": {
+        "sections": 7,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/174_the_grey_brotherhood.md",
+      "name": "174_the_grey_brotherhood.md",
+      "directory": "Judges_Journal",
+      "size_kb": 11.29,
+      "lines": 142,
+      "entities": {
+        "sections": 1,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/60_step_2_select_dungeon_type.md",
+      "name": "60_step_2_select_dungeon_type.md",
+      "directory": "Judges_Journal",
+      "size_kb": 1.4,
+      "lines": 20,
+      "entities": {
+        "sections": 1,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/10_letting_the_story_emerge.md",
+      "name": "10_letting_the_story_emerge.md",
+      "directory": "Judges_Journal",
+      "size_kb": 9.12,
+      "lines": 38,
+      "entities": {
+        "sections": 2,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/96_hit_dice_value.md",
+      "name": "96_hit_dice_value.md",
+      "directory": "Judges_Journal",
+      "size_kb": 0.74,
+      "lines": 17,
+      "entities": {
+        "sections": 1,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/50_chapter_7_settlements.md",
+      "name": "50_chapter_7_settlements.md",
+      "directory": "Judges_Journal",
+      "size_kb": 0.67,
+      "lines": 6,
+      "entities": {
+        "sections": 0,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/13_abducting_the_action.md",
+      "name": "13_abducting_the_action.md",
+      "directory": "Judges_Journal",
+      "size_kb": 8.46,
+      "lines": 50,
+      "entities": {
+        "sections": 3,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/25_chapter_3_campaigns.md",
+      "name": "25_chapter_3_campaigns.md",
+      "directory": "Judges_Journal",
+      "size_kb": 1.37,
+      "lines": 6,
+      "entities": {
+        "sections": 0,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/143_slavery.md",
+      "name": "143_slavery.md",
+      "directory": "Judges_Journal",
+      "size_kb": 12.61,
+      "lines": 102,
+      "entities": {
+        "sections": 3,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/115_class_category_values.md",
+      "name": "115_class_category_values.md",
+      "directory": "Judges_Journal",
+      "size_kb": 7.88,
+      "lines": 61,
+      "entities": {
+        "sections": 3,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/116_examples_of_race_creation.md",
+      "name": "116_examples_of_race_creation.md",
+      "directory": "Judges_Journal",
+      "size_kb": 11.58,
+      "lines": 90,
+      "entities": {
+        "sections": 6,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/109_zaharan_custom_classes.md",
+      "name": "109_zaharan_custom_classes.md",
+      "directory": "Judges_Journal",
+      "size_kb": 7.32,
+      "lines": 69,
+      "entities": {
+        "sections": 5,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/171_the_company_of_the_north.md",
+      "name": "171_the_company_of_the_north.md",
+      "directory": "Judges_Journal",
+      "size_kb": 18.13,
+      "lines": 156,
+      "entities": {
+        "sections": 1,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/64_step_6_place_monsters.md",
+      "name": "64_step_6_place_monsters.md",
+      "directory": "Judges_Journal",
+      "size_kb": 5.07,
+      "lines": 20,
+      "entities": {
+        "sections": 1,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/69_step_11_finish_the_dungeon_design.md",
+      "name": "69_step_11_finish_the_dungeon_design.md",
+      "directory": "Judges_Journal",
+      "size_kb": 1.18,
+      "lines": 8,
+      "entities": {
+        "sections": 1,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/68_step_10_review_for_verisimilitude.md",
+      "name": "68_step_10_review_for_verisimilitude.md",
+      "directory": "Judges_Journal",
+      "size_kb": 2.22,
+      "lines": 16,
+      "entities": {
+        "sections": 1,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/51_step_1_determine_settlement_size_and_shape.md",
+      "name": "51_step_1_determine_settlement_size_and_shape.md",
+      "directory": "Judges_Journal",
+      "size_kb": 3.51,
+      "lines": 32,
+      "entities": {
+        "sections": 1,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/99_divine_value.md",
+      "name": "99_divine_value.md",
+      "directory": "Judges_Journal",
+      "size_kb": 7.43,
+      "lines": 129,
+      "entities": {
+        "sections": 4,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/33_magic_items.md",
+      "name": "33_magic_items.md",
+      "directory": "Judges_Journal",
+      "size_kb": 231.03,
+      "lines": 1810,
+      "entities": {
+        "sections": 8,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/87_the_basics.md",
+      "name": "87_the_basics.md",
+      "directory": "Judges_Journal",
+      "size_kb": 9.33,
+      "lines": 72,
+      "entities": {
+        "sections": 1,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/55_step_5_generate_dynamic_buildings.md",
+      "name": "55_step_5_generate_dynamic_buildings.md",
+      "directory": "Judges_Journal",
+      "size_kb": 45.05,
+      "lines": 481,
+      "entities": {
+        "sections": 6,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/142_shields.md",
+      "name": "142_shields.md",
+      "directory": "Judges_Journal",
+      "size_kb": 7.58,
+      "lines": 43,
+      "entities": {
+        "sections": 1,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/20_dungeon_delves.md",
+      "name": "20_dungeon_delves.md",
+      "directory": "Judges_Journal",
+      "size_kb": 10.78,
+      "lines": 120,
+      "entities": {
+        "sections": 3,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/144_terrain_transformation.md",
+      "name": "144_terrain_transformation.md",
+      "directory": "Judges_Journal",
+      "size_kb": 4.28,
+      "lines": 33,
+      "entities": {
+        "sections": 1,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/58_chapter_8_dungeons.md",
+      "name": "58_chapter_8_dungeons.md",
+      "directory": "Judges_Journal",
+      "size_kb": 0.62,
+      "lines": 6,
+      "entities": {
+        "sections": 0,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/75_npc_miscellaneous_possessions.md",
+      "name": "75_npc_miscellaneous_possessions.md",
+      "directory": "Judges_Journal",
+      "size_kb": 8.39,
+      "lines": 197,
+      "entities": {
+        "sections": 1,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/04_part_i_praxis.md",
+      "name": "04_part_i_praxis.md",
+      "directory": "Judges_Journal",
+      "size_kb": 0.02,
+      "lines": 2,
+      "entities": {
+        "sections": 0,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/139_proportional_healing.md",
+      "name": "139_proportional_healing.md",
+      "directory": "Judges_Journal",
+      "size_kb": 5.23,
+      "lines": 54,
+      "entities": {
+        "sections": 2,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/63_step_5_create_wandering_monster_tables.md",
+      "name": "63_step_5_create_wandering_monster_tables.md",
+      "directory": "Judges_Journal",
+      "size_kb": 4.84,
+      "lines": 47,
+      "entities": {
+        "sections": 1,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/98_thievery_value.md",
+      "name": "98_thievery_value.md",
+      "directory": "Judges_Journal",
+      "size_kb": 2.68,
+      "lines": 33,
+      "entities": {
+        "sections": 3,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/74_npc_appearance.md",
+      "name": "74_npc_appearance.md",
+      "directory": "Judges_Journal",
+      "size_kb": 27.98,
+      "lines": 1068,
+      "entities": {
+        "sections": 6,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/164_economic_prices.md",
+      "name": "164_economic_prices.md",
+      "directory": "Judges_Journal",
+      "size_kb": 9.77,
+      "lines": 40,
+      "entities": {
+        "sections": 3,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/172_the_drakonian_guard.md",
+      "name": "172_the_drakonian_guard.md",
+      "directory": "Judges_Journal",
+      "size_kb": 15.29,
+      "lines": 160,
+      "entities": {
+        "sections": 1,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/168_recommended_movies_and_shows.md",
+      "name": "168_recommended_movies_and_shows.md",
+      "directory": "Judges_Journal",
+      "size_kb": 0.82,
+      "lines": 68,
+      "entities": {
+        "sections": 1,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/54_step_4_develop_the_points_of_interest.md",
+      "name": "54_step_4_develop_the_points_of_interest.md",
+      "directory": "Judges_Journal",
+      "size_kb": 34.58,
+      "lines": 282,
+      "entities": {
+        "sections": 11,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/46_step_10_assign_troops_garrisons.md",
+      "name": "46_step_10_assign_troops_garrisons.md",
+      "directory": "Judges_Journal",
+      "size_kb": 4.88,
+      "lines": 36,
+      "entities": {
+        "sections": 1,
+        "custom_powers": 0,
+        "other": 1
+      }
+    },
+    {
+      "path": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/15_balancing_player_skill_versus_character_skill.md",
+      "name": "15_balancing_player_skill_versus_character_skill.md",
+      "directory": "Judges_Journal",
+      "size_kb": 23.55,
+      "lines": 124,
+      "entities": {
+        "sections": 5,
+        "custom_powers": 0,
+        "other": 1
+      }
+    }
+  ]
+}
