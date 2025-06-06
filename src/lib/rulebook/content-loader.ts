@@ -8,9 +8,21 @@
 import fs from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
+import { marked } from 'marked';
 
 /**
- * Interface for chapter content structure
+ * Represents a section of chapter content
+ */
+export interface ChapterSection {
+  id: string;
+  title: string;
+  content: string;
+  level: number;
+  sourceFile?: string;
+}
+
+/**
+ * Represents a complete chapter with all its content
  */
 export interface ChapterContent {
   id: string;
@@ -23,18 +35,7 @@ export interface ChapterContent {
 }
 
 /**
- * Interface for individual chapter sections
- */
-export interface ChapterSection {
-  id: string;
-  title: string;
-  content: string;
-  level: number;
-  sourceFile?: string;
-}
-
-/**
- * Interface for chapter configuration mapping
+ * Configuration for a chapter including source file mappings
  */
 export interface ChapterConfig {
   id: string;
@@ -48,6 +49,24 @@ export interface ChapterConfig {
     section?: string;
   };
 }
+
+/**
+ * Class categories for organizing Chapter 2
+ */
+interface ClassCategories {
+  core: string[];
+  campaign: string[];
+  demiHuman: string[];
+}
+
+/**
+ * Class categorization for Chapter 2 organization
+ */
+const CLASS_CATEGORIES: ClassCategories = {
+  core: ['fighter.md', 'explorer.md', 'thief.md', 'mage.md', 'crusader.md', 'venturer.md'],
+  campaign: ['assassin.md', 'barbarian.md', 'bard.md', 'bladedancer.md', 'paladin.md', 'priestess.md', 'shaman.md', 'warlock.md', 'witch.md'],
+  demiHuman: ['dwarven_craftpriest.md', 'dwarven_vaultguard.md', 'elven_nightblade.md', 'elven_spellsword.md', 'nobiran_wonderworker.md', 'zaharan_ruinguard.md']
+};
 
 /**
  * Chapter configuration mapping based on RULEBOOK_REORG_PLAN.md
@@ -87,26 +106,10 @@ export const CHAPTER_CONFIGS: ChapterConfig[] = [
     description: 'Character classes with progression tables and class features',
     sourceFiles: [
       '25_chapter_2_classes.md',
-      'assassin.md',
-      'barbarian.md', 
-      'bard.md',
-      'bladedancer.md',
-      'crusader.md',
-      'dwarven_craftpriest.md',
-      'dwarven_vaultguard.md',
-      'elven_nightblade.md',
-      'elven_spellsword.md',
-      'explorer.md',
-      'fighter.md',
-      'mage.md',
-      'nobiran_wonderworker.md',
-      'paladin.md',
-      'priestess.md',
-      'shaman.md',
-      'thief.md',
-      'venturer.md',
-      'warlock.md',
-      'witch.md'
+      '26_character_templates_and_intellect_scores.md',
+      '27_core_classes.md',
+      '28_campaign_classes.md',
+      '29_demi_human_classes.md'
     ],
     introduction: {
       sourceFile: '25_chapter_2_classes.md'
@@ -354,10 +357,13 @@ function readMarkdownFile(filePath: string): { content: string; frontmatter: any
     const fileContent = fs.readFileSync(fullPath, 'utf8');
     const { data, content } = matter(fileContent);
     
-    return {
-      content: content.trim(),
-      frontmatter: data
-    };
+      // Convert markdown to HTML
+  const htmlContent = marked(content.trim());
+  
+  return {
+    content: htmlContent,
+    frontmatter: data
+  };
   } catch (error) {
     console.warn(`Could not read file: ${filePath}`, error);
     return {
@@ -401,6 +407,11 @@ export async function loadChapterContent(chapterId: string): Promise<ChapterCont
     return null;
   }
 
+  // Special handling for Chapter 2 (Classes)
+  if (chapterId === 'chapter-2-classes') {
+    return loadChapter2ClassesContent(config);
+  }
+
   const sections: ChapterSection[] = [];
   let introduction = '';
 
@@ -430,6 +441,110 @@ export async function loadChapterContent(chapterId: string): Promise<ChapterCont
       content: content,
       level: 2,
       sourceFile: sourceFile
+    });
+  }
+
+  return {
+    id: config.id,
+    chapterNumber: config.chapterNumber,
+    title: config.title,
+    description: config.description,
+    introduction,
+    sections,
+    appendix: config.appendix || false
+  };
+}
+
+/**
+ * Special loader for Chapter 2 that organizes classes into categories
+ */
+async function loadChapter2ClassesContent(config: ChapterConfig): Promise<ChapterContent | null> {
+  const sections: ChapterSection[] = [];
+  let introduction = '';
+
+  // Load introduction from the main chapter file
+  const { content: introContent } = readMarkdownFile('25_chapter_2_classes.md');
+  if (introContent) {
+    introduction = introContent.trim();
+  }
+
+  // Load the character templates section
+  const { content: templatesContent } = readMarkdownFile('26_character_templates_and_intellect_scores.md');
+  if (templatesContent) {
+    sections.push({
+      id: 'character-templates-and-intellect-scores',
+      title: 'Character Templates and Intellect Scores',
+      content: templatesContent,
+      level: 2,
+      sourceFile: '26_character_templates_and_intellect_scores.md'
+    });
+  }
+
+  // Create organized class sections
+  const classSections = [
+    {
+      id: 'core-classes',
+      title: 'Core Classes',
+      description: 'The fundamental character classes available to all players',
+      classes: CLASS_CATEGORIES.core
+    },
+    {
+      id: 'campaign-classes', 
+      title: 'Campaign Classes',
+      description: 'Specialized classes for specific campaign settings and themes',
+      classes: CLASS_CATEGORIES.campaign
+    },
+    {
+      id: 'demi-human-classes',
+      title: 'Demi-Human Classes',
+      description: 'Racial classes for non-human characters',
+      classes: CLASS_CATEGORIES.demiHuman
+    }
+  ];
+
+  for (const section of classSections) {
+    let sectionContent = `## ${section.title}\n\n${section.description}\n\n`;
+    
+    // Add class navigation links table
+    sectionContent += `| Class | Key Attribute | Hit Dice | Max Level | Description |\n`;
+    sectionContent += `|-------|---------------|----------|-----------|-------------|\n`;
+    
+    for (const classFile of section.classes) {
+      const { content: classContent } = readMarkdownFile(classFile);
+      if (classContent) {
+        // Extract class name from the first heading
+        const classNameMatch = classContent.match(/^### (.+)$/m);
+        const className = classNameMatch ? classNameMatch[1] : classFile.replace('.md', '').replace(/_/g, ' ');
+        
+        // Extract key stats from content
+        const keyAttrMatch = classContent.match(/Key Attribute[s]?:\s*([^\n]+)/i);
+        const hitDiceMatch = classContent.match(/Hit Dice:\s*([^\n]+)/i);
+        const maxLevelMatch = classContent.match(/Maximum Level:\s*([^\n]+)/i);
+        
+        const keyAttr = keyAttrMatch ? keyAttrMatch[1].trim() : 'N/A';
+        const hitDice = hitDiceMatch ? hitDiceMatch[1].trim() : 'N/A';
+        const maxLevel = maxLevelMatch ? maxLevelMatch[1].trim() : 'N/A';
+        
+        // Extract first paragraph as description
+        const descMatch = classContent.match(/\n\n([^#\n][^\n]*(?:\n[^#\n][^\n]*)*)/);
+        const description = descMatch ? descMatch[1].trim().substring(0, 100) + '...' : 'Character class details';
+        
+        // Create class ID for linking (convert filename to kebab-case)
+        const classId = classFile.replace('.md', '').replace(/_/g, '-');
+        
+        sectionContent += `| [**${className}**](/classes/${classId}) | ${keyAttr} | ${hitDice} | ${maxLevel} | ${description} |\n`;
+        
+        // Add the full class content after the table
+        sectionContent += '\n\n---\n\n' + classContent + '\n\n';
+      }
+    }
+
+    sections.push({
+      id: section.id,
+      title: section.title,
+      content: sectionContent.trim(),
+      level: 2,
+      sourceFile: `generated-${section.id}`
     });
   }
 
