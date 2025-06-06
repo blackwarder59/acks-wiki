@@ -1,0 +1,323 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+# Stagewise Integration & Usage Guide
+
+**Stagewise** enables direct AI-browser interaction, allowing Cursor and other AI assistants to see and interact with DOM elements in real-time. This dramatically improves development workflow by providing actual visual context instead of just code.
+
+## **What Stagewise Does**
+
+- **🎯 Direct DOM Interaction**: Click on any element to provide context to AI
+- **🧠 Real Visual Context**: AI sees actual rendered components, not just code
+- **⚡ Faster Development**: No need to describe UI issues verbally
+- **🔍 Precise Targeting**: AI can make changes to specific elements you're viewing
+- **📝 Rich Context**: Send screenshots, DOM structure, and styling info automatically
+
+## **Current Setup Status**
+
+- ✅ **@stagewise/toolbar-next** installed and configured
+- ✅ **StagewiseToolbar** component added to `src/app/layout.tsx`
+- ✅ **Browser toolbar** appears in development mode
+- ⚠️ **Cursor extension** requires manual installation
+- ⚠️ **Connection issues** may need troubleshooting
+
+## **Installation & Setup**
+
+### **Browser Integration (✅ Complete)**
+```typescript
+// src/app/layout.tsx - Already configured
+import { StagewiseToolbar } from '@stagewise/toolbar-next';
+
+export default function RootLayout({ children }: { children: React.ReactNode }) {
+  return (
+    <html lang="en">
+      <body>
+        {/* Stagewise toolbar - only appears in development */}
+        <StagewiseToolbar config={{ plugins: [] }} />
+        {/* Rest of app */}
+      </body>
+    </html>
+  );
+}
+```
+
+### **Cursor Extension (Manual Required)**
+1. **Open Cursor** → Extensions (`Cmd+Shift+X`)
+2. **Search**: "Stagewise" 
+3. **Install**: "Stagewise" by stagewise
+4. **Restart**: Cursor completely
+5. **Verify**: `Cmd+Shift+P` → type "Stagewise" → should see commands
+
+## **Usage Workflow**
+
+### **Basic Interaction Pattern**
+1. **Start Development Server**: `npm run dev`
+2. **Open Browser**: Navigate to http://localhost:3000
+3. **Locate Stagewise Toolbar**: Look for floating UI element
+4. **Click Elements**: Click any DOM element to comment on it
+5. **Describe Issues**: Add comments like "This spacing is wrong"
+6. **Ask AI**: "Please fix the styling of this element"
+
+### **Specific Use Cases for ACKS Wiki**
+
+#### **🎲 Monster Card Improvements**
+```typescript
+// When working on monster cards:
+// 1. Navigate to /monsters/[id] page
+// 2. Click on specific monster card element
+// 3. Comment: "The attack bonus formatting needs improvement"
+// 4. AI receives: DOM structure + CSS + visual context
+// 5. AI can make precise changes to the monster card component
+```
+
+#### **🔍 Search Functionality**
+```typescript
+// When improving search:
+// 1. Use search bar in header
+// 2. Click on search results area
+// 3. Comment: "Results should show monster thumbnails"
+// 4. AI sees current search implementation + styling
+// 5. AI can enhance search results display
+```
+
+#### **📚 Navigation & Layout**
+```typescript
+// When adjusting layout:
+// 1. Click on sidebar navigation items
+// 2. Comment: "These need better visual hierarchy"
+// 3. AI sees current Tailwind classes + component structure
+// 4. AI can improve navigation styling and organization
+```
+
+#### **📖 Content Display**
+```typescript
+// When working on content formatting:
+// 1. Navigate to rules or spells pages
+// 2. Click on specific content sections
+// 3. Comment: "This text needs better typography"
+// 4. AI sees markdown rendering + CSS
+// 5. AI can improve content presentation
+```
+
+## **Troubleshooting Connection Issues**
+
+### **"Not Connected" Message**
+**Common Causes & Solutions:**
+
+#### **🔍 Check Extension Status**
+```bash
+# In Cursor:
+# 1. Cmd+Shift+P
+# 2. Type "Stagewise"
+# 3. Should see commands like "Stagewise: Setup Toolbar"
+```
+
+#### **🔄 Restart Everything**
+```bash
+# 1. Close all Cursor windows except one
+# 2. Stop dev server (Ctrl+C)
+# 3. Restart Cursor completely
+# 4. npm run dev
+# 5. Refresh browser
+```
+
+#### **🌐 Multiple Windows Issue**
+- **Problem**: Multiple Cursor windows confuse Stagewise
+- **Solution**: Keep only ONE Cursor window open
+
+#### **⚙️ Extension Not Active**
+```bash
+# In Cursor Extensions:
+# 1. Find "Stagewise" extension
+# 2. Click reload/restart button
+# 3. Or disable → enable → restart Cursor
+```
+
+### **Browser Console Debugging**
+```javascript
+// Press F12 in browser → Console tab
+// Look for errors like:
+// - "WebSocket connection failed"
+// - "Stagewise connection timeout"
+// - Extension communication errors
+```
+
+## **Development Best Practices**
+
+### **🎯 Effective Communication Patterns**
+
+#### **✅ DO: Be Specific**
+```typescript
+// Good: Click on element + comment
+"The monster AC display in this card needs to be more prominent"
+
+// AI receives:
+// - Exact DOM element clicked
+// - Current CSS classes
+// - Component hierarchy
+// - Visual screenshot
+```
+
+#### **❌ DON'T: Be Vague**
+```typescript
+// Poor: Just text description
+"The monster cards look weird"
+
+// AI must guess:
+// - Which cards?
+// - What's weird about them?
+// - Which specific styling issues?
+```
+
+### **🔧 Efficient Workflow Patterns**
+
+#### **🎨 Visual Design Issues**
+1. **Navigate** to the problematic page
+2. **Click** on the specific element
+3. **Comment** with specific requests:
+   - "Increase spacing between these items"
+   - "Make this text color darker for better contrast"
+   - "Add subtle border to separate sections"
+
+#### **⚡ Functional Issues**
+1. **Interact** with the feature (click buttons, fill forms)
+2. **Click** on non-working elements
+3. **Comment** on expected behavior:
+   - "This search should filter results as I type"
+   - "This button should navigate to the monster detail page"
+
+#### **📱 Responsive Issues**
+1. **Resize browser** to mobile/tablet view
+2. **Click** on elements that look broken
+3. **Comment** on responsive needs:
+   - "This sidebar should collapse on mobile"
+   - "These cards should stack vertically on small screens"
+
+## **Integration with ACKS Wiki Development**
+
+### **🎲 Monster System Enhancements**
+```typescript
+// When improving monster displays:
+// 1. Navigate to /monsters or /monsters/[id]
+// 2. Click on specific monster components
+// 3. Use comments for specific improvements:
+//    - "Add hover effects to monster cards"
+//    - "Improve stat block formatting"
+//    - "Add monster type icons"
+```
+
+### **📚 Content Organization**
+```typescript
+// When working on content structure:
+// 1. Navigate to /rules or /judges-journal
+// 2. Click on content sections
+// 3. Comment on organization:
+//    - "This section needs better visual hierarchy"
+//    - "Add table of contents navigation"
+//    - "Improve code example formatting"
+```
+
+### **🔍 Search & Filter Improvements**
+```typescript
+// When enhancing search functionality:
+// 1. Use search features
+// 2. Click on search interface elements
+// 3. Comment on user experience:
+//    - "Add autocomplete suggestions"
+//    - "Show search result categories"
+//    - "Add advanced filter options"
+```
+
+## **Security & Development Mode**
+
+### **🔒 Development Only**
+```typescript
+// Stagewise only activates in development mode
+if (process.env.NODE_ENV === 'development') {
+  // Toolbar appears and functions
+}
+
+// In production builds:
+// - No toolbar appears
+// - No browser-AI communication
+// - No security concerns
+```
+
+### **🛡️ Safe Practices**
+- **Never** leave Stagewise active in production
+- **Always** test that production builds exclude Stagewise
+- **Only** use on local development environments
+- **Avoid** sharing Stagewise sessions with sensitive data
+
+## **Advanced Configuration**
+
+### **🔌 Custom Plugins** (Future Enhancement)
+```typescript
+// src/app/layout.tsx - Custom plugin configuration
+<StagewiseToolbar
+  config={{
+    plugins: [
+      // Future: ACKS-specific plugins
+      // - Monster card inspector
+      // - Spell component analyzer
+      // - Rule section navigator
+    ],
+  }}
+/>
+```
+
+### **🎛️ Environment Configuration**
+```bash
+# .env.local - Future environment variables
+# STAGEWISE_ENABLED=true
+# STAGEWISE_DEBUG=false
+# STAGEWISE_PORT=8080
+```
+
+## **Learning & Improvement**
+
+### **📈 Track Effectiveness**
+- **Monitor** how often Stagewise helps solve issues faster
+- **Note** which types of problems benefit most from visual context
+- **Document** successful interaction patterns
+- **Share** effective usage examples with team
+
+### **🔄 Continuous Improvement**
+- **Update** this rules file with new patterns discovered
+- **Add** ACKS-specific Stagewise workflows
+- **Document** common troubleshooting solutions
+- **Enhance** integration with project-specific needs
+
+## **Quick Reference Commands**
+
+### **🚀 Start Development with Stagewise**
+```bash
+npm run dev
+# Open browser to http://localhost:3000
+# Look for Stagewise toolbar
+# Test connection with simple click + comment
+```
+
+### **🔧 Troubleshoot Connection**
+```bash
+# 1. Cmd+Shift+P → "Stagewise" (check extension)
+# 2. Close extra Cursor windows
+# 3. Restart Cursor
+# 4. Click "Retry Connection" in browser
+# 5. Check browser console (F12)
+```
+
+### **✅ Verify Working Status**
+```bash
+# In browser:
+# 1. Should see Stagewise toolbar/controls
+# 2. Click any element → should show comment interface
+# 3. Add comment → should send to Cursor
+# 4. Ask AI: "What did you receive from Stagewise?"
+```
+
+---
+
+**Remember**: Stagewise transforms AI development from "describe what you see" to "show exactly what you mean." Use it to make ACKS Wiki development faster, more precise, and more collaborative with your AI assistant.

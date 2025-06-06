@@ -1,7 +1,7 @@
 # Task ID: 13
 # Title: Implement Design System Foundation with CSS Architecture
 # Status: pending
-# Dependencies: 7
+# Dependencies: 7, 17, 18, 19
 # Priority: high
 # Description: Create a comprehensive CSS architecture that establishes the foundational styling framework for the homepage, including responsive layouts, animations, and consistent design tokens.
 # Details:

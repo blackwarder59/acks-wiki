@@ -1,0 +1,165 @@
+# Task ID: 14
+# Title: Implement ACKS II Wiki Rulebook Reorganization per Plan
+# Status: pending
+# Dependencies: 7
+# Priority: high
+# Description: Reorganize the ACKS II Wiki Revised Rulebook section according to the RULEBOOK_REORG_PLAN.md, structuring content by chapters and implementing new navigation systems.
+# Details:
+This task involves implementing the rulebook reorganization as specified in RULEBOOK_REORG_PLAN.md with the following key components:
+
+1. Create 15 main routes:
+   - 12 chapter pages (e.g., /rulebook/chapter-1, /rulebook/chapter-2, etc.)
+   - 3 appendix pages (e.g., /rulebook/appendix-a, etc.)
+
+2. Content Collation:
+   - Merge content from individual markdown files into their respective chapter pages
+   - Follow the source file mappings specified in the plan document
+   - Maintain proper heading hierarchy within each chapter
+   - Ensure all internal references are updated to point to the new structure
+
+3. Navigation Implementation:
+   - Create top-level navigation menu showing all chapters and appendices
+   - Implement breadcrumb navigation showing current location in the rulebook
+   - Add cross-chapter navigation at the bottom of each page (prev/next)
+   - Create in-chapter navigation sidebar/table of contents
+
+4. Image Integration:
+   - Ensure all images are properly linked in the new structure
+   - Maintain image paths or update as needed
+   - Verify image display in the new chapter-based format
+
+5. URL Structure and Redirects:
+   - Implement redirects from old individual page URLs to new chapter-based URLs
+   - Ensure bookmarks and external links continue to work
+
+The implementation should preserve all existing content while improving organization and navigation. Refer to RULEBOOK_REORG_PLAN.md for specific details on which content goes into which chapter.
+
+# Test Strategy:
+Testing should verify both the structural reorganization and the user experience:
+
+1. Structure Verification:
+   - Confirm all 15 main routes (12 chapters + 3 appendices) are properly implemented
+   - Verify that all content from source files has been correctly collated into chapter pages
+   - Check that no content has been lost or duplicated during reorganization
+   - Validate all internal links point to correct locations in the new structure
+
+2. Navigation Testing:
+   - Test top-level navigation menu to ensure all chapters and appendices are accessible
+   - Verify breadcrumb navigation correctly shows the current location
+   - Test prev/next navigation between chapters works as expected
+   - Confirm in-chapter navigation/table of contents links to correct sections
+
+3. Redirect Testing:
+   - Test a sample of old URLs to ensure they redirect to the correct new locations
+   - Verify that deep links to specific sections still work after reorganization
+
+4. Visual Verification:
+   - Check that all images display correctly in the new structure
+   - Verify formatting and styling is consistent across all reorganized content
+   - Test on multiple devices to ensure responsive design works with new structure
+
+5. User Flow Testing:
+   - Perform common user journeys through the rulebook to ensure logical flow
+   - Verify that related content is properly connected through navigation
+
+Document any issues found during testing with screenshots and specific URLs for follow-up.
+
+# Subtasks:
+## 1. Create Chapter and Appendix Route Structure [pending]
+### Dependencies: None
+### Description: Set up the 15 main routes (12 chapters and 3 appendices) with basic page templates and routing configuration
+### Details:
+Implementation steps:
+1. Create route definitions for all 15 pages in the router configuration
+2. Set up basic page templates for each chapter and appendix with consistent layout
+3. Implement the top-level navigation menu showing all chapters and appendices
+4. Add placeholder content sections in each template that will later be populated
+5. Configure the route naming scheme to follow the pattern '/rulebook/chapter-X' and '/rulebook/appendix-X'
+6. Test that all routes are accessible and the basic navigation works
+7. Ensure the page structure includes slots for breadcrumbs, content area, and bottom navigation
+
+Testing approach:
+- Verify all 15 routes are accessible without errors
+- Confirm navigation menu displays all chapters and appendices correctly
+- Check that the page templates render properly across different screen sizes
+
+## 2. Implement Content Collation from Source Files [pending]
+### Dependencies: 14.1
+### Description: Merge content from individual markdown files into their respective chapter pages according to the source file mappings in RULEBOOK_REORG_PLAN.md
+### Details:
+Implementation steps:
+1. Create a content processing utility that reads markdown files and merges them
+2. For each chapter/appendix, identify the source files from RULEBOOK_REORG_PLAN.md
+3. Process each source file, maintaining proper heading hierarchy (adjust heading levels as needed)
+4. Merge the processed content into the appropriate chapter/appendix page
+5. Ensure content flows logically within each chapter
+6. Verify all content from source files is included without duplication
+7. Handle special formatting, tables, and lists to maintain their structure
+
+Testing approach:
+- Compare source and destination content to ensure all information is transferred
+- Verify heading hierarchy is maintained correctly
+- Check for any formatting issues in complex elements like tables and lists
+- Ensure no content is lost during the merging process
+
+## 3. Develop Navigation Systems [pending]
+### Dependencies: 14.1, 14.2
+### Description: Implement breadcrumb navigation, in-chapter table of contents, and cross-chapter navigation controls
+### Details:
+Implementation steps:
+1. Create a breadcrumb component showing the current location in the rulebook
+2. Generate an in-chapter table of contents based on the headings in each chapter
+3. Implement the sidebar navigation that displays the TOC for easy in-chapter navigation
+4. Add previous/next chapter navigation controls at the bottom of each page
+5. Ensure all navigation elements update correctly when moving between pages
+6. Make the sidebar TOC collapsible/expandable for better user experience
+7. Highlight the current section in the TOC when scrolling through content
+
+Testing approach:
+- Verify breadcrumbs accurately reflect the current location
+- Test that TOC links correctly scroll to the right sections
+- Confirm prev/next navigation moves to the correct chapters
+- Check that the current section is properly highlighted in the TOC
+- Test navigation on different devices and screen sizes
+
+## 4. Update Internal References and Image Integration [pending]
+### Dependencies: 14.2, 14.3
+### Description: Update all internal references to point to the new structure and ensure all images are properly linked and displayed
+### Details:
+Implementation steps:
+1. Create a reference mapping between old URLs and new chapter-based URLs
+2. Scan all content for internal references and update them to point to the new structure
+3. Identify all image references in the content
+4. Update image paths as needed to maintain proper linking
+5. Implement image loading and display in the new chapter-based format
+6. Verify images appear correctly in their proper context
+7. Add appropriate image captions and styling
+
+Testing approach:
+- Click through all internal references to verify they link to the correct locations
+- Check that all images load properly and are displayed in the correct context
+- Verify image captions and styling are consistent
+- Test image display on different screen sizes and devices
+
+## 5. Implement URL Redirects and Final Review [pending]
+### Dependencies: 14.1, 14.2, 14.3, 14.4
+### Description: Set up redirects from old individual page URLs to new chapter-based URLs and perform comprehensive testing
+### Details:
+Implementation steps:
+1. Create a comprehensive mapping of old URLs to new chapter-based URLs
+2. Implement redirect rules in the routing configuration
+3. Set up server-side redirects for SEO purposes
+4. Test all redirects to ensure they point to the correct new locations
+5. Perform a comprehensive review of all chapters and appendices
+6. Check for any content gaps, formatting issues, or navigation problems
+7. Verify all requirements from RULEBOOK_REORG_PLAN.md are implemented
+8. Optimize page loading performance
+
+Testing approach:
+- Test all old URLs to ensure they redirect to the correct new locations
+- Perform end-to-end testing of the entire rulebook navigation
+- Verify all content is accessible through the new structure
+- Check for any broken links or missing images
+- Test the entire implementation on multiple browsers and devices
+- Verify SEO-friendly aspects like proper redirects and semantic structure
+

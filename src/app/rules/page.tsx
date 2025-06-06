@@ -8,7 +8,8 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
-import { Book, Users, Sword, Sparkles, Coins, Scroll, Crown, Globe, Search } from 'lucide-react';
+import { Book, Users, Sword, Sparkles, Coins, Scroll, Crown, Globe, Search, BookOpen, ArrowRight } from 'lucide-react';
+import { CHAPTER_CONFIGS } from '@/lib/rulebook/content-loader';
 
 // Import converted rulebook data 
 import fs from 'fs';
@@ -284,6 +285,66 @@ export default function RulesPage() {
           <div className="text-2xl font-bold text-foreground">Complete</div>
           <div className="text-sm text-muted-foreground">Game System</div>
         </div>
+      </div>
+
+      {/* Browse by Chapter - NEW REORGANIZED STRUCTURE */}
+      <div className="mb-12">
+        <div className="flex items-center gap-3 mb-6">
+          <BookOpen className="w-6 h-6 text-primary" />
+          <h2 className="text-2xl font-bold text-foreground">Browse by Chapter</h2>
+          <span className="text-sm bg-primary/10 text-primary px-2 py-1 rounded-full font-medium">
+            NEW
+          </span>
+        </div>
+        <p className="text-muted-foreground mb-6 max-w-3xl">
+          Experience the ACKS II Rulebook in its intended chapter-based organization. 
+          Each chapter includes comprehensive navigation, cross-references, and all related content.
+        </p>
+        
+        {/* Chapters Grid */}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+          {CHAPTER_CONFIGS.map((chapter) => (
+            <Link 
+              key={chapter.id}
+              href={`/rules/${chapter.id}`}
+              className="group"
+            >
+              <div className="p-4 bg-card border border-border rounded-lg hover:shadow-lg transition-all duration-200 hover:border-primary/50 cursor-pointer h-full">
+                <div className="flex items-start justify-between mb-3">
+                  <div className="flex items-center gap-3">
+                    <div className="text-sm font-bold text-primary bg-primary/10 px-2 py-1 rounded">
+                      {chapter.appendix ? 'App.' : 'Ch.'} {chapter.chapterNumber}
+                    </div>
+                    <ArrowRight className="w-4 h-4 text-muted-foreground group-hover:text-primary group-hover:translate-x-1 transition-all" />
+                  </div>
+                </div>
+                
+                <h3 className="text-lg font-semibold text-card-foreground mb-2 group-hover:text-primary transition-colors">
+                  {chapter.title}
+                </h3>
+                
+                <p className="text-sm text-muted-foreground line-clamp-2">
+                  {chapter.description}
+                </p>
+              </div>
+            </Link>
+          ))}
+        </div>
+      </div>
+
+      {/* Legacy Browse by Topic */}
+      <div className="mb-8">
+        <div className="flex items-center gap-3 mb-6">
+          <Search className="w-6 h-6 text-muted-foreground" />
+          <h2 className="text-2xl font-bold text-foreground">Browse by Topic</h2>
+          <span className="text-sm bg-muted text-muted-foreground px-2 py-1 rounded-full">
+            Legacy View
+          </span>
+        </div>
+        <p className="text-muted-foreground mb-6 max-w-3xl">
+          Browse rules organized by gameplay topics. This view groups related sections together 
+          for quick reference during play.
+        </p>
       </div>
 
       {/* Sections Grid */}

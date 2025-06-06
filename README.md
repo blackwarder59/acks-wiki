@@ -197,6 +197,52 @@ For issues or questions:
 3. Create GitHub issue
 4. Contact project maintainer
 
+## Development Tools
+
+### Stagewise Integration
+
+This project includes [Stagewise](https://github.com/stagewise-io/stagewise) integration, which allows AI assistants (like Cursor) to interact directly with DOM elements in your browser. This significantly improves development workflow by enabling AI to see and interact with your actual application.
+
+#### What Stagewise Does
+- 💬 **Comment on DOM elements**: Click on any element to provide context to your AI assistant
+- 🧠 **Real context**: AI gets actual DOM structure and state, not just code
+- ⚡ **Save time**: No need to manually describe UI elements or copy-paste code
+- 🎯 **Precise targeting**: AI can make changes to specific UI components you're viewing
+
+#### Setup Required
+
+1. **Install the Cursor Extension** (Manual step required):
+   - Open Cursor
+   - Go to Extensions (Cmd+Shift+X)
+   - Search for "Stagewise"
+   - Install "Stagewise" by stagewise
+   - Restart Cursor if needed
+
+2. **Toolbar Already Configured**: The `@stagewise/toolbar-next` package is already installed and configured in `src/app/layout.tsx`
+
+#### Usage
+
+1. **Start your development server**: `npm run dev`
+2. **Open your browser**: Navigate to your app (usually http://localhost:3001)
+3. **Use Stagewise**: 
+   - The toolbar will automatically appear in development mode
+   - Click on any DOM element to comment on it
+   - Your comments and context will be sent directly to Cursor
+   - Ask your AI assistant to make changes based on what you're seeing
+
+#### Benefits for ACKS Wiki Development
+
+- **UI Improvements**: Point to specific components that need styling changes
+- **Bug Fixes**: Show exactly where layout issues occur
+- **Feature Requests**: Demonstrate where new features should be added
+- **Content Updates**: Highlight areas that need different data or formatting
+
+#### Important Notes
+
+- Only works in development mode for security
+- Requires both the browser toolbar and Cursor extension
+- Keep only one Cursor window open for reliable operation
+
 ---
 
 **Built with ❤️ for the ACKS II community** 

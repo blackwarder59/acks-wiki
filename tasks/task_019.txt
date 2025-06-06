@@ -1,0 +1,361 @@
+# Task ID: 19
+# Title: Implement Wiki Navigation Structure for Judges Journal Reorganization
+# Status: pending
+# Dependencies: 7
+# Priority: high
+# Description: Create the hierarchical navigation structure for the Judges Journal wiki based on the five-part reorganization plan, with proper page hierarchy, breadcrumbs, and navigation links.
+# Details:
+This task focuses on building the foundational navigation structure for the Judges Journal wiki reorganization:
+
+1. Create the top-level navigation menu with the five main Parts:
+   - Part 1: Praxis
+   - Part 2: Construction
+   - Part 3: Abstraction
+   - Part 4: Customization
+   - Part 5: Appendices
+
+2. For each Part, create landing pages that include:
+   - An introduction to the Part's theme and purpose
+   - A table of contents listing all chapters within that Part
+   - Links to each chapter page
+
+3. Create placeholder pages for each chapter following the official Table of Contents structure:
+   - Use consistent naming convention: "Part X: [Part Name] - Chapter Y: [Chapter Name]"
+   - Include breadcrumb navigation showing the path: Home > Part X > Chapter Y
+   - Add previous/next navigation links at the bottom of each page
+   - Create a sidebar navigation that shows the current location in the overall structure
+
+4. Implement an intra-chapter navigation template that will:
+   - Display a mini table of contents at the top of each chapter page
+   - Allow for section-level navigation within long chapters
+   - Support future anchor links to specific sections
+
+5. Create a special navigation structure for Appendices that accommodates:
+   - Adventure Scenarios in Appendix A with their own sub-navigation
+   - Various specialized appendices with potentially different formatting needs
+
+6. Document the navigation structure in a wiki page that explains:
+   - The overall organization philosophy
+   - How to maintain consistency when adding new content
+   - Guidelines for future cross-referencing between sections
+
+Note: This task focuses on creating the navigation structure only. Content migration will be handled in subsequent tasks. The structure should be designed to accommodate future image integration and cross-reference linking.
+
+# Test Strategy:
+To verify successful implementation of the wiki navigation structure:
+
+1. Navigation Hierarchy Test:
+   - Verify all five Parts appear in the top-level navigation
+   - Confirm each Part has a landing page with links to all its chapters
+   - Check that chapter pages maintain proper hierarchical organization
+
+2. Breadcrumb Navigation Test:
+   - Navigate to 5 random chapter pages and verify breadcrumbs show correct path
+   - Confirm breadcrumb links navigate to the correct parent pages
+   - Ensure Home link in breadcrumbs returns to wiki homepage
+
+3. Previous/Next Navigation Test:
+   - Verify each chapter page (except first and last) has both previous and next links
+   - Confirm first chapter has only next link, last chapter has only previous link
+   - Test 10 random navigation links to ensure they connect to correct pages
+
+4. Sidebar Navigation Test:
+   - Verify sidebar shows current location highlighted
+   - Confirm all chapters within current Part are visible in sidebar
+   - Test collapsible functionality if implemented
+
+5. Structure Completeness Test:
+   - Compare wiki structure against the official Table of Contents
+   - Verify all chapters and major sections are represented
+   - Confirm special appendices have appropriate navigation structures
+
+6. Documentation Review:
+   - Review navigation documentation for clarity and completeness
+   - Verify guidelines for maintaining consistency are included
+   - Confirm future cross-referencing approach is documented
+
+7. User Experience Test:
+   - Have 2-3 team members attempt to navigate the structure without guidance
+   - Record time taken to find specific chapters
+   - Collect feedback on navigation intuitiveness
+
+# Subtasks:
+## 1. Create Top-Level Navigation Structure and Part Landing Pages [pending]
+### Dependencies: None
+### Description: Implement the main navigation menu for the five Parts of the Judges Journal reorganization and create landing pages for each Part with introductions and tables of contents.
+### Details:
+Implementation steps:
+1. Create a consistent navigation template using nested unordered lists with proper CSS styling for hierarchy visualization:
+```html
+<div class="wiki-navigation">
+  <ul class="nav-tree">
+    <li class="nav-item"><a href="/part1">Part 1: Praxis</a></li>
+    <li class="nav-item"><a href="/part2">Part 2: Construction</a></li>
+    <li class="nav-item"><a href="/part3">Part 3: Abstraction</a></li>
+    <li class="nav-item"><a href="/part4">Part 4: Customization</a></li>
+    <li class="nav-item"><a href="/part5">Part 5: Appendices</a></li>
+  </ul>
+</div>
+```
+2. Create landing pages for each Part with:
+   - Clear introduction explaining the Part's purpose and theme
+   - Table of contents listing all chapters within that Part
+   - Consistent styling across all Part landing pages
+3. Implement responsive design for the navigation menu:
+```css
+@media (max-width: 768px) {
+  .wiki-navigation {
+    position: fixed;
+    width: 250px;
+    transition: left 0.3s ease;
+  }
+}
+```
+4. Add a home page that explains the overall organization philosophy and links to all Parts
+
+Testing approach:
+- Verify all navigation links work correctly
+- Test responsive behavior on different screen sizes
+- Ensure consistent styling across all Part landing pages
+- Validate that the structure matches the reorganization plan
+
+## 2. Implement Breadcrumb Navigation System [pending]
+### Dependencies: 19.1
+### Description: Create a breadcrumb navigation system that shows the hierarchical path from Home to the current page, providing users with context and easy navigation to parent pages.
+### Details:
+Implementation steps:
+1. Create a reusable breadcrumb template that can be included on all wiki pages:
+```html
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="/">Home</a></li>
+    <li class="breadcrumb-item"><a href="/part{X}">Part {X}: {Part Name}</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Chapter {Y}: {Chapter Name}</li>
+  </ol>
+</nav>
+```
+2. Implement dynamic breadcrumb generation using JavaScript to automatically populate based on page hierarchy:
+```javascript
+function generateBreadcrumbs(currentPageId) {
+  const breadcrumbs = [];
+  let currentPage = getPageById(currentPageId);
+  
+  while (currentPage) {
+    breadcrumbs.unshift({
+      title: currentPage.title,
+      url: currentPage.url
+    });
+    currentPage = currentPage.parentId ? getPageById(currentPage.parentId) : null;
+  }
+  
+  return breadcrumbs;
+}
+```
+3. Style breadcrumbs to be visually distinct but unobtrusive:
+```css
+.breadcrumb {
+  background-color: #f8f9fa;
+  padding: 0.75rem 1rem;
+  border-radius: 0.25rem;
+  margin-bottom: 1rem;
+}
+```
+4. Ensure breadcrumbs are accessible with proper ARIA attributes
+
+Testing approach:
+- Verify breadcrumbs correctly show the path from Home to current page
+- Test navigation by clicking on breadcrumb links
+- Validate breadcrumb generation on deeply nested pages
+- Check accessibility compliance
+
+## 3. Create Chapter Page Templates with Navigation Controls [pending]
+### Dependencies: 19.1, 19.2
+### Description: Develop and implement chapter page templates with consistent naming conventions, previous/next navigation links, and sidebar navigation showing the current location in the overall structure.
+### Details:
+Implementation steps:
+1. Create a standard chapter page template following the naming convention "Part X: [Part Name] - Chapter Y: [Chapter Name]":
+```html
+<div class="chapter-page">
+  <!-- Breadcrumb navigation (from subtask 2) -->
+  
+  <h1>Part X: [Part Name] - Chapter Y: [Chapter Name]</h1>
+  
+  <!-- Content area -->
+  <div class="chapter-content">
+    <!-- Placeholder for chapter content -->
+  </div>
+  
+  <!-- Previous/Next navigation -->
+  <div class="chapter-navigation">
+    <a href="/previous-chapter" class="prev-link">← Previous: [Previous Chapter]</a>
+    <a href="/next-chapter" class="next-link">Next: [Next Chapter] →</a>
+  </div>
+</div>
+```
+2. Implement sidebar navigation showing the current chapter's location in the structure:
+```html
+<div class="sidebar-navigation">
+  <h3>Current Part</h3>
+  <ul>
+    <li class="chapter-item"><a href="/chapter1">Chapter 1</a></li>
+    <li class="chapter-item current">Chapter 2</li>
+    <li class="chapter-item"><a href="/chapter3">Chapter 3</a></li>
+  </ul>
+</div>
+```
+3. Create placeholder pages for each chapter in the Table of Contents
+4. Implement JavaScript to automatically highlight the current page in the sidebar:
+```javascript
+function highlightCurrentPage() {
+  const currentPath = window.location.pathname;
+  const navLinks = document.querySelectorAll('.sidebar-navigation a');
+  
+  navLinks.forEach(link => {
+    if (link.getAttribute('href') === currentPath) {
+      link.parentElement.classList.add('current');
+    }
+  });
+}
+```
+
+Testing approach:
+- Verify all chapter pages follow the consistent template
+- Test previous/next navigation links between chapters
+- Ensure sidebar correctly highlights the current chapter
+- Validate that all placeholder pages are created according to the Table of Contents
+
+## 4. Implement Intra-Chapter Navigation with Table of Contents [pending]
+### Dependencies: 19.3
+### Description: Create an intra-chapter navigation system that displays a mini table of contents at the top of each chapter page, allowing for section-level navigation within long chapters.
+### Details:
+Implementation steps:
+1. Create a function to automatically generate a table of contents based on headings within a chapter:
+```javascript
+function generateTableOfContents() {
+  const headings = document.querySelectorAll('h2, h3, h4');
+  const toc = document.createElement('div');
+  toc.className = 'table-of-contents';
+  
+  const tocList = document.createElement('ul');
+  
+  headings.forEach((heading, index) => {
+    // Add ID to heading if not present
+    if (!heading.id) {
+      heading.id = `heading-${index}`;
+    }
+    
+    const listItem = document.createElement('li');
+    const link = document.createElement('a');
+    link.href = `#${heading.id}`;
+    link.textContent = heading.textContent;
+    link.className = `toc-level-${heading.tagName.toLowerCase()}`;
+    
+    listItem.appendChild(link);
+    tocList.appendChild(listItem);
+  });
+  
+  toc.appendChild(tocList);
+  return toc;
+}
+```
+2. Add the table of contents to the top of each chapter page:
+```html
+<div class="chapter-page">
+  <!-- Breadcrumb navigation -->
+  <h1>Part X: [Part Name] - Chapter Y: [Chapter Name]</h1>
+  
+  <!-- Mini Table of Contents -->
+  <div class="mini-toc" id="chapter-toc"></div>
+  
+  <!-- Content area -->
+  <div class="chapter-content">
+    <!-- Chapter sections with h2, h3, h4 headings -->
+  </div>
+</div>
+
+<script>
+  document.getElementById('chapter-toc').appendChild(generateTableOfContents());
+</script>
+```
+3. Style the table of contents to show hierarchy through indentation:
+```css
+.toc-level-h3 {
+  margin-left: 1.5em;
+}
+.toc-level-h4 {
+  margin-left: 3em;
+}
+```
+4. Add smooth scrolling for anchor links:
+```css
+html {
+  scroll-behavior: smooth;
+}
+```
+
+Testing approach:
+- Verify table of contents is generated correctly based on headings
+- Test anchor links to ensure they scroll to the correct section
+- Check that the TOC properly reflects the hierarchy of headings
+- Validate that the TOC is responsive on different screen sizes
+
+## 5. Create Special Navigation for Appendices and Documentation [pending]
+### Dependencies: 19.1, 19.2, 19.3, 19.4
+### Description: Implement a specialized navigation structure for Appendices, particularly for Adventure Scenarios in Appendix A, and create documentation explaining the navigation structure and maintenance guidelines.
+### Details:
+Implementation steps:
+1. Create a specialized navigation template for Appendices that accommodates different formatting needs:
+```html
+<div class="appendix-navigation">
+  <h3>Appendices</h3>
+  <ul>
+    <li>
+      <a href="/appendix-a">Appendix A: Adventure Scenarios</a>
+      <ul class="scenario-list">
+        <li><a href="/appendix-a/scenario1">Scenario 1: [Title]</a></li>
+        <li><a href="/appendix-a/scenario2">Scenario 2: [Title]</a></li>
+        <!-- More scenarios -->
+      </ul>
+    </li>
+    <li><a href="/appendix-b">Appendix B: [Title]</a></li>
+    <!-- More appendices -->
+  </ul>
+</div>
+```
+2. Implement collapsible sections for Adventure Scenarios to manage potentially large lists:
+```javascript
+function initializeCollapsibleSections() {
+  const toggles = document.querySelectorAll('.appendix-navigation > ul > li > a');
+  
+  toggles.forEach(toggle => {
+    toggle.addEventListener('click', function(e) {
+      if (this.nextElementSibling && this.nextElementSibling.tagName === 'UL') {
+        e.preventDefault();
+        this.nextElementSibling.classList.toggle('expanded');
+        this.classList.toggle('expanded');
+      }
+    });
+  });
+}
+```
+3. Create a comprehensive documentation page explaining:
+   - The overall organization philosophy
+   - How to maintain consistency when adding new content
+   - Guidelines for future cross-referencing between sections
+   - Naming conventions and structure rules
+4. Add a visual navigation map showing the complete structure:
+```html
+<div class="navigation-map">
+  <h2>Judges Journal Navigation Structure</h2>
+  <div class="map-container">
+    <!-- Visual representation of the navigation hierarchy -->
+  </div>
+</div>
+```
+
+Testing approach:
+- Verify that the Appendices navigation works correctly, especially for Adventure Scenarios
+- Test collapsible sections for proper functionality
+- Ensure documentation is clear and comprehensive
+- Validate that the navigation map accurately represents the complete structure
+
