@@ -6,6 +6,21 @@ import { ChapterContent } from '@/lib/types/content';
 
 export const CHAPTER_CONFIGS = [
   {
+    "id": "introduction",
+    "title": "Introduction",
+    "chapterNumber": 0,
+    "description": "An introduction to the Adventurer Conqueror King System, including the basics of the game, how to use the rulebook, and common abbreviations.",
+    "files": [
+      "02_introduction.md",
+      "03_about_the_game.md",
+      "04_how_to_use_this_book.md",
+      "05_the_basics_of_the_game.md",
+      "06_dice.md",
+      "07_rolling_and_throwing_the_dice.md",
+      "08_common_abbreviations.md"
+    ]
+  },
+  {
     "id": "chapter-1-characters",
     "title": "Characters",
     "chapterNumber": 1,
