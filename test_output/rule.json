@@ -1,0 +1,55 @@
+{
+  "metadata": {
+    "generatedAt": "2025-05-26T11:08:00.880Z",
+    "contentType": "rule",
+    "itemCount": 1,
+    "formatVersion": "1.0.0",
+    "validation": {
+      "totalItems": 1,
+      "validItems": 1,
+      "errorCount": 0,
+      "warningCount": 0
+    },
+    "crossReferences": {
+      "totalReferences": 1,
+      "resolvedReferences": 1,
+      "unresolvedReferences": []
+    }
+  },
+  "data": [
+    {
+      "id": "placeholder-rule",
+      "title": "Placeholder Rule",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/test_content/Rulebook/sample_rules.md",
+      "category": "Rulebook",
+      "contentType": "rule",
+      "ruleCategory": "combat",
+      "ruleText": "Placeholder rule text",
+      "description": "Placeholder rule description"
+    }
+  ],
+  "crossReferences": {
+    "placeholder-rule": [
+      "placeholder-rule"
+    ]
+  },
+  "validationResults": [
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-rule",
+        "title": "Placeholder Rule",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/test_content/Rulebook/sample_rules.md",
+        "category": "Rulebook",
+        "contentType": "rule",
+        "ruleCategory": "combat",
+        "ruleText": "Placeholder rule text",
+        "description": "Placeholder rule description"
+      },
+      "validatedAt": "2025-05-26T11:08:00.880Z",
+      "schemaVersion": "1.0.0"
+    }
+  ]
+}

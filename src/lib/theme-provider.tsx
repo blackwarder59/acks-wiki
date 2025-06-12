@@ -28,9 +28,16 @@ export function ThemeProvider({
   storageKey = 'acks-wiki-theme',
   ...props
 }: ThemeProviderProps) {
-  const [theme, setTheme] = useState<Theme>(
-    () => (typeof window !== 'undefined' && localStorage.getItem(storageKey)) as Theme || defaultTheme
-  )
+  const [theme, setTheme] = useState<Theme>(defaultTheme)
+  const [mounted, setMounted] = useState(false)
+
+  useEffect(() => {
+    setMounted(true)
+    const stored = localStorage.getItem(storageKey) as Theme
+    if (stored && ['dark', 'light', 'system'].includes(stored)) {
+      setTheme(stored)
+    }
+  }, [storageKey])
 
   useEffect(() => {
     const root = window.document.documentElement
@@ -53,9 +60,19 @@ export function ThemeProvider({
   const value = {
     theme,
     setTheme: (theme: Theme) => {
-      localStorage.setItem(storageKey, theme)
+      if (typeof window !== 'undefined') {
+        localStorage.setItem(storageKey, theme)
+      }
       setTheme(theme)
     },
+  }
+
+  if (!mounted) {
+    return (
+      <ThemeProviderContext.Provider {...props} value={{ theme: defaultTheme, setTheme: () => null }}>
+        {children}
+      </ThemeProviderContext.Provider>
+    )
   }
 
   return (

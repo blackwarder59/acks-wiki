@@ -1,0 +1,65 @@
+{
+  "metadata": {
+    "generatedAt": "2025-05-26T11:08:00.879Z",
+    "contentType": "equipment",
+    "itemCount": 1,
+    "formatVersion": "1.0.0",
+    "validation": {
+      "totalItems": 1,
+      "validItems": 1,
+      "errorCount": 0,
+      "warningCount": 1
+    },
+    "crossReferences": {
+      "totalReferences": 1,
+      "resolvedReferences": 1,
+      "unresolvedReferences": []
+    }
+  },
+  "data": [
+    {
+      "id": "placeholder-equipment",
+      "title": "Placeholder Equipment",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/test_content/Monstrous_Manual/sample_monsters.md",
+      "category": "Monstrous_Manual",
+      "contentType": "equipment",
+      "equipmentCategory": "gear",
+      "cost": 1,
+      "weight": 1,
+      "description": "Placeholder equipment description"
+    }
+  ],
+  "crossReferences": {
+    "placeholder-equipment": [
+      "placeholder-equipment"
+    ]
+  },
+  "validationResults": [
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [
+        {
+          "field": "category",
+          "message": "Equipment category should be one of the standard categories",
+          "severity": "warning",
+          "expected": "Weapon, Armor, Shield, Gear, Tool, Treasure",
+          "actual": "Monstrous_Manual"
+        }
+      ],
+      "content": {
+        "id": "placeholder-equipment",
+        "title": "Placeholder Equipment",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/test_content/Monstrous_Manual/sample_monsters.md",
+        "category": "Monstrous_Manual",
+        "contentType": "equipment",
+        "equipmentCategory": "gear",
+        "cost": 1,
+        "weight": 1,
+        "description": "Placeholder equipment description"
+      },
+      "validatedAt": "2025-05-26T11:08:00.879Z",
+      "schemaVersion": "1.0.0"
+    }
+  ]
+}

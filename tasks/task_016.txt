@@ -1,0 +1,178 @@
+# Task ID: 16
+# Title: Implement Judges Journal Wiki Reorganization by Parts and Chapters
+# Status: pending
+# Dependencies: 7
+# Priority: high
+# Description: Restructure the Judges Journal wiki according to the reorganization plan, organizing content into five main Parts with constituent chapters, while ensuring proper navigation and content sourcing.
+# Details:
+This task involves implementing the Judges Journal reorganization as specified in JUDGES_JOURNAL_REORG_PLAN.md. The developer should:
+
+1. Create five main section pages corresponding to the Parts of the Judges Journal:
+   - Part 1: Praxis
+   - Part 2: Construction
+   - Part 3: Abstraction
+   - Part 4: Customization
+   - Part 5: Appendices
+
+2. For each Part, create individual pages for all constituent chapters as outlined in the reorganization plan.
+
+3. Content population:
+   - Source content from the main Judges Journal file for each chapter
+   - Incorporate any existing granular files that contain chapter-specific content
+   - Ensure all content maintains proper formatting, headings, and structure
+   - Preserve any existing cross-references between sections
+
+4. Implement navigation features:
+   - Add a main navigation menu/sidebar that shows all Parts
+   - Create sub-navigation within each Part showing its chapters
+   - Add 'Previous/Next' navigation at the bottom of each chapter
+   - Ensure breadcrumb navigation works correctly
+
+5. Prepare for future enhancements:
+   - Add placeholder sections for images and diagrams where appropriate
+   - Document locations where cross-references will need to be updated
+   - Create a consistent heading structure that will support future TOC generation
+
+6. Update any existing links to Judges Journal content to point to the new structure
+
+The implementation should follow wiki best practices and maintain a consistent look and feel throughout the reorganized content.
+
+# Test Strategy:
+Testing should verify both structure and content integrity:
+
+1. Structure validation:
+   - Confirm all five Parts exist as main sections
+   - Verify each Part contains all chapters specified in the reorganization plan
+   - Check that navigation elements (sidebar, breadcrumbs, prev/next links) work correctly
+   - Validate that the hierarchy is properly represented in the wiki structure
+
+2. Content validation:
+   - Compare content of each chapter against source material to ensure no information was lost
+   - Verify formatting is preserved (headings, lists, tables, code blocks, etc.)
+   - Check that any internal links between sections still function correctly
+   - Ensure images or other media are properly referenced
+
+3. User journey testing:
+   - Test navigation paths through the content, ensuring a user can logically move through the material
+   - Verify that a user can navigate from the main wiki to any specific chapter in 3 clicks or fewer
+   - Test breadcrumb navigation to ensure users can understand their location in the document hierarchy
+
+4. Cross-browser testing:
+   - Verify the reorganized structure displays correctly in Chrome, Firefox, and Safari
+   - Check mobile responsiveness of the new structure
+
+5. Peer review:
+   - Have another team member navigate the reorganized content without prior instruction to verify intuitiveness
+
+# Subtasks:
+## 1. Create Main Part Pages with Base Structure [pending]
+### Dependencies: None
+### Description: Create the five main Part pages with proper structure, headings, and navigation framework
+### Details:
+Implementation steps:
+1. Create the following five main pages with appropriate titles and introductory content:
+   - Part 1: Praxis
+   - Part 2: Construction
+   - Part 3: Abstraction
+   - Part 4: Customization
+   - Part 5: Appendices
+2. For each Part page, implement:
+   - Consistent header format with Part number and title
+   - Brief introduction section explaining the purpose of this Part
+   - Placeholder section for chapter listing
+   - Initial navigation sidebar structure
+   - Footer with basic navigation elements
+3. Create a main Judges Journal landing page that links to all five Parts
+4. Implement the main navigation menu/sidebar that displays all Parts
+
+Testing approach:
+- Verify all five Part pages are created with consistent formatting
+- Confirm navigation sidebar correctly displays all Parts
+- Check that the landing page properly links to all Part pages
+- Validate that page structure follows wiki best practices
+
+## 2. Create Individual Chapter Pages with Structure [pending]
+### Dependencies: 16.1
+### Description: Create all individual chapter pages for each Part as specified in the reorganization plan
+### Details:
+Implementation steps:
+1. Review JUDGES_JOURNAL_REORG_PLAN.md to identify all chapters within each Part
+2. For each Part, create individual pages for all constituent chapters with:
+   - Consistent chapter title format (e.g., "Part X, Chapter Y: Title")
+   - Placeholder sections for content with appropriate heading structure
+   - Basic metadata (part/chapter numbers)
+   - Empty content sections with proper heading hierarchy
+3. Update each Part page to include links to all its constituent chapters
+4. Implement sub-navigation within each Part showing its chapters
+5. Document the complete page hierarchy for reference
+
+Testing approach:
+- Verify all chapter pages are created with consistent structure
+- Confirm each Part page correctly links to all its chapters
+- Validate that sub-navigation within each Part displays all chapters
+- Check that page naming follows a consistent convention
+
+## 3. Populate Content from Source Materials [pending]
+### Dependencies: 16.2
+### Description: Source and migrate content from the main Judges Journal file and existing granular files into the new structure
+### Details:
+Implementation steps:
+1. Identify and extract content for each chapter from:
+   - Main Judges Journal file
+   - Any existing granular files with chapter-specific content
+2. For each chapter page:
+   - Populate with extracted content
+   - Preserve original formatting, headings, and structure
+   - Maintain any existing emphasis, lists, and special formatting
+   - Document the source of content for traceability
+3. Review content for formatting consistency across all pages
+4. Add placeholder sections for images and diagrams where appropriate
+5. Create a content migration log documenting what content was moved where
+
+Testing approach:
+- Verify all content has been migrated without loss
+- Check formatting consistency across all pages
+- Validate that placeholder sections for images are appropriately placed
+- Confirm heading structure is consistent and properly nested
+
+## 4. Implement Complete Navigation System [pending]
+### Dependencies: 16.3
+### Description: Enhance navigation with breadcrumbs, previous/next links, and ensure all cross-references work correctly
+### Details:
+Implementation steps:
+1. Implement breadcrumb navigation on all pages showing the hierarchy path
+2. Add 'Previous/Next' navigation at the bottom of each chapter page with:
+   - Clear labeling of destination pages
+   - Logical navigation flow following the document structure
+3. Enhance the sidebar navigation to highlight the current page location
+4. Review and update any cross-references between sections to point to the new structure
+5. Create a table of contents on each Part page listing all chapters
+6. Test navigation paths to ensure complete coverage of all content
+
+Testing approach:
+- Verify breadcrumb navigation correctly shows the page hierarchy
+- Confirm Previous/Next links work correctly at all points in the document
+- Test navigation from the main page through all possible paths
+- Validate that sidebar navigation highlights the current location
+- Check that all cross-references point to the correct destinations
+
+## 5. Update External References and Prepare for Future Enhancements [pending]
+### Dependencies: 16.4
+### Description: Update existing links to Judges Journal content and prepare the structure for future enhancements
+### Details:
+Implementation steps:
+1. Identify all existing links to Judges Journal content from other wiki pages
+2. Update these links to point to the appropriate pages in the new structure
+3. Create a consistent heading structure throughout all pages that will support future TOC generation
+4. Document locations where cross-references will need to be updated in the future
+5. Add metadata to pages to support future search and categorization
+6. Create a documentation page explaining the new structure and navigation approach
+7. Perform a final review of the entire wiki structure for consistency
+
+Testing approach:
+- Verify all external links to Judges Journal content now point to correct locations
+- Confirm heading structure is consistent and will support TOC generation
+- Validate that documentation clearly explains the new structure
+- Check that all pages have appropriate metadata
+- Perform end-to-end navigation testing through the entire restructured content
+

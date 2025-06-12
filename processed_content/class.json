@@ -1,0 +1,324 @@
+{
+  "metadata": {
+    "generatedAt": "2025-05-26T11:11:05.540Z",
+    "contentType": "class",
+    "itemCount": 4,
+    "formatVersion": "1.0.0",
+    "validation": {
+      "totalItems": 4,
+      "validItems": 0,
+      "errorCount": 4,
+      "warningCount": 0
+    },
+    "crossReferences": {
+      "totalReferences": 4,
+      "resolvedReferences": 4,
+      "unresolvedReferences": []
+    }
+  },
+  "data": [
+    {
+      "id": "placeholder-class",
+      "title": "Placeholder Class",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/Monster_Listings_B/009_man_naval_mariner.md",
+      "category": "Monstrous_Manual",
+      "contentType": "class",
+      "keyAttribute": "STR",
+      "requirements": "None",
+      "hitDice": "1d8",
+      "maximumLevel": 14,
+      "levelProgression": [],
+      "combatProgression": [],
+      "combatCharacteristics": {
+        "weaponProficiencies": "All",
+        "armorProficiencies": "All",
+        "fightingStyles": "All",
+        "progressionNotes": "Standard"
+      },
+      "startingPowers": [],
+      "additionalPowers": [],
+      "proficiencyProgression": {
+        "starting": "Standard",
+        "classProficiencies": "Standard",
+        "generalProficiencies": "Standard"
+      },
+      "classProficiencies": [],
+      "templates": [],
+      "description": "Placeholder class description"
+    },
+    {
+      "id": "placeholder-class",
+      "title": "Placeholder Class",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/Monster_Listings_B/087_swarm_fish.md",
+      "category": "Monstrous_Manual",
+      "contentType": "class",
+      "keyAttribute": "STR",
+      "requirements": "None",
+      "hitDice": "1d8",
+      "maximumLevel": 14,
+      "levelProgression": [],
+      "combatProgression": [],
+      "combatCharacteristics": {
+        "weaponProficiencies": "All",
+        "armorProficiencies": "All",
+        "fightingStyles": "All",
+        "progressionNotes": "Standard"
+      },
+      "startingPowers": [],
+      "additionalPowers": [],
+      "proficiencyProgression": {
+        "starting": "Standard",
+        "classProficiencies": "Standard",
+        "generalProficiencies": "Standard"
+      },
+      "classProficiencies": [],
+      "templates": [],
+      "description": "Placeholder class description"
+    },
+    {
+      "id": "placeholder-class",
+      "title": "Placeholder Class",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/13_class_powers.md",
+      "category": "Rulebook",
+      "contentType": "class",
+      "keyAttribute": "STR",
+      "requirements": "None",
+      "hitDice": "1d8",
+      "maximumLevel": 14,
+      "levelProgression": [],
+      "combatProgression": [],
+      "combatCharacteristics": {
+        "weaponProficiencies": "All",
+        "armorProficiencies": "All",
+        "fightingStyles": "All",
+        "progressionNotes": "Standard"
+      },
+      "startingPowers": [],
+      "additionalPowers": [],
+      "proficiencyProgression": {
+        "starting": "Standard",
+        "classProficiencies": "Standard",
+        "generalProficiencies": "Standard"
+      },
+      "classProficiencies": [],
+      "templates": [],
+      "description": "Placeholder class description"
+    },
+    {
+      "id": "placeholder-class",
+      "title": "Placeholder Class",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/20_starting_age.md",
+      "category": "Rulebook",
+      "contentType": "class",
+      "keyAttribute": "STR",
+      "requirements": "None",
+      "hitDice": "1d8",
+      "maximumLevel": 14,
+      "levelProgression": [],
+      "combatProgression": [],
+      "combatCharacteristics": {
+        "weaponProficiencies": "All",
+        "armorProficiencies": "All",
+        "fightingStyles": "All",
+        "progressionNotes": "Standard"
+      },
+      "startingPowers": [],
+      "additionalPowers": [],
+      "proficiencyProgression": {
+        "starting": "Standard",
+        "classProficiencies": "Standard",
+        "generalProficiencies": "Standard"
+      },
+      "classProficiencies": [],
+      "templates": [],
+      "description": "Placeholder class description"
+    }
+  ],
+  "crossReferences": {
+    "placeholder-class": [
+      "placeholder-class"
+    ]
+  },
+  "validationResults": [
+    {
+      "isValid": false,
+      "errors": [
+        {
+          "field": "hitDice",
+          "message": "Hit Dice must be in format \"dX\"",
+          "severity": "error",
+          "expected": "dX format",
+          "actual": "1d8",
+          "suggestion": "Examples: \"d6\", \"d8\", \"d10\""
+        }
+      ],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-class",
+        "title": "Placeholder Class",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/Monster_Listings_B/009_man_naval_mariner.md",
+        "category": "Monstrous_Manual",
+        "contentType": "class",
+        "keyAttribute": "STR",
+        "requirements": "None",
+        "hitDice": "1d8",
+        "maximumLevel": 14,
+        "levelProgression": [],
+        "combatProgression": [],
+        "combatCharacteristics": {
+          "weaponProficiencies": "All",
+          "armorProficiencies": "All",
+          "fightingStyles": "All",
+          "progressionNotes": "Standard"
+        },
+        "startingPowers": [],
+        "additionalPowers": [],
+        "proficiencyProgression": {
+          "starting": "Standard",
+          "classProficiencies": "Standard",
+          "generalProficiencies": "Standard"
+        },
+        "classProficiencies": [],
+        "templates": [],
+        "description": "Placeholder class description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.540Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": false,
+      "errors": [
+        {
+          "field": "hitDice",
+          "message": "Hit Dice must be in format \"dX\"",
+          "severity": "error",
+          "expected": "dX format",
+          "actual": "1d8",
+          "suggestion": "Examples: \"d6\", \"d8\", \"d10\""
+        }
+      ],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-class",
+        "title": "Placeholder Class",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/Monster_Listings_B/087_swarm_fish.md",
+        "category": "Monstrous_Manual",
+        "contentType": "class",
+        "keyAttribute": "STR",
+        "requirements": "None",
+        "hitDice": "1d8",
+        "maximumLevel": 14,
+        "levelProgression": [],
+        "combatProgression": [],
+        "combatCharacteristics": {
+          "weaponProficiencies": "All",
+          "armorProficiencies": "All",
+          "fightingStyles": "All",
+          "progressionNotes": "Standard"
+        },
+        "startingPowers": [],
+        "additionalPowers": [],
+        "proficiencyProgression": {
+          "starting": "Standard",
+          "classProficiencies": "Standard",
+          "generalProficiencies": "Standard"
+        },
+        "classProficiencies": [],
+        "templates": [],
+        "description": "Placeholder class description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.540Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": false,
+      "errors": [
+        {
+          "field": "hitDice",
+          "message": "Hit Dice must be in format \"dX\"",
+          "severity": "error",
+          "expected": "dX format",
+          "actual": "1d8",
+          "suggestion": "Examples: \"d6\", \"d8\", \"d10\""
+        }
+      ],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-class",
+        "title": "Placeholder Class",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/13_class_powers.md",
+        "category": "Rulebook",
+        "contentType": "class",
+        "keyAttribute": "STR",
+        "requirements": "None",
+        "hitDice": "1d8",
+        "maximumLevel": 14,
+        "levelProgression": [],
+        "combatProgression": [],
+        "combatCharacteristics": {
+          "weaponProficiencies": "All",
+          "armorProficiencies": "All",
+          "fightingStyles": "All",
+          "progressionNotes": "Standard"
+        },
+        "startingPowers": [],
+        "additionalPowers": [],
+        "proficiencyProgression": {
+          "starting": "Standard",
+          "classProficiencies": "Standard",
+          "generalProficiencies": "Standard"
+        },
+        "classProficiencies": [],
+        "templates": [],
+        "description": "Placeholder class description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.540Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": false,
+      "errors": [
+        {
+          "field": "hitDice",
+          "message": "Hit Dice must be in format \"dX\"",
+          "severity": "error",
+          "expected": "dX format",
+          "actual": "1d8",
+          "suggestion": "Examples: \"d6\", \"d8\", \"d10\""
+        }
+      ],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-class",
+        "title": "Placeholder Class",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/20_starting_age.md",
+        "category": "Rulebook",
+        "contentType": "class",
+        "keyAttribute": "STR",
+        "requirements": "None",
+        "hitDice": "1d8",
+        "maximumLevel": 14,
+        "levelProgression": [],
+        "combatProgression": [],
+        "combatCharacteristics": {
+          "weaponProficiencies": "All",
+          "armorProficiencies": "All",
+          "fightingStyles": "All",
+          "progressionNotes": "Standard"
+        },
+        "startingPowers": [],
+        "additionalPowers": [],
+        "proficiencyProgression": {
+          "starting": "Standard",
+          "classProficiencies": "Standard",
+          "generalProficiencies": "Standard"
+        },
+        "classProficiencies": [],
+        "templates": [],
+        "description": "Placeholder class description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.540Z",
+      "schemaVersion": "1.0.0"
+    }
+  ]
+}

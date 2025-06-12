@@ -1,0 +1,186 @@
+# Task ID: 18
+# Title: Implement Monster Type Organization and Navigation Structure for ACKS II Monstrous Manual
+# Status: pending
+# Dependencies: 7
+# Priority: high
+# Description: Restructure the Monster Manual section to organize monsters by ACKS II Monster Type and implement a hierarchical navigation system based on main chapters.
+# Details:
+This task involves creating a comprehensive organization and navigation structure for the ACKS II Monstrous Manual with the following requirements:
+
+1. Create a top-level navigation structure based on the four main chapters of the ACKS II Monstrous Manual:
+   - Introduction/Overview
+   - Monster Listings
+   - Special Monsters
+   - Appendices
+
+2. Within the 'Monster Listings' chapter, implement a secondary navigation that organizes monsters by their official ACKS II Monster Type:
+   - Beast
+   - Construct
+   - Dragon
+   - Elemental
+   - Fey
+   - Fiend
+   - Humanoid
+   - Monstrosity
+   - Undead
+   - Vermin
+   - Other
+
+3. Develop individual monster page templates using MDX that:
+   - Separate descriptive content (lore, ecology, behavior) from combat statistics
+   - Include a reusable combat statistics card component
+   - Support rich formatting for monster descriptions
+
+4. Implement special handling for complex monster entries that may span multiple pages or have variant types:
+   - Dragons (different colors/types)
+   - Elementals (different elements)
+   - Beastman groups (different tribes/variants)
+   - Lycanthropes (different animal forms)
+
+5. Source content from:
+   - Main Monster Manual files
+   - Granular markdown files in ACKS_II_Content/Monstrous_Manual/
+   - Ensure proper linking between related monster entries
+
+6. Create a reusable MDX component for combat stat cards that:
+   - Displays monster statistics in a consistent, readable format
+   - Includes all relevant combat information (AC, HD, attacks, special abilities)
+   - Scales appropriately for different screen sizes
+   - Maintains consistent styling with the rest of the application
+
+The implementation should use Next.js routing structure to reflect the hierarchical organization, with appropriate metadata for each monster to facilitate filtering and searching.
+
+# Test Strategy:
+Testing should verify both the structure and functionality of the monster organization system:
+
+1. Navigation Structure Testing:
+   - Verify that all four main chapters are accessible from the top-level navigation
+   - Confirm that the Monster Type categories correctly display all monsters of that type
+   - Test breadcrumb navigation to ensure proper hierarchy display
+   - Check that special monster groups (Dragons, Elementals, etc.) have appropriate sub-navigation
+
+2. Content Display Testing:
+   - Verify that 10+ sample monsters (at least one from each Monster Type) display correctly
+   - Confirm that monster descriptions and stat blocks are properly separated
+   - Test that complex monster entries with variants display all relevant information
+   - Ensure all monster entries include proper attribution and source information
+
+3. Component Testing:
+   - Test the combat stat card component with various monster types to ensure it handles all possible stat variations
+   - Verify responsive design of stat cards on mobile, tablet, and desktop viewports
+   - Check accessibility of navigation and content (screen reader compatibility, keyboard navigation)
+
+4. Data Integrity Testing:
+   - Verify that monsters appear in the correct type categories
+   - Confirm that all monsters from the source files are included in the navigation
+   - Test search functionality to ensure monsters can be found by name and type
+
+5. User Flow Testing:
+   - Test typical user journeys (e.g., finding a specific monster, browsing by type)
+   - Verify that related monsters are properly linked
+   - Confirm that navigation between monster entries is intuitive and functional
+
+# Subtasks:
+## 1. Create Data Schema and Content Organization for Monster Types [pending]
+### Dependencies: None
+### Description: Define the data schema for monster entries and organize existing content according to ACKS II Monster Types. This includes parsing and restructuring the existing monster data to fit the new organizational structure.
+### Details:
+Implementation steps:
+1. Analyze existing monster content in ACKS_II_Content/Monstrous_Manual/ to identify all required fields
+2. Create a standardized JSON/YAML schema for monster entries with fields for: name, type (from the 11 official types), description, combat statistics, special abilities, etc.
+3. Map existing monster content to the new schema, ensuring each monster is properly categorized by type
+4. For monsters with multiple types or variants (e.g., dragons of different colors), create a parent-child relationship in the data structure
+5. Implement validation to ensure all monster entries conform to the schema
+6. Store the processed data in a format compatible with Next.js data fetching (static JSON files or API routes)
+
+Testing approach:
+- Validate schema compliance for all monster entries
+- Verify correct type assignment for a sample of monsters across different categories
+- Test edge cases like monsters with multiple types or complex variant structures
+
+## 2. Implement Top-Level Navigation Structure for Main Chapters [pending]
+### Dependencies: 18.1
+### Description: Create the primary navigation structure for the four main chapters of the ACKS II Monstrous Manual: Introduction/Overview, Monster Listings, Special Monsters, and Appendices.
+### Details:
+Implementation steps:
+1. Create a Next.js routing structure with top-level routes for each main chapter:
+   - `/monstrous-manual/introduction`
+   - `/monstrous-manual/monsters` (for Monster Listings)
+   - `/monstrous-manual/special-monsters`
+   - `/monstrous-manual/appendices`
+2. Develop a responsive navigation component using React that displays these main chapters
+3. Implement breadcrumb navigation to show the current location in the hierarchy
+4. Create layout components for each main section that maintain consistent styling
+5. Add metadata for each section to support SEO and improve navigation context
+6. Implement client-side navigation between sections for a smooth user experience
+
+Testing approach:
+- Verify all navigation links work correctly
+- Test responsive behavior across different screen sizes
+- Ensure breadcrumbs accurately reflect the navigation path
+- Validate that the correct layout is applied to each section
+
+## 3. Develop Secondary Navigation for Monster Types [pending]
+### Dependencies: 18.1, 18.2
+### Description: Implement a secondary navigation system within the 'Monster Listings' chapter that organizes monsters by their official ACKS II Monster Type, with appropriate routing and filtering capabilities.
+### Details:
+Implementation steps:
+1. Create dynamic routes for each monster type under the monsters section:
+   - `/monstrous-manual/monsters/beast`
+   - `/monstrous-manual/monsters/construct`
+   - etc. for all 11 monster types
+2. Develop a collapsible sidebar component that displays all monster types and their contained monsters
+3. Implement filtering functionality to allow users to view monsters by type
+4. Create index pages for each monster type that list all monsters of that type with brief descriptions
+5. Add count indicators showing the number of monsters in each category
+6. Ensure proper linking between the type index pages and individual monster entries
+
+Testing approach:
+- Verify all monster types are correctly displayed in the navigation
+- Test that filtering works correctly for each monster type
+- Ensure all monsters appear under their correct type categories
+- Validate that navigation state is preserved when navigating between pages
+
+## 4. Create Reusable MDX Components for Monster Statistics [pending]
+### Dependencies: 18.1
+### Description: Develop reusable MDX components for displaying monster information, with a focus on separating descriptive content from combat statistics and creating a consistent, responsive layout.
+### Details:
+Implementation steps:
+1. Design and implement a `MonsterStatCard` MDX component that:
+   - Displays all combat statistics in a structured, readable format
+   - Includes fields for AC, HD, attacks, special abilities, etc.
+   - Uses responsive design principles to work on all screen sizes
+   - Maintains consistent styling with the rest of the application
+2. Create a `MonsterDescription` component for narrative content (lore, ecology, behavior)
+3. Develop a `MonsterVariants` component to handle monsters with multiple forms or types
+4. Implement a `MonsterPage` layout component that combines these elements
+5. Add proper TypeScript typing for all component props
+6. Create documentation for how to use these components in MDX files
+
+Testing approach:
+- Test components with various monster data to ensure they handle all edge cases
+- Verify responsive behavior across different screen sizes
+- Check accessibility compliance for all components
+- Test with screen readers to ensure proper semantic structure
+
+## 5. Implement Special Handling for Complex Monster Entries [pending]
+### Dependencies: 18.1, 18.3, 18.4
+### Description: Create specialized components and routing logic to handle complex monster entries that span multiple pages or have variant types, such as Dragons, Elementals, Beastman groups, and Lycanthropes.
+### Details:
+Implementation steps:
+1. Analyze the structure of complex monster entries to identify common patterns
+2. Implement a parent-child page structure for monster variants:
+   - Parent pages (e.g., `/monstrous-manual/monsters/dragon`) provide an overview of the monster type
+   - Child pages (e.g., `/monstrous-manual/monsters/dragon/red`) contain specific variant details
+3. Create specialized navigation components for complex monster families that show all variants
+4. Develop a `VariantSelector` component that allows users to quickly switch between variants of the same monster
+5. Implement cross-linking between related monster entries
+6. Add comparison views for variants of the same monster type
+
+Testing approach:
+- Test navigation between parent monster types and their variants
+- Verify that all variants are correctly linked and accessible
+- Ensure consistent display of information across variant types
+- Test the variant selector with different monster families
+- Validate that complex monster entries maintain proper organization in the navigation structure
+

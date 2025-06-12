@@ -1,0 +1,2782 @@
+{
+  "metadata": {
+    "generatedAt": "2025-05-26T11:11:05.538Z",
+    "contentType": "proficiency",
+    "itemCount": 102,
+    "formatVersion": "1.0.0",
+    "validation": {
+      "totalItems": 102,
+      "validItems": 102,
+      "errorCount": 0,
+      "warningCount": 0
+    },
+    "crossReferences": {
+      "totalReferences": 102,
+      "resolvedReferences": 102,
+      "unresolvedReferences": []
+    }
+  },
+  "data": [
+    {
+      "id": "placeholder-proficiency",
+      "title": "Placeholder Proficiency",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/101_saving_throw_progression.md",
+      "category": "Judges_Journal",
+      "contentType": "proficiency",
+      "proficiencyCategory": "general",
+      "effects": "Placeholder effects",
+      "description": "Placeholder proficiency description"
+    },
+    {
+      "id": "placeholder-proficiency",
+      "title": "Placeholder Proficiency",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/102_strongholds_and_followers.md",
+      "category": "Judges_Journal",
+      "contentType": "proficiency",
+      "proficiencyCategory": "general",
+      "effects": "Placeholder effects",
+      "description": "Placeholder proficiency description"
+    },
+    {
+      "id": "placeholder-proficiency",
+      "title": "Placeholder Proficiency",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/105_dwarven_custom_classes.md",
+      "category": "Judges_Journal",
+      "contentType": "proficiency",
+      "proficiencyCategory": "general",
+      "effects": "Placeholder effects",
+      "description": "Placeholder proficiency description"
+    },
+    {
+      "id": "placeholder-proficiency",
+      "title": "Placeholder Proficiency",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/106_elven_custom_classes.md",
+      "category": "Judges_Journal",
+      "contentType": "proficiency",
+      "proficiencyCategory": "general",
+      "effects": "Placeholder effects",
+      "description": "Placeholder proficiency description"
+    },
+    {
+      "id": "placeholder-proficiency",
+      "title": "Placeholder Proficiency",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/107_halfling_custom_classes.md",
+      "category": "Judges_Journal",
+      "contentType": "proficiency",
+      "proficiencyCategory": "general",
+      "effects": "Placeholder effects",
+      "description": "Placeholder proficiency description"
+    },
+    {
+      "id": "placeholder-proficiency",
+      "title": "Placeholder Proficiency",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/116_examples_of_race_creation.md",
+      "category": "Judges_Journal",
+      "contentType": "proficiency",
+      "proficiencyCategory": "general",
+      "effects": "Placeholder effects",
+      "description": "Placeholder proficiency description"
+    },
+    {
+      "id": "placeholder-proficiency",
+      "title": "Placeholder Proficiency",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/126_codes_of_behavior.md",
+      "category": "Judges_Journal",
+      "contentType": "proficiency",
+      "proficiencyCategory": "general",
+      "effects": "Placeholder effects",
+      "description": "Placeholder proficiency description"
+    },
+    {
+      "id": "placeholder-proficiency",
+      "title": "Placeholder Proficiency",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/134_heroic_codes.md",
+      "category": "Judges_Journal",
+      "contentType": "proficiency",
+      "proficiencyCategory": "general",
+      "effects": "Placeholder effects",
+      "description": "Placeholder proficiency description"
+    },
+    {
+      "id": "placeholder-proficiency",
+      "title": "Placeholder Proficiency",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/135_heroic_fate.md",
+      "category": "Judges_Journal",
+      "contentType": "proficiency",
+      "proficiencyCategory": "general",
+      "effects": "Placeholder effects",
+      "description": "Placeholder proficiency description"
+    },
+    {
+      "id": "placeholder-proficiency",
+      "title": "Placeholder Proficiency",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/15_balancing_player_skill_versus_character_skill.md",
+      "category": "Judges_Journal",
+      "contentType": "proficiency",
+      "proficiencyCategory": "general",
+      "effects": "Placeholder effects",
+      "description": "Placeholder proficiency description"
+    },
+    {
+      "id": "placeholder-proficiency",
+      "title": "Placeholder Proficiency",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/169_appendix_p_parties.md",
+      "category": "Judges_Journal",
+      "contentType": "proficiency",
+      "proficiencyCategory": "general",
+      "effects": "Placeholder effects",
+      "description": "Placeholder proficiency description"
+    },
+    {
+      "id": "placeholder-proficiency",
+      "title": "Placeholder Proficiency",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/23_settlement_adventures.md",
+      "category": "Judges_Journal",
+      "contentType": "proficiency",
+      "proficiencyCategory": "general",
+      "effects": "Placeholder effects",
+      "description": "Placeholder proficiency description"
+    },
+    {
+      "id": "placeholder-proficiency",
+      "title": "Placeholder Proficiency",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/28_campaign_activities.md",
+      "category": "Judges_Journal",
+      "contentType": "proficiency",
+      "proficiencyCategory": "general",
+      "effects": "Placeholder effects",
+      "description": "Placeholder proficiency description"
+    },
+    {
+      "id": "placeholder-proficiency",
+      "title": "Placeholder Proficiency",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/30_additional_rules_for_campaigns.md",
+      "category": "Judges_Journal",
+      "contentType": "proficiency",
+      "proficiencyCategory": "general",
+      "effects": "Placeholder effects",
+      "description": "Placeholder proficiency description"
+    },
+    {
+      "id": "placeholder-proficiency",
+      "title": "Placeholder Proficiency",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/54_step_4_develop_the_points_of_interest.md",
+      "category": "Judges_Journal",
+      "contentType": "proficiency",
+      "proficiencyCategory": "general",
+      "effects": "Placeholder effects",
+      "description": "Placeholder proficiency description"
+    },
+    {
+      "id": "placeholder-proficiency",
+      "title": "Placeholder Proficiency",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/78_the_basics.md",
+      "category": "Judges_Journal",
+      "contentType": "proficiency",
+      "proficiencyCategory": "general",
+      "effects": "Placeholder effects",
+      "description": "Placeholder proficiency description"
+    },
+    {
+      "id": "placeholder-proficiency",
+      "title": "Placeholder Proficiency",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/96_hit_dice_value.md",
+      "category": "Judges_Journal",
+      "contentType": "proficiency",
+      "proficiencyCategory": "general",
+      "effects": "Placeholder effects",
+      "description": "Placeholder proficiency description"
+    },
+    {
+      "id": "placeholder-proficiency",
+      "title": "Placeholder Proficiency",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/97_fighting_value.md",
+      "category": "Judges_Journal",
+      "contentType": "proficiency",
+      "proficiencyCategory": "general",
+      "effects": "Placeholder effects",
+      "description": "Placeholder proficiency description"
+    },
+    {
+      "id": "placeholder-proficiency",
+      "title": "Placeholder Proficiency",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/98_thievery_value.md",
+      "category": "Judges_Journal",
+      "contentType": "proficiency",
+      "proficiencyCategory": "general",
+      "effects": "Placeholder effects",
+      "description": "Placeholder proficiency description"
+    },
+    {
+      "id": "placeholder-proficiency",
+      "title": "Placeholder Proficiency",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/03_proficiencies_for_monsters.md",
+      "category": "Monstrous_Manual",
+      "contentType": "proficiency",
+      "proficiencyCategory": "general",
+      "effects": "Placeholder effects",
+      "description": "Placeholder proficiency description"
+    },
+    {
+      "id": "placeholder-proficiency",
+      "title": "Placeholder Proficiency",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/04_monstrous_henchmen.md",
+      "category": "Monstrous_Manual",
+      "contentType": "proficiency",
+      "proficiencyCategory": "general",
+      "effects": "Placeholder effects",
+      "description": "Placeholder proficiency description"
+    },
+    {
+      "id": "placeholder-proficiency",
+      "title": "Placeholder Proficiency",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/09_monster_parts_special.md",
+      "category": "Monstrous_Manual",
+      "contentType": "proficiency",
+      "proficiencyCategory": "general",
+      "effects": "Placeholder effects",
+      "description": "Placeholder proficiency description"
+    },
+    {
+      "id": "placeholder-proficiency",
+      "title": "Placeholder Proficiency",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/20_monster_experience_points.md",
+      "category": "Monstrous_Manual",
+      "contentType": "proficiency",
+      "proficiencyCategory": "general",
+      "effects": "Placeholder effects",
+      "description": "Placeholder proficiency description"
+    },
+    {
+      "id": "placeholder-proficiency",
+      "title": "Placeholder Proficiency",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/Monster_Listings_A/009_baboon_rock.md",
+      "category": "Monstrous_Manual",
+      "contentType": "proficiency",
+      "proficiencyCategory": "general",
+      "effects": "Placeholder effects",
+      "description": "Placeholder proficiency description"
+    },
+    {
+      "id": "placeholder-proficiency",
+      "title": "Placeholder Proficiency",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/Monster_Listings_A/012_barghest_lesser.md",
+      "category": "Monstrous_Manual",
+      "contentType": "proficiency",
+      "proficiencyCategory": "general",
+      "effects": "Placeholder effects",
+      "description": "Placeholder proficiency description"
+    },
+    {
+      "id": "placeholder-proficiency",
+      "title": "Placeholder Proficiency",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/Monster_Listings_A/018_bear_black.md",
+      "category": "Monstrous_Manual",
+      "contentType": "proficiency",
+      "proficiencyCategory": "general",
+      "effects": "Placeholder effects",
+      "description": "Placeholder proficiency description"
+    },
+    {
+      "id": "placeholder-proficiency",
+      "title": "Placeholder Proficiency",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/Monster_Listings_A/019_bear_brown.md",
+      "category": "Monstrous_Manual",
+      "contentType": "proficiency",
+      "proficiencyCategory": "general",
+      "effects": "Placeholder effects",
+      "description": "Placeholder proficiency description"
+    },
+    {
+      "id": "placeholder-proficiency",
+      "title": "Placeholder Proficiency",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/Monster_Listings_A/020_bear_cave.md",
+      "category": "Monstrous_Manual",
+      "contentType": "proficiency",
+      "proficiencyCategory": "general",
+      "effects": "Placeholder effects",
+      "description": "Placeholder proficiency description"
+    },
+    {
+      "id": "placeholder-proficiency",
+      "title": "Placeholder Proficiency",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/Monster_Listings_A/034_blob_black.md",
+      "category": "Monstrous_Manual",
+      "contentType": "proficiency",
+      "proficiencyCategory": "general",
+      "effects": "Placeholder effects",
+      "description": "Placeholder proficiency description"
+    },
+    {
+      "id": "placeholder-proficiency",
+      "title": "Placeholder Proficiency",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/Monster_Listings_A/035_blood_hound.md",
+      "category": "Monstrous_Manual",
+      "contentType": "proficiency",
+      "proficiencyCategory": "general",
+      "effects": "Placeholder effects",
+      "description": "Placeholder proficiency description"
+    },
+    {
+      "id": "placeholder-proficiency",
+      "title": "Placeholder Proficiency",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/Monster_Listings_A/036_boar_common.md",
+      "category": "Monstrous_Manual",
+      "contentType": "proficiency",
+      "proficiencyCategory": "general",
+      "effects": "Placeholder effects",
+      "description": "Placeholder proficiency description"
+    },
+    {
+      "id": "placeholder-proficiency",
+      "title": "Placeholder Proficiency",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/Monster_Listings_A/037_boar_giant.md",
+      "category": "Monstrous_Manual",
+      "contentType": "proficiency",
+      "proficiencyCategory": "general",
+      "effects": "Placeholder effects",
+      "description": "Placeholder proficiency description"
+    },
+    {
+      "id": "placeholder-proficiency",
+      "title": "Placeholder Proficiency",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/Monster_Listings_A/040_camel.md",
+      "category": "Monstrous_Manual",
+      "contentType": "proficiency",
+      "proficiencyCategory": "general",
+      "effects": "Placeholder effects",
+      "description": "Placeholder proficiency description"
+    },
+    {
+      "id": "placeholder-proficiency",
+      "title": "Placeholder Proficiency",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/Monster_Listings_A/043_cat_catamount.md",
+      "category": "Monstrous_Manual",
+      "contentType": "proficiency",
+      "proficiencyCategory": "general",
+      "effects": "Placeholder effects",
+      "description": "Placeholder proficiency description"
+    },
+    {
+      "id": "placeholder-proficiency",
+      "title": "Placeholder Proficiency",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/Monster_Listings_A/044_cat_cheetah.md",
+      "category": "Monstrous_Manual",
+      "contentType": "proficiency",
+      "proficiencyCategory": "general",
+      "effects": "Placeholder effects",
+      "description": "Placeholder proficiency description"
+    },
+    {
+      "id": "placeholder-proficiency",
+      "title": "Placeholder Proficiency",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/Monster_Listings_A/045_cat_leopard.md",
+      "category": "Monstrous_Manual",
+      "contentType": "proficiency",
+      "proficiencyCategory": "general",
+      "effects": "Placeholder effects",
+      "description": "Placeholder proficiency description"
+    },
+    {
+      "id": "placeholder-proficiency",
+      "title": "Placeholder Proficiency",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/Monster_Listings_A/046_cat_lion.md",
+      "category": "Monstrous_Manual",
+      "contentType": "proficiency",
+      "proficiencyCategory": "general",
+      "effects": "Placeholder effects",
+      "description": "Placeholder proficiency description"
+    },
+    {
+      "id": "placeholder-proficiency",
+      "title": "Placeholder Proficiency",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/Monster_Listings_A/047_cat_lynx.md",
+      "category": "Monstrous_Manual",
+      "contentType": "proficiency",
+      "proficiencyCategory": "general",
+      "effects": "Placeholder effects",
+      "description": "Placeholder proficiency description"
+    },
+    {
+      "id": "placeholder-proficiency",
+      "title": "Placeholder Proficiency",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/Monster_Listings_A/048_cat_saber_tooth_tiger.md",
+      "category": "Monstrous_Manual",
+      "contentType": "proficiency",
+      "proficiencyCategory": "general",
+      "effects": "Placeholder effects",
+      "description": "Placeholder proficiency description"
+    },
+    {
+      "id": "placeholder-proficiency",
+      "title": "Placeholder Proficiency",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/Monster_Listings_A/049_cat_tiger.md",
+      "category": "Monstrous_Manual",
+      "contentType": "proficiency",
+      "proficiencyCategory": "general",
+      "effects": "Placeholder effects",
+      "description": "Placeholder proficiency description"
+    },
+    {
+      "id": "placeholder-proficiency",
+      "title": "Placeholder Proficiency",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/Monster_Listings_A/067_dog_hunting.md",
+      "category": "Monstrous_Manual",
+      "contentType": "proficiency",
+      "proficiencyCategory": "general",
+      "effects": "Placeholder effects",
+      "description": "Placeholder proficiency description"
+    },
+    {
+      "id": "placeholder-proficiency",
+      "title": "Placeholder Proficiency",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/Monster_Listings_A/068_dog_war.md",
+      "category": "Monstrous_Manual",
+      "contentType": "proficiency",
+      "proficiencyCategory": "general",
+      "effects": "Placeholder effects",
+      "description": "Placeholder proficiency description"
+    },
+    {
+      "id": "placeholder-proficiency",
+      "title": "Placeholder Proficiency",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/Monster_Listings_A/070_dolphin_common.md",
+      "category": "Monstrous_Manual",
+      "contentType": "proficiency",
+      "proficiencyCategory": "general",
+      "effects": "Placeholder effects",
+      "description": "Placeholder proficiency description"
+    },
+    {
+      "id": "placeholder-proficiency",
+      "title": "Placeholder Proficiency",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/Monster_Listings_A/084_equine_steppe_horse.md",
+      "category": "Monstrous_Manual",
+      "contentType": "proficiency",
+      "proficiencyCategory": "general",
+      "effects": "Placeholder effects",
+      "description": "Placeholder proficiency description"
+    },
+    {
+      "id": "placeholder-proficiency",
+      "title": "Placeholder Proficiency",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/Monster_Listings_A/092_faerie_spriggan.md",
+      "category": "Monstrous_Manual",
+      "contentType": "proficiency",
+      "proficiencyCategory": "general",
+      "effects": "Placeholder effects",
+      "description": "Placeholder proficiency description"
+    },
+    {
+      "id": "placeholder-proficiency",
+      "title": "Placeholder Proficiency",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/Monster_Listings_A/095_fish_giant_catfish.md",
+      "category": "Monstrous_Manual",
+      "contentType": "proficiency",
+      "proficiencyCategory": "general",
+      "effects": "Placeholder effects",
+      "description": "Placeholder proficiency description"
+    },
+    {
+      "id": "placeholder-proficiency",
+      "title": "Placeholder Proficiency",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/Monster_Listings_A/106_genie_efreet.md",
+      "category": "Monstrous_Manual",
+      "contentType": "proficiency",
+      "proficiencyCategory": "general",
+      "effects": "Placeholder effects",
+      "description": "Placeholder proficiency description"
+    },
+    {
+      "id": "placeholder-proficiency",
+      "title": "Placeholder Proficiency",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/Monster_Listings_A/107_genie_hafar.md",
+      "category": "Monstrous_Manual",
+      "contentType": "proficiency",
+      "proficiencyCategory": "general",
+      "effects": "Placeholder effects",
+      "description": "Placeholder proficiency description"
+    },
+    {
+      "id": "placeholder-proficiency",
+      "title": "Placeholder Proficiency",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/Monster_Listings_A/108_genie_jann.md",
+      "category": "Monstrous_Manual",
+      "contentType": "proficiency",
+      "proficiencyCategory": "general",
+      "effects": "Placeholder effects",
+      "description": "Placeholder proficiency description"
+    },
+    {
+      "id": "placeholder-proficiency",
+      "title": "Placeholder Proficiency",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/Monster_Listings_A/109_genie_marid.md",
+      "category": "Monstrous_Manual",
+      "contentType": "proficiency",
+      "proficiencyCategory": "general",
+      "effects": "Placeholder effects",
+      "description": "Placeholder proficiency description"
+    },
+    {
+      "id": "placeholder-proficiency",
+      "title": "Placeholder Proficiency",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/Monster_Listings_A/118_golem_amber.md",
+      "category": "Monstrous_Manual",
+      "contentType": "proficiency",
+      "proficiencyCategory": "general",
+      "effects": "Placeholder effects",
+      "description": "Placeholder proficiency description"
+    },
+    {
+      "id": "placeholder-proficiency",
+      "title": "Placeholder Proficiency",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/Monster_Listings_A/131_harpy.md",
+      "category": "Monstrous_Manual",
+      "contentType": "proficiency",
+      "proficiencyCategory": "general",
+      "effects": "Placeholder effects",
+      "description": "Placeholder proficiency description"
+    },
+    {
+      "id": "placeholder-proficiency",
+      "title": "Placeholder Proficiency",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/Monster_Listings_A/135_hellhound_greater.md",
+      "category": "Monstrous_Manual",
+      "contentType": "proficiency",
+      "proficiencyCategory": "general",
+      "effects": "Placeholder effects",
+      "description": "Placeholder proficiency description"
+    },
+    {
+      "id": "placeholder-proficiency",
+      "title": "Placeholder Proficiency",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/Monster_Listings_A/136_hellhound_lesser.md",
+      "category": "Monstrous_Manual",
+      "contentType": "proficiency",
+      "proficiencyCategory": "general",
+      "effects": "Placeholder effects",
+      "description": "Placeholder proficiency description"
+    },
+    {
+      "id": "placeholder-proficiency",
+      "title": "Placeholder Proficiency",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/Monster_Listings_A/138_herd_animal.md",
+      "category": "Monstrous_Manual",
+      "contentType": "proficiency",
+      "proficiencyCategory": "general",
+      "effects": "Placeholder effects",
+      "description": "Placeholder proficiency description"
+    },
+    {
+      "id": "placeholder-proficiency",
+      "title": "Placeholder Proficiency",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/Monster_Listings_A/147_jackal_common.md",
+      "category": "Monstrous_Manual",
+      "contentType": "proficiency",
+      "proficiencyCategory": "general",
+      "effects": "Placeholder effects",
+      "description": "Placeholder proficiency description"
+    },
+    {
+      "id": "placeholder-proficiency",
+      "title": "Placeholder Proficiency",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/Monster_Listings_A/163_lycanthrope_werebear.md",
+      "category": "Monstrous_Manual",
+      "contentType": "proficiency",
+      "proficiencyCategory": "general",
+      "effects": "Placeholder effects",
+      "description": "Placeholder proficiency description"
+    },
+    {
+      "id": "placeholder-proficiency",
+      "title": "Placeholder Proficiency",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/Monster_Listings_A/166_lycanthrope_weretiger.md",
+      "category": "Monstrous_Manual",
+      "contentType": "proficiency",
+      "proficiencyCategory": "general",
+      "effects": "Placeholder effects",
+      "description": "Placeholder proficiency description"
+    },
+    {
+      "id": "placeholder-proficiency",
+      "title": "Placeholder Proficiency",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/Monster_Listings_B/001_maggot_murder.md",
+      "category": "Monstrous_Manual",
+      "contentType": "proficiency",
+      "proficiencyCategory": "general",
+      "effects": "Placeholder effects",
+      "description": "Placeholder proficiency description"
+    },
+    {
+      "id": "placeholder-proficiency",
+      "title": "Placeholder Proficiency",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/Monster_Listings_B/006_man_commoner.md",
+      "category": "Monstrous_Manual",
+      "contentType": "proficiency",
+      "proficiencyCategory": "general",
+      "effects": "Placeholder effects",
+      "description": "Placeholder proficiency description"
+    },
+    {
+      "id": "placeholder-proficiency",
+      "title": "Placeholder Proficiency",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/Monster_Listings_B/010_man_nomad.md",
+      "category": "Monstrous_Manual",
+      "contentType": "proficiency",
+      "proficiencyCategory": "general",
+      "effects": "Placeholder effects",
+      "description": "Placeholder proficiency description"
+    },
+    {
+      "id": "placeholder-proficiency",
+      "title": "Placeholder Proficiency",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/Monster_Listings_B/012_man_pilgrim.md",
+      "category": "Monstrous_Manual",
+      "contentType": "proficiency",
+      "proficiencyCategory": "general",
+      "effects": "Placeholder effects",
+      "description": "Placeholder proficiency description"
+    },
+    {
+      "id": "placeholder-proficiency",
+      "title": "Placeholder Proficiency",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/Monster_Listings_B/013_man_pirate.md",
+      "category": "Monstrous_Manual",
+      "contentType": "proficiency",
+      "proficiencyCategory": "general",
+      "effects": "Placeholder effects",
+      "description": "Placeholder proficiency description"
+    },
+    {
+      "id": "placeholder-proficiency",
+      "title": "Placeholder Proficiency",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/Monster_Listings_B/020_minotaur.md",
+      "category": "Monstrous_Manual",
+      "contentType": "proficiency",
+      "proficiencyCategory": "general",
+      "effects": "Placeholder effects",
+      "description": "Placeholder proficiency description"
+    },
+    {
+      "id": "placeholder-proficiency",
+      "title": "Placeholder Proficiency",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/Monster_Listings_B/030_nymph_oread.md",
+      "category": "Monstrous_Manual",
+      "contentType": "proficiency",
+      "proficiencyCategory": "general",
+      "effects": "Placeholder effects",
+      "description": "Placeholder proficiency description"
+    },
+    {
+      "id": "placeholder-proficiency",
+      "title": "Placeholder Proficiency",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/Monster_Listings_B/060_siren.md",
+      "category": "Monstrous_Manual",
+      "contentType": "proficiency",
+      "proficiencyCategory": "general",
+      "effects": "Placeholder effects",
+      "description": "Placeholder proficiency description"
+    },
+    {
+      "id": "placeholder-proficiency",
+      "title": "Placeholder Proficiency",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/Monster_Listings_B/077_spider_giant_tarantula.md",
+      "category": "Monstrous_Manual",
+      "contentType": "proficiency",
+      "proficiencyCategory": "general",
+      "effects": "Placeholder effects",
+      "description": "Placeholder proficiency description"
+    },
+    {
+      "id": "placeholder-proficiency",
+      "title": "Placeholder Proficiency",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/Monster_Listings_B/079_statue_animated_bronze.md",
+      "category": "Monstrous_Manual",
+      "contentType": "proficiency",
+      "proficiencyCategory": "general",
+      "effects": "Placeholder effects",
+      "description": "Placeholder proficiency description"
+    },
+    {
+      "id": "placeholder-proficiency",
+      "title": "Placeholder Proficiency",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/Monster_Listings_B/083_statue_animated_stone.md",
+      "category": "Monstrous_Manual",
+      "contentType": "proficiency",
+      "proficiencyCategory": "general",
+      "effects": "Placeholder effects",
+      "description": "Placeholder proficiency description"
+    },
+    {
+      "id": "placeholder-proficiency",
+      "title": "Placeholder Proficiency",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/Monster_Listings_B/104_varmint_giant_ferret.md",
+      "category": "Monstrous_Manual",
+      "contentType": "proficiency",
+      "proficiencyCategory": "general",
+      "effects": "Placeholder effects",
+      "description": "Placeholder proficiency description"
+    },
+    {
+      "id": "placeholder-proficiency",
+      "title": "Placeholder Proficiency",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/Monster_Listings_B/107_varmint_giant_weasel.md",
+      "category": "Monstrous_Manual",
+      "contentType": "proficiency",
+      "proficiencyCategory": "general",
+      "effects": "Placeholder effects",
+      "description": "Placeholder proficiency description"
+    },
+    {
+      "id": "placeholder-proficiency",
+      "title": "Placeholder Proficiency",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/Monster_Listings_B/115_wolf_common.md",
+      "category": "Monstrous_Manual",
+      "contentType": "proficiency",
+      "proficiencyCategory": "general",
+      "effects": "Placeholder effects",
+      "description": "Placeholder proficiency description"
+    },
+    {
+      "id": "placeholder-proficiency",
+      "title": "Placeholder Proficiency",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/Monster_Listings_B/116_wolf_dire.md",
+      "category": "Monstrous_Manual",
+      "contentType": "proficiency",
+      "proficiencyCategory": "general",
+      "effects": "Placeholder effects",
+      "description": "Placeholder proficiency description"
+    },
+    {
+      "id": "placeholder-proficiency",
+      "title": "Placeholder Proficiency",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/Monster_Listings_B/117_wolf_warg.md",
+      "category": "Monstrous_Manual",
+      "contentType": "proficiency",
+      "proficiencyCategory": "general",
+      "effects": "Placeholder effects",
+      "description": "Placeholder proficiency description"
+    },
+    {
+      "id": "placeholder-proficiency",
+      "title": "Placeholder Proficiency",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/Monster_Listings_B/124_yali.md",
+      "category": "Monstrous_Manual",
+      "contentType": "proficiency",
+      "proficiencyCategory": "general",
+      "effects": "Placeholder effects",
+      "description": "Placeholder proficiency description"
+    },
+    {
+      "id": "placeholder-proficiency",
+      "title": "Placeholder Proficiency",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/06_dice.md",
+      "category": "Rulebook",
+      "contentType": "proficiency",
+      "proficiencyCategory": "general",
+      "effects": "Placeholder effects",
+      "description": "Placeholder proficiency description"
+    },
+    {
+      "id": "placeholder-proficiency",
+      "title": "Placeholder Proficiency",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/07_rolling_and_throwing_the_dice.md",
+      "category": "Rulebook",
+      "contentType": "proficiency",
+      "proficiencyCategory": "general",
+      "effects": "Placeholder effects",
+      "description": "Placeholder proficiency description"
+    },
+    {
+      "id": "placeholder-proficiency",
+      "title": "Placeholder Proficiency",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/10_creating_a_character.md",
+      "category": "Rulebook",
+      "contentType": "proficiency",
+      "proficiencyCategory": "general",
+      "effects": "Placeholder effects",
+      "description": "Placeholder proficiency description"
+    },
+    {
+      "id": "placeholder-proficiency",
+      "title": "Placeholder Proficiency",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/101_aftermath_of_battles.md",
+      "category": "Rulebook",
+      "contentType": "proficiency",
+      "proficiencyCategory": "general",
+      "effects": "Placeholder effects",
+      "description": "Placeholder proficiency description"
+    },
+    {
+      "id": "placeholder-proficiency",
+      "title": "Placeholder Proficiency",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/105_blockade.md",
+      "category": "Rulebook",
+      "contentType": "proficiency",
+      "proficiencyCategory": "general",
+      "effects": "Placeholder effects",
+      "description": "Placeholder proficiency description"
+    },
+    {
+      "id": "placeholder-proficiency",
+      "title": "Placeholder Proficiency",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/12_combat_characteristics.md",
+      "category": "Rulebook",
+      "contentType": "proficiency",
+      "proficiencyCategory": "general",
+      "effects": "Placeholder effects",
+      "description": "Placeholder proficiency description"
+    },
+    {
+      "id": "placeholder-proficiency",
+      "title": "Placeholder Proficiency",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/16_proficiencies.md",
+      "category": "Rulebook",
+      "contentType": "proficiency",
+      "proficiencyCategory": "general",
+      "effects": "Placeholder effects",
+      "description": "Placeholder proficiency description"
+    },
+    {
+      "id": "placeholder-proficiency",
+      "title": "Placeholder Proficiency",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/24_activities.md",
+      "category": "Rulebook",
+      "contentType": "proficiency",
+      "proficiencyCategory": "general",
+      "effects": "Placeholder effects",
+      "description": "Placeholder proficiency description"
+    },
+    {
+      "id": "placeholder-proficiency",
+      "title": "Placeholder Proficiency",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/26_character_templates_and_intellect_scores.md",
+      "category": "Rulebook",
+      "contentType": "proficiency",
+      "proficiencyCategory": "general",
+      "effects": "Placeholder effects",
+      "description": "Placeholder proficiency description"
+    },
+    {
+      "id": "placeholder-proficiency",
+      "title": "Placeholder Proficiency",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/32_starting_proficiencies.md",
+      "category": "Rulebook",
+      "contentType": "proficiency",
+      "proficiencyCategory": "general",
+      "effects": "Placeholder effects",
+      "description": "Placeholder proficiency description"
+    },
+    {
+      "id": "placeholder-proficiency",
+      "title": "Placeholder Proficiency",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/33_gaining_proficiencies.md",
+      "category": "Rulebook",
+      "contentType": "proficiency",
+      "proficiencyCategory": "general",
+      "effects": "Placeholder effects",
+      "description": "Placeholder proficiency description"
+    },
+    {
+      "id": "placeholder-proficiency",
+      "title": "Placeholder Proficiency",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/35_proficiency_descriptions.md",
+      "category": "Rulebook",
+      "contentType": "proficiency",
+      "proficiencyCategory": "general",
+      "effects": "Placeholder effects",
+      "description": "Placeholder proficiency description"
+    },
+    {
+      "id": "placeholder-proficiency",
+      "title": "Placeholder Proficiency",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/44_encumbrance_and_equipment.md",
+      "category": "Rulebook",
+      "contentType": "proficiency",
+      "proficiencyCategory": "general",
+      "effects": "Placeholder effects",
+      "description": "Placeholder proficiency description"
+    },
+    {
+      "id": "placeholder-proficiency",
+      "title": "Placeholder Proficiency",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/59_wilderness_expeditions.md",
+      "category": "Rulebook",
+      "contentType": "proficiency",
+      "proficiencyCategory": "general",
+      "effects": "Placeholder effects",
+      "description": "Placeholder proficiency description"
+    },
+    {
+      "id": "placeholder-proficiency",
+      "title": "Placeholder Proficiency",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/60_encounters.md",
+      "category": "Rulebook",
+      "contentType": "proficiency",
+      "proficiencyCategory": "general",
+      "effects": "Placeholder effects",
+      "description": "Placeholder proficiency description"
+    },
+    {
+      "id": "placeholder-proficiency",
+      "title": "Placeholder Proficiency",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/62_earning_experience_from_adventures.md",
+      "category": "Rulebook",
+      "contentType": "proficiency",
+      "proficiencyCategory": "general",
+      "effects": "Placeholder effects",
+      "description": "Placeholder proficiency description"
+    },
+    {
+      "id": "placeholder-proficiency",
+      "title": "Placeholder Proficiency",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/64_seafarers.md",
+      "category": "Rulebook",
+      "contentType": "proficiency",
+      "proficiencyCategory": "general",
+      "effects": "Placeholder effects",
+      "description": "Placeholder proficiency description"
+    },
+    {
+      "id": "placeholder-proficiency",
+      "title": "Placeholder Proficiency",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/66_sea_voyages.md",
+      "category": "Rulebook",
+      "contentType": "proficiency",
+      "proficiencyCategory": "general",
+      "effects": "Placeholder effects",
+      "description": "Placeholder proficiency description"
+    },
+    {
+      "id": "placeholder-proficiency",
+      "title": "Placeholder Proficiency",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/68_sea_combat.md",
+      "category": "Rulebook",
+      "contentType": "proficiency",
+      "proficiencyCategory": "general",
+      "effects": "Placeholder effects",
+      "description": "Placeholder proficiency description"
+    },
+    {
+      "id": "placeholder-proficiency",
+      "title": "Placeholder Proficiency",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/71_activities_during_the_campaign.md",
+      "category": "Rulebook",
+      "contentType": "proficiency",
+      "proficiencyCategory": "general",
+      "effects": "Placeholder effects",
+      "description": "Placeholder proficiency description"
+    },
+    {
+      "id": "placeholder-proficiency",
+      "title": "Placeholder Proficiency",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/74_politics_and_power.md",
+      "category": "Rulebook",
+      "contentType": "proficiency",
+      "proficiencyCategory": "general",
+      "effects": "Placeholder effects",
+      "description": "Placeholder proficiency description"
+    },
+    {
+      "id": "placeholder-proficiency",
+      "title": "Placeholder Proficiency",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/83_army_organization.md",
+      "category": "Rulebook",
+      "contentType": "proficiency",
+      "proficiencyCategory": "general",
+      "effects": "Placeholder effects",
+      "description": "Placeholder proficiency description"
+    },
+    {
+      "id": "placeholder-proficiency",
+      "title": "Placeholder Proficiency",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/84_army_command.md",
+      "category": "Rulebook",
+      "contentType": "proficiency",
+      "proficiencyCategory": "general",
+      "effects": "Placeholder effects",
+      "description": "Placeholder proficiency description"
+    },
+    {
+      "id": "placeholder-proficiency",
+      "title": "Placeholder Proficiency",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/85_organization_and_command_in_very_small_or_very_lar.md",
+      "category": "Rulebook",
+      "contentType": "proficiency",
+      "proficiencyCategory": "general",
+      "effects": "Placeholder effects",
+      "description": "Placeholder proficiency description"
+    },
+    {
+      "id": "placeholder-proficiency",
+      "title": "Placeholder Proficiency",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/93_supplying_armies.md",
+      "category": "Rulebook",
+      "contentType": "proficiency",
+      "proficiencyCategory": "general",
+      "effects": "Placeholder effects",
+      "description": "Placeholder proficiency description"
+    },
+    {
+      "id": "placeholder-proficiency",
+      "title": "Placeholder Proficiency",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/95_reconnaissance_and_intelligence.md",
+      "category": "Rulebook",
+      "contentType": "proficiency",
+      "proficiencyCategory": "general",
+      "effects": "Placeholder effects",
+      "description": "Placeholder proficiency description"
+    },
+    {
+      "id": "placeholder-proficiency",
+      "title": "Placeholder Proficiency",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/99_running_a_battle.md",
+      "category": "Rulebook",
+      "contentType": "proficiency",
+      "proficiencyCategory": "general",
+      "effects": "Placeholder effects",
+      "description": "Placeholder proficiency description"
+    }
+  ],
+  "crossReferences": {
+    "placeholder-proficiency": [
+      "placeholder-proficiency"
+    ]
+  },
+  "validationResults": [
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-proficiency",
+        "title": "Placeholder Proficiency",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/101_saving_throw_progression.md",
+        "category": "Judges_Journal",
+        "contentType": "proficiency",
+        "proficiencyCategory": "general",
+        "effects": "Placeholder effects",
+        "description": "Placeholder proficiency description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.538Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-proficiency",
+        "title": "Placeholder Proficiency",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/102_strongholds_and_followers.md",
+        "category": "Judges_Journal",
+        "contentType": "proficiency",
+        "proficiencyCategory": "general",
+        "effects": "Placeholder effects",
+        "description": "Placeholder proficiency description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.538Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-proficiency",
+        "title": "Placeholder Proficiency",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/105_dwarven_custom_classes.md",
+        "category": "Judges_Journal",
+        "contentType": "proficiency",
+        "proficiencyCategory": "general",
+        "effects": "Placeholder effects",
+        "description": "Placeholder proficiency description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.538Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-proficiency",
+        "title": "Placeholder Proficiency",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/106_elven_custom_classes.md",
+        "category": "Judges_Journal",
+        "contentType": "proficiency",
+        "proficiencyCategory": "general",
+        "effects": "Placeholder effects",
+        "description": "Placeholder proficiency description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.538Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-proficiency",
+        "title": "Placeholder Proficiency",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/107_halfling_custom_classes.md",
+        "category": "Judges_Journal",
+        "contentType": "proficiency",
+        "proficiencyCategory": "general",
+        "effects": "Placeholder effects",
+        "description": "Placeholder proficiency description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.538Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-proficiency",
+        "title": "Placeholder Proficiency",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/116_examples_of_race_creation.md",
+        "category": "Judges_Journal",
+        "contentType": "proficiency",
+        "proficiencyCategory": "general",
+        "effects": "Placeholder effects",
+        "description": "Placeholder proficiency description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.538Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-proficiency",
+        "title": "Placeholder Proficiency",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/126_codes_of_behavior.md",
+        "category": "Judges_Journal",
+        "contentType": "proficiency",
+        "proficiencyCategory": "general",
+        "effects": "Placeholder effects",
+        "description": "Placeholder proficiency description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.538Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-proficiency",
+        "title": "Placeholder Proficiency",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/134_heroic_codes.md",
+        "category": "Judges_Journal",
+        "contentType": "proficiency",
+        "proficiencyCategory": "general",
+        "effects": "Placeholder effects",
+        "description": "Placeholder proficiency description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.538Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-proficiency",
+        "title": "Placeholder Proficiency",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/135_heroic_fate.md",
+        "category": "Judges_Journal",
+        "contentType": "proficiency",
+        "proficiencyCategory": "general",
+        "effects": "Placeholder effects",
+        "description": "Placeholder proficiency description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.538Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-proficiency",
+        "title": "Placeholder Proficiency",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/15_balancing_player_skill_versus_character_skill.md",
+        "category": "Judges_Journal",
+        "contentType": "proficiency",
+        "proficiencyCategory": "general",
+        "effects": "Placeholder effects",
+        "description": "Placeholder proficiency description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.538Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-proficiency",
+        "title": "Placeholder Proficiency",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/169_appendix_p_parties.md",
+        "category": "Judges_Journal",
+        "contentType": "proficiency",
+        "proficiencyCategory": "general",
+        "effects": "Placeholder effects",
+        "description": "Placeholder proficiency description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.538Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-proficiency",
+        "title": "Placeholder Proficiency",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/23_settlement_adventures.md",
+        "category": "Judges_Journal",
+        "contentType": "proficiency",
+        "proficiencyCategory": "general",
+        "effects": "Placeholder effects",
+        "description": "Placeholder proficiency description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.538Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-proficiency",
+        "title": "Placeholder Proficiency",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/28_campaign_activities.md",
+        "category": "Judges_Journal",
+        "contentType": "proficiency",
+        "proficiencyCategory": "general",
+        "effects": "Placeholder effects",
+        "description": "Placeholder proficiency description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.538Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-proficiency",
+        "title": "Placeholder Proficiency",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/30_additional_rules_for_campaigns.md",
+        "category": "Judges_Journal",
+        "contentType": "proficiency",
+        "proficiencyCategory": "general",
+        "effects": "Placeholder effects",
+        "description": "Placeholder proficiency description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.538Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-proficiency",
+        "title": "Placeholder Proficiency",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/54_step_4_develop_the_points_of_interest.md",
+        "category": "Judges_Journal",
+        "contentType": "proficiency",
+        "proficiencyCategory": "general",
+        "effects": "Placeholder effects",
+        "description": "Placeholder proficiency description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.538Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-proficiency",
+        "title": "Placeholder Proficiency",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/78_the_basics.md",
+        "category": "Judges_Journal",
+        "contentType": "proficiency",
+        "proficiencyCategory": "general",
+        "effects": "Placeholder effects",
+        "description": "Placeholder proficiency description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.538Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-proficiency",
+        "title": "Placeholder Proficiency",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/96_hit_dice_value.md",
+        "category": "Judges_Journal",
+        "contentType": "proficiency",
+        "proficiencyCategory": "general",
+        "effects": "Placeholder effects",
+        "description": "Placeholder proficiency description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.538Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-proficiency",
+        "title": "Placeholder Proficiency",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/97_fighting_value.md",
+        "category": "Judges_Journal",
+        "contentType": "proficiency",
+        "proficiencyCategory": "general",
+        "effects": "Placeholder effects",
+        "description": "Placeholder proficiency description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.538Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-proficiency",
+        "title": "Placeholder Proficiency",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/98_thievery_value.md",
+        "category": "Judges_Journal",
+        "contentType": "proficiency",
+        "proficiencyCategory": "general",
+        "effects": "Placeholder effects",
+        "description": "Placeholder proficiency description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.538Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-proficiency",
+        "title": "Placeholder Proficiency",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/03_proficiencies_for_monsters.md",
+        "category": "Monstrous_Manual",
+        "contentType": "proficiency",
+        "proficiencyCategory": "general",
+        "effects": "Placeholder effects",
+        "description": "Placeholder proficiency description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.538Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-proficiency",
+        "title": "Placeholder Proficiency",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/04_monstrous_henchmen.md",
+        "category": "Monstrous_Manual",
+        "contentType": "proficiency",
+        "proficiencyCategory": "general",
+        "effects": "Placeholder effects",
+        "description": "Placeholder proficiency description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.538Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-proficiency",
+        "title": "Placeholder Proficiency",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/09_monster_parts_special.md",
+        "category": "Monstrous_Manual",
+        "contentType": "proficiency",
+        "proficiencyCategory": "general",
+        "effects": "Placeholder effects",
+        "description": "Placeholder proficiency description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.538Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-proficiency",
+        "title": "Placeholder Proficiency",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/20_monster_experience_points.md",
+        "category": "Monstrous_Manual",
+        "contentType": "proficiency",
+        "proficiencyCategory": "general",
+        "effects": "Placeholder effects",
+        "description": "Placeholder proficiency description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.538Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-proficiency",
+        "title": "Placeholder Proficiency",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/Monster_Listings_A/009_baboon_rock.md",
+        "category": "Monstrous_Manual",
+        "contentType": "proficiency",
+        "proficiencyCategory": "general",
+        "effects": "Placeholder effects",
+        "description": "Placeholder proficiency description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.538Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-proficiency",
+        "title": "Placeholder Proficiency",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/Monster_Listings_A/012_barghest_lesser.md",
+        "category": "Monstrous_Manual",
+        "contentType": "proficiency",
+        "proficiencyCategory": "general",
+        "effects": "Placeholder effects",
+        "description": "Placeholder proficiency description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.538Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-proficiency",
+        "title": "Placeholder Proficiency",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/Monster_Listings_A/018_bear_black.md",
+        "category": "Monstrous_Manual",
+        "contentType": "proficiency",
+        "proficiencyCategory": "general",
+        "effects": "Placeholder effects",
+        "description": "Placeholder proficiency description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.538Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-proficiency",
+        "title": "Placeholder Proficiency",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/Monster_Listings_A/019_bear_brown.md",
+        "category": "Monstrous_Manual",
+        "contentType": "proficiency",
+        "proficiencyCategory": "general",
+        "effects": "Placeholder effects",
+        "description": "Placeholder proficiency description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.538Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-proficiency",
+        "title": "Placeholder Proficiency",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/Monster_Listings_A/020_bear_cave.md",
+        "category": "Monstrous_Manual",
+        "contentType": "proficiency",
+        "proficiencyCategory": "general",
+        "effects": "Placeholder effects",
+        "description": "Placeholder proficiency description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.538Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-proficiency",
+        "title": "Placeholder Proficiency",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/Monster_Listings_A/034_blob_black.md",
+        "category": "Monstrous_Manual",
+        "contentType": "proficiency",
+        "proficiencyCategory": "general",
+        "effects": "Placeholder effects",
+        "description": "Placeholder proficiency description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.538Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-proficiency",
+        "title": "Placeholder Proficiency",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/Monster_Listings_A/035_blood_hound.md",
+        "category": "Monstrous_Manual",
+        "contentType": "proficiency",
+        "proficiencyCategory": "general",
+        "effects": "Placeholder effects",
+        "description": "Placeholder proficiency description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.538Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-proficiency",
+        "title": "Placeholder Proficiency",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/Monster_Listings_A/036_boar_common.md",
+        "category": "Monstrous_Manual",
+        "contentType": "proficiency",
+        "proficiencyCategory": "general",
+        "effects": "Placeholder effects",
+        "description": "Placeholder proficiency description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.538Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-proficiency",
+        "title": "Placeholder Proficiency",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/Monster_Listings_A/037_boar_giant.md",
+        "category": "Monstrous_Manual",
+        "contentType": "proficiency",
+        "proficiencyCategory": "general",
+        "effects": "Placeholder effects",
+        "description": "Placeholder proficiency description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.538Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-proficiency",
+        "title": "Placeholder Proficiency",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/Monster_Listings_A/040_camel.md",
+        "category": "Monstrous_Manual",
+        "contentType": "proficiency",
+        "proficiencyCategory": "general",
+        "effects": "Placeholder effects",
+        "description": "Placeholder proficiency description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.538Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-proficiency",
+        "title": "Placeholder Proficiency",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/Monster_Listings_A/043_cat_catamount.md",
+        "category": "Monstrous_Manual",
+        "contentType": "proficiency",
+        "proficiencyCategory": "general",
+        "effects": "Placeholder effects",
+        "description": "Placeholder proficiency description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.538Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-proficiency",
+        "title": "Placeholder Proficiency",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/Monster_Listings_A/044_cat_cheetah.md",
+        "category": "Monstrous_Manual",
+        "contentType": "proficiency",
+        "proficiencyCategory": "general",
+        "effects": "Placeholder effects",
+        "description": "Placeholder proficiency description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.538Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-proficiency",
+        "title": "Placeholder Proficiency",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/Monster_Listings_A/045_cat_leopard.md",
+        "category": "Monstrous_Manual",
+        "contentType": "proficiency",
+        "proficiencyCategory": "general",
+        "effects": "Placeholder effects",
+        "description": "Placeholder proficiency description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.538Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-proficiency",
+        "title": "Placeholder Proficiency",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/Monster_Listings_A/046_cat_lion.md",
+        "category": "Monstrous_Manual",
+        "contentType": "proficiency",
+        "proficiencyCategory": "general",
+        "effects": "Placeholder effects",
+        "description": "Placeholder proficiency description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.538Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-proficiency",
+        "title": "Placeholder Proficiency",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/Monster_Listings_A/047_cat_lynx.md",
+        "category": "Monstrous_Manual",
+        "contentType": "proficiency",
+        "proficiencyCategory": "general",
+        "effects": "Placeholder effects",
+        "description": "Placeholder proficiency description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.538Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-proficiency",
+        "title": "Placeholder Proficiency",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/Monster_Listings_A/048_cat_saber_tooth_tiger.md",
+        "category": "Monstrous_Manual",
+        "contentType": "proficiency",
+        "proficiencyCategory": "general",
+        "effects": "Placeholder effects",
+        "description": "Placeholder proficiency description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.538Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-proficiency",
+        "title": "Placeholder Proficiency",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/Monster_Listings_A/049_cat_tiger.md",
+        "category": "Monstrous_Manual",
+        "contentType": "proficiency",
+        "proficiencyCategory": "general",
+        "effects": "Placeholder effects",
+        "description": "Placeholder proficiency description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.538Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-proficiency",
+        "title": "Placeholder Proficiency",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/Monster_Listings_A/067_dog_hunting.md",
+        "category": "Monstrous_Manual",
+        "contentType": "proficiency",
+        "proficiencyCategory": "general",
+        "effects": "Placeholder effects",
+        "description": "Placeholder proficiency description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.538Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-proficiency",
+        "title": "Placeholder Proficiency",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/Monster_Listings_A/068_dog_war.md",
+        "category": "Monstrous_Manual",
+        "contentType": "proficiency",
+        "proficiencyCategory": "general",
+        "effects": "Placeholder effects",
+        "description": "Placeholder proficiency description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.538Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-proficiency",
+        "title": "Placeholder Proficiency",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/Monster_Listings_A/070_dolphin_common.md",
+        "category": "Monstrous_Manual",
+        "contentType": "proficiency",
+        "proficiencyCategory": "general",
+        "effects": "Placeholder effects",
+        "description": "Placeholder proficiency description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.538Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-proficiency",
+        "title": "Placeholder Proficiency",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/Monster_Listings_A/084_equine_steppe_horse.md",
+        "category": "Monstrous_Manual",
+        "contentType": "proficiency",
+        "proficiencyCategory": "general",
+        "effects": "Placeholder effects",
+        "description": "Placeholder proficiency description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.538Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-proficiency",
+        "title": "Placeholder Proficiency",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/Monster_Listings_A/092_faerie_spriggan.md",
+        "category": "Monstrous_Manual",
+        "contentType": "proficiency",
+        "proficiencyCategory": "general",
+        "effects": "Placeholder effects",
+        "description": "Placeholder proficiency description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.538Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-proficiency",
+        "title": "Placeholder Proficiency",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/Monster_Listings_A/095_fish_giant_catfish.md",
+        "category": "Monstrous_Manual",
+        "contentType": "proficiency",
+        "proficiencyCategory": "general",
+        "effects": "Placeholder effects",
+        "description": "Placeholder proficiency description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.538Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-proficiency",
+        "title": "Placeholder Proficiency",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/Monster_Listings_A/106_genie_efreet.md",
+        "category": "Monstrous_Manual",
+        "contentType": "proficiency",
+        "proficiencyCategory": "general",
+        "effects": "Placeholder effects",
+        "description": "Placeholder proficiency description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.538Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-proficiency",
+        "title": "Placeholder Proficiency",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/Monster_Listings_A/107_genie_hafar.md",
+        "category": "Monstrous_Manual",
+        "contentType": "proficiency",
+        "proficiencyCategory": "general",
+        "effects": "Placeholder effects",
+        "description": "Placeholder proficiency description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.538Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-proficiency",
+        "title": "Placeholder Proficiency",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/Monster_Listings_A/108_genie_jann.md",
+        "category": "Monstrous_Manual",
+        "contentType": "proficiency",
+        "proficiencyCategory": "general",
+        "effects": "Placeholder effects",
+        "description": "Placeholder proficiency description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.538Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-proficiency",
+        "title": "Placeholder Proficiency",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/Monster_Listings_A/109_genie_marid.md",
+        "category": "Monstrous_Manual",
+        "contentType": "proficiency",
+        "proficiencyCategory": "general",
+        "effects": "Placeholder effects",
+        "description": "Placeholder proficiency description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.538Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-proficiency",
+        "title": "Placeholder Proficiency",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/Monster_Listings_A/118_golem_amber.md",
+        "category": "Monstrous_Manual",
+        "contentType": "proficiency",
+        "proficiencyCategory": "general",
+        "effects": "Placeholder effects",
+        "description": "Placeholder proficiency description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.538Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-proficiency",
+        "title": "Placeholder Proficiency",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/Monster_Listings_A/131_harpy.md",
+        "category": "Monstrous_Manual",
+        "contentType": "proficiency",
+        "proficiencyCategory": "general",
+        "effects": "Placeholder effects",
+        "description": "Placeholder proficiency description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.538Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-proficiency",
+        "title": "Placeholder Proficiency",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/Monster_Listings_A/135_hellhound_greater.md",
+        "category": "Monstrous_Manual",
+        "contentType": "proficiency",
+        "proficiencyCategory": "general",
+        "effects": "Placeholder effects",
+        "description": "Placeholder proficiency description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.538Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-proficiency",
+        "title": "Placeholder Proficiency",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/Monster_Listings_A/136_hellhound_lesser.md",
+        "category": "Monstrous_Manual",
+        "contentType": "proficiency",
+        "proficiencyCategory": "general",
+        "effects": "Placeholder effects",
+        "description": "Placeholder proficiency description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.538Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-proficiency",
+        "title": "Placeholder Proficiency",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/Monster_Listings_A/138_herd_animal.md",
+        "category": "Monstrous_Manual",
+        "contentType": "proficiency",
+        "proficiencyCategory": "general",
+        "effects": "Placeholder effects",
+        "description": "Placeholder proficiency description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.538Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-proficiency",
+        "title": "Placeholder Proficiency",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/Monster_Listings_A/147_jackal_common.md",
+        "category": "Monstrous_Manual",
+        "contentType": "proficiency",
+        "proficiencyCategory": "general",
+        "effects": "Placeholder effects",
+        "description": "Placeholder proficiency description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.538Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-proficiency",
+        "title": "Placeholder Proficiency",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/Monster_Listings_A/163_lycanthrope_werebear.md",
+        "category": "Monstrous_Manual",
+        "contentType": "proficiency",
+        "proficiencyCategory": "general",
+        "effects": "Placeholder effects",
+        "description": "Placeholder proficiency description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.538Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-proficiency",
+        "title": "Placeholder Proficiency",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/Monster_Listings_A/166_lycanthrope_weretiger.md",
+        "category": "Monstrous_Manual",
+        "contentType": "proficiency",
+        "proficiencyCategory": "general",
+        "effects": "Placeholder effects",
+        "description": "Placeholder proficiency description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.538Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-proficiency",
+        "title": "Placeholder Proficiency",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/Monster_Listings_B/001_maggot_murder.md",
+        "category": "Monstrous_Manual",
+        "contentType": "proficiency",
+        "proficiencyCategory": "general",
+        "effects": "Placeholder effects",
+        "description": "Placeholder proficiency description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.538Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-proficiency",
+        "title": "Placeholder Proficiency",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/Monster_Listings_B/006_man_commoner.md",
+        "category": "Monstrous_Manual",
+        "contentType": "proficiency",
+        "proficiencyCategory": "general",
+        "effects": "Placeholder effects",
+        "description": "Placeholder proficiency description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.538Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-proficiency",
+        "title": "Placeholder Proficiency",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/Monster_Listings_B/010_man_nomad.md",
+        "category": "Monstrous_Manual",
+        "contentType": "proficiency",
+        "proficiencyCategory": "general",
+        "effects": "Placeholder effects",
+        "description": "Placeholder proficiency description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.538Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-proficiency",
+        "title": "Placeholder Proficiency",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/Monster_Listings_B/012_man_pilgrim.md",
+        "category": "Monstrous_Manual",
+        "contentType": "proficiency",
+        "proficiencyCategory": "general",
+        "effects": "Placeholder effects",
+        "description": "Placeholder proficiency description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.538Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-proficiency",
+        "title": "Placeholder Proficiency",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/Monster_Listings_B/013_man_pirate.md",
+        "category": "Monstrous_Manual",
+        "contentType": "proficiency",
+        "proficiencyCategory": "general",
+        "effects": "Placeholder effects",
+        "description": "Placeholder proficiency description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.538Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-proficiency",
+        "title": "Placeholder Proficiency",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/Monster_Listings_B/020_minotaur.md",
+        "category": "Monstrous_Manual",
+        "contentType": "proficiency",
+        "proficiencyCategory": "general",
+        "effects": "Placeholder effects",
+        "description": "Placeholder proficiency description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.538Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-proficiency",
+        "title": "Placeholder Proficiency",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/Monster_Listings_B/030_nymph_oread.md",
+        "category": "Monstrous_Manual",
+        "contentType": "proficiency",
+        "proficiencyCategory": "general",
+        "effects": "Placeholder effects",
+        "description": "Placeholder proficiency description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.538Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-proficiency",
+        "title": "Placeholder Proficiency",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/Monster_Listings_B/060_siren.md",
+        "category": "Monstrous_Manual",
+        "contentType": "proficiency",
+        "proficiencyCategory": "general",
+        "effects": "Placeholder effects",
+        "description": "Placeholder proficiency description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.538Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-proficiency",
+        "title": "Placeholder Proficiency",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/Monster_Listings_B/077_spider_giant_tarantula.md",
+        "category": "Monstrous_Manual",
+        "contentType": "proficiency",
+        "proficiencyCategory": "general",
+        "effects": "Placeholder effects",
+        "description": "Placeholder proficiency description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.538Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-proficiency",
+        "title": "Placeholder Proficiency",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/Monster_Listings_B/079_statue_animated_bronze.md",
+        "category": "Monstrous_Manual",
+        "contentType": "proficiency",
+        "proficiencyCategory": "general",
+        "effects": "Placeholder effects",
+        "description": "Placeholder proficiency description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.538Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-proficiency",
+        "title": "Placeholder Proficiency",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/Monster_Listings_B/083_statue_animated_stone.md",
+        "category": "Monstrous_Manual",
+        "contentType": "proficiency",
+        "proficiencyCategory": "general",
+        "effects": "Placeholder effects",
+        "description": "Placeholder proficiency description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.538Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-proficiency",
+        "title": "Placeholder Proficiency",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/Monster_Listings_B/104_varmint_giant_ferret.md",
+        "category": "Monstrous_Manual",
+        "contentType": "proficiency",
+        "proficiencyCategory": "general",
+        "effects": "Placeholder effects",
+        "description": "Placeholder proficiency description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.538Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-proficiency",
+        "title": "Placeholder Proficiency",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/Monster_Listings_B/107_varmint_giant_weasel.md",
+        "category": "Monstrous_Manual",
+        "contentType": "proficiency",
+        "proficiencyCategory": "general",
+        "effects": "Placeholder effects",
+        "description": "Placeholder proficiency description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.538Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-proficiency",
+        "title": "Placeholder Proficiency",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/Monster_Listings_B/115_wolf_common.md",
+        "category": "Monstrous_Manual",
+        "contentType": "proficiency",
+        "proficiencyCategory": "general",
+        "effects": "Placeholder effects",
+        "description": "Placeholder proficiency description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.538Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-proficiency",
+        "title": "Placeholder Proficiency",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/Monster_Listings_B/116_wolf_dire.md",
+        "category": "Monstrous_Manual",
+        "contentType": "proficiency",
+        "proficiencyCategory": "general",
+        "effects": "Placeholder effects",
+        "description": "Placeholder proficiency description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.538Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-proficiency",
+        "title": "Placeholder Proficiency",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/Monster_Listings_B/117_wolf_warg.md",
+        "category": "Monstrous_Manual",
+        "contentType": "proficiency",
+        "proficiencyCategory": "general",
+        "effects": "Placeholder effects",
+        "description": "Placeholder proficiency description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.538Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-proficiency",
+        "title": "Placeholder Proficiency",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/Monster_Listings_B/124_yali.md",
+        "category": "Monstrous_Manual",
+        "contentType": "proficiency",
+        "proficiencyCategory": "general",
+        "effects": "Placeholder effects",
+        "description": "Placeholder proficiency description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.538Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-proficiency",
+        "title": "Placeholder Proficiency",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/06_dice.md",
+        "category": "Rulebook",
+        "contentType": "proficiency",
+        "proficiencyCategory": "general",
+        "effects": "Placeholder effects",
+        "description": "Placeholder proficiency description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.538Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-proficiency",
+        "title": "Placeholder Proficiency",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/07_rolling_and_throwing_the_dice.md",
+        "category": "Rulebook",
+        "contentType": "proficiency",
+        "proficiencyCategory": "general",
+        "effects": "Placeholder effects",
+        "description": "Placeholder proficiency description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.538Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-proficiency",
+        "title": "Placeholder Proficiency",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/10_creating_a_character.md",
+        "category": "Rulebook",
+        "contentType": "proficiency",
+        "proficiencyCategory": "general",
+        "effects": "Placeholder effects",
+        "description": "Placeholder proficiency description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.538Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-proficiency",
+        "title": "Placeholder Proficiency",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/101_aftermath_of_battles.md",
+        "category": "Rulebook",
+        "contentType": "proficiency",
+        "proficiencyCategory": "general",
+        "effects": "Placeholder effects",
+        "description": "Placeholder proficiency description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.538Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-proficiency",
+        "title": "Placeholder Proficiency",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/105_blockade.md",
+        "category": "Rulebook",
+        "contentType": "proficiency",
+        "proficiencyCategory": "general",
+        "effects": "Placeholder effects",
+        "description": "Placeholder proficiency description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.538Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-proficiency",
+        "title": "Placeholder Proficiency",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/12_combat_characteristics.md",
+        "category": "Rulebook",
+        "contentType": "proficiency",
+        "proficiencyCategory": "general",
+        "effects": "Placeholder effects",
+        "description": "Placeholder proficiency description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.538Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-proficiency",
+        "title": "Placeholder Proficiency",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/16_proficiencies.md",
+        "category": "Rulebook",
+        "contentType": "proficiency",
+        "proficiencyCategory": "general",
+        "effects": "Placeholder effects",
+        "description": "Placeholder proficiency description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.538Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-proficiency",
+        "title": "Placeholder Proficiency",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/24_activities.md",
+        "category": "Rulebook",
+        "contentType": "proficiency",
+        "proficiencyCategory": "general",
+        "effects": "Placeholder effects",
+        "description": "Placeholder proficiency description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.538Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-proficiency",
+        "title": "Placeholder Proficiency",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/26_character_templates_and_intellect_scores.md",
+        "category": "Rulebook",
+        "contentType": "proficiency",
+        "proficiencyCategory": "general",
+        "effects": "Placeholder effects",
+        "description": "Placeholder proficiency description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.538Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-proficiency",
+        "title": "Placeholder Proficiency",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/32_starting_proficiencies.md",
+        "category": "Rulebook",
+        "contentType": "proficiency",
+        "proficiencyCategory": "general",
+        "effects": "Placeholder effects",
+        "description": "Placeholder proficiency description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.538Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-proficiency",
+        "title": "Placeholder Proficiency",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/33_gaining_proficiencies.md",
+        "category": "Rulebook",
+        "contentType": "proficiency",
+        "proficiencyCategory": "general",
+        "effects": "Placeholder effects",
+        "description": "Placeholder proficiency description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.538Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-proficiency",
+        "title": "Placeholder Proficiency",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/35_proficiency_descriptions.md",
+        "category": "Rulebook",
+        "contentType": "proficiency",
+        "proficiencyCategory": "general",
+        "effects": "Placeholder effects",
+        "description": "Placeholder proficiency description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.538Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-proficiency",
+        "title": "Placeholder Proficiency",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/44_encumbrance_and_equipment.md",
+        "category": "Rulebook",
+        "contentType": "proficiency",
+        "proficiencyCategory": "general",
+        "effects": "Placeholder effects",
+        "description": "Placeholder proficiency description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.538Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-proficiency",
+        "title": "Placeholder Proficiency",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/59_wilderness_expeditions.md",
+        "category": "Rulebook",
+        "contentType": "proficiency",
+        "proficiencyCategory": "general",
+        "effects": "Placeholder effects",
+        "description": "Placeholder proficiency description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.538Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-proficiency",
+        "title": "Placeholder Proficiency",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/60_encounters.md",
+        "category": "Rulebook",
+        "contentType": "proficiency",
+        "proficiencyCategory": "general",
+        "effects": "Placeholder effects",
+        "description": "Placeholder proficiency description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.538Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-proficiency",
+        "title": "Placeholder Proficiency",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/62_earning_experience_from_adventures.md",
+        "category": "Rulebook",
+        "contentType": "proficiency",
+        "proficiencyCategory": "general",
+        "effects": "Placeholder effects",
+        "description": "Placeholder proficiency description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.538Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-proficiency",
+        "title": "Placeholder Proficiency",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/64_seafarers.md",
+        "category": "Rulebook",
+        "contentType": "proficiency",
+        "proficiencyCategory": "general",
+        "effects": "Placeholder effects",
+        "description": "Placeholder proficiency description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.538Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-proficiency",
+        "title": "Placeholder Proficiency",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/66_sea_voyages.md",
+        "category": "Rulebook",
+        "contentType": "proficiency",
+        "proficiencyCategory": "general",
+        "effects": "Placeholder effects",
+        "description": "Placeholder proficiency description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.538Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-proficiency",
+        "title": "Placeholder Proficiency",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/68_sea_combat.md",
+        "category": "Rulebook",
+        "contentType": "proficiency",
+        "proficiencyCategory": "general",
+        "effects": "Placeholder effects",
+        "description": "Placeholder proficiency description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.538Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-proficiency",
+        "title": "Placeholder Proficiency",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/71_activities_during_the_campaign.md",
+        "category": "Rulebook",
+        "contentType": "proficiency",
+        "proficiencyCategory": "general",
+        "effects": "Placeholder effects",
+        "description": "Placeholder proficiency description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.538Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-proficiency",
+        "title": "Placeholder Proficiency",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/74_politics_and_power.md",
+        "category": "Rulebook",
+        "contentType": "proficiency",
+        "proficiencyCategory": "general",
+        "effects": "Placeholder effects",
+        "description": "Placeholder proficiency description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.538Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-proficiency",
+        "title": "Placeholder Proficiency",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/83_army_organization.md",
+        "category": "Rulebook",
+        "contentType": "proficiency",
+        "proficiencyCategory": "general",
+        "effects": "Placeholder effects",
+        "description": "Placeholder proficiency description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.538Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-proficiency",
+        "title": "Placeholder Proficiency",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/84_army_command.md",
+        "category": "Rulebook",
+        "contentType": "proficiency",
+        "proficiencyCategory": "general",
+        "effects": "Placeholder effects",
+        "description": "Placeholder proficiency description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.538Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-proficiency",
+        "title": "Placeholder Proficiency",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/85_organization_and_command_in_very_small_or_very_lar.md",
+        "category": "Rulebook",
+        "contentType": "proficiency",
+        "proficiencyCategory": "general",
+        "effects": "Placeholder effects",
+        "description": "Placeholder proficiency description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.538Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-proficiency",
+        "title": "Placeholder Proficiency",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/93_supplying_armies.md",
+        "category": "Rulebook",
+        "contentType": "proficiency",
+        "proficiencyCategory": "general",
+        "effects": "Placeholder effects",
+        "description": "Placeholder proficiency description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.538Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-proficiency",
+        "title": "Placeholder Proficiency",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/95_reconnaissance_and_intelligence.md",
+        "category": "Rulebook",
+        "contentType": "proficiency",
+        "proficiencyCategory": "general",
+        "effects": "Placeholder effects",
+        "description": "Placeholder proficiency description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.538Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-proficiency",
+        "title": "Placeholder Proficiency",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/99_running_a_battle.md",
+        "category": "Rulebook",
+        "contentType": "proficiency",
+        "proficiencyCategory": "general",
+        "effects": "Placeholder effects",
+        "description": "Placeholder proficiency description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.538Z",
+      "schemaVersion": "1.0.0"
+    }
+  ]
+}

@@ -1,0 +1,419 @@
+/**
+ * ACKS II Wiki Design Token System
+ * 
+ * This file defines the foundational design system including:
+ * - Multiple color palettes for user testing
+ * - Responsive typography scales
+ * - Spacing and layout tokens
+ * - Animation and transition systems
+ * - Component-specific design tokens
+ */
+
+/* ================================
+   BASE DESIGN TOKENS
+   ================================ */
+
+:root {
+  /* Typography Scale - Mobile First */
+  --font-size-xs: 0.75rem;    /* 12px */
+  --font-size-sm: 0.875rem;   /* 14px */
+  --font-size-base: 1rem;     /* 16px */
+  --font-size-lg: 1.125rem;   /* 18px */
+  --font-size-xl: 1.25rem;    /* 20px */
+  --font-size-2xl: 1.5rem;    /* 24px */
+  --font-size-3xl: 1.875rem;  /* 30px */
+  --font-size-4xl: 2.25rem;   /* 36px */
+  --font-size-hero: clamp(2.5rem, 5vw, 4rem);
+  --font-size-section: clamp(1.75rem, 3vw, 2.25rem);
+  --font-size-card: 1.25rem;
+
+  /* Font Weights */
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+
+  /* Spacing System (based on 0.25rem = 4px) */
+  --space-px: 1px;
+  --space-0: 0;
+  --space-1: 0.25rem;   /* 4px */
+  --space-2: 0.5rem;    /* 8px */
+  --space-3: 0.75rem;   /* 12px */
+  --space-4: 1rem;      /* 16px */
+  --space-5: 1.25rem;   /* 20px */
+  --space-6: 1.5rem;    /* 24px */
+  --space-8: 2rem;      /* 32px */
+  --space-10: 2.5rem;   /* 40px */
+  --space-12: 3rem;     /* 48px */
+  --space-16: 4rem;     /* 64px */
+  --space-20: 5rem;     /* 80px */
+  --space-24: 6rem;     /* 96px */
+
+  /* Semantic Spacing Aliases */
+  --space-xs: var(--space-2);
+  --space-sm: var(--space-4);
+  --space-md: var(--space-6);
+  --space-lg: var(--space-8);
+  --space-xl: var(--space-12);
+  --space-2xl: var(--space-16);
+
+  /* Border Radius */
+  --radius-none: 0;
+  --radius-sm: 0.125rem;
+  --radius-md: 0.375rem;
+  --radius-lg: 0.5rem;
+  --radius-xl: 0.75rem;
+  --radius-2xl: 1rem;
+  --radius-full: 9999px;
+
+  /* Shadows */
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  --shadow-2xl: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+
+  /* Animation Timings */
+  --transition-fast: 150ms ease-out;
+  --transition-normal: 300ms ease-out;
+  --transition-slow: 500ms ease-out;
+  --transition-bounce: 300ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+
+  /* Z-Index Scale */
+  --z-dropdown: 1000;
+  --z-sticky: 1020;
+  --z-fixed: 1030;
+  --z-modal-backdrop: 1040;
+  --z-modal: 1050;
+  --z-popover: 1060;
+  --z-tooltip: 1070;
+}
+
+/* ================================
+   COLOR PALETTE SYSTEM
+   ================================ */
+
+/* Default Palette: ACKS Royal */
+:root,
+[data-palette="acks-royal"] {
+  /* Primary Colors */
+  --color-primary: #D4AF37;      /* Royal Gold */
+  --color-primary-light: #E8C547;
+  --color-primary-dark: #B8941F;
+  --color-primary-50: #FDF6E3;
+  --color-primary-100: #F9E6B8;
+  --color-primary-500: #D4AF37;
+  --color-primary-600: #B8941F;
+  --color-primary-900: #7A5F0A;
+
+  /* Secondary Colors */
+  --color-secondary: #DC143C;     /* Crimson */
+  --color-secondary-light: #E74C3C;
+  --color-secondary-dark: #A91B1B;
+
+  /* Accent Colors */
+  --color-accent-emerald: #50C878;
+  --color-accent-sapphire: #4169E1;
+  --color-accent-amethyst: #9966CC;
+  --color-accent-amber: #FFC107;
+
+  /* Content Category Gradients */
+  --gradient-hero: linear-gradient(135deg, var(--color-primary) 0%, var(--color-secondary) 100%);
+  --gradient-monsters: linear-gradient(135deg, #ff6b6b 0%, #ee5a24 100%);
+  --gradient-spells: linear-gradient(135deg, #a55eea 0%, #8b5cf6 100%);
+  --gradient-classes: linear-gradient(135deg, #26de81 0%, #20bf6b 100%);
+  --gradient-equipment: linear-gradient(135deg, #f7b733 0%, #fc4a1a 100%);
+  --gradient-rules: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+  --gradient-journal: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+/* Alternative Palette: Forest Mystique */
+[data-palette="forest-mystique"] {
+  --color-primary: #228B22;      /* Forest Green */
+  --color-primary-light: #32CD32;
+  --color-primary-dark: #006400;
+  --color-primary-50: #F0F8F0;
+  --color-primary-100: #C1E6C1;
+  --color-primary-500: #228B22;
+  --color-primary-600: #006400;
+  --color-primary-900: #004000;
+
+  --color-secondary: #8B4513;     /* Saddle Brown */
+  --color-secondary-light: #CD853F;
+  --color-secondary-dark: #654321;
+
+  --color-accent-emerald: #00FF7F;
+  --color-accent-sapphire: #1E90FF;
+  --color-accent-amethyst: #DDA0DD;
+  --color-accent-amber: #FFD700;
+
+  --gradient-hero: linear-gradient(135deg, var(--color-primary) 0%, var(--color-secondary) 100%);
+  --gradient-monsters: linear-gradient(135deg, #8B4513 0%, #A0522D 100%);
+  --gradient-spells: linear-gradient(135deg, #9370DB 0%, #8A2BE2 100%);
+  --gradient-classes: linear-gradient(135deg, #228B22 0%, #32CD32 100%);
+  --gradient-equipment: linear-gradient(135deg, #DAA520 0%, #B8860B 100%);
+  --gradient-rules: linear-gradient(135deg, #4682B4 0%, #5F9EA0 100%);
+  --gradient-journal: linear-gradient(135deg, #2E8B57 0%, #3CB371 100%);
+}
+
+/* Alternative Palette: Ocean Depths */
+[data-palette="ocean-depths"] {
+  --color-primary: #1E90FF;      /* Dodger Blue */
+  --color-primary-light: #87CEEB;
+  --color-primary-dark: #0066CC;
+  --color-primary-50: #E6F3FF;
+  --color-primary-100: #B3D9FF;
+  --color-primary-500: #1E90FF;
+  --color-primary-600: #0066CC;
+  --color-primary-900: #003366;
+
+  --color-secondary: #20B2AA;     /* Light Sea Green */
+  --color-secondary-light: #48D1CC;
+  --color-secondary-dark: #008B8B;
+
+  --color-accent-emerald: #00CED1;
+  --color-accent-sapphire: #4169E1;
+  --color-accent-amethyst: #6A5ACD;
+  --color-accent-amber: #FF8C00;
+
+  --gradient-hero: linear-gradient(135deg, var(--color-primary) 0%, var(--color-secondary) 100%);
+  --gradient-monsters: linear-gradient(135deg, #FF6347 0%, #FF4500 100%);
+  --gradient-spells: linear-gradient(135deg, #9370DB 0%, #663399 100%);
+  --gradient-classes: linear-gradient(135deg, #20B2AA 0%, #48D1CC 100%);
+  --gradient-equipment: linear-gradient(135deg, #FF8C00 0%, #FF7F50 100%);
+  --gradient-rules: linear-gradient(135deg, #1E90FF 0%, #87CEEB 100%);
+  --gradient-journal: linear-gradient(135deg, #4682B4 0%, #6495ED 100%);
+}
+
+/* Alternative Palette: Volcanic Forge */
+[data-palette="volcanic-forge"] {
+  --color-primary: #FF4500;      /* Orange Red */
+  --color-primary-light: #FF6347;
+  --color-primary-dark: #DC143C;
+  --color-primary-50: #FFF5F5;
+  --color-primary-100: #FFE5E5;
+  --color-primary-500: #FF4500;
+  --color-primary-600: #DC143C;
+  --color-primary-900: #8B0000;
+
+  --color-secondary: #FFD700;     /* Gold */
+  --color-secondary-light: #FFFF00;
+  --color-secondary-dark: #DAA520;
+
+  --color-accent-emerald: #32CD32;
+  --color-accent-sapphire: #1E90FF;
+  --color-accent-amethyst: #9932CC;
+  --color-accent-amber: #FFA500;
+
+  --gradient-hero: linear-gradient(135deg, var(--color-primary) 0%, var(--color-secondary) 100%);
+  --gradient-monsters: linear-gradient(135deg, #FF4500 0%, #B22222 100%);
+  --gradient-spells: linear-gradient(135deg, #9932CC 0%, #8B008B 100%);
+  --gradient-classes: linear-gradient(135deg, #228B22 0%, #32CD32 100%);
+  --gradient-equipment: linear-gradient(135deg, #FFD700 0%, #FFA500 100%);
+  --gradient-rules: linear-gradient(135deg, #4169E1 0%, #6495ED 100%);
+  --gradient-journal: linear-gradient(135deg, #DC143C 0%, #B22222 100%);
+}
+
+/* ================================
+   UTILITY CLASSES
+   ================================ */
+
+/* Gradient Backgrounds */
+.bg-gradient-hero { background: var(--gradient-hero); }
+.bg-gradient-monsters { background: var(--gradient-monsters); }
+.bg-gradient-spells { background: var(--gradient-spells); }
+.bg-gradient-classes { background: var(--gradient-classes); }
+.bg-gradient-equipment { background: var(--gradient-equipment); }
+.bg-gradient-rules { background: var(--gradient-rules); }
+.bg-gradient-journal { background: var(--gradient-journal); }
+
+/* Interactive Elements */
+.card-hover {
+  transition: transform var(--transition-normal), box-shadow var(--transition-normal);
+}
+
+.card-hover:hover {
+  transform: translateY(-8px);
+  box-shadow: var(--shadow-xl);
+}
+
+.btn-primary {
+  background: var(--color-primary);
+  color: white;
+  border: none;
+  padding: var(--space-3) var(--space-6);
+  border-radius: var(--radius-lg);
+  font-weight: var(--font-weight-semibold);
+  transition: all var(--transition-normal);
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background: var(--color-primary-dark);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-lg);
+}
+
+/* Hero Animation */
+@keyframes heroShimmer {
+  0%, 100% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+}
+
+.hero-animated {
+  background-size: 200% 200%;
+  animation: heroShimmer 8s ease-in-out infinite;
+}
+
+/* Responsive Grid */
+.grid-auto-fit {
+  display: grid;
+  gap: var(--space-6);
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+@media (min-width: 1024px) {
+  .grid-auto-fit {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+}
+
+/* Container System */
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 var(--space-md);
+}
+
+@media (min-width: 640px) {
+  .container {
+    padding: 0 var(--space-lg);
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    padding: 0 var(--space-xl);
+  }
+}
+
+/* ================================
+   TAILWIND CSS INTEGRATION
+   ================================ */
+
+/**
+ * Override Tailwind's CSS custom properties to use our design tokens
+ * This allows existing pages to automatically use our palette system
+ */
+
+:root {
+  /* Override Tailwind's primary color system */
+  --tw-color-primary: var(--color-primary);
+  --tw-color-primary-foreground: #ffffff;
+
+  /* Override Tailwind's color system with our tokens */
+  --color-primary-rgb: 212, 175, 55; /* Default: #D4AF37 */
+  --color-secondary-rgb: 220, 20, 60; /* Default: #DC143C */
+  
+  /* Background colors using our tokens */
+  --color-bg-primary: var(--color-primary);
+  --color-bg-secondary: var(--color-secondary);
+  
+  /* Text colors using our tokens */
+  --color-text-primary: var(--color-primary);
+  --color-text-secondary: var(--color-secondary);
+}
+
+/* Update palette-specific RGB values for proper color mixing */
+[data-palette="acks-royal"] {
+  --color-primary-rgb: 212, 175, 55;   /* #D4AF37 */
+  --color-secondary-rgb: 220, 20, 60;  /* #DC143C */
+}
+
+[data-palette="forest-mystique"] {
+  --color-primary-rgb: 34, 139, 34;    /* #228B22 */
+  --color-secondary-rgb: 139, 69, 19;  /* #8B4513 */
+}
+
+[data-palette="ocean-depths"] {
+  --color-primary-rgb: 30, 144, 255;   /* #1E90FF */
+  --color-secondary-rgb: 32, 178, 170; /* #20B2AA */
+}
+
+[data-palette="volcanic-forge"] {
+  --color-primary-rgb: 255, 69, 0;     /* #FF4500 */
+  --color-secondary-rgb: 255, 215, 0;  /* #FFD700 */
+}
+
+/* Tailwind color utility overrides */
+.text-primary { 
+  color: var(--color-primary) !important; 
+}
+
+.bg-primary { 
+  background-color: var(--color-primary) !important; 
+}
+
+.bg-primary\/10 {
+  background-color: rgba(var(--color-primary-rgb), 0.1) !important;
+}
+
+.bg-primary\/5 {
+  background-color: rgba(var(--color-primary-rgb), 0.05) !important;
+}
+
+.border-primary {
+  border-color: var(--color-primary) !important;
+}
+
+.border-primary\/50 {
+  border-color: rgba(var(--color-primary-rgb), 0.5) !important;
+}
+
+.ring-primary {
+  --tw-ring-color: var(--color-primary) !important;
+}
+
+.hover\:border-primary\/50:hover {
+  border-color: rgba(var(--color-primary-rgb), 0.5) !important;
+}
+
+/* Primary foreground (white text on primary background) */
+.text-primary-foreground {
+  color: #ffffff !important;
+}
+
+.bg-primary-foreground {
+  background-color: #ffffff !important;
+}
+
+/* Add hover states for primary buttons */
+.hover\:bg-primary\/90:hover {
+  background-color: rgba(var(--color-primary-rgb), 0.9) !important;
+}
+
+/* Category-specific gradient backgrounds */
+.bg-gradient-to-r.from-red-500.to-red-600 {
+  background: var(--gradient-monsters) !important;
+}
+
+.bg-gradient-to-r.from-purple-500.to-purple-600 {
+  background: var(--gradient-spells) !important;
+}
+
+.bg-gradient-to-r.from-green-500.to-green-600 {
+  background: var(--gradient-classes) !important;
+}
+
+.bg-gradient-to-r.from-yellow-500.to-yellow-600 {
+  background: var(--gradient-equipment) !important;
+}
+
+.bg-gradient-to-r.from-blue-500.to-blue-600 {
+  background: var(--gradient-rules) !important;
+}
+
+.bg-gradient-to-r.from-indigo-500.to-indigo-600 {
+  background: var(--gradient-journal) !important;
+} 

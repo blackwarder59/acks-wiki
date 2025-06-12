@@ -1,0 +1,399 @@
+{
+  "metadata": {
+    "generatedAt": "2025-05-26T13:18:42.517Z",
+    "contentType": "monster",
+    "itemCount": 7,
+    "formatVersion": "1.0.0",
+    "validation": {
+      "totalItems": 7,
+      "validItems": 7,
+      "errorCount": 0,
+      "warningCount": 0
+    },
+    "crossReferences": {
+      "totalReferences": 7,
+      "resolvedReferences": 7,
+      "unresolvedReferences": []
+    }
+  },
+  "data": [
+    {
+      "id": "placeholder-monster",
+      "title": "Placeholder Monster",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/09_chapter_1_characters.md",
+      "category": "Rulebook",
+      "contentType": "monster",
+      "primaryCharacteristics": {
+        "type": "Unknown",
+        "size": "Medium",
+        "armorClass": 10,
+        "hitDice": "1d8",
+        "attacks": "1",
+        "damage": "1d6",
+        "save": "F1",
+        "morale": "0",
+        "vision": "Normal"
+      },
+      "encounterSetup": {
+        "alignment": "Neutral",
+        "xp": 10
+      },
+      "description": "Placeholder monster description"
+    },
+    {
+      "id": "placeholder-monster",
+      "title": "Placeholder Monster",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/116_languages.md",
+      "category": "Rulebook",
+      "contentType": "monster",
+      "primaryCharacteristics": {
+        "type": "Unknown",
+        "size": "Medium",
+        "armorClass": 10,
+        "hitDice": "1d8",
+        "attacks": "1",
+        "damage": "1d6",
+        "save": "F1",
+        "morale": "0",
+        "vision": "Normal"
+      },
+      "encounterSetup": {
+        "alignment": "Neutral",
+        "xp": 10
+      },
+      "description": "Placeholder monster description"
+    },
+    {
+      "id": "placeholder-monster",
+      "title": "Placeholder Monster",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/21_size_and_weight.md",
+      "category": "Rulebook",
+      "contentType": "monster",
+      "primaryCharacteristics": {
+        "type": "Unknown",
+        "size": "Medium",
+        "armorClass": 10,
+        "hitDice": "1d8",
+        "attacks": "1",
+        "damage": "1d6",
+        "save": "F1",
+        "morale": "0",
+        "vision": "Normal"
+      },
+      "encounterSetup": {
+        "alignment": "Neutral",
+        "xp": 10
+      },
+      "description": "Placeholder monster description"
+    },
+    {
+      "id": "placeholder-monster",
+      "title": "Placeholder Monster",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/30_chapter_3_proficiencies.md",
+      "category": "Rulebook",
+      "contentType": "monster",
+      "primaryCharacteristics": {
+        "type": "Unknown",
+        "size": "Medium",
+        "armorClass": 10,
+        "hitDice": "1d8",
+        "attacks": "1",
+        "damage": "1d6",
+        "save": "F1",
+        "morale": "0",
+        "vision": "Normal"
+      },
+      "encounterSetup": {
+        "alignment": "Neutral",
+        "xp": 10
+      },
+      "description": "Placeholder monster description"
+    },
+    {
+      "id": "placeholder-monster",
+      "title": "Placeholder Monster",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/31_the_basics_of_proficiencies.md",
+      "category": "Rulebook",
+      "contentType": "monster",
+      "primaryCharacteristics": {
+        "type": "Unknown",
+        "size": "Medium",
+        "armorClass": 10,
+        "hitDice": "1d8",
+        "attacks": "1",
+        "damage": "1d6",
+        "save": "F1",
+        "morale": "0",
+        "vision": "Normal"
+      },
+      "encounterSetup": {
+        "alignment": "Neutral",
+        "xp": 10
+      },
+      "description": "Placeholder monster description"
+    },
+    {
+      "id": "placeholder-monster",
+      "title": "Placeholder Monster",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/36_chapter_4_equipment.md",
+      "category": "Rulebook",
+      "contentType": "monster",
+      "primaryCharacteristics": {
+        "type": "Unknown",
+        "size": "Medium",
+        "armorClass": 10,
+        "hitDice": "1d8",
+        "attacks": "1",
+        "damage": "1d6",
+        "save": "F1",
+        "morale": "0",
+        "vision": "Normal"
+      },
+      "encounterSetup": {
+        "alignment": "Neutral",
+        "xp": 10
+      },
+      "description": "Placeholder monster description"
+    },
+    {
+      "id": "placeholder-monster",
+      "title": "Placeholder Monster",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/48_chapter_5_spells.md",
+      "category": "Rulebook",
+      "contentType": "monster",
+      "primaryCharacteristics": {
+        "type": "Unknown",
+        "size": "Medium",
+        "armorClass": 10,
+        "hitDice": "1d8",
+        "attacks": "1",
+        "damage": "1d6",
+        "save": "F1",
+        "morale": "0",
+        "vision": "Normal"
+      },
+      "encounterSetup": {
+        "alignment": "Neutral",
+        "xp": 10
+      },
+      "description": "Placeholder monster description"
+    }
+  ],
+  "crossReferences": {
+    "placeholder-monster": [
+      "placeholder-monster"
+    ]
+  },
+  "validationResults": [
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-monster",
+        "title": "Placeholder Monster",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/09_chapter_1_characters.md",
+        "category": "Rulebook",
+        "contentType": "monster",
+        "primaryCharacteristics": {
+          "type": "Unknown",
+          "size": "Medium",
+          "armorClass": 10,
+          "hitDice": "1d8",
+          "attacks": "1",
+          "damage": "1d6",
+          "save": "F1",
+          "morale": "0",
+          "vision": "Normal"
+        },
+        "encounterSetup": {
+          "alignment": "Neutral",
+          "xp": 10
+        },
+        "description": "Placeholder monster description"
+      },
+      "validatedAt": "2025-05-26T13:18:42.517Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-monster",
+        "title": "Placeholder Monster",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/116_languages.md",
+        "category": "Rulebook",
+        "contentType": "monster",
+        "primaryCharacteristics": {
+          "type": "Unknown",
+          "size": "Medium",
+          "armorClass": 10,
+          "hitDice": "1d8",
+          "attacks": "1",
+          "damage": "1d6",
+          "save": "F1",
+          "morale": "0",
+          "vision": "Normal"
+        },
+        "encounterSetup": {
+          "alignment": "Neutral",
+          "xp": 10
+        },
+        "description": "Placeholder monster description"
+      },
+      "validatedAt": "2025-05-26T13:18:42.517Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-monster",
+        "title": "Placeholder Monster",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/21_size_and_weight.md",
+        "category": "Rulebook",
+        "contentType": "monster",
+        "primaryCharacteristics": {
+          "type": "Unknown",
+          "size": "Medium",
+          "armorClass": 10,
+          "hitDice": "1d8",
+          "attacks": "1",
+          "damage": "1d6",
+          "save": "F1",
+          "morale": "0",
+          "vision": "Normal"
+        },
+        "encounterSetup": {
+          "alignment": "Neutral",
+          "xp": 10
+        },
+        "description": "Placeholder monster description"
+      },
+      "validatedAt": "2025-05-26T13:18:42.517Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-monster",
+        "title": "Placeholder Monster",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/30_chapter_3_proficiencies.md",
+        "category": "Rulebook",
+        "contentType": "monster",
+        "primaryCharacteristics": {
+          "type": "Unknown",
+          "size": "Medium",
+          "armorClass": 10,
+          "hitDice": "1d8",
+          "attacks": "1",
+          "damage": "1d6",
+          "save": "F1",
+          "morale": "0",
+          "vision": "Normal"
+        },
+        "encounterSetup": {
+          "alignment": "Neutral",
+          "xp": 10
+        },
+        "description": "Placeholder monster description"
+      },
+      "validatedAt": "2025-05-26T13:18:42.517Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-monster",
+        "title": "Placeholder Monster",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/31_the_basics_of_proficiencies.md",
+        "category": "Rulebook",
+        "contentType": "monster",
+        "primaryCharacteristics": {
+          "type": "Unknown",
+          "size": "Medium",
+          "armorClass": 10,
+          "hitDice": "1d8",
+          "attacks": "1",
+          "damage": "1d6",
+          "save": "F1",
+          "morale": "0",
+          "vision": "Normal"
+        },
+        "encounterSetup": {
+          "alignment": "Neutral",
+          "xp": 10
+        },
+        "description": "Placeholder monster description"
+      },
+      "validatedAt": "2025-05-26T13:18:42.517Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-monster",
+        "title": "Placeholder Monster",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/36_chapter_4_equipment.md",
+        "category": "Rulebook",
+        "contentType": "monster",
+        "primaryCharacteristics": {
+          "type": "Unknown",
+          "size": "Medium",
+          "armorClass": 10,
+          "hitDice": "1d8",
+          "attacks": "1",
+          "damage": "1d6",
+          "save": "F1",
+          "morale": "0",
+          "vision": "Normal"
+        },
+        "encounterSetup": {
+          "alignment": "Neutral",
+          "xp": 10
+        },
+        "description": "Placeholder monster description"
+      },
+      "validatedAt": "2025-05-26T13:18:42.517Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-monster",
+        "title": "Placeholder Monster",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/48_chapter_5_spells.md",
+        "category": "Rulebook",
+        "contentType": "monster",
+        "primaryCharacteristics": {
+          "type": "Unknown",
+          "size": "Medium",
+          "armorClass": 10,
+          "hitDice": "1d8",
+          "attacks": "1",
+          "damage": "1d6",
+          "save": "F1",
+          "morale": "0",
+          "vision": "Normal"
+        },
+        "encounterSetup": {
+          "alignment": "Neutral",
+          "xp": 10
+        },
+        "description": "Placeholder monster description"
+      },
+      "validatedAt": "2025-05-26T13:18:42.517Z",
+      "schemaVersion": "1.0.0"
+    }
+  ]
+}

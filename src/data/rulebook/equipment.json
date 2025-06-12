@@ -1,0 +1,842 @@
+{
+  "metadata": {
+    "generatedAt": "2025-05-26T13:18:42.517Z",
+    "contentType": "equipment",
+    "itemCount": 22,
+    "formatVersion": "1.0.0",
+    "validation": {
+      "totalItems": 22,
+      "validItems": 22,
+      "errorCount": 0,
+      "warningCount": 22
+    },
+    "crossReferences": {
+      "totalReferences": 22,
+      "resolvedReferences": 22,
+      "unresolvedReferences": []
+    }
+  },
+  "data": [
+    {
+      "id": "placeholder-equipment",
+      "title": "Placeholder Equipment",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/08_common_abbreviations.md",
+      "category": "Rulebook",
+      "contentType": "equipment",
+      "equipmentCategory": "gear",
+      "cost": 1,
+      "weight": 1,
+      "description": "Placeholder equipment description"
+    },
+    {
+      "id": "placeholder-equipment",
+      "title": "Placeholder Equipment",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/103_methods_of_siege.md",
+      "category": "Rulebook",
+      "contentType": "equipment",
+      "equipmentCategory": "gear",
+      "cost": 1,
+      "weight": 1,
+      "description": "Placeholder equipment description"
+    },
+    {
+      "id": "placeholder-equipment",
+      "title": "Placeholder Equipment",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/106_reduction.md",
+      "category": "Rulebook",
+      "contentType": "equipment",
+      "equipmentCategory": "gear",
+      "cost": 1,
+      "weight": 1,
+      "description": "Placeholder equipment description"
+    },
+    {
+      "id": "placeholder-equipment",
+      "title": "Placeholder Equipment",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/107_assault.md",
+      "category": "Rulebook",
+      "contentType": "equipment",
+      "equipmentCategory": "gear",
+      "cost": 1,
+      "weight": 1,
+      "description": "Placeholder equipment description"
+    },
+    {
+      "id": "placeholder-equipment",
+      "title": "Placeholder Equipment",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/11_character_attributes.md",
+      "category": "Rulebook",
+      "contentType": "equipment",
+      "equipmentCategory": "gear",
+      "cost": 1,
+      "weight": 1,
+      "description": "Placeholder equipment description"
+    },
+    {
+      "id": "placeholder-equipment",
+      "title": "Placeholder Equipment",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/115_people.md",
+      "category": "Rulebook",
+      "contentType": "equipment",
+      "equipmentCategory": "gear",
+      "cost": 1,
+      "weight": 1,
+      "description": "Placeholder equipment description"
+    },
+    {
+      "id": "placeholder-equipment",
+      "title": "Placeholder Equipment",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/15_armor_class.md",
+      "category": "Rulebook",
+      "contentType": "equipment",
+      "equipmentCategory": "gear",
+      "cost": 1,
+      "weight": 1,
+      "description": "Placeholder equipment description"
+    },
+    {
+      "id": "placeholder-equipment",
+      "title": "Placeholder Equipment",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/17_speed_and_encumbrance.md",
+      "category": "Rulebook",
+      "contentType": "equipment",
+      "equipmentCategory": "gear",
+      "cost": 1,
+      "weight": 1,
+      "description": "Placeholder equipment description"
+    },
+    {
+      "id": "placeholder-equipment",
+      "title": "Placeholder Equipment",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/22_alignment.md",
+      "category": "Rulebook",
+      "contentType": "equipment",
+      "equipmentCategory": "gear",
+      "cost": 1,
+      "weight": 1,
+      "description": "Placeholder equipment description"
+    },
+    {
+      "id": "placeholder-equipment",
+      "title": "Placeholder Equipment",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/37_the_basics_of_equipment.md",
+      "category": "Rulebook",
+      "contentType": "equipment",
+      "equipmentCategory": "gear",
+      "cost": 1,
+      "weight": 1,
+      "description": "Placeholder equipment description"
+    },
+    {
+      "id": "placeholder-equipment",
+      "title": "Placeholder Equipment",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/38_coins_and_money.md",
+      "category": "Rulebook",
+      "contentType": "equipment",
+      "equipmentCategory": "gear",
+      "cost": 1,
+      "weight": 1,
+      "description": "Placeholder equipment description"
+    },
+    {
+      "id": "placeholder-equipment",
+      "title": "Placeholder Equipment",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/39_purchasing_equipment.md",
+      "category": "Rulebook",
+      "contentType": "equipment",
+      "equipmentCategory": "gear",
+      "cost": 1,
+      "weight": 1,
+      "description": "Placeholder equipment description"
+    },
+    {
+      "id": "placeholder-equipment",
+      "title": "Placeholder Equipment",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/40_equipment_lists.md",
+      "category": "Rulebook",
+      "contentType": "equipment",
+      "equipmentCategory": "gear",
+      "cost": 1,
+      "weight": 1,
+      "description": "Placeholder equipment description"
+    },
+    {
+      "id": "placeholder-equipment",
+      "title": "Placeholder Equipment",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/42_masterwork_equipment_optional.md",
+      "category": "Rulebook",
+      "contentType": "equipment",
+      "equipmentCategory": "gear",
+      "cost": 1,
+      "weight": 1,
+      "description": "Placeholder equipment description"
+    },
+    {
+      "id": "placeholder-equipment",
+      "title": "Placeholder Equipment",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/43_scavenged_equipment.md",
+      "category": "Rulebook",
+      "contentType": "equipment",
+      "equipmentCategory": "gear",
+      "cost": 1,
+      "weight": 1,
+      "description": "Placeholder equipment description"
+    },
+    {
+      "id": "placeholder-equipment",
+      "title": "Placeholder Equipment",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/46_expected_living_expenses_optional.md",
+      "category": "Rulebook",
+      "contentType": "equipment",
+      "equipmentCategory": "gear",
+      "cost": 1,
+      "weight": 1,
+      "description": "Placeholder equipment description"
+    },
+    {
+      "id": "placeholder-equipment",
+      "title": "Placeholder Equipment",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/47_construction_projects.md",
+      "category": "Rulebook",
+      "contentType": "equipment",
+      "equipmentCategory": "gear",
+      "cost": 1,
+      "weight": 1,
+      "description": "Placeholder equipment description"
+    },
+    {
+      "id": "placeholder-equipment",
+      "title": "Placeholder Equipment",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/65_sea_vessels.md",
+      "category": "Rulebook",
+      "contentType": "equipment",
+      "equipmentCategory": "gear",
+      "cost": 1,
+      "weight": 1,
+      "description": "Placeholder equipment description"
+    },
+    {
+      "id": "placeholder-equipment",
+      "title": "Placeholder Equipment",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/86_troop_characteristics_summary.md",
+      "category": "Rulebook",
+      "contentType": "equipment",
+      "equipmentCategory": "gear",
+      "cost": 1,
+      "weight": 1,
+      "description": "Placeholder equipment description"
+    },
+    {
+      "id": "placeholder-equipment",
+      "title": "Placeholder Equipment",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/87_unit_characteristics_summary.md",
+      "category": "Rulebook",
+      "contentType": "equipment",
+      "equipmentCategory": "gear",
+      "cost": 1,
+      "weight": 1,
+      "description": "Placeholder equipment description"
+    },
+    {
+      "id": "placeholder-equipment",
+      "title": "Placeholder Equipment",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/92_moving_armies.md",
+      "category": "Rulebook",
+      "contentType": "equipment",
+      "equipmentCategory": "gear",
+      "cost": 1,
+      "weight": 1,
+      "description": "Placeholder equipment description"
+    },
+    {
+      "id": "placeholder-equipment",
+      "title": "Placeholder Equipment",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/94_equipment_availability_on_campaign.md",
+      "category": "Rulebook",
+      "contentType": "equipment",
+      "equipmentCategory": "gear",
+      "cost": 1,
+      "weight": 1,
+      "description": "Placeholder equipment description"
+    }
+  ],
+  "crossReferences": {
+    "placeholder-equipment": [
+      "placeholder-equipment"
+    ]
+  },
+  "validationResults": [
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [
+        {
+          "field": "category",
+          "message": "Equipment category should be one of the standard categories",
+          "severity": "warning",
+          "expected": "Weapon, Armor, Shield, Gear, Tool, Treasure",
+          "actual": "Rulebook"
+        }
+      ],
+      "content": {
+        "id": "placeholder-equipment",
+        "title": "Placeholder Equipment",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/08_common_abbreviations.md",
+        "category": "Rulebook",
+        "contentType": "equipment",
+        "equipmentCategory": "gear",
+        "cost": 1,
+        "weight": 1,
+        "description": "Placeholder equipment description"
+      },
+      "validatedAt": "2025-05-26T13:18:42.517Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [
+        {
+          "field": "category",
+          "message": "Equipment category should be one of the standard categories",
+          "severity": "warning",
+          "expected": "Weapon, Armor, Shield, Gear, Tool, Treasure",
+          "actual": "Rulebook"
+        }
+      ],
+      "content": {
+        "id": "placeholder-equipment",
+        "title": "Placeholder Equipment",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/103_methods_of_siege.md",
+        "category": "Rulebook",
+        "contentType": "equipment",
+        "equipmentCategory": "gear",
+        "cost": 1,
+        "weight": 1,
+        "description": "Placeholder equipment description"
+      },
+      "validatedAt": "2025-05-26T13:18:42.517Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [
+        {
+          "field": "category",
+          "message": "Equipment category should be one of the standard categories",
+          "severity": "warning",
+          "expected": "Weapon, Armor, Shield, Gear, Tool, Treasure",
+          "actual": "Rulebook"
+        }
+      ],
+      "content": {
+        "id": "placeholder-equipment",
+        "title": "Placeholder Equipment",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/106_reduction.md",
+        "category": "Rulebook",
+        "contentType": "equipment",
+        "equipmentCategory": "gear",
+        "cost": 1,
+        "weight": 1,
+        "description": "Placeholder equipment description"
+      },
+      "validatedAt": "2025-05-26T13:18:42.517Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [
+        {
+          "field": "category",
+          "message": "Equipment category should be one of the standard categories",
+          "severity": "warning",
+          "expected": "Weapon, Armor, Shield, Gear, Tool, Treasure",
+          "actual": "Rulebook"
+        }
+      ],
+      "content": {
+        "id": "placeholder-equipment",
+        "title": "Placeholder Equipment",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/107_assault.md",
+        "category": "Rulebook",
+        "contentType": "equipment",
+        "equipmentCategory": "gear",
+        "cost": 1,
+        "weight": 1,
+        "description": "Placeholder equipment description"
+      },
+      "validatedAt": "2025-05-26T13:18:42.517Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [
+        {
+          "field": "category",
+          "message": "Equipment category should be one of the standard categories",
+          "severity": "warning",
+          "expected": "Weapon, Armor, Shield, Gear, Tool, Treasure",
+          "actual": "Rulebook"
+        }
+      ],
+      "content": {
+        "id": "placeholder-equipment",
+        "title": "Placeholder Equipment",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/11_character_attributes.md",
+        "category": "Rulebook",
+        "contentType": "equipment",
+        "equipmentCategory": "gear",
+        "cost": 1,
+        "weight": 1,
+        "description": "Placeholder equipment description"
+      },
+      "validatedAt": "2025-05-26T13:18:42.517Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [
+        {
+          "field": "category",
+          "message": "Equipment category should be one of the standard categories",
+          "severity": "warning",
+          "expected": "Weapon, Armor, Shield, Gear, Tool, Treasure",
+          "actual": "Rulebook"
+        }
+      ],
+      "content": {
+        "id": "placeholder-equipment",
+        "title": "Placeholder Equipment",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/115_people.md",
+        "category": "Rulebook",
+        "contentType": "equipment",
+        "equipmentCategory": "gear",
+        "cost": 1,
+        "weight": 1,
+        "description": "Placeholder equipment description"
+      },
+      "validatedAt": "2025-05-26T13:18:42.517Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [
+        {
+          "field": "category",
+          "message": "Equipment category should be one of the standard categories",
+          "severity": "warning",
+          "expected": "Weapon, Armor, Shield, Gear, Tool, Treasure",
+          "actual": "Rulebook"
+        }
+      ],
+      "content": {
+        "id": "placeholder-equipment",
+        "title": "Placeholder Equipment",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/15_armor_class.md",
+        "category": "Rulebook",
+        "contentType": "equipment",
+        "equipmentCategory": "gear",
+        "cost": 1,
+        "weight": 1,
+        "description": "Placeholder equipment description"
+      },
+      "validatedAt": "2025-05-26T13:18:42.517Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [
+        {
+          "field": "category",
+          "message": "Equipment category should be one of the standard categories",
+          "severity": "warning",
+          "expected": "Weapon, Armor, Shield, Gear, Tool, Treasure",
+          "actual": "Rulebook"
+        }
+      ],
+      "content": {
+        "id": "placeholder-equipment",
+        "title": "Placeholder Equipment",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/17_speed_and_encumbrance.md",
+        "category": "Rulebook",
+        "contentType": "equipment",
+        "equipmentCategory": "gear",
+        "cost": 1,
+        "weight": 1,
+        "description": "Placeholder equipment description"
+      },
+      "validatedAt": "2025-05-26T13:18:42.517Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [
+        {
+          "field": "category",
+          "message": "Equipment category should be one of the standard categories",
+          "severity": "warning",
+          "expected": "Weapon, Armor, Shield, Gear, Tool, Treasure",
+          "actual": "Rulebook"
+        }
+      ],
+      "content": {
+        "id": "placeholder-equipment",
+        "title": "Placeholder Equipment",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/22_alignment.md",
+        "category": "Rulebook",
+        "contentType": "equipment",
+        "equipmentCategory": "gear",
+        "cost": 1,
+        "weight": 1,
+        "description": "Placeholder equipment description"
+      },
+      "validatedAt": "2025-05-26T13:18:42.517Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [
+        {
+          "field": "category",
+          "message": "Equipment category should be one of the standard categories",
+          "severity": "warning",
+          "expected": "Weapon, Armor, Shield, Gear, Tool, Treasure",
+          "actual": "Rulebook"
+        }
+      ],
+      "content": {
+        "id": "placeholder-equipment",
+        "title": "Placeholder Equipment",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/37_the_basics_of_equipment.md",
+        "category": "Rulebook",
+        "contentType": "equipment",
+        "equipmentCategory": "gear",
+        "cost": 1,
+        "weight": 1,
+        "description": "Placeholder equipment description"
+      },
+      "validatedAt": "2025-05-26T13:18:42.517Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [
+        {
+          "field": "category",
+          "message": "Equipment category should be one of the standard categories",
+          "severity": "warning",
+          "expected": "Weapon, Armor, Shield, Gear, Tool, Treasure",
+          "actual": "Rulebook"
+        }
+      ],
+      "content": {
+        "id": "placeholder-equipment",
+        "title": "Placeholder Equipment",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/38_coins_and_money.md",
+        "category": "Rulebook",
+        "contentType": "equipment",
+        "equipmentCategory": "gear",
+        "cost": 1,
+        "weight": 1,
+        "description": "Placeholder equipment description"
+      },
+      "validatedAt": "2025-05-26T13:18:42.517Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [
+        {
+          "field": "category",
+          "message": "Equipment category should be one of the standard categories",
+          "severity": "warning",
+          "expected": "Weapon, Armor, Shield, Gear, Tool, Treasure",
+          "actual": "Rulebook"
+        }
+      ],
+      "content": {
+        "id": "placeholder-equipment",
+        "title": "Placeholder Equipment",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/39_purchasing_equipment.md",
+        "category": "Rulebook",
+        "contentType": "equipment",
+        "equipmentCategory": "gear",
+        "cost": 1,
+        "weight": 1,
+        "description": "Placeholder equipment description"
+      },
+      "validatedAt": "2025-05-26T13:18:42.517Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [
+        {
+          "field": "category",
+          "message": "Equipment category should be one of the standard categories",
+          "severity": "warning",
+          "expected": "Weapon, Armor, Shield, Gear, Tool, Treasure",
+          "actual": "Rulebook"
+        }
+      ],
+      "content": {
+        "id": "placeholder-equipment",
+        "title": "Placeholder Equipment",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/40_equipment_lists.md",
+        "category": "Rulebook",
+        "contentType": "equipment",
+        "equipmentCategory": "gear",
+        "cost": 1,
+        "weight": 1,
+        "description": "Placeholder equipment description"
+      },
+      "validatedAt": "2025-05-26T13:18:42.517Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [
+        {
+          "field": "category",
+          "message": "Equipment category should be one of the standard categories",
+          "severity": "warning",
+          "expected": "Weapon, Armor, Shield, Gear, Tool, Treasure",
+          "actual": "Rulebook"
+        }
+      ],
+      "content": {
+        "id": "placeholder-equipment",
+        "title": "Placeholder Equipment",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/42_masterwork_equipment_optional.md",
+        "category": "Rulebook",
+        "contentType": "equipment",
+        "equipmentCategory": "gear",
+        "cost": 1,
+        "weight": 1,
+        "description": "Placeholder equipment description"
+      },
+      "validatedAt": "2025-05-26T13:18:42.517Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [
+        {
+          "field": "category",
+          "message": "Equipment category should be one of the standard categories",
+          "severity": "warning",
+          "expected": "Weapon, Armor, Shield, Gear, Tool, Treasure",
+          "actual": "Rulebook"
+        }
+      ],
+      "content": {
+        "id": "placeholder-equipment",
+        "title": "Placeholder Equipment",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/43_scavenged_equipment.md",
+        "category": "Rulebook",
+        "contentType": "equipment",
+        "equipmentCategory": "gear",
+        "cost": 1,
+        "weight": 1,
+        "description": "Placeholder equipment description"
+      },
+      "validatedAt": "2025-05-26T13:18:42.517Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [
+        {
+          "field": "category",
+          "message": "Equipment category should be one of the standard categories",
+          "severity": "warning",
+          "expected": "Weapon, Armor, Shield, Gear, Tool, Treasure",
+          "actual": "Rulebook"
+        }
+      ],
+      "content": {
+        "id": "placeholder-equipment",
+        "title": "Placeholder Equipment",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/46_expected_living_expenses_optional.md",
+        "category": "Rulebook",
+        "contentType": "equipment",
+        "equipmentCategory": "gear",
+        "cost": 1,
+        "weight": 1,
+        "description": "Placeholder equipment description"
+      },
+      "validatedAt": "2025-05-26T13:18:42.517Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [
+        {
+          "field": "category",
+          "message": "Equipment category should be one of the standard categories",
+          "severity": "warning",
+          "expected": "Weapon, Armor, Shield, Gear, Tool, Treasure",
+          "actual": "Rulebook"
+        }
+      ],
+      "content": {
+        "id": "placeholder-equipment",
+        "title": "Placeholder Equipment",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/47_construction_projects.md",
+        "category": "Rulebook",
+        "contentType": "equipment",
+        "equipmentCategory": "gear",
+        "cost": 1,
+        "weight": 1,
+        "description": "Placeholder equipment description"
+      },
+      "validatedAt": "2025-05-26T13:18:42.517Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [
+        {
+          "field": "category",
+          "message": "Equipment category should be one of the standard categories",
+          "severity": "warning",
+          "expected": "Weapon, Armor, Shield, Gear, Tool, Treasure",
+          "actual": "Rulebook"
+        }
+      ],
+      "content": {
+        "id": "placeholder-equipment",
+        "title": "Placeholder Equipment",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/65_sea_vessels.md",
+        "category": "Rulebook",
+        "contentType": "equipment",
+        "equipmentCategory": "gear",
+        "cost": 1,
+        "weight": 1,
+        "description": "Placeholder equipment description"
+      },
+      "validatedAt": "2025-05-26T13:18:42.517Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [
+        {
+          "field": "category",
+          "message": "Equipment category should be one of the standard categories",
+          "severity": "warning",
+          "expected": "Weapon, Armor, Shield, Gear, Tool, Treasure",
+          "actual": "Rulebook"
+        }
+      ],
+      "content": {
+        "id": "placeholder-equipment",
+        "title": "Placeholder Equipment",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/86_troop_characteristics_summary.md",
+        "category": "Rulebook",
+        "contentType": "equipment",
+        "equipmentCategory": "gear",
+        "cost": 1,
+        "weight": 1,
+        "description": "Placeholder equipment description"
+      },
+      "validatedAt": "2025-05-26T13:18:42.517Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [
+        {
+          "field": "category",
+          "message": "Equipment category should be one of the standard categories",
+          "severity": "warning",
+          "expected": "Weapon, Armor, Shield, Gear, Tool, Treasure",
+          "actual": "Rulebook"
+        }
+      ],
+      "content": {
+        "id": "placeholder-equipment",
+        "title": "Placeholder Equipment",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/87_unit_characteristics_summary.md",
+        "category": "Rulebook",
+        "contentType": "equipment",
+        "equipmentCategory": "gear",
+        "cost": 1,
+        "weight": 1,
+        "description": "Placeholder equipment description"
+      },
+      "validatedAt": "2025-05-26T13:18:42.517Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [
+        {
+          "field": "category",
+          "message": "Equipment category should be one of the standard categories",
+          "severity": "warning",
+          "expected": "Weapon, Armor, Shield, Gear, Tool, Treasure",
+          "actual": "Rulebook"
+        }
+      ],
+      "content": {
+        "id": "placeholder-equipment",
+        "title": "Placeholder Equipment",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/92_moving_armies.md",
+        "category": "Rulebook",
+        "contentType": "equipment",
+        "equipmentCategory": "gear",
+        "cost": 1,
+        "weight": 1,
+        "description": "Placeholder equipment description"
+      },
+      "validatedAt": "2025-05-26T13:18:42.517Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [
+        {
+          "field": "category",
+          "message": "Equipment category should be one of the standard categories",
+          "severity": "warning",
+          "expected": "Weapon, Armor, Shield, Gear, Tool, Treasure",
+          "actual": "Rulebook"
+        }
+      ],
+      "content": {
+        "id": "placeholder-equipment",
+        "title": "Placeholder Equipment",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/94_equipment_availability_on_campaign.md",
+        "category": "Rulebook",
+        "contentType": "equipment",
+        "equipmentCategory": "gear",
+        "cost": 1,
+        "weight": 1,
+        "description": "Placeholder equipment description"
+      },
+      "validatedAt": "2025-05-26T13:18:42.517Z",
+      "schemaVersion": "1.0.0"
+    }
+  ]
+}

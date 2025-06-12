@@ -1,0 +1,165 @@
+# Task ID: 15
+# Title: Implement Monster Type Organization and Navigation Structure
+# Status: done
+# Dependencies: 7
+# Priority: high
+# Description: Restructure the Monster Manual section to organize monsters by ACKS II Monster Type and implement a hierarchical navigation system based on main chapters.
+# Details:
+This task involves implementing the reorganization plan outlined in MONSTER_MANUAL_REORG_PLAN.md with the following key components:
+
+1. Create a top-level navigation structure that reflects the main chapters of the Monster Manual (Introduction, Monster Listings, Monster Creation, etc.)
+
+2. Within the Monster Listings chapter, organize all monsters according to their official ACKS II Monster Type categories (Aberration, Animal, Beastman, Construct, etc.)
+
+3. Implement a consistent page structure for each monster type category that includes:
+   - A brief introduction to the monster type
+   - A table/list of all monsters in that category with basic stats
+   - Links to individual monster pages
+
+4. Set up the directory structure to support this organization, likely using a pattern like `/monster-manual/monster-listings/[monster-type]/[monster-name].mdx`
+
+5. Create navigation breadcrumbs to help users understand their location in the hierarchy
+
+6. Ensure that special monster groups (Dragons, Elementals, Beastmen, Lycanthropes) have appropriate parent pages that explain the group before listing individual variants
+
+7. Update any existing links or references to monster pages throughout the wiki to point to their new locations
+
+8. Implement proper sorting of monsters within each type category (alphabetical by default unless otherwise specified)
+
+The implementation should maintain all existing content while reorganizing it into the new structure.
+
+# Test Strategy:
+Testing should verify both the structure and functionality of the reorganized Monster Manual:
+
+1. Navigation Testing:
+   - Verify that all top-level chapter links work correctly
+   - Confirm breadcrumb navigation shows the correct hierarchy
+   - Test that navigation between monster type categories works
+   - Ensure links to individual monster pages function properly
+
+2. Content Organization Testing:
+   - Verify all monsters appear in their correct Monster Type category
+   - Confirm special monster groups (Dragons, Elementals, etc.) have appropriate parent pages
+   - Check that no monsters are missing from the reorganized structure
+   - Verify that monster sorting within categories follows the expected order
+
+3. URL Structure Testing:
+   - Confirm URLs follow the planned structure
+   - Test that old URLs redirect properly to new locations
+
+4. Visual Inspection:
+   - Review the navigation sidebar to ensure it correctly displays the hierarchy
+   - Verify that monster type category pages have consistent formatting
+   - Check that special monster groups are visually distinct
+
+5. Cross-Browser Testing:
+   - Verify the navigation structure works correctly across different browsers and devices
+
+Document any issues found during testing with screenshots and specific URLs.
+
+# Subtasks:
+## 1. Create Directory Structure and Top-Level Navigation [done]
+### Dependencies: None
+### Description: Set up the foundational directory structure for the Monster Manual reorganization and implement the top-level navigation for main chapters.
+### Details:
+Implementation steps:
+1. Create the base directory structure following the pattern `/monster-manual/[chapter]/[monster-type]/[monster-name].mdx`
+2. Set up main chapter directories: Introduction, Monster Listings, Monster Creation, etc.
+3. Create a top-level navigation component that displays these main chapters
+4. Implement the navigation component in the Monster Manual layout
+5. Create placeholder index pages for each main chapter
+6. Set up the breadcrumb component that will display the hierarchical path
+7. Test the navigation by ensuring all main chapter links work correctly
+
+Testing approach:
+- Verify that the directory structure is created correctly
+- Ensure the top-level navigation displays all main chapters
+- Check that breadcrumbs show the correct path
+- Confirm that navigation between main chapters works as expected
+
+## 2. Implement Monster Type Categories and Structure [done]
+### Dependencies: 15.1
+### Description: Create the monster type category pages and implement the structure for organizing monsters within each type.
+### Details:
+Implementation steps:
+1. Create subdirectories for each ACKS II Monster Type (Aberration, Animal, Beastman, Construct, etc.) within the Monster Listings directory
+2. Create index pages for each monster type with:
+   - Brief introduction to the monster type
+   - Template for a table/list of monsters in that category
+   - Placeholder for basic stats display
+3. Implement a consistent page structure template for each monster type category
+4. Create a second-level navigation component for monster types
+5. Update the breadcrumb component to include monster type categories
+6. Set up special handling for complex monster groups (Dragons, Elementals, Beastmen, Lycanthropes)
+   - Create parent pages for these groups
+   - Implement subgroup navigation if needed
+
+Testing approach:
+- Verify all monster type categories have proper index pages
+- Check that the navigation correctly displays all monster types
+- Ensure special monster groups have appropriate parent pages
+- Test breadcrumb navigation through the hierarchy
+
+## 3. Migrate and Reorganize Existing Monster Content [done]
+### Dependencies: 15.1, 15.2
+### Description: Move existing monster content into the new structure and organize monsters according to their ACKS II Monster Type.
+### Details:
+Implementation steps:
+1. Identify all existing monster content in the wiki
+2. Determine the correct ACKS II Monster Type for each monster
+3. Create individual monster pages in the new directory structure
+4. Migrate content from existing monster pages to the new pages
+5. Implement alphabetical sorting of monsters within each type category
+6. Ensure all monster metadata is preserved during migration
+7. Create redirects from old URLs to new URLs to prevent broken links
+
+Testing approach:
+- Verify that all monsters have been migrated to the new structure
+- Check that monsters appear in the correct type categories
+- Ensure alphabetical sorting works correctly
+- Test redirects from old URLs to confirm they point to the new locations
+
+## 4. Implement Monster Listing Tables and Stats Display [done]
+### Dependencies: 15.2, 15.3
+### Description: Create tables/lists for each monster type category and implement the display of basic monster stats.
+### Details:
+Implementation steps:
+1. Design and implement a reusable table/list component for displaying monsters in a category
+2. Create MDX components for displaying monster combat stats consistently
+3. Update each monster type index page to include:
+   - The table/list of all monsters in that category
+   - Basic stats for each monster (HD, AC, movement, etc.)
+   - Links to individual monster pages
+4. Implement sorting functionality for the tables (alphabetical by default)
+5. Add filtering options if appropriate
+6. Ensure tables are responsive and work on mobile devices
+
+Testing approach:
+- Verify that all monster type pages display their monsters correctly
+- Check that basic stats are displayed accurately
+- Test sorting functionality
+- Ensure links to individual monster pages work
+- Test responsive design on different screen sizes
+
+## 5. Update Cross-References and Finalize Navigation [done]
+### Dependencies: 15.1, 15.2, 15.3, 15.4
+### Description: Update all existing links throughout the wiki to point to the new monster locations and finalize the navigation system.
+### Details:
+Implementation steps:
+1. Identify all links to monster pages throughout the wiki
+2. Update these links to point to the new monster page locations
+3. Finalize the breadcrumb navigation to ensure it works correctly at all levels
+4. Implement "related monsters" sections on individual monster pages
+5. Add navigation between monsters of the same type
+6. Create an A-Z index of all monsters that links to their new locations
+7. Perform final testing of the entire navigation structure
+8. Update any search functionality to work with the new structure
+
+Testing approach:
+- Verify that all links to monster pages throughout the wiki work correctly
+- Test breadcrumb navigation at all levels of the hierarchy
+- Check that related monsters sections display correctly
+- Ensure the A-Z index includes all monsters
+- Test search functionality with the new structure
+- Perform end-to-end testing of the entire monster manual navigation
+

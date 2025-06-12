@@ -2,6 +2,7 @@
 
 import { Moon, Sun, Monitor } from 'lucide-react'
 import { useTheme } from '@/lib/theme-provider'
+import { useEffect, useState } from 'react'
 
 /**
  * Theme toggle button component that cycles through light, dark, and system themes.
@@ -12,9 +13,16 @@ import { useTheme } from '@/lib/theme-provider'
  * - Shows appropriate icon for current theme
  * - Accessible with proper ARIA labels
  * - Responsive design for mobile and desktop
+ * - Prevents hydration mismatches
  */
 export function ThemeToggle() {
   const { theme, setTheme } = useTheme()
+  const [mounted, setMounted] = useState(false)
+
+  // Avoid hydration mismatch by only rendering after mount
+  useEffect(() => {
+    setMounted(true)
+  }, [])
 
   const handleToggle = () => {
     if (theme === 'light') {
@@ -27,6 +35,11 @@ export function ThemeToggle() {
   }
 
   const getIcon = () => {
+    if (!mounted) {
+      // Show a default icon during hydration
+      return <Sun className="h-5 w-5" />
+    }
+    
     switch (theme) {
       case 'light':
         return <Sun className="h-5 w-5" />
@@ -40,6 +53,10 @@ export function ThemeToggle() {
   }
 
   const getLabel = () => {
+    if (!mounted) {
+      return 'Toggle theme'
+    }
+    
     switch (theme) {
       case 'light':
         return 'Switch to dark mode'
@@ -67,6 +84,7 @@ export function ThemeToggle() {
       "
       aria-label={getLabel()}
       title={getLabel()}
+      disabled={!mounted}
     >
       {getIcon()}
     </button>

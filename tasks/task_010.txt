@@ -1,0 +1,71 @@
+# Task ID: 10
+# Title: Implement 'Choose Your Path' User Journey Navigation Section
+# Status: cancelled
+# Dependencies: 7
+# Priority: high
+# Description: Design and develop an interactive navigation section that guides users to appropriate content based on their experience level and specific needs, creating clear visual pathways between the hero section and detailed content.
+# Details:
+Create a responsive 'Choose Your Path' section that appears below the hero section and serves as a navigation hub. The implementation should include:
+
+1. Design at least three distinct user journey paths: 'New to Platform', 'Regular User', and 'Advanced Features'.
+2. Each path should have a clear visual card/container with:
+   - An appropriate icon representing the user type
+   - A concise heading (e.g., 'Just Getting Started?')
+   - A brief description of who this path is for (1-2 sentences)
+   - A clear CTA button with appropriate text (e.g., 'Start Here', 'Explore Features')
+3. Implement hover/focus states with subtle animations to improve interactivity
+4. Ensure the section is fully responsive:
+   - Cards should display in a row on desktop (3 across)
+   - Tablets should show 2 cards per row or a scrollable horizontal layout
+   - Mobile should stack cards vertically
+5. Each path should link to an appropriate landing page tailored to that user type
+6. Use appropriate ARIA attributes for accessibility
+7. Implement analytics tracking to measure which paths users select
+8. Add subtle visual cues (arrows or connectors) showing the flow from hero section to this navigation and then to specific content
+
+The design should use the existing color scheme and typography while ensuring sufficient contrast for readability.
+
+# Test Strategy:
+Testing should verify both the functionality and user experience aspects:
+
+1. Visual Testing:
+   - Verify all three user journey paths are displayed correctly with appropriate icons, text, and CTAs
+   - Check that hover/focus states work as expected with smooth animations
+   - Test responsiveness across multiple device sizes (320px, 768px, 1024px, 1440px widths)
+   - Ensure visual hierarchy guides users naturally through the options
+
+2. Functional Testing:
+   - Verify all links/buttons direct to the correct destination pages
+   - Test keyboard navigation through all interactive elements
+   - Validate that all ARIA attributes are correctly implemented using accessibility tools
+
+3. User Testing:
+   - Conduct A/B testing with different variations of the section to determine optimal conversion
+   - Set up heat mapping to track where users click within the section
+   - Measure time spent on this section and subsequent navigation patterns
+   - Collect feedback from 5-7 users of varying experience levels to ensure the paths are intuitive
+
+4. Performance Testing:
+   - Ensure the section loads quickly (within 300ms of page load)
+   - Verify animations run at 60fps without causing layout shifts
+   - Check that image assets are properly optimized
+
+# Subtasks:
+## 1. Design Approval - User Journey Section [pending]
+### Dependencies: None
+### Description: Present the user journey navigation design, including the 'Choose Your Path' concept, user experience flow, and visual approach. Get user approval for the guidance system before implementation.
+### Details:
+
+
+## 2. Implement Journey Selection Logic [pending]
+### Dependencies: 10.1
+### Description: Create the logic and components for user experience level detection and appropriate content pathway routing.
+### Details:
+
+
+## 3. Style User Journey Components [pending]
+### Dependencies: 10.2
+### Description: Apply the approved visual styling to the user journey navigation components, ensuring consistency with the overall design language.
+### Details:
+
+

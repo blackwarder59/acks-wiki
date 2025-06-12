@@ -1,0 +1,47 @@
+{
+  "metadata": {
+    "generatedAt": "2025-05-26T10:18:24.256Z",
+    "contentType": "SPELL",
+    "itemCount": 3,
+    "source": "ACKS II Rulebook",
+    "note": "Sample spells extracted for wiki development"
+  },
+  "data": [
+    {
+      "id": "fireball",
+      "name": "Fireball",
+      "contentType": "SPELL",
+      "level": 1,
+      "description": "Range: 360’Duration: instantaneous",
+      "range": "360’Duration: instantaneous",
+      "duration": "instantaneous",
+      "spellType": "Arcane",
+      "sourceFile": "56_spell_descriptions.md",
+      "category": "Rulebook"
+    },
+    {
+      "id": "web",
+      "name": "Web",
+      "contentType": "SPELL",
+      "level": 1,
+      "description": "Arcane 2 Type: esoteric, wall",
+      "range": "10’Duration: 48 turns",
+      "duration": "48 turns",
+      "spellType": "Arcane",
+      "sourceFile": "56_spell_descriptions.md",
+      "category": "Rulebook"
+    },
+    {
+      "id": "invisibility",
+      "name": "Invisibility",
+      "contentType": "SPELL",
+      "level": 1,
+      "description": "Range: touchDuration: 1 day",
+      "range": "touchDuration: 1 day",
+      "duration": "1 day",
+      "spellType": "Arcane",
+      "sourceFile": "56_spell_descriptions.md",
+      "category": "Rulebook"
+    }
+  ]
+}

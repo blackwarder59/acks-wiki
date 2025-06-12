@@ -2,8 +2,11 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/lib/theme-provider";
+import { SearchProvider } from "@/lib/search/search-context";
+import { TooltipProvider } from "@/components/ui/tooltip-provider";
 import { Header } from "@/components/layout/header";
 import { Sidebar } from "@/components/layout/sidebar";
+import { StagewiseWrapper } from "@/components/stagewise-wrapper";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -60,19 +63,24 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        {/* Stagewise Integration - Separate React Root */}
+        <StagewiseWrapper />
         <ThemeProvider
           defaultTheme="system"
           storageKey="acks-wiki-theme"
         >
-          <div className="min-h-screen bg-background">
-            <Header />
-            <div className="flex">
-              <Sidebar className="hidden lg:block" />
-              <main className="flex-1 p-6">
-                {children}
-              </main>
-            </div>
-          </div>
+          <SearchProvider>
+            <TooltipProvider>
+              <div className="min-h-screen bg-background">
+                <Header />
+                <div className="flex">
+                  <main className="flex-1 p-6">
+                    {children}
+                  </main>
+                </div>
+              </div>
+            </TooltipProvider>
+          </SearchProvider>
         </ThemeProvider>
       </body>
     </html>

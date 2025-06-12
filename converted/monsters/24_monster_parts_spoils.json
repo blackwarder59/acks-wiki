@@ -1,0 +1,16 @@
+{
+  "html": "<h2>Monster Parts (Spoils)</h2>\n<p>Most monsters should be assigned special components with a total gp value equal to their XP value. The Monster Parts (Special) section explains how to determine the nature and value of special components.</p>\n<p>It’s up to you if you want your monster to have mundane monster parts of value, such as feathers, horns, or pelts. If so, use the values in the Monster Parts (Mundane) section as benchmarks and assign something reasonable to your monster.</p>\n",
+  "sections": [
+    {
+      "title": "Monster Parts (Spoils)",
+      "level": 2,
+      "html": "<p>Most monsters should be assigned special components with a total gp value equal to their XP value. The Monster Parts (Special) section explains how to determine the nature and value of special components.</p>\n<p>It’s up to you if you want your monster to have mundane monster parts of value, such as feathers, horns, or pelts. If so, use the values in the Monster Parts (Mundane) section as benchmarks and assign something reasonable to your monster.</p>\n"
+    }
+  ],
+  "metadata": {
+    "name": "",
+    "stats": {},
+    "encounterInfo": {}
+  },
+  "rawMarkdown": "## Monster Parts (Spoils)\n\nMost monsters should be assigned special components with a total gp value equal to their XP value. The Monster Parts (Special) section explains how to determine the nature and value of special components.\n\nIt’s up to you if you want your monster to have mundane monster parts of value, such as feathers, horns, or pelts. If so, use the values in the Monster Parts (Mundane) section as benchmarks and assign something reasonable to your monster.\n"
+}

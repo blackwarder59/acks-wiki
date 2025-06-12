@@ -1,0 +1,176 @@
+{
+  "metadata": {
+    "generatedAt": "2025-05-26T13:18:42.518Z",
+    "contentType": "class",
+    "itemCount": 2,
+    "formatVersion": "1.0.0",
+    "validation": {
+      "totalItems": 2,
+      "validItems": 0,
+      "errorCount": 2,
+      "warningCount": 0
+    },
+    "crossReferences": {
+      "totalReferences": 2,
+      "resolvedReferences": 2,
+      "unresolvedReferences": []
+    }
+  },
+  "data": [
+    {
+      "id": "placeholder-class",
+      "title": "Placeholder Class",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/13_class_powers.md",
+      "category": "Rulebook",
+      "contentType": "class",
+      "keyAttribute": "STR",
+      "requirements": "None",
+      "hitDice": "1d8",
+      "maximumLevel": 14,
+      "levelProgression": [],
+      "combatProgression": [],
+      "combatCharacteristics": {
+        "weaponProficiencies": "All",
+        "armorProficiencies": "All",
+        "fightingStyles": "All",
+        "progressionNotes": "Standard"
+      },
+      "startingPowers": [],
+      "additionalPowers": [],
+      "proficiencyProgression": {
+        "starting": "Standard",
+        "classProficiencies": "Standard",
+        "generalProficiencies": "Standard"
+      },
+      "classProficiencies": [],
+      "templates": [],
+      "description": "Placeholder class description"
+    },
+    {
+      "id": "placeholder-class",
+      "title": "Placeholder Class",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/20_starting_age.md",
+      "category": "Rulebook",
+      "contentType": "class",
+      "keyAttribute": "STR",
+      "requirements": "None",
+      "hitDice": "1d8",
+      "maximumLevel": 14,
+      "levelProgression": [],
+      "combatProgression": [],
+      "combatCharacteristics": {
+        "weaponProficiencies": "All",
+        "armorProficiencies": "All",
+        "fightingStyles": "All",
+        "progressionNotes": "Standard"
+      },
+      "startingPowers": [],
+      "additionalPowers": [],
+      "proficiencyProgression": {
+        "starting": "Standard",
+        "classProficiencies": "Standard",
+        "generalProficiencies": "Standard"
+      },
+      "classProficiencies": [],
+      "templates": [],
+      "description": "Placeholder class description"
+    }
+  ],
+  "crossReferences": {
+    "placeholder-class": [
+      "placeholder-class"
+    ]
+  },
+  "validationResults": [
+    {
+      "isValid": false,
+      "errors": [
+        {
+          "field": "hitDice",
+          "message": "Hit Dice must be in format \"dX\"",
+          "severity": "error",
+          "expected": "dX format",
+          "actual": "1d8",
+          "suggestion": "Examples: \"d6\", \"d8\", \"d10\""
+        }
+      ],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-class",
+        "title": "Placeholder Class",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/13_class_powers.md",
+        "category": "Rulebook",
+        "contentType": "class",
+        "keyAttribute": "STR",
+        "requirements": "None",
+        "hitDice": "1d8",
+        "maximumLevel": 14,
+        "levelProgression": [],
+        "combatProgression": [],
+        "combatCharacteristics": {
+          "weaponProficiencies": "All",
+          "armorProficiencies": "All",
+          "fightingStyles": "All",
+          "progressionNotes": "Standard"
+        },
+        "startingPowers": [],
+        "additionalPowers": [],
+        "proficiencyProgression": {
+          "starting": "Standard",
+          "classProficiencies": "Standard",
+          "generalProficiencies": "Standard"
+        },
+        "classProficiencies": [],
+        "templates": [],
+        "description": "Placeholder class description"
+      },
+      "validatedAt": "2025-05-26T13:18:42.517Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": false,
+      "errors": [
+        {
+          "field": "hitDice",
+          "message": "Hit Dice must be in format \"dX\"",
+          "severity": "error",
+          "expected": "dX format",
+          "actual": "1d8",
+          "suggestion": "Examples: \"d6\", \"d8\", \"d10\""
+        }
+      ],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-class",
+        "title": "Placeholder Class",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/20_starting_age.md",
+        "category": "Rulebook",
+        "contentType": "class",
+        "keyAttribute": "STR",
+        "requirements": "None",
+        "hitDice": "1d8",
+        "maximumLevel": 14,
+        "levelProgression": [],
+        "combatProgression": [],
+        "combatCharacteristics": {
+          "weaponProficiencies": "All",
+          "armorProficiencies": "All",
+          "fightingStyles": "All",
+          "progressionNotes": "Standard"
+        },
+        "startingPowers": [],
+        "additionalPowers": [],
+        "proficiencyProgression": {
+          "starting": "Standard",
+          "classProficiencies": "Standard",
+          "generalProficiencies": "Standard"
+        },
+        "classProficiencies": [],
+        "templates": [],
+        "description": "Placeholder class description"
+      },
+      "validatedAt": "2025-05-26T13:18:42.517Z",
+      "schemaVersion": "1.0.0"
+    }
+  ]
+}

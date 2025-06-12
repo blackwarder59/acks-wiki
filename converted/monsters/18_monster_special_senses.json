@@ -1,0 +1,16 @@
+{
+  "html": "<h2>Monster Special Senses</h2>\n<p>All monsters come equipped with sensory abilities that enable them to perceive their environment. By default:</p>\n<ul>\n<li>Animals with land or flying speed have Night Vision and either Acute Hearing, Olfaction, or Vision.</li>\n<li>Monsters of any type with swim speed have either Echolocation or Aquatic Mechanoreception.</li>\n<li>Monsters other than Animals have Lightless Vision (60’).</li>\n</ul>\n<p>Additional senses can be gained as special abilities. At your discretion, some monsters might lack one or more of their default senses. Missing senses can be considered special disabilities (described below).</p>\n",
+  "sections": [
+    {
+      "title": "Monster Special Senses",
+      "level": 2,
+      "html": "<p>All monsters come equipped with sensory abilities that enable them to perceive their environment. By default:</p>\n<ul>\n<li>Animals with land or flying speed have Night Vision and either Acute Hearing, Olfaction, or Vision.</li>\n<li>Monsters of any type with swim speed have either Echolocation or Aquatic Mechanoreception.</li>\n<li>Monsters other than Animals have Lightless Vision (60’).</li>\n</ul>\n<p>Additional senses can be gained as special abilities. At your discretion, some monsters might lack one or more of their default senses. Missing senses can be considered special disabilities (described below).</p>\n"
+    }
+  ],
+  "metadata": {
+    "name": "",
+    "stats": {},
+    "encounterInfo": {}
+  },
+  "rawMarkdown": "## Monster Special Senses\n\nAll monsters come equipped with sensory abilities that enable them to perceive their environment. By default:\n\n* Animals with land or flying speed have Night Vision and either Acute Hearing, Olfaction, or Vision.\n* Monsters of any type with swim speed have either Echolocation or Aquatic Mechanoreception.\n* Monsters other than Animals have Lightless Vision (60’).\n\nAdditional senses can be gained as special abilities. At your discretion, some monsters might lack one or more of their default senses. Missing senses can be considered special disabilities (described below).\n"
+}

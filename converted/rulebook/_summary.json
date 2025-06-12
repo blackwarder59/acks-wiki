@@ -1,0 +1,597 @@
+{
+  "totalFiles": 118,
+  "contentType": "rulebook",
+  "processedAt": "2025-05-31T10:11:49.676Z",
+  "files": [
+    {
+      "name": "Unknown",
+      "hasHTML": true,
+      "sectionsCount": 1
+    },
+    {
+      "name": "Unknown",
+      "hasHTML": true,
+      "sectionsCount": 1
+    },
+    {
+      "name": "Unknown",
+      "hasHTML": true,
+      "sectionsCount": 1
+    },
+    {
+      "name": "Unknown",
+      "hasHTML": true,
+      "sectionsCount": 1
+    },
+    {
+      "name": "Unknown",
+      "hasHTML": true,
+      "sectionsCount": 1
+    },
+    {
+      "name": "Unknown",
+      "hasHTML": true,
+      "sectionsCount": 1
+    },
+    {
+      "name": "Unknown",
+      "hasHTML": true,
+      "sectionsCount": 4
+    },
+    {
+      "name": "Unknown",
+      "hasHTML": true,
+      "sectionsCount": 1
+    },
+    {
+      "name": "Unknown",
+      "hasHTML": true,
+      "sectionsCount": 1
+    },
+    {
+      "name": "Unknown",
+      "hasHTML": true,
+      "sectionsCount": 5
+    },
+    {
+      "name": "Unknown",
+      "hasHTML": true,
+      "sectionsCount": 8
+    },
+    {
+      "name": "Unknown",
+      "hasHTML": true,
+      "sectionsCount": 1
+    },
+    {
+      "name": "Unknown",
+      "hasHTML": true,
+      "sectionsCount": 1
+    },
+    {
+      "name": "Unknown",
+      "hasHTML": true,
+      "sectionsCount": 1
+    },
+    {
+      "name": "Unknown",
+      "hasHTML": true,
+      "sectionsCount": 6
+    },
+    {
+      "name": "Unknown",
+      "hasHTML": true,
+      "sectionsCount": 7
+    },
+    {
+      "name": "Unknown",
+      "hasHTML": true,
+      "sectionsCount": 13
+    },
+    {
+      "name": "Unknown",
+      "hasHTML": true,
+      "sectionsCount": 6
+    },
+    {
+      "name": "Unknown",
+      "hasHTML": true,
+      "sectionsCount": 1
+    },
+    {
+      "name": "Unknown",
+      "hasHTML": true,
+      "sectionsCount": 4
+    },
+    {
+      "name": "Unknown",
+      "hasHTML": true,
+      "sectionsCount": 1
+    },
+    {
+      "name": "Unknown",
+      "hasHTML": true,
+      "sectionsCount": 1
+    },
+    {
+      "name": "Unknown",
+      "hasHTML": true,
+      "sectionsCount": 1
+    },
+    {
+      "name": "Unknown",
+      "hasHTML": true,
+      "sectionsCount": 1
+    },
+    {
+      "name": "Unknown",
+      "hasHTML": true,
+      "sectionsCount": 12
+    },
+    {
+      "name": "Unknown",
+      "hasHTML": true,
+      "sectionsCount": 17
+    },
+    {
+      "name": "Unknown",
+      "hasHTML": true,
+      "sectionsCount": 2
+    },
+    {
+      "name": "Unknown",
+      "hasHTML": true,
+      "sectionsCount": 64
+    },
+    {
+      "name": "Unknown",
+      "hasHTML": true,
+      "sectionsCount": 3
+    },
+    {
+      "name": "Unknown",
+      "hasHTML": true,
+      "sectionsCount": 2
+    },
+    {
+      "name": "Unknown",
+      "hasHTML": true,
+      "sectionsCount": 7
+    },
+    {
+      "name": "Unknown",
+      "hasHTML": true,
+      "sectionsCount": 1
+    },
+    {
+      "name": "Unknown",
+      "hasHTML": true,
+      "sectionsCount": 5
+    },
+    {
+      "name": "Unknown",
+      "hasHTML": true,
+      "sectionsCount": 1
+    },
+    {
+      "name": "Unknown",
+      "hasHTML": true,
+      "sectionsCount": 2
+    },
+    {
+      "name": "Unknown",
+      "hasHTML": true,
+      "sectionsCount": 3
+    },
+    {
+      "name": "Unknown",
+      "hasHTML": true,
+      "sectionsCount": 1
+    },
+    {
+      "name": "Unknown",
+      "hasHTML": true,
+      "sectionsCount": 1
+    },
+    {
+      "name": "Unknown",
+      "hasHTML": true,
+      "sectionsCount": 2
+    },
+    {
+      "name": "Unknown",
+      "hasHTML": true,
+      "sectionsCount": 1
+    },
+    {
+      "name": "Unknown",
+      "hasHTML": true,
+      "sectionsCount": 1
+    },
+    {
+      "name": "Unknown",
+      "hasHTML": true,
+      "sectionsCount": 1
+    },
+    {
+      "name": "Unknown",
+      "hasHTML": true,
+      "sectionsCount": 1
+    },
+    {
+      "name": "Unknown",
+      "hasHTML": true,
+      "sectionsCount": 1
+    },
+    {
+      "name": "Unknown",
+      "hasHTML": true,
+      "sectionsCount": 2
+    },
+    {
+      "name": "Unknown",
+      "hasHTML": true,
+      "sectionsCount": 38
+    },
+    {
+      "name": "Unknown",
+      "hasHTML": true,
+      "sectionsCount": 62
+    },
+    {
+      "name": "Unknown",
+      "hasHTML": true,
+      "sectionsCount": 45
+    },
+    {
+      "name": "Unknown",
+      "hasHTML": true,
+      "sectionsCount": 1
+    },
+    {
+      "name": "Unknown",
+      "hasHTML": true,
+      "sectionsCount": 1
+    },
+    {
+      "name": "Unknown",
+      "hasHTML": true,
+      "sectionsCount": 1
+    },
+    {
+      "name": "Unknown",
+      "hasHTML": true,
+      "sectionsCount": 4
+    },
+    {
+      "name": "Unknown",
+      "hasHTML": true,
+      "sectionsCount": 1
+    },
+    {
+      "name": "Unknown",
+      "hasHTML": true,
+      "sectionsCount": 116
+    },
+    {
+      "name": "Unknown",
+      "hasHTML": true,
+      "sectionsCount": 1
+    },
+    {
+      "name": "Unknown",
+      "hasHTML": true,
+      "sectionsCount": 1
+    },
+    {
+      "name": "Unknown",
+      "hasHTML": true,
+      "sectionsCount": 2
+    },
+    {
+      "name": "Unknown",
+      "hasHTML": true,
+      "sectionsCount": 3
+    },
+    {
+      "name": "Unknown",
+      "hasHTML": true,
+      "sectionsCount": 13
+    },
+    {
+      "name": "Unknown",
+      "hasHTML": true,
+      "sectionsCount": 14
+    },
+    {
+      "name": "Unknown",
+      "hasHTML": true,
+      "sectionsCount": 3
+    },
+    {
+      "name": "Unknown",
+      "hasHTML": true,
+      "sectionsCount": 1
+    },
+    {
+      "name": "Unknown",
+      "hasHTML": true,
+      "sectionsCount": 1
+    },
+    {
+      "name": "Unknown",
+      "hasHTML": true,
+      "sectionsCount": 14
+    },
+    {
+      "name": "Unknown",
+      "hasHTML": true,
+      "sectionsCount": 3
+    },
+    {
+      "name": "Unknown",
+      "hasHTML": true,
+      "sectionsCount": 9
+    },
+    {
+      "name": "Unknown",
+      "hasHTML": true,
+      "sectionsCount": 1
+    },
+    {
+      "name": "Unknown",
+      "hasHTML": true,
+      "sectionsCount": 3
+    },
+    {
+      "name": "Unknown",
+      "hasHTML": true,
+      "sectionsCount": 1
+    },
+    {
+      "name": "Unknown",
+      "hasHTML": true,
+      "sectionsCount": 11
+    },
+    {
+      "name": "Unknown",
+      "hasHTML": true,
+      "sectionsCount": 1
+    },
+    {
+      "name": "Unknown",
+      "hasHTML": true,
+      "sectionsCount": 1
+    },
+    {
+      "name": "Unknown",
+      "hasHTML": true,
+      "sectionsCount": 16
+    },
+    {
+      "name": "Unknown",
+      "hasHTML": true,
+      "sectionsCount": 7
+    },
+    {
+      "name": "Unknown",
+      "hasHTML": true,
+      "sectionsCount": 346
+    },
+    {
+      "name": "Unknown",
+      "hasHTML": true,
+      "sectionsCount": 2
+    },
+    {
+      "name": "Unknown",
+      "hasHTML": true,
+      "sectionsCount": 20
+    },
+    {
+      "name": "Unknown",
+      "hasHTML": true,
+      "sectionsCount": 37
+    },
+    {
+      "name": "Unknown",
+      "hasHTML": true,
+      "sectionsCount": 14
+    },
+    {
+      "name": "Unknown",
+      "hasHTML": true,
+      "sectionsCount": 63
+    },
+    {
+      "name": "Unknown",
+      "hasHTML": true,
+      "sectionsCount": 14
+    },
+    {
+      "name": "Unknown",
+      "hasHTML": true,
+      "sectionsCount": 1
+    },
+    {
+      "name": "Unknown",
+      "hasHTML": true,
+      "sectionsCount": 4
+    },
+    {
+      "name": "Unknown",
+      "hasHTML": true,
+      "sectionsCount": 1
+    },
+    {
+      "name": "Unknown",
+      "hasHTML": true,
+      "sectionsCount": 20
+    },
+    {
+      "name": "Unknown",
+      "hasHTML": true,
+      "sectionsCount": 3
+    },
+    {
+      "name": "Unknown",
+      "hasHTML": true,
+      "sectionsCount": 27
+    },
+    {
+      "name": "Unknown",
+      "hasHTML": true,
+      "sectionsCount": 5
+    },
+    {
+      "name": "Unknown",
+      "hasHTML": true,
+      "sectionsCount": 1
+    },
+    {
+      "name": "Unknown",
+      "hasHTML": true,
+      "sectionsCount": 1
+    },
+    {
+      "name": "Unknown",
+      "hasHTML": true,
+      "sectionsCount": 1
+    },
+    {
+      "name": "Unknown",
+      "hasHTML": true,
+      "sectionsCount": 41
+    },
+    {
+      "name": "Unknown",
+      "hasHTML": true,
+      "sectionsCount": 12
+    },
+    {
+      "name": "Unknown",
+      "hasHTML": true,
+      "sectionsCount": 35
+    },
+    {
+      "name": "Unknown",
+      "hasHTML": true,
+      "sectionsCount": 32
+    },
+    {
+      "name": "Unknown",
+      "hasHTML": true,
+      "sectionsCount": 11
+    },
+    {
+      "name": "Unknown",
+      "hasHTML": true,
+      "sectionsCount": 78
+    },
+    {
+      "name": "Unknown",
+      "hasHTML": true,
+      "sectionsCount": 9
+    },
+    {
+      "name": "Unknown",
+      "hasHTML": true,
+      "sectionsCount": 9
+    },
+    {
+      "name": "Unknown",
+      "hasHTML": true,
+      "sectionsCount": 1
+    },
+    {
+      "name": "Unknown",
+      "hasHTML": true,
+      "sectionsCount": 23
+    },
+    {
+      "name": "Unknown",
+      "hasHTML": true,
+      "sectionsCount": 3
+    },
+    {
+      "name": "Unknown",
+      "hasHTML": true,
+      "sectionsCount": 4
+    },
+    {
+      "name": "Unknown",
+      "hasHTML": true,
+      "sectionsCount": 3
+    },
+    {
+      "name": "Unknown",
+      "hasHTML": true,
+      "sectionsCount": 5
+    },
+    {
+      "name": "Unknown",
+      "hasHTML": true,
+      "sectionsCount": 4
+    },
+    {
+      "name": "Unknown",
+      "hasHTML": true,
+      "sectionsCount": 1
+    },
+    {
+      "name": "Unknown",
+      "hasHTML": true,
+      "sectionsCount": 1
+    },
+    {
+      "name": "Unknown",
+      "hasHTML": true,
+      "sectionsCount": 1
+    },
+    {
+      "name": "Unknown",
+      "hasHTML": true,
+      "sectionsCount": 1
+    },
+    {
+      "name": "Unknown",
+      "hasHTML": true,
+      "sectionsCount": 6
+    },
+    {
+      "name": "Unknown",
+      "hasHTML": true,
+      "sectionsCount": 7
+    },
+    {
+      "name": "Unknown",
+      "hasHTML": true,
+      "sectionsCount": 1
+    },
+    {
+      "name": "Unknown",
+      "hasHTML": true,
+      "sectionsCount": 6
+    },
+    {
+      "name": "Unknown",
+      "hasHTML": true,
+      "sectionsCount": 6
+    },
+    {
+      "name": "Unknown",
+      "hasHTML": true,
+      "sectionsCount": 1
+    },
+    {
+      "name": "Unknown",
+      "hasHTML": true,
+      "sectionsCount": 1
+    },
+    {
+      "name": "Unknown",
+      "hasHTML": true,
+      "sectionsCount": 19
+    }
+  ]
+}

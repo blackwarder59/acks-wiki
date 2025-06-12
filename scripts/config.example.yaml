@@ -1,0 +1,55 @@
+# ACKS II Content Processing Configuration (YAML)
+# Configuration file for the ACKS II content processing CLI tool
+
+# Input and Output Configuration
+inputDir: "./ACKS_II_Content"          # Directory containing ACKS II markdown content files
+outputDir: "./output"                  # Directory where processed JSON files will be saved
+outputFormat: "collection"            # Output format: single, collection, or indexed
+
+# Content Filtering
+contentTypes:                          # Content types to process (empty = all)
+  - "monster"
+  - "spell" 
+  - "class"
+  - "equipment"
+  - "rule"
+  - "proficiency"
+  # - "domain_rule"                    # Uncomment to include domain rules
+  # - "judge_tool"                     # Uncomment to include judge tools
+
+categories:                            # Content categories to process (empty = all)
+  - "Rulebook"
+  - "Judges_Journal"
+  - "Monstrous_Manual"
+
+# Processing Configuration
+concurrency: 3                        # Number of files to process simultaneously (1-10)
+batchSize: 10                         # Number of files to process in each batch (1-100)
+validationLevel: "normal"             # Validation strictness: strict, normal, or lenient
+continueOnError: true                 # Whether to continue processing other files when one fails
+
+# Advanced Options
+incremental: false                    # Only process files that have changed since last run
+watch: false                         # Watch for file changes and automatically reprocess
+verbose: 1                           # Logging verbosity: 0 (silent), 1 (normal), 2 (detailed), 3 (debug)
+prettyPrint: true                    # Format JSON output with indentation for readability
+generateReports: true                # Generate detailed processing reports in the output directory
+
+# Example configurations for different use cases:
+
+# Development mode (watch for changes, detailed logging)
+# watch: true
+# verbose: 2
+# incremental: true
+
+# Production mode (fast processing, minimal output)
+# concurrency: 5
+# verbose: 0
+# prettyPrint: false
+# generateReports: false
+
+# Validation mode (strict checking, detailed reports)
+# validationLevel: "strict"
+# continueOnError: false
+# verbose: 2
+# generateReports: true 

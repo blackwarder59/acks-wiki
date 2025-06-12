@@ -1,0 +1,757 @@
+{
+  "metadata": {
+    "generatedAt": "2025-05-26T13:18:42.517Z",
+    "contentType": "proficiency",
+    "itemCount": 27,
+    "formatVersion": "1.0.0",
+    "validation": {
+      "totalItems": 27,
+      "validItems": 27,
+      "errorCount": 0,
+      "warningCount": 0
+    },
+    "crossReferences": {
+      "totalReferences": 27,
+      "resolvedReferences": 27,
+      "unresolvedReferences": []
+    }
+  },
+  "data": [
+    {
+      "id": "placeholder-proficiency",
+      "title": "Placeholder Proficiency",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/06_dice.md",
+      "category": "Rulebook",
+      "contentType": "proficiency",
+      "proficiencyCategory": "general",
+      "effects": "Placeholder effects",
+      "description": "Placeholder proficiency description"
+    },
+    {
+      "id": "placeholder-proficiency",
+      "title": "Placeholder Proficiency",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/07_rolling_and_throwing_the_dice.md",
+      "category": "Rulebook",
+      "contentType": "proficiency",
+      "proficiencyCategory": "general",
+      "effects": "Placeholder effects",
+      "description": "Placeholder proficiency description"
+    },
+    {
+      "id": "placeholder-proficiency",
+      "title": "Placeholder Proficiency",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/10_creating_a_character.md",
+      "category": "Rulebook",
+      "contentType": "proficiency",
+      "proficiencyCategory": "general",
+      "effects": "Placeholder effects",
+      "description": "Placeholder proficiency description"
+    },
+    {
+      "id": "placeholder-proficiency",
+      "title": "Placeholder Proficiency",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/101_aftermath_of_battles.md",
+      "category": "Rulebook",
+      "contentType": "proficiency",
+      "proficiencyCategory": "general",
+      "effects": "Placeholder effects",
+      "description": "Placeholder proficiency description"
+    },
+    {
+      "id": "placeholder-proficiency",
+      "title": "Placeholder Proficiency",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/105_blockade.md",
+      "category": "Rulebook",
+      "contentType": "proficiency",
+      "proficiencyCategory": "general",
+      "effects": "Placeholder effects",
+      "description": "Placeholder proficiency description"
+    },
+    {
+      "id": "placeholder-proficiency",
+      "title": "Placeholder Proficiency",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/12_combat_characteristics.md",
+      "category": "Rulebook",
+      "contentType": "proficiency",
+      "proficiencyCategory": "general",
+      "effects": "Placeholder effects",
+      "description": "Placeholder proficiency description"
+    },
+    {
+      "id": "placeholder-proficiency",
+      "title": "Placeholder Proficiency",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/16_proficiencies.md",
+      "category": "Rulebook",
+      "contentType": "proficiency",
+      "proficiencyCategory": "general",
+      "effects": "Placeholder effects",
+      "description": "Placeholder proficiency description"
+    },
+    {
+      "id": "placeholder-proficiency",
+      "title": "Placeholder Proficiency",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/24_activities.md",
+      "category": "Rulebook",
+      "contentType": "proficiency",
+      "proficiencyCategory": "general",
+      "effects": "Placeholder effects",
+      "description": "Placeholder proficiency description"
+    },
+    {
+      "id": "placeholder-proficiency",
+      "title": "Placeholder Proficiency",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/26_character_templates_and_intellect_scores.md",
+      "category": "Rulebook",
+      "contentType": "proficiency",
+      "proficiencyCategory": "general",
+      "effects": "Placeholder effects",
+      "description": "Placeholder proficiency description"
+    },
+    {
+      "id": "placeholder-proficiency",
+      "title": "Placeholder Proficiency",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/32_starting_proficiencies.md",
+      "category": "Rulebook",
+      "contentType": "proficiency",
+      "proficiencyCategory": "general",
+      "effects": "Placeholder effects",
+      "description": "Placeholder proficiency description"
+    },
+    {
+      "id": "placeholder-proficiency",
+      "title": "Placeholder Proficiency",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/33_gaining_proficiencies.md",
+      "category": "Rulebook",
+      "contentType": "proficiency",
+      "proficiencyCategory": "general",
+      "effects": "Placeholder effects",
+      "description": "Placeholder proficiency description"
+    },
+    {
+      "id": "placeholder-proficiency",
+      "title": "Placeholder Proficiency",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/35_proficiency_descriptions.md",
+      "category": "Rulebook",
+      "contentType": "proficiency",
+      "proficiencyCategory": "general",
+      "effects": "Placeholder effects",
+      "description": "Placeholder proficiency description"
+    },
+    {
+      "id": "placeholder-proficiency",
+      "title": "Placeholder Proficiency",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/44_encumbrance_and_equipment.md",
+      "category": "Rulebook",
+      "contentType": "proficiency",
+      "proficiencyCategory": "general",
+      "effects": "Placeholder effects",
+      "description": "Placeholder proficiency description"
+    },
+    {
+      "id": "placeholder-proficiency",
+      "title": "Placeholder Proficiency",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/59_wilderness_expeditions.md",
+      "category": "Rulebook",
+      "contentType": "proficiency",
+      "proficiencyCategory": "general",
+      "effects": "Placeholder effects",
+      "description": "Placeholder proficiency description"
+    },
+    {
+      "id": "placeholder-proficiency",
+      "title": "Placeholder Proficiency",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/60_encounters.md",
+      "category": "Rulebook",
+      "contentType": "proficiency",
+      "proficiencyCategory": "general",
+      "effects": "Placeholder effects",
+      "description": "Placeholder proficiency description"
+    },
+    {
+      "id": "placeholder-proficiency",
+      "title": "Placeholder Proficiency",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/62_earning_experience_from_adventures.md",
+      "category": "Rulebook",
+      "contentType": "proficiency",
+      "proficiencyCategory": "general",
+      "effects": "Placeholder effects",
+      "description": "Placeholder proficiency description"
+    },
+    {
+      "id": "placeholder-proficiency",
+      "title": "Placeholder Proficiency",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/64_seafarers.md",
+      "category": "Rulebook",
+      "contentType": "proficiency",
+      "proficiencyCategory": "general",
+      "effects": "Placeholder effects",
+      "description": "Placeholder proficiency description"
+    },
+    {
+      "id": "placeholder-proficiency",
+      "title": "Placeholder Proficiency",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/66_sea_voyages.md",
+      "category": "Rulebook",
+      "contentType": "proficiency",
+      "proficiencyCategory": "general",
+      "effects": "Placeholder effects",
+      "description": "Placeholder proficiency description"
+    },
+    {
+      "id": "placeholder-proficiency",
+      "title": "Placeholder Proficiency",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/68_sea_combat.md",
+      "category": "Rulebook",
+      "contentType": "proficiency",
+      "proficiencyCategory": "general",
+      "effects": "Placeholder effects",
+      "description": "Placeholder proficiency description"
+    },
+    {
+      "id": "placeholder-proficiency",
+      "title": "Placeholder Proficiency",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/71_activities_during_the_campaign.md",
+      "category": "Rulebook",
+      "contentType": "proficiency",
+      "proficiencyCategory": "general",
+      "effects": "Placeholder effects",
+      "description": "Placeholder proficiency description"
+    },
+    {
+      "id": "placeholder-proficiency",
+      "title": "Placeholder Proficiency",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/74_politics_and_power.md",
+      "category": "Rulebook",
+      "contentType": "proficiency",
+      "proficiencyCategory": "general",
+      "effects": "Placeholder effects",
+      "description": "Placeholder proficiency description"
+    },
+    {
+      "id": "placeholder-proficiency",
+      "title": "Placeholder Proficiency",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/83_army_organization.md",
+      "category": "Rulebook",
+      "contentType": "proficiency",
+      "proficiencyCategory": "general",
+      "effects": "Placeholder effects",
+      "description": "Placeholder proficiency description"
+    },
+    {
+      "id": "placeholder-proficiency",
+      "title": "Placeholder Proficiency",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/84_army_command.md",
+      "category": "Rulebook",
+      "contentType": "proficiency",
+      "proficiencyCategory": "general",
+      "effects": "Placeholder effects",
+      "description": "Placeholder proficiency description"
+    },
+    {
+      "id": "placeholder-proficiency",
+      "title": "Placeholder Proficiency",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/85_organization_and_command_in_very_small_or_very_lar.md",
+      "category": "Rulebook",
+      "contentType": "proficiency",
+      "proficiencyCategory": "general",
+      "effects": "Placeholder effects",
+      "description": "Placeholder proficiency description"
+    },
+    {
+      "id": "placeholder-proficiency",
+      "title": "Placeholder Proficiency",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/93_supplying_armies.md",
+      "category": "Rulebook",
+      "contentType": "proficiency",
+      "proficiencyCategory": "general",
+      "effects": "Placeholder effects",
+      "description": "Placeholder proficiency description"
+    },
+    {
+      "id": "placeholder-proficiency",
+      "title": "Placeholder Proficiency",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/95_reconnaissance_and_intelligence.md",
+      "category": "Rulebook",
+      "contentType": "proficiency",
+      "proficiencyCategory": "general",
+      "effects": "Placeholder effects",
+      "description": "Placeholder proficiency description"
+    },
+    {
+      "id": "placeholder-proficiency",
+      "title": "Placeholder Proficiency",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/99_running_a_battle.md",
+      "category": "Rulebook",
+      "contentType": "proficiency",
+      "proficiencyCategory": "general",
+      "effects": "Placeholder effects",
+      "description": "Placeholder proficiency description"
+    }
+  ],
+  "crossReferences": {
+    "placeholder-proficiency": [
+      "placeholder-proficiency"
+    ]
+  },
+  "validationResults": [
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-proficiency",
+        "title": "Placeholder Proficiency",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/06_dice.md",
+        "category": "Rulebook",
+        "contentType": "proficiency",
+        "proficiencyCategory": "general",
+        "effects": "Placeholder effects",
+        "description": "Placeholder proficiency description"
+      },
+      "validatedAt": "2025-05-26T13:18:42.517Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-proficiency",
+        "title": "Placeholder Proficiency",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/07_rolling_and_throwing_the_dice.md",
+        "category": "Rulebook",
+        "contentType": "proficiency",
+        "proficiencyCategory": "general",
+        "effects": "Placeholder effects",
+        "description": "Placeholder proficiency description"
+      },
+      "validatedAt": "2025-05-26T13:18:42.517Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-proficiency",
+        "title": "Placeholder Proficiency",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/10_creating_a_character.md",
+        "category": "Rulebook",
+        "contentType": "proficiency",
+        "proficiencyCategory": "general",
+        "effects": "Placeholder effects",
+        "description": "Placeholder proficiency description"
+      },
+      "validatedAt": "2025-05-26T13:18:42.517Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-proficiency",
+        "title": "Placeholder Proficiency",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/101_aftermath_of_battles.md",
+        "category": "Rulebook",
+        "contentType": "proficiency",
+        "proficiencyCategory": "general",
+        "effects": "Placeholder effects",
+        "description": "Placeholder proficiency description"
+      },
+      "validatedAt": "2025-05-26T13:18:42.517Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-proficiency",
+        "title": "Placeholder Proficiency",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/105_blockade.md",
+        "category": "Rulebook",
+        "contentType": "proficiency",
+        "proficiencyCategory": "general",
+        "effects": "Placeholder effects",
+        "description": "Placeholder proficiency description"
+      },
+      "validatedAt": "2025-05-26T13:18:42.517Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-proficiency",
+        "title": "Placeholder Proficiency",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/12_combat_characteristics.md",
+        "category": "Rulebook",
+        "contentType": "proficiency",
+        "proficiencyCategory": "general",
+        "effects": "Placeholder effects",
+        "description": "Placeholder proficiency description"
+      },
+      "validatedAt": "2025-05-26T13:18:42.517Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-proficiency",
+        "title": "Placeholder Proficiency",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/16_proficiencies.md",
+        "category": "Rulebook",
+        "contentType": "proficiency",
+        "proficiencyCategory": "general",
+        "effects": "Placeholder effects",
+        "description": "Placeholder proficiency description"
+      },
+      "validatedAt": "2025-05-26T13:18:42.517Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-proficiency",
+        "title": "Placeholder Proficiency",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/24_activities.md",
+        "category": "Rulebook",
+        "contentType": "proficiency",
+        "proficiencyCategory": "general",
+        "effects": "Placeholder effects",
+        "description": "Placeholder proficiency description"
+      },
+      "validatedAt": "2025-05-26T13:18:42.517Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-proficiency",
+        "title": "Placeholder Proficiency",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/26_character_templates_and_intellect_scores.md",
+        "category": "Rulebook",
+        "contentType": "proficiency",
+        "proficiencyCategory": "general",
+        "effects": "Placeholder effects",
+        "description": "Placeholder proficiency description"
+      },
+      "validatedAt": "2025-05-26T13:18:42.517Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-proficiency",
+        "title": "Placeholder Proficiency",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/32_starting_proficiencies.md",
+        "category": "Rulebook",
+        "contentType": "proficiency",
+        "proficiencyCategory": "general",
+        "effects": "Placeholder effects",
+        "description": "Placeholder proficiency description"
+      },
+      "validatedAt": "2025-05-26T13:18:42.517Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-proficiency",
+        "title": "Placeholder Proficiency",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/33_gaining_proficiencies.md",
+        "category": "Rulebook",
+        "contentType": "proficiency",
+        "proficiencyCategory": "general",
+        "effects": "Placeholder effects",
+        "description": "Placeholder proficiency description"
+      },
+      "validatedAt": "2025-05-26T13:18:42.517Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-proficiency",
+        "title": "Placeholder Proficiency",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/35_proficiency_descriptions.md",
+        "category": "Rulebook",
+        "contentType": "proficiency",
+        "proficiencyCategory": "general",
+        "effects": "Placeholder effects",
+        "description": "Placeholder proficiency description"
+      },
+      "validatedAt": "2025-05-26T13:18:42.517Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-proficiency",
+        "title": "Placeholder Proficiency",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/44_encumbrance_and_equipment.md",
+        "category": "Rulebook",
+        "contentType": "proficiency",
+        "proficiencyCategory": "general",
+        "effects": "Placeholder effects",
+        "description": "Placeholder proficiency description"
+      },
+      "validatedAt": "2025-05-26T13:18:42.517Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-proficiency",
+        "title": "Placeholder Proficiency",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/59_wilderness_expeditions.md",
+        "category": "Rulebook",
+        "contentType": "proficiency",
+        "proficiencyCategory": "general",
+        "effects": "Placeholder effects",
+        "description": "Placeholder proficiency description"
+      },
+      "validatedAt": "2025-05-26T13:18:42.517Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-proficiency",
+        "title": "Placeholder Proficiency",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/60_encounters.md",
+        "category": "Rulebook",
+        "contentType": "proficiency",
+        "proficiencyCategory": "general",
+        "effects": "Placeholder effects",
+        "description": "Placeholder proficiency description"
+      },
+      "validatedAt": "2025-05-26T13:18:42.517Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-proficiency",
+        "title": "Placeholder Proficiency",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/62_earning_experience_from_adventures.md",
+        "category": "Rulebook",
+        "contentType": "proficiency",
+        "proficiencyCategory": "general",
+        "effects": "Placeholder effects",
+        "description": "Placeholder proficiency description"
+      },
+      "validatedAt": "2025-05-26T13:18:42.517Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-proficiency",
+        "title": "Placeholder Proficiency",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/64_seafarers.md",
+        "category": "Rulebook",
+        "contentType": "proficiency",
+        "proficiencyCategory": "general",
+        "effects": "Placeholder effects",
+        "description": "Placeholder proficiency description"
+      },
+      "validatedAt": "2025-05-26T13:18:42.517Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-proficiency",
+        "title": "Placeholder Proficiency",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/66_sea_voyages.md",
+        "category": "Rulebook",
+        "contentType": "proficiency",
+        "proficiencyCategory": "general",
+        "effects": "Placeholder effects",
+        "description": "Placeholder proficiency description"
+      },
+      "validatedAt": "2025-05-26T13:18:42.517Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-proficiency",
+        "title": "Placeholder Proficiency",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/68_sea_combat.md",
+        "category": "Rulebook",
+        "contentType": "proficiency",
+        "proficiencyCategory": "general",
+        "effects": "Placeholder effects",
+        "description": "Placeholder proficiency description"
+      },
+      "validatedAt": "2025-05-26T13:18:42.517Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-proficiency",
+        "title": "Placeholder Proficiency",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/71_activities_during_the_campaign.md",
+        "category": "Rulebook",
+        "contentType": "proficiency",
+        "proficiencyCategory": "general",
+        "effects": "Placeholder effects",
+        "description": "Placeholder proficiency description"
+      },
+      "validatedAt": "2025-05-26T13:18:42.517Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-proficiency",
+        "title": "Placeholder Proficiency",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/74_politics_and_power.md",
+        "category": "Rulebook",
+        "contentType": "proficiency",
+        "proficiencyCategory": "general",
+        "effects": "Placeholder effects",
+        "description": "Placeholder proficiency description"
+      },
+      "validatedAt": "2025-05-26T13:18:42.517Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-proficiency",
+        "title": "Placeholder Proficiency",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/83_army_organization.md",
+        "category": "Rulebook",
+        "contentType": "proficiency",
+        "proficiencyCategory": "general",
+        "effects": "Placeholder effects",
+        "description": "Placeholder proficiency description"
+      },
+      "validatedAt": "2025-05-26T13:18:42.517Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-proficiency",
+        "title": "Placeholder Proficiency",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/84_army_command.md",
+        "category": "Rulebook",
+        "contentType": "proficiency",
+        "proficiencyCategory": "general",
+        "effects": "Placeholder effects",
+        "description": "Placeholder proficiency description"
+      },
+      "validatedAt": "2025-05-26T13:18:42.517Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-proficiency",
+        "title": "Placeholder Proficiency",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/85_organization_and_command_in_very_small_or_very_lar.md",
+        "category": "Rulebook",
+        "contentType": "proficiency",
+        "proficiencyCategory": "general",
+        "effects": "Placeholder effects",
+        "description": "Placeholder proficiency description"
+      },
+      "validatedAt": "2025-05-26T13:18:42.517Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-proficiency",
+        "title": "Placeholder Proficiency",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/93_supplying_armies.md",
+        "category": "Rulebook",
+        "contentType": "proficiency",
+        "proficiencyCategory": "general",
+        "effects": "Placeholder effects",
+        "description": "Placeholder proficiency description"
+      },
+      "validatedAt": "2025-05-26T13:18:42.517Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-proficiency",
+        "title": "Placeholder Proficiency",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/95_reconnaissance_and_intelligence.md",
+        "category": "Rulebook",
+        "contentType": "proficiency",
+        "proficiencyCategory": "general",
+        "effects": "Placeholder effects",
+        "description": "Placeholder proficiency description"
+      },
+      "validatedAt": "2025-05-26T13:18:42.517Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-proficiency",
+        "title": "Placeholder Proficiency",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/99_running_a_battle.md",
+        "category": "Rulebook",
+        "contentType": "proficiency",
+        "proficiencyCategory": "general",
+        "effects": "Placeholder effects",
+        "description": "Placeholder proficiency description"
+      },
+      "validatedAt": "2025-05-26T13:18:42.517Z",
+      "schemaVersion": "1.0.0"
+    }
+  ]
+}

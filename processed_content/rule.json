@@ -1,0 +1,3430 @@
+{
+  "metadata": {
+    "generatedAt": "2025-05-26T11:11:05.537Z",
+    "contentType": "rule",
+    "itemCount": 126,
+    "formatVersion": "1.0.0",
+    "validation": {
+      "totalItems": 126,
+      "validItems": 126,
+      "errorCount": 0,
+      "warningCount": 0
+    },
+    "crossReferences": {
+      "totalReferences": 126,
+      "resolvedReferences": 126,
+      "unresolvedReferences": []
+    }
+  },
+  "data": [
+    {
+      "id": "placeholder-rule",
+      "title": "Placeholder Rule",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/02_foreword.md",
+      "category": "Judges_Journal",
+      "contentType": "rule",
+      "ruleCategory": "combat",
+      "ruleText": "Placeholder rule text",
+      "description": "Placeholder rule description"
+    },
+    {
+      "id": "placeholder-rule",
+      "title": "Placeholder Rule",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/03_how_to_use_this_book.md",
+      "category": "Judges_Journal",
+      "contentType": "rule",
+      "ruleCategory": "combat",
+      "ruleText": "Placeholder rule text",
+      "description": "Placeholder rule description"
+    },
+    {
+      "id": "placeholder-rule",
+      "title": "Placeholder Rule",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/05_chapter_1_foundations.md",
+      "category": "Judges_Journal",
+      "contentType": "rule",
+      "ruleCategory": "combat",
+      "ruleText": "Placeholder rule text",
+      "description": "Placeholder rule description"
+    },
+    {
+      "id": "placeholder-rule",
+      "title": "Placeholder Rule",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/06_what’s_in_a_name.md",
+      "category": "Judges_Journal",
+      "contentType": "rule",
+      "ruleCategory": "combat",
+      "ruleText": "Placeholder rule text",
+      "description": "Placeholder rule description"
+    },
+    {
+      "id": "placeholder-rule",
+      "title": "Placeholder Rule",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/07_it's_not_your_job_to_make_sure_people_have_fun.md",
+      "category": "Judges_Journal",
+      "contentType": "rule",
+      "ruleCategory": "combat",
+      "ruleText": "Placeholder rule text",
+      "description": "Placeholder rule description"
+    },
+    {
+      "id": "placeholder-rule",
+      "title": "Placeholder Rule",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/08_the_agency_theory_of_fun.md",
+      "category": "Judges_Journal",
+      "contentType": "rule",
+      "ruleCategory": "combat",
+      "ruleText": "Placeholder rule text",
+      "description": "Placeholder rule description"
+    },
+    {
+      "id": "placeholder-rule",
+      "title": "Placeholder Rule",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/09_judging_the_game.md",
+      "category": "Judges_Journal",
+      "contentType": "rule",
+      "ruleCategory": "combat",
+      "ruleText": "Placeholder rule text",
+      "description": "Placeholder rule description"
+    },
+    {
+      "id": "placeholder-rule",
+      "title": "Placeholder Rule",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/10_letting_the_story_emerge.md",
+      "category": "Judges_Journal",
+      "contentType": "rule",
+      "ruleCategory": "combat",
+      "ruleText": "Placeholder rule text",
+      "description": "Placeholder rule description"
+    },
+    {
+      "id": "placeholder-rule",
+      "title": "Placeholder Rule",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/117_chapter_14_custom_spells.md",
+      "category": "Judges_Journal",
+      "contentType": "rule",
+      "ruleCategory": "combat",
+      "ruleText": "Placeholder rule text",
+      "description": "Placeholder rule description"
+    },
+    {
+      "id": "placeholder-rule",
+      "title": "Placeholder Rule",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/12_handling_combat.md",
+      "category": "Judges_Journal",
+      "contentType": "rule",
+      "ruleCategory": "combat",
+      "ruleText": "Placeholder rule text",
+      "description": "Placeholder rule description"
+    },
+    {
+      "id": "placeholder-rule",
+      "title": "Placeholder Rule",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/13_abducting_the_action.md",
+      "category": "Judges_Journal",
+      "contentType": "rule",
+      "ruleCategory": "combat",
+      "ruleText": "Placeholder rule text",
+      "description": "Placeholder rule description"
+    },
+    {
+      "id": "placeholder-rule",
+      "title": "Placeholder Rule",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/130_chapter_16_custom_rules.md",
+      "category": "Judges_Journal",
+      "contentType": "rule",
+      "ruleCategory": "combat",
+      "ruleText": "Placeholder rule text",
+      "description": "Placeholder rule description"
+    },
+    {
+      "id": "placeholder-rule",
+      "title": "Placeholder Rule",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/131_characters.md",
+      "category": "Judges_Journal",
+      "contentType": "rule",
+      "ruleCategory": "combat",
+      "ruleText": "Placeholder rule text",
+      "description": "Placeholder rule description"
+    },
+    {
+      "id": "placeholder-rule",
+      "title": "Placeholder Rule",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/14_fudging_the_dice.md",
+      "category": "Judges_Journal",
+      "contentType": "rule",
+      "ruleCategory": "combat",
+      "ruleText": "Placeholder rule text",
+      "description": "Placeholder rule description"
+    },
+    {
+      "id": "placeholder-rule",
+      "title": "Placeholder Rule",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/140_rule_of_the_few.md",
+      "category": "Judges_Journal",
+      "contentType": "rule",
+      "ruleCategory": "combat",
+      "ruleText": "Placeholder rule text",
+      "description": "Placeholder rule description"
+    },
+    {
+      "id": "placeholder-rule",
+      "title": "Placeholder Rule",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/141_separating_land_and_lordship.md",
+      "category": "Judges_Journal",
+      "contentType": "rule",
+      "ruleCategory": "combat",
+      "ruleText": "Placeholder rule text",
+      "description": "Placeholder rule description"
+    },
+    {
+      "id": "placeholder-rule",
+      "title": "Placeholder Rule",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/143_slavery.md",
+      "category": "Judges_Journal",
+      "contentType": "rule",
+      "ruleCategory": "combat",
+      "ruleText": "Placeholder rule text",
+      "description": "Placeholder rule description"
+    },
+    {
+      "id": "placeholder-rule",
+      "title": "Placeholder Rule",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/144_terrain_transformation.md",
+      "category": "Judges_Journal",
+      "contentType": "rule",
+      "ruleCategory": "combat",
+      "ruleText": "Placeholder rule text",
+      "description": "Placeholder rule description"
+    },
+    {
+      "id": "placeholder-rule",
+      "title": "Placeholder Rule",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/146_appendix_a_adventures_add_files_separately.md",
+      "category": "Judges_Journal",
+      "contentType": "rule",
+      "ruleCategory": "combat",
+      "ruleText": "Placeholder rule text",
+      "description": "Placeholder rule description"
+    },
+    {
+      "id": "placeholder-rule",
+      "title": "Placeholder Rule",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/153_what_are_the_celestial_spheres.md",
+      "category": "Judges_Journal",
+      "contentType": "rule",
+      "ruleCategory": "combat",
+      "ruleText": "Placeholder rule text",
+      "description": "Placeholder rule description"
+    },
+    {
+      "id": "placeholder-rule",
+      "title": "Placeholder Rule",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/158_appendix_e_economics.md",
+      "category": "Judges_Journal",
+      "contentType": "rule",
+      "ruleCategory": "combat",
+      "ruleText": "Placeholder rule text",
+      "description": "Placeholder rule description"
+    },
+    {
+      "id": "placeholder-rule",
+      "title": "Placeholder Rule",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/159_baseline_assumptions.md",
+      "category": "Judges_Journal",
+      "contentType": "rule",
+      "ruleCategory": "combat",
+      "ruleText": "Placeholder rule text",
+      "description": "Placeholder rule description"
+    },
+    {
+      "id": "placeholder-rule",
+      "title": "Placeholder Rule",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/16_hosting_your_game.md",
+      "category": "Judges_Journal",
+      "contentType": "rule",
+      "ruleCategory": "combat",
+      "ruleText": "Placeholder rule text",
+      "description": "Placeholder rule description"
+    },
+    {
+      "id": "placeholder-rule",
+      "title": "Placeholder Rule",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/162_urban_economics.md",
+      "category": "Judges_Journal",
+      "contentType": "rule",
+      "ruleCategory": "combat",
+      "ruleText": "Placeholder rule text",
+      "description": "Placeholder rule description"
+    },
+    {
+      "id": "placeholder-rule",
+      "title": "Placeholder Rule",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/164_economic_prices.md",
+      "category": "Judges_Journal",
+      "contentType": "rule",
+      "ruleCategory": "combat",
+      "ruleText": "Placeholder rule text",
+      "description": "Placeholder rule description"
+    },
+    {
+      "id": "placeholder-rule",
+      "title": "Placeholder Rule",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/165_appendix_n_recommended_reading_for_judges.md",
+      "category": "Judges_Journal",
+      "contentType": "rule",
+      "ruleCategory": "combat",
+      "ruleText": "Placeholder rule text",
+      "description": "Placeholder rule description"
+    },
+    {
+      "id": "placeholder-rule",
+      "title": "Placeholder Rule",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/166_recommended_books_fiction.md",
+      "category": "Judges_Journal",
+      "contentType": "rule",
+      "ruleCategory": "combat",
+      "ruleText": "Placeholder rule text",
+      "description": "Placeholder rule description"
+    },
+    {
+      "id": "placeholder-rule",
+      "title": "Placeholder Rule",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/167_recommended_books_non_fiction.md",
+      "category": "Judges_Journal",
+      "contentType": "rule",
+      "ruleCategory": "combat",
+      "ruleText": "Placeholder rule text",
+      "description": "Placeholder rule description"
+    },
+    {
+      "id": "placeholder-rule",
+      "title": "Placeholder Rule",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/17_managing_problems_and_players.md",
+      "category": "Judges_Journal",
+      "contentType": "rule",
+      "ruleCategory": "combat",
+      "ruleText": "Placeholder rule text",
+      "description": "Placeholder rule description"
+    },
+    {
+      "id": "placeholder-rule",
+      "title": "Placeholder Rule",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/170_orison’s_devotion.md",
+      "category": "Judges_Journal",
+      "contentType": "rule",
+      "ruleCategory": "combat",
+      "ruleText": "Placeholder rule text",
+      "description": "Placeholder rule description"
+    },
+    {
+      "id": "placeholder-rule",
+      "title": "Placeholder Rule",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/18_running_a_campaign.md",
+      "category": "Judges_Journal",
+      "contentType": "rule",
+      "ruleCategory": "combat",
+      "ruleText": "Placeholder rule text",
+      "description": "Placeholder rule description"
+    },
+    {
+      "id": "placeholder-rule",
+      "title": "Placeholder Rule",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/19_chapter_2_adventures.md",
+      "category": "Judges_Journal",
+      "contentType": "rule",
+      "ruleCategory": "combat",
+      "ruleText": "Placeholder rule text",
+      "description": "Placeholder rule description"
+    },
+    {
+      "id": "placeholder-rule",
+      "title": "Placeholder Rule",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/20_dungeon_delves.md",
+      "category": "Judges_Journal",
+      "contentType": "rule",
+      "ruleCategory": "combat",
+      "ruleText": "Placeholder rule text",
+      "description": "Placeholder rule description"
+    },
+    {
+      "id": "placeholder-rule",
+      "title": "Placeholder Rule",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/21_wilderness_expeditions.md",
+      "category": "Judges_Journal",
+      "contentType": "rule",
+      "ruleCategory": "combat",
+      "ruleText": "Placeholder rule text",
+      "description": "Placeholder rule description"
+    },
+    {
+      "id": "placeholder-rule",
+      "title": "Placeholder Rule",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/25_chapter_3_campaigns.md",
+      "category": "Judges_Journal",
+      "contentType": "rule",
+      "ruleCategory": "combat",
+      "ruleText": "Placeholder rule text",
+      "description": "Placeholder rule description"
+    },
+    {
+      "id": "placeholder-rule",
+      "title": "Placeholder Rule",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/26_using_the_campaign_rules.md",
+      "category": "Judges_Journal",
+      "contentType": "rule",
+      "ruleCategory": "combat",
+      "ruleText": "Placeholder rule text",
+      "description": "Placeholder rule description"
+    },
+    {
+      "id": "placeholder-rule",
+      "title": "Placeholder Rule",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/27_sequence_of_play_campaigns.md",
+      "category": "Judges_Journal",
+      "contentType": "rule",
+      "ruleCategory": "combat",
+      "ruleText": "Placeholder rule text",
+      "description": "Placeholder rule description"
+    },
+    {
+      "id": "placeholder-rule",
+      "title": "Placeholder Rule",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/29_vagaries.md",
+      "category": "Judges_Journal",
+      "contentType": "rule",
+      "ruleCategory": "combat",
+      "ruleText": "Placeholder rule text",
+      "description": "Placeholder rule description"
+    },
+    {
+      "id": "placeholder-rule",
+      "title": "Placeholder Rule",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/35_chapter_6_realms.md",
+      "category": "Judges_Journal",
+      "contentType": "rule",
+      "ruleCategory": "combat",
+      "ruleText": "Placeholder rule text",
+      "description": "Placeholder rule description"
+    },
+    {
+      "id": "placeholder-rule",
+      "title": "Placeholder Rule",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/36_the_basics_of_realm_building.md",
+      "category": "Judges_Journal",
+      "contentType": "rule",
+      "ruleCategory": "combat",
+      "ruleText": "Placeholder rule text",
+      "description": "Placeholder rule description"
+    },
+    {
+      "id": "placeholder-rule",
+      "title": "Placeholder Rule",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/37_step_1_estimate_realm_size.md",
+      "category": "Judges_Journal",
+      "contentType": "rule",
+      "ruleCategory": "combat",
+      "ruleText": "Placeholder rule text",
+      "description": "Placeholder rule description"
+    },
+    {
+      "id": "placeholder-rule",
+      "title": "Placeholder Rule",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/38_step_2_determine_realm_type.md",
+      "category": "Judges_Journal",
+      "contentType": "rule",
+      "ruleCategory": "combat",
+      "ruleText": "Placeholder rule text",
+      "description": "Placeholder rule description"
+    },
+    {
+      "id": "placeholder-rule",
+      "title": "Placeholder Rule",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/39_step_3_determine_vassal_realm_types.md",
+      "category": "Judges_Journal",
+      "contentType": "rule",
+      "ruleCategory": "combat",
+      "ruleText": "Placeholder rule text",
+      "description": "Placeholder rule description"
+    },
+    {
+      "id": "placeholder-rule",
+      "title": "Placeholder Rule",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/40_step_4_determine_sub_vassal_realm_types.md",
+      "category": "Judges_Journal",
+      "contentType": "rule",
+      "ruleCategory": "combat",
+      "ruleText": "Placeholder rule text",
+      "description": "Placeholder rule description"
+    },
+    {
+      "id": "placeholder-rule",
+      "title": "Placeholder Rule",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/41_step_5_estimate_domain_populations_and_incomes.md",
+      "category": "Judges_Journal",
+      "contentType": "rule",
+      "ruleCategory": "combat",
+      "ruleText": "Placeholder rule text",
+      "description": "Placeholder rule description"
+    },
+    {
+      "id": "placeholder-rule",
+      "title": "Placeholder Rule",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/42_step_6_estimate_urban_settlement_sizes.md",
+      "category": "Judges_Journal",
+      "contentType": "rule",
+      "ruleCategory": "combat",
+      "ruleText": "Placeholder rule text",
+      "description": "Placeholder rule description"
+    },
+    {
+      "id": "placeholder-rule",
+      "title": "Placeholder Rule",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/43_step_7_generate_demand_modifiers.md",
+      "category": "Judges_Journal",
+      "contentType": "rule",
+      "ruleCategory": "combat",
+      "ruleText": "Placeholder rule text",
+      "description": "Placeholder rule description"
+    },
+    {
+      "id": "placeholder-rule",
+      "title": "Placeholder Rule",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/44_step_8_demarcate_the_territory_of_the_realm.md",
+      "category": "Judges_Journal",
+      "contentType": "rule",
+      "ruleCategory": "combat",
+      "ruleText": "Placeholder rule text",
+      "description": "Placeholder rule description"
+    },
+    {
+      "id": "placeholder-rule",
+      "title": "Placeholder Rule",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/45_step_9_classify_domains.md",
+      "category": "Judges_Journal",
+      "contentType": "rule",
+      "ruleCategory": "combat",
+      "ruleText": "Placeholder rule text",
+      "description": "Placeholder rule description"
+    },
+    {
+      "id": "placeholder-rule",
+      "title": "Placeholder Rule",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/46_step_10_assign_troops_garrisons.md",
+      "category": "Judges_Journal",
+      "contentType": "rule",
+      "ruleCategory": "combat",
+      "ruleText": "Placeholder rule text",
+      "description": "Placeholder rule description"
+    },
+    {
+      "id": "placeholder-rule",
+      "title": "Placeholder Rule",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/48_step_12_name_the_realms_and_domains.md",
+      "category": "Judges_Journal",
+      "contentType": "rule",
+      "ruleCategory": "combat",
+      "ruleText": "Placeholder rule text",
+      "description": "Placeholder rule description"
+    },
+    {
+      "id": "placeholder-rule",
+      "title": "Placeholder Rule",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/49_step_13_update_player_reference_guide.md",
+      "category": "Judges_Journal",
+      "contentType": "rule",
+      "ruleCategory": "combat",
+      "ruleText": "Placeholder rule text",
+      "description": "Placeholder rule description"
+    },
+    {
+      "id": "placeholder-rule",
+      "title": "Placeholder Rule",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/50_chapter_7_settlements.md",
+      "category": "Judges_Journal",
+      "contentType": "rule",
+      "ruleCategory": "combat",
+      "ruleText": "Placeholder rule text",
+      "description": "Placeholder rule description"
+    },
+    {
+      "id": "placeholder-rule",
+      "title": "Placeholder Rule",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/51_step_1_determine_settlement_size_and_shape.md",
+      "category": "Judges_Journal",
+      "contentType": "rule",
+      "ruleCategory": "combat",
+      "ruleText": "Placeholder rule text",
+      "description": "Placeholder rule description"
+    },
+    {
+      "id": "placeholder-rule",
+      "title": "Placeholder Rule",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/56_step_6_build_settlement_story_web.md",
+      "category": "Judges_Journal",
+      "contentType": "rule",
+      "ruleCategory": "combat",
+      "ruleText": "Placeholder rule text",
+      "description": "Placeholder rule description"
+    },
+    {
+      "id": "placeholder-rule",
+      "title": "Placeholder Rule",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/57_step_7_update_settlement_encounter_tables.md",
+      "category": "Judges_Journal",
+      "contentType": "rule",
+      "ruleCategory": "combat",
+      "ruleText": "Placeholder rule text",
+      "description": "Placeholder rule description"
+    },
+    {
+      "id": "placeholder-rule",
+      "title": "Placeholder Rule",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/58_chapter_8_dungeons.md",
+      "category": "Judges_Journal",
+      "contentType": "rule",
+      "ruleCategory": "combat",
+      "ruleText": "Placeholder rule text",
+      "description": "Placeholder rule description"
+    },
+    {
+      "id": "placeholder-rule",
+      "title": "Placeholder Rule",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/60_step_2_select_dungeon_type.md",
+      "category": "Judges_Journal",
+      "contentType": "rule",
+      "ruleCategory": "combat",
+      "ruleText": "Placeholder rule text",
+      "description": "Placeholder rule description"
+    },
+    {
+      "id": "placeholder-rule",
+      "title": "Placeholder Rule",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/61_step_3_map_the_dungeon.md",
+      "category": "Judges_Journal",
+      "contentType": "rule",
+      "ruleCategory": "combat",
+      "ruleText": "Placeholder rule text",
+      "description": "Placeholder rule description"
+    },
+    {
+      "id": "placeholder-rule",
+      "title": "Placeholder Rule",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/62_step_4_stock_the_dungeon.md",
+      "category": "Judges_Journal",
+      "contentType": "rule",
+      "ruleCategory": "combat",
+      "ruleText": "Placeholder rule text",
+      "description": "Placeholder rule description"
+    },
+    {
+      "id": "placeholder-rule",
+      "title": "Placeholder Rule",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/63_step_5_create_wandering_monster_tables.md",
+      "category": "Judges_Journal",
+      "contentType": "rule",
+      "ruleCategory": "combat",
+      "ruleText": "Placeholder rule text",
+      "description": "Placeholder rule description"
+    },
+    {
+      "id": "placeholder-rule",
+      "title": "Placeholder Rule",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/64_step_6_place_monsters.md",
+      "category": "Judges_Journal",
+      "contentType": "rule",
+      "ruleCategory": "combat",
+      "ruleText": "Placeholder rule text",
+      "description": "Placeholder rule description"
+    },
+    {
+      "id": "placeholder-rule",
+      "title": "Placeholder Rule",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/68_step_10_review_for_verisimilitude.md",
+      "category": "Judges_Journal",
+      "contentType": "rule",
+      "ruleCategory": "combat",
+      "ruleText": "Placeholder rule text",
+      "description": "Placeholder rule description"
+    },
+    {
+      "id": "placeholder-rule",
+      "title": "Placeholder Rule",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/70_chapter_9_non_player_characters.md",
+      "category": "Judges_Journal",
+      "contentType": "rule",
+      "ruleCategory": "combat",
+      "ruleText": "Placeholder rule text",
+      "description": "Placeholder rule description"
+    },
+    {
+      "id": "placeholder-rule",
+      "title": "Placeholder Rule",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/71_demographics_of_leveled_npcs.md",
+      "category": "Judges_Journal",
+      "contentType": "rule",
+      "ruleCategory": "combat",
+      "ruleText": "Placeholder rule text",
+      "description": "Placeholder rule description"
+    },
+    {
+      "id": "placeholder-rule",
+      "title": "Placeholder Rule",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/72_0th_level_npcs.md",
+      "category": "Judges_Journal",
+      "contentType": "rule",
+      "ruleCategory": "combat",
+      "ruleText": "Placeholder rule text",
+      "description": "Placeholder rule description"
+    },
+    {
+      "id": "placeholder-rule",
+      "title": "Placeholder Rule",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/73_npc_parties.md",
+      "category": "Judges_Journal",
+      "contentType": "rule",
+      "ruleCategory": "combat",
+      "ruleText": "Placeholder rule text",
+      "description": "Placeholder rule description"
+    },
+    {
+      "id": "placeholder-rule",
+      "title": "Placeholder Rule",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/74_npc_appearance.md",
+      "category": "Judges_Journal",
+      "contentType": "rule",
+      "ruleCategory": "combat",
+      "ruleText": "Placeholder rule text",
+      "description": "Placeholder rule description"
+    },
+    {
+      "id": "placeholder-rule",
+      "title": "Placeholder Rule",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/75_npc_miscellaneous_possessions.md",
+      "category": "Judges_Journal",
+      "contentType": "rule",
+      "ruleCategory": "combat",
+      "ruleText": "Placeholder rule text",
+      "description": "Placeholder rule description"
+    },
+    {
+      "id": "placeholder-rule",
+      "title": "Placeholder Rule",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/77_chapter_10_abstract_dungeons.md",
+      "category": "Judges_Journal",
+      "contentType": "rule",
+      "ruleCategory": "combat",
+      "ruleText": "Placeholder rule text",
+      "description": "Placeholder rule description"
+    },
+    {
+      "id": "placeholder-rule",
+      "title": "Placeholder Rule",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/79_the_dungeon.md",
+      "category": "Judges_Journal",
+      "contentType": "rule",
+      "ruleCategory": "combat",
+      "ruleText": "Placeholder rule text",
+      "description": "Placeholder rule description"
+    },
+    {
+      "id": "placeholder-rule",
+      "title": "Placeholder Rule",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/80_abstract_dungeon_foray_resolution.md",
+      "category": "Judges_Journal",
+      "contentType": "rule",
+      "ruleCategory": "combat",
+      "ruleText": "Placeholder rule text",
+      "description": "Placeholder rule description"
+    },
+    {
+      "id": "placeholder-rule",
+      "title": "Placeholder Rule",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/81_the_resolution_table.md",
+      "category": "Judges_Journal",
+      "contentType": "rule",
+      "ruleCategory": "combat",
+      "ruleText": "Placeholder rule text",
+      "description": "Placeholder rule description"
+    },
+    {
+      "id": "placeholder-rule",
+      "title": "Placeholder Rule",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/82_after_the_foray.md",
+      "category": "Judges_Journal",
+      "contentType": "rule",
+      "ruleCategory": "combat",
+      "ruleText": "Placeholder rule text",
+      "description": "Placeholder rule description"
+    },
+    {
+      "id": "placeholder-rule",
+      "title": "Placeholder Rule",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/84_example_of_abstract_dungeon_resolution.md",
+      "category": "Judges_Journal",
+      "contentType": "rule",
+      "ruleCategory": "combat",
+      "ruleText": "Placeholder rule text",
+      "description": "Placeholder rule description"
+    },
+    {
+      "id": "placeholder-rule",
+      "title": "Placeholder Rule",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/85_optional_rules.md",
+      "category": "Judges_Journal",
+      "contentType": "rule",
+      "ruleCategory": "combat",
+      "ruleText": "Placeholder rule text",
+      "description": "Placeholder rule description"
+    },
+    {
+      "id": "placeholder-rule",
+      "title": "Placeholder Rule",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/87_the_basics.md",
+      "category": "Judges_Journal",
+      "contentType": "rule",
+      "ruleCategory": "combat",
+      "ruleText": "Placeholder rule text",
+      "description": "Placeholder rule description"
+    },
+    {
+      "id": "placeholder-rule",
+      "title": "Placeholder Rule",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/90_treasure_and_experience.md",
+      "category": "Judges_Journal",
+      "contentType": "rule",
+      "ruleCategory": "combat",
+      "ruleText": "Placeholder rule text",
+      "description": "Placeholder rule description"
+    },
+    {
+      "id": "placeholder-rule",
+      "title": "Placeholder Rule",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/91_optional_rules.md",
+      "category": "Judges_Journal",
+      "contentType": "rule",
+      "ruleCategory": "combat",
+      "ruleText": "Placeholder rule text",
+      "description": "Placeholder rule description"
+    },
+    {
+      "id": "placeholder-rule",
+      "title": "Placeholder Rule",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/01_chapter_3_monster_rules.md",
+      "category": "Monstrous_Manual",
+      "contentType": "rule",
+      "ruleCategory": "combat",
+      "ruleText": "Placeholder rule text",
+      "description": "Placeholder rule description"
+    },
+    {
+      "id": "placeholder-rule",
+      "title": "Placeholder Rule",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/01_title_page.md",
+      "category": "Monstrous_Manual",
+      "contentType": "rule",
+      "ruleCategory": "combat",
+      "ruleText": "Placeholder rule text",
+      "description": "Placeholder rule description"
+    },
+    {
+      "id": "placeholder-rule",
+      "title": "Placeholder Rule",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/02_introduction.md",
+      "category": "Monstrous_Manual",
+      "contentType": "rule",
+      "ruleCategory": "combat",
+      "ruleText": "Placeholder rule text",
+      "description": "Placeholder rule description"
+    },
+    {
+      "id": "placeholder-rule",
+      "title": "Placeholder Rule",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/03_about_the_game.md",
+      "category": "Monstrous_Manual",
+      "contentType": "rule",
+      "ruleCategory": "combat",
+      "ruleText": "Placeholder rule text",
+      "description": "Placeholder rule description"
+    },
+    {
+      "id": "placeholder-rule",
+      "title": "Placeholder Rule",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/07_taming_and_training_monsters.md",
+      "category": "Monstrous_Manual",
+      "contentType": "rule",
+      "ruleCategory": "combat",
+      "ruleText": "Placeholder rule text",
+      "description": "Placeholder rule description"
+    },
+    {
+      "id": "placeholder-rule",
+      "title": "Placeholder Rule",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/10_chapter_4_monster_creation.md",
+      "category": "Monstrous_Manual",
+      "contentType": "rule",
+      "ruleCategory": "combat",
+      "ruleText": "Placeholder rule text",
+      "description": "Placeholder rule description"
+    },
+    {
+      "id": "placeholder-rule",
+      "title": "Placeholder Rule",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/21_monster_organization.md",
+      "category": "Monstrous_Manual",
+      "contentType": "rule",
+      "ruleCategory": "combat",
+      "ruleText": "Placeholder rule text",
+      "description": "Placeholder rule description"
+    },
+    {
+      "id": "placeholder-rule",
+      "title": "Placeholder Rule",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/22_monster_intelligence.md",
+      "category": "Monstrous_Manual",
+      "contentType": "rule",
+      "ruleCategory": "combat",
+      "ruleText": "Placeholder rule text",
+      "description": "Placeholder rule description"
+    },
+    {
+      "id": "placeholder-rule",
+      "title": "Placeholder Rule",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/25_monster_taming_and_training_characteristics.md",
+      "category": "Monstrous_Manual",
+      "contentType": "rule",
+      "ruleCategory": "combat",
+      "ruleText": "Placeholder rule text",
+      "description": "Placeholder rule description"
+    },
+    {
+      "id": "placeholder-rule",
+      "title": "Placeholder Rule",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/01_title_page.md",
+      "category": "Rulebook",
+      "contentType": "rule",
+      "ruleCategory": "combat",
+      "ruleText": "Placeholder rule text",
+      "description": "Placeholder rule description"
+    },
+    {
+      "id": "placeholder-rule",
+      "title": "Placeholder Rule",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/02_introduction.md",
+      "category": "Rulebook",
+      "contentType": "rule",
+      "ruleCategory": "combat",
+      "ruleText": "Placeholder rule text",
+      "description": "Placeholder rule description"
+    },
+    {
+      "id": "placeholder-rule",
+      "title": "Placeholder Rule",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/03_about_the_game.md",
+      "category": "Rulebook",
+      "contentType": "rule",
+      "ruleCategory": "combat",
+      "ruleText": "Placeholder rule text",
+      "description": "Placeholder rule description"
+    },
+    {
+      "id": "placeholder-rule",
+      "title": "Placeholder Rule",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/04_how_to_use_this_book.md",
+      "category": "Rulebook",
+      "contentType": "rule",
+      "ruleCategory": "combat",
+      "ruleText": "Placeholder rule text",
+      "description": "Placeholder rule description"
+    },
+    {
+      "id": "placeholder-rule",
+      "title": "Placeholder Rule",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/100_ending_battles.md",
+      "category": "Rulebook",
+      "contentType": "rule",
+      "ruleCategory": "combat",
+      "ruleText": "Placeholder rule text",
+      "description": "Placeholder rule description"
+    },
+    {
+      "id": "placeholder-rule",
+      "title": "Placeholder Rule",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/102_chapter_12_sieges.md",
+      "category": "Rulebook",
+      "contentType": "rule",
+      "ruleCategory": "combat",
+      "ruleText": "Placeholder rule text",
+      "description": "Placeholder rule description"
+    },
+    {
+      "id": "placeholder-rule",
+      "title": "Placeholder Rule",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/104_siege_mechanics.md",
+      "category": "Rulebook",
+      "contentType": "rule",
+      "ruleCategory": "combat",
+      "ruleText": "Placeholder rule text",
+      "description": "Placeholder rule description"
+    },
+    {
+      "id": "placeholder-rule",
+      "title": "Placeholder Rule",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/108_ending_sieges.md",
+      "category": "Rulebook",
+      "contentType": "rule",
+      "ruleCategory": "combat",
+      "ruleText": "Placeholder rule text",
+      "description": "Placeholder rule description"
+    },
+    {
+      "id": "placeholder-rule",
+      "title": "Placeholder Rule",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/109_sieges_simplified.md",
+      "category": "Rulebook",
+      "contentType": "rule",
+      "ruleCategory": "combat",
+      "ruleText": "Placeholder rule text",
+      "description": "Placeholder rule description"
+    },
+    {
+      "id": "placeholder-rule",
+      "title": "Placeholder Rule",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/110_appendix_a_auran_empire.md",
+      "category": "Rulebook",
+      "contentType": "rule",
+      "ruleCategory": "combat",
+      "ruleText": "Placeholder rule text",
+      "description": "Placeholder rule description"
+    },
+    {
+      "id": "placeholder-rule",
+      "title": "Placeholder Rule",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/111_overview.md",
+      "category": "Rulebook",
+      "contentType": "rule",
+      "ruleCategory": "combat",
+      "ruleText": "Placeholder rule text",
+      "description": "Placeholder rule description"
+    },
+    {
+      "id": "placeholder-rule",
+      "title": "Placeholder Rule",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/112_lands.md",
+      "category": "Rulebook",
+      "contentType": "rule",
+      "ruleCategory": "combat",
+      "ruleText": "Placeholder rule text",
+      "description": "Placeholder rule description"
+    },
+    {
+      "id": "placeholder-rule",
+      "title": "Placeholder Rule",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/113_timeline.md",
+      "category": "Rulebook",
+      "contentType": "rule",
+      "ruleCategory": "combat",
+      "ruleText": "Placeholder rule text",
+      "description": "Placeholder rule description"
+    },
+    {
+      "id": "placeholder-rule",
+      "title": "Placeholder Rule",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/114_customs.md",
+      "category": "Rulebook",
+      "contentType": "rule",
+      "ruleCategory": "combat",
+      "ruleText": "Placeholder rule text",
+      "description": "Placeholder rule description"
+    },
+    {
+      "id": "placeholder-rule",
+      "title": "Placeholder Rule",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/14_hit_points.md",
+      "category": "Rulebook",
+      "contentType": "rule",
+      "ruleCategory": "combat",
+      "ruleText": "Placeholder rule text",
+      "description": "Placeholder rule description"
+    },
+    {
+      "id": "placeholder-rule",
+      "title": "Placeholder Rule",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/18_homeland.md",
+      "category": "Rulebook",
+      "contentType": "rule",
+      "ruleCategory": "combat",
+      "ruleText": "Placeholder rule text",
+      "description": "Placeholder rule description"
+    },
+    {
+      "id": "placeholder-rule",
+      "title": "Placeholder Rule",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/19_languages.md",
+      "category": "Rulebook",
+      "contentType": "rule",
+      "ruleCategory": "combat",
+      "ruleText": "Placeholder rule text",
+      "description": "Placeholder rule description"
+    },
+    {
+      "id": "placeholder-rule",
+      "title": "Placeholder Rule",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/23_adventuring_parties.md",
+      "category": "Rulebook",
+      "contentType": "rule",
+      "ruleCategory": "combat",
+      "ruleText": "Placeholder rule text",
+      "description": "Placeholder rule description"
+    },
+    {
+      "id": "placeholder-rule",
+      "title": "Placeholder Rule",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/57_chapter_6_adventures.md",
+      "category": "Rulebook",
+      "contentType": "rule",
+      "ruleCategory": "combat",
+      "ruleText": "Placeholder rule text",
+      "description": "Placeholder rule description"
+    },
+    {
+      "id": "placeholder-rule",
+      "title": "Placeholder Rule",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/63_chapter_7_voyages.md",
+      "category": "Rulebook",
+      "contentType": "rule",
+      "ruleCategory": "combat",
+      "ruleText": "Placeholder rule text",
+      "description": "Placeholder rule description"
+    },
+    {
+      "id": "placeholder-rule",
+      "title": "Placeholder Rule",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/67_sea_encounters.md",
+      "category": "Rulebook",
+      "contentType": "rule",
+      "ruleCategory": "combat",
+      "ruleText": "Placeholder rule text",
+      "description": "Placeholder rule description"
+    },
+    {
+      "id": "placeholder-rule",
+      "title": "Placeholder Rule",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/69_river_voyages.md",
+      "category": "Rulebook",
+      "contentType": "rule",
+      "ruleCategory": "combat",
+      "ruleText": "Placeholder rule text",
+      "description": "Placeholder rule description"
+    },
+    {
+      "id": "placeholder-rule",
+      "title": "Placeholder Rule",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/70_chapter_8_campaigns.md",
+      "category": "Rulebook",
+      "contentType": "rule",
+      "ruleCategory": "combat",
+      "ruleText": "Placeholder rule text",
+      "description": "Placeholder rule description"
+    },
+    {
+      "id": "placeholder-rule",
+      "title": "Placeholder Rule",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/72_followers_and_strongholds.md",
+      "category": "Rulebook",
+      "contentType": "rule",
+      "ruleCategory": "combat",
+      "ruleText": "Placeholder rule text",
+      "description": "Placeholder rule description"
+    },
+    {
+      "id": "placeholder-rule",
+      "title": "Placeholder Rule",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/73_domains_and_realms.md",
+      "category": "Rulebook",
+      "contentType": "rule",
+      "ruleCategory": "combat",
+      "ruleText": "Placeholder rule text",
+      "description": "Placeholder rule description"
+    },
+    {
+      "id": "placeholder-rule",
+      "title": "Placeholder Rule",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/75_hideouts_and_hijinks.md",
+      "category": "Rulebook",
+      "contentType": "rule",
+      "ruleCategory": "combat",
+      "ruleText": "Placeholder rule text",
+      "description": "Placeholder rule description"
+    },
+    {
+      "id": "placeholder-rule",
+      "title": "Placeholder Rule",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/76_mercantile_ventures.md",
+      "category": "Rulebook",
+      "contentType": "rule",
+      "ruleCategory": "combat",
+      "ruleText": "Placeholder rule text",
+      "description": "Placeholder rule description"
+    },
+    {
+      "id": "placeholder-rule",
+      "title": "Placeholder Rule",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/77_sanctums_and_dungeons.md",
+      "category": "Rulebook",
+      "contentType": "rule",
+      "ruleCategory": "combat",
+      "ruleText": "Placeholder rule text",
+      "description": "Placeholder rule description"
+    },
+    {
+      "id": "placeholder-rule",
+      "title": "Placeholder Rule",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/80_earning_experience_from_campaigns.md",
+      "category": "Rulebook",
+      "contentType": "rule",
+      "ruleCategory": "combat",
+      "ruleText": "Placeholder rule text",
+      "description": "Placeholder rule description"
+    },
+    {
+      "id": "placeholder-rule",
+      "title": "Placeholder Rule",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/81_chapter_9_armies.md",
+      "category": "Rulebook",
+      "contentType": "rule",
+      "ruleCategory": "combat",
+      "ruleText": "Placeholder rule text",
+      "description": "Placeholder rule description"
+    },
+    {
+      "id": "placeholder-rule",
+      "title": "Placeholder Rule",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/82_army_troops.md",
+      "category": "Rulebook",
+      "contentType": "rule",
+      "ruleCategory": "combat",
+      "ruleText": "Placeholder rule text",
+      "description": "Placeholder rule description"
+    },
+    {
+      "id": "placeholder-rule",
+      "title": "Placeholder Rule",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/88_chapter_10_maneuvers.md",
+      "category": "Rulebook",
+      "contentType": "rule",
+      "ruleCategory": "combat",
+      "ruleText": "Placeholder rule text",
+      "description": "Placeholder rule description"
+    },
+    {
+      "id": "placeholder-rule",
+      "title": "Placeholder Rule",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/89_regions.md",
+      "category": "Rulebook",
+      "contentType": "rule",
+      "ruleCategory": "combat",
+      "ruleText": "Placeholder rule text",
+      "description": "Placeholder rule description"
+    },
+    {
+      "id": "placeholder-rule",
+      "title": "Placeholder Rule",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/90_campaign_activities.md",
+      "category": "Rulebook",
+      "contentType": "rule",
+      "ruleCategory": "combat",
+      "ruleText": "Placeholder rule text",
+      "description": "Placeholder rule description"
+    },
+    {
+      "id": "placeholder-rule",
+      "title": "Placeholder Rule",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/91_strategic_stance.md",
+      "category": "Rulebook",
+      "contentType": "rule",
+      "ruleCategory": "combat",
+      "ruleText": "Placeholder rule text",
+      "description": "Placeholder rule description"
+    },
+    {
+      "id": "placeholder-rule",
+      "title": "Placeholder Rule",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/96_invading_conquering_occupying_and_pillaging_domain.md",
+      "category": "Rulebook",
+      "contentType": "rule",
+      "ruleCategory": "combat",
+      "ruleText": "Placeholder rule text",
+      "description": "Placeholder rule description"
+    },
+    {
+      "id": "placeholder-rule",
+      "title": "Placeholder Rule",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/97_chapter_11_battles.md",
+      "category": "Rulebook",
+      "contentType": "rule",
+      "ruleCategory": "combat",
+      "ruleText": "Placeholder rule text",
+      "description": "Placeholder rule description"
+    },
+    {
+      "id": "placeholder-rule",
+      "title": "Placeholder Rule",
+      "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/98_strategic_situations.md",
+      "category": "Rulebook",
+      "contentType": "rule",
+      "ruleCategory": "combat",
+      "ruleText": "Placeholder rule text",
+      "description": "Placeholder rule description"
+    }
+  ],
+  "crossReferences": {
+    "placeholder-rule": [
+      "placeholder-rule"
+    ]
+  },
+  "validationResults": [
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-rule",
+        "title": "Placeholder Rule",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/02_foreword.md",
+        "category": "Judges_Journal",
+        "contentType": "rule",
+        "ruleCategory": "combat",
+        "ruleText": "Placeholder rule text",
+        "description": "Placeholder rule description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.537Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-rule",
+        "title": "Placeholder Rule",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/03_how_to_use_this_book.md",
+        "category": "Judges_Journal",
+        "contentType": "rule",
+        "ruleCategory": "combat",
+        "ruleText": "Placeholder rule text",
+        "description": "Placeholder rule description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.537Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-rule",
+        "title": "Placeholder Rule",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/05_chapter_1_foundations.md",
+        "category": "Judges_Journal",
+        "contentType": "rule",
+        "ruleCategory": "combat",
+        "ruleText": "Placeholder rule text",
+        "description": "Placeholder rule description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.537Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-rule",
+        "title": "Placeholder Rule",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/06_what’s_in_a_name.md",
+        "category": "Judges_Journal",
+        "contentType": "rule",
+        "ruleCategory": "combat",
+        "ruleText": "Placeholder rule text",
+        "description": "Placeholder rule description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.537Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-rule",
+        "title": "Placeholder Rule",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/07_it's_not_your_job_to_make_sure_people_have_fun.md",
+        "category": "Judges_Journal",
+        "contentType": "rule",
+        "ruleCategory": "combat",
+        "ruleText": "Placeholder rule text",
+        "description": "Placeholder rule description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.537Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-rule",
+        "title": "Placeholder Rule",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/08_the_agency_theory_of_fun.md",
+        "category": "Judges_Journal",
+        "contentType": "rule",
+        "ruleCategory": "combat",
+        "ruleText": "Placeholder rule text",
+        "description": "Placeholder rule description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.537Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-rule",
+        "title": "Placeholder Rule",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/09_judging_the_game.md",
+        "category": "Judges_Journal",
+        "contentType": "rule",
+        "ruleCategory": "combat",
+        "ruleText": "Placeholder rule text",
+        "description": "Placeholder rule description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.537Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-rule",
+        "title": "Placeholder Rule",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/10_letting_the_story_emerge.md",
+        "category": "Judges_Journal",
+        "contentType": "rule",
+        "ruleCategory": "combat",
+        "ruleText": "Placeholder rule text",
+        "description": "Placeholder rule description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.537Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-rule",
+        "title": "Placeholder Rule",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/117_chapter_14_custom_spells.md",
+        "category": "Judges_Journal",
+        "contentType": "rule",
+        "ruleCategory": "combat",
+        "ruleText": "Placeholder rule text",
+        "description": "Placeholder rule description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.537Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-rule",
+        "title": "Placeholder Rule",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/12_handling_combat.md",
+        "category": "Judges_Journal",
+        "contentType": "rule",
+        "ruleCategory": "combat",
+        "ruleText": "Placeholder rule text",
+        "description": "Placeholder rule description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.537Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-rule",
+        "title": "Placeholder Rule",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/13_abducting_the_action.md",
+        "category": "Judges_Journal",
+        "contentType": "rule",
+        "ruleCategory": "combat",
+        "ruleText": "Placeholder rule text",
+        "description": "Placeholder rule description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.537Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-rule",
+        "title": "Placeholder Rule",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/130_chapter_16_custom_rules.md",
+        "category": "Judges_Journal",
+        "contentType": "rule",
+        "ruleCategory": "combat",
+        "ruleText": "Placeholder rule text",
+        "description": "Placeholder rule description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.537Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-rule",
+        "title": "Placeholder Rule",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/131_characters.md",
+        "category": "Judges_Journal",
+        "contentType": "rule",
+        "ruleCategory": "combat",
+        "ruleText": "Placeholder rule text",
+        "description": "Placeholder rule description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.537Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-rule",
+        "title": "Placeholder Rule",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/14_fudging_the_dice.md",
+        "category": "Judges_Journal",
+        "contentType": "rule",
+        "ruleCategory": "combat",
+        "ruleText": "Placeholder rule text",
+        "description": "Placeholder rule description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.537Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-rule",
+        "title": "Placeholder Rule",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/140_rule_of_the_few.md",
+        "category": "Judges_Journal",
+        "contentType": "rule",
+        "ruleCategory": "combat",
+        "ruleText": "Placeholder rule text",
+        "description": "Placeholder rule description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.537Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-rule",
+        "title": "Placeholder Rule",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/141_separating_land_and_lordship.md",
+        "category": "Judges_Journal",
+        "contentType": "rule",
+        "ruleCategory": "combat",
+        "ruleText": "Placeholder rule text",
+        "description": "Placeholder rule description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.537Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-rule",
+        "title": "Placeholder Rule",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/143_slavery.md",
+        "category": "Judges_Journal",
+        "contentType": "rule",
+        "ruleCategory": "combat",
+        "ruleText": "Placeholder rule text",
+        "description": "Placeholder rule description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.537Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-rule",
+        "title": "Placeholder Rule",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/144_terrain_transformation.md",
+        "category": "Judges_Journal",
+        "contentType": "rule",
+        "ruleCategory": "combat",
+        "ruleText": "Placeholder rule text",
+        "description": "Placeholder rule description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.537Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-rule",
+        "title": "Placeholder Rule",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/146_appendix_a_adventures_add_files_separately.md",
+        "category": "Judges_Journal",
+        "contentType": "rule",
+        "ruleCategory": "combat",
+        "ruleText": "Placeholder rule text",
+        "description": "Placeholder rule description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.537Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-rule",
+        "title": "Placeholder Rule",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/153_what_are_the_celestial_spheres.md",
+        "category": "Judges_Journal",
+        "contentType": "rule",
+        "ruleCategory": "combat",
+        "ruleText": "Placeholder rule text",
+        "description": "Placeholder rule description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.537Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-rule",
+        "title": "Placeholder Rule",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/158_appendix_e_economics.md",
+        "category": "Judges_Journal",
+        "contentType": "rule",
+        "ruleCategory": "combat",
+        "ruleText": "Placeholder rule text",
+        "description": "Placeholder rule description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.537Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-rule",
+        "title": "Placeholder Rule",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/159_baseline_assumptions.md",
+        "category": "Judges_Journal",
+        "contentType": "rule",
+        "ruleCategory": "combat",
+        "ruleText": "Placeholder rule text",
+        "description": "Placeholder rule description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.537Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-rule",
+        "title": "Placeholder Rule",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/16_hosting_your_game.md",
+        "category": "Judges_Journal",
+        "contentType": "rule",
+        "ruleCategory": "combat",
+        "ruleText": "Placeholder rule text",
+        "description": "Placeholder rule description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.537Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-rule",
+        "title": "Placeholder Rule",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/162_urban_economics.md",
+        "category": "Judges_Journal",
+        "contentType": "rule",
+        "ruleCategory": "combat",
+        "ruleText": "Placeholder rule text",
+        "description": "Placeholder rule description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.537Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-rule",
+        "title": "Placeholder Rule",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/164_economic_prices.md",
+        "category": "Judges_Journal",
+        "contentType": "rule",
+        "ruleCategory": "combat",
+        "ruleText": "Placeholder rule text",
+        "description": "Placeholder rule description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.537Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-rule",
+        "title": "Placeholder Rule",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/165_appendix_n_recommended_reading_for_judges.md",
+        "category": "Judges_Journal",
+        "contentType": "rule",
+        "ruleCategory": "combat",
+        "ruleText": "Placeholder rule text",
+        "description": "Placeholder rule description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.537Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-rule",
+        "title": "Placeholder Rule",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/166_recommended_books_fiction.md",
+        "category": "Judges_Journal",
+        "contentType": "rule",
+        "ruleCategory": "combat",
+        "ruleText": "Placeholder rule text",
+        "description": "Placeholder rule description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.537Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-rule",
+        "title": "Placeholder Rule",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/167_recommended_books_non_fiction.md",
+        "category": "Judges_Journal",
+        "contentType": "rule",
+        "ruleCategory": "combat",
+        "ruleText": "Placeholder rule text",
+        "description": "Placeholder rule description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.537Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-rule",
+        "title": "Placeholder Rule",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/17_managing_problems_and_players.md",
+        "category": "Judges_Journal",
+        "contentType": "rule",
+        "ruleCategory": "combat",
+        "ruleText": "Placeholder rule text",
+        "description": "Placeholder rule description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.537Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-rule",
+        "title": "Placeholder Rule",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/170_orison’s_devotion.md",
+        "category": "Judges_Journal",
+        "contentType": "rule",
+        "ruleCategory": "combat",
+        "ruleText": "Placeholder rule text",
+        "description": "Placeholder rule description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.537Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-rule",
+        "title": "Placeholder Rule",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/18_running_a_campaign.md",
+        "category": "Judges_Journal",
+        "contentType": "rule",
+        "ruleCategory": "combat",
+        "ruleText": "Placeholder rule text",
+        "description": "Placeholder rule description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.537Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-rule",
+        "title": "Placeholder Rule",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/19_chapter_2_adventures.md",
+        "category": "Judges_Journal",
+        "contentType": "rule",
+        "ruleCategory": "combat",
+        "ruleText": "Placeholder rule text",
+        "description": "Placeholder rule description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.537Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-rule",
+        "title": "Placeholder Rule",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/20_dungeon_delves.md",
+        "category": "Judges_Journal",
+        "contentType": "rule",
+        "ruleCategory": "combat",
+        "ruleText": "Placeholder rule text",
+        "description": "Placeholder rule description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.537Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-rule",
+        "title": "Placeholder Rule",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/21_wilderness_expeditions.md",
+        "category": "Judges_Journal",
+        "contentType": "rule",
+        "ruleCategory": "combat",
+        "ruleText": "Placeholder rule text",
+        "description": "Placeholder rule description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.537Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-rule",
+        "title": "Placeholder Rule",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/25_chapter_3_campaigns.md",
+        "category": "Judges_Journal",
+        "contentType": "rule",
+        "ruleCategory": "combat",
+        "ruleText": "Placeholder rule text",
+        "description": "Placeholder rule description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.537Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-rule",
+        "title": "Placeholder Rule",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/26_using_the_campaign_rules.md",
+        "category": "Judges_Journal",
+        "contentType": "rule",
+        "ruleCategory": "combat",
+        "ruleText": "Placeholder rule text",
+        "description": "Placeholder rule description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.537Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-rule",
+        "title": "Placeholder Rule",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/27_sequence_of_play_campaigns.md",
+        "category": "Judges_Journal",
+        "contentType": "rule",
+        "ruleCategory": "combat",
+        "ruleText": "Placeholder rule text",
+        "description": "Placeholder rule description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.537Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-rule",
+        "title": "Placeholder Rule",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/29_vagaries.md",
+        "category": "Judges_Journal",
+        "contentType": "rule",
+        "ruleCategory": "combat",
+        "ruleText": "Placeholder rule text",
+        "description": "Placeholder rule description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.537Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-rule",
+        "title": "Placeholder Rule",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/35_chapter_6_realms.md",
+        "category": "Judges_Journal",
+        "contentType": "rule",
+        "ruleCategory": "combat",
+        "ruleText": "Placeholder rule text",
+        "description": "Placeholder rule description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.537Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-rule",
+        "title": "Placeholder Rule",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/36_the_basics_of_realm_building.md",
+        "category": "Judges_Journal",
+        "contentType": "rule",
+        "ruleCategory": "combat",
+        "ruleText": "Placeholder rule text",
+        "description": "Placeholder rule description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.537Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-rule",
+        "title": "Placeholder Rule",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/37_step_1_estimate_realm_size.md",
+        "category": "Judges_Journal",
+        "contentType": "rule",
+        "ruleCategory": "combat",
+        "ruleText": "Placeholder rule text",
+        "description": "Placeholder rule description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.537Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-rule",
+        "title": "Placeholder Rule",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/38_step_2_determine_realm_type.md",
+        "category": "Judges_Journal",
+        "contentType": "rule",
+        "ruleCategory": "combat",
+        "ruleText": "Placeholder rule text",
+        "description": "Placeholder rule description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.537Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-rule",
+        "title": "Placeholder Rule",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/39_step_3_determine_vassal_realm_types.md",
+        "category": "Judges_Journal",
+        "contentType": "rule",
+        "ruleCategory": "combat",
+        "ruleText": "Placeholder rule text",
+        "description": "Placeholder rule description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.537Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-rule",
+        "title": "Placeholder Rule",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/40_step_4_determine_sub_vassal_realm_types.md",
+        "category": "Judges_Journal",
+        "contentType": "rule",
+        "ruleCategory": "combat",
+        "ruleText": "Placeholder rule text",
+        "description": "Placeholder rule description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.537Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-rule",
+        "title": "Placeholder Rule",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/41_step_5_estimate_domain_populations_and_incomes.md",
+        "category": "Judges_Journal",
+        "contentType": "rule",
+        "ruleCategory": "combat",
+        "ruleText": "Placeholder rule text",
+        "description": "Placeholder rule description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.537Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-rule",
+        "title": "Placeholder Rule",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/42_step_6_estimate_urban_settlement_sizes.md",
+        "category": "Judges_Journal",
+        "contentType": "rule",
+        "ruleCategory": "combat",
+        "ruleText": "Placeholder rule text",
+        "description": "Placeholder rule description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.537Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-rule",
+        "title": "Placeholder Rule",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/43_step_7_generate_demand_modifiers.md",
+        "category": "Judges_Journal",
+        "contentType": "rule",
+        "ruleCategory": "combat",
+        "ruleText": "Placeholder rule text",
+        "description": "Placeholder rule description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.537Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-rule",
+        "title": "Placeholder Rule",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/44_step_8_demarcate_the_territory_of_the_realm.md",
+        "category": "Judges_Journal",
+        "contentType": "rule",
+        "ruleCategory": "combat",
+        "ruleText": "Placeholder rule text",
+        "description": "Placeholder rule description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.537Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-rule",
+        "title": "Placeholder Rule",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/45_step_9_classify_domains.md",
+        "category": "Judges_Journal",
+        "contentType": "rule",
+        "ruleCategory": "combat",
+        "ruleText": "Placeholder rule text",
+        "description": "Placeholder rule description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.537Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-rule",
+        "title": "Placeholder Rule",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/46_step_10_assign_troops_garrisons.md",
+        "category": "Judges_Journal",
+        "contentType": "rule",
+        "ruleCategory": "combat",
+        "ruleText": "Placeholder rule text",
+        "description": "Placeholder rule description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.537Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-rule",
+        "title": "Placeholder Rule",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/48_step_12_name_the_realms_and_domains.md",
+        "category": "Judges_Journal",
+        "contentType": "rule",
+        "ruleCategory": "combat",
+        "ruleText": "Placeholder rule text",
+        "description": "Placeholder rule description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.537Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-rule",
+        "title": "Placeholder Rule",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/49_step_13_update_player_reference_guide.md",
+        "category": "Judges_Journal",
+        "contentType": "rule",
+        "ruleCategory": "combat",
+        "ruleText": "Placeholder rule text",
+        "description": "Placeholder rule description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.537Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-rule",
+        "title": "Placeholder Rule",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/50_chapter_7_settlements.md",
+        "category": "Judges_Journal",
+        "contentType": "rule",
+        "ruleCategory": "combat",
+        "ruleText": "Placeholder rule text",
+        "description": "Placeholder rule description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.537Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-rule",
+        "title": "Placeholder Rule",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/51_step_1_determine_settlement_size_and_shape.md",
+        "category": "Judges_Journal",
+        "contentType": "rule",
+        "ruleCategory": "combat",
+        "ruleText": "Placeholder rule text",
+        "description": "Placeholder rule description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.537Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-rule",
+        "title": "Placeholder Rule",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/56_step_6_build_settlement_story_web.md",
+        "category": "Judges_Journal",
+        "contentType": "rule",
+        "ruleCategory": "combat",
+        "ruleText": "Placeholder rule text",
+        "description": "Placeholder rule description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.537Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-rule",
+        "title": "Placeholder Rule",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/57_step_7_update_settlement_encounter_tables.md",
+        "category": "Judges_Journal",
+        "contentType": "rule",
+        "ruleCategory": "combat",
+        "ruleText": "Placeholder rule text",
+        "description": "Placeholder rule description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.537Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-rule",
+        "title": "Placeholder Rule",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/58_chapter_8_dungeons.md",
+        "category": "Judges_Journal",
+        "contentType": "rule",
+        "ruleCategory": "combat",
+        "ruleText": "Placeholder rule text",
+        "description": "Placeholder rule description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.537Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-rule",
+        "title": "Placeholder Rule",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/60_step_2_select_dungeon_type.md",
+        "category": "Judges_Journal",
+        "contentType": "rule",
+        "ruleCategory": "combat",
+        "ruleText": "Placeholder rule text",
+        "description": "Placeholder rule description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.537Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-rule",
+        "title": "Placeholder Rule",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/61_step_3_map_the_dungeon.md",
+        "category": "Judges_Journal",
+        "contentType": "rule",
+        "ruleCategory": "combat",
+        "ruleText": "Placeholder rule text",
+        "description": "Placeholder rule description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.537Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-rule",
+        "title": "Placeholder Rule",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/62_step_4_stock_the_dungeon.md",
+        "category": "Judges_Journal",
+        "contentType": "rule",
+        "ruleCategory": "combat",
+        "ruleText": "Placeholder rule text",
+        "description": "Placeholder rule description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.537Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-rule",
+        "title": "Placeholder Rule",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/63_step_5_create_wandering_monster_tables.md",
+        "category": "Judges_Journal",
+        "contentType": "rule",
+        "ruleCategory": "combat",
+        "ruleText": "Placeholder rule text",
+        "description": "Placeholder rule description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.537Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-rule",
+        "title": "Placeholder Rule",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/64_step_6_place_monsters.md",
+        "category": "Judges_Journal",
+        "contentType": "rule",
+        "ruleCategory": "combat",
+        "ruleText": "Placeholder rule text",
+        "description": "Placeholder rule description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.537Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-rule",
+        "title": "Placeholder Rule",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/68_step_10_review_for_verisimilitude.md",
+        "category": "Judges_Journal",
+        "contentType": "rule",
+        "ruleCategory": "combat",
+        "ruleText": "Placeholder rule text",
+        "description": "Placeholder rule description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.537Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-rule",
+        "title": "Placeholder Rule",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/70_chapter_9_non_player_characters.md",
+        "category": "Judges_Journal",
+        "contentType": "rule",
+        "ruleCategory": "combat",
+        "ruleText": "Placeholder rule text",
+        "description": "Placeholder rule description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.537Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-rule",
+        "title": "Placeholder Rule",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/71_demographics_of_leveled_npcs.md",
+        "category": "Judges_Journal",
+        "contentType": "rule",
+        "ruleCategory": "combat",
+        "ruleText": "Placeholder rule text",
+        "description": "Placeholder rule description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.537Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-rule",
+        "title": "Placeholder Rule",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/72_0th_level_npcs.md",
+        "category": "Judges_Journal",
+        "contentType": "rule",
+        "ruleCategory": "combat",
+        "ruleText": "Placeholder rule text",
+        "description": "Placeholder rule description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.537Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-rule",
+        "title": "Placeholder Rule",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/73_npc_parties.md",
+        "category": "Judges_Journal",
+        "contentType": "rule",
+        "ruleCategory": "combat",
+        "ruleText": "Placeholder rule text",
+        "description": "Placeholder rule description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.537Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-rule",
+        "title": "Placeholder Rule",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/74_npc_appearance.md",
+        "category": "Judges_Journal",
+        "contentType": "rule",
+        "ruleCategory": "combat",
+        "ruleText": "Placeholder rule text",
+        "description": "Placeholder rule description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.537Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-rule",
+        "title": "Placeholder Rule",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/75_npc_miscellaneous_possessions.md",
+        "category": "Judges_Journal",
+        "contentType": "rule",
+        "ruleCategory": "combat",
+        "ruleText": "Placeholder rule text",
+        "description": "Placeholder rule description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.537Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-rule",
+        "title": "Placeholder Rule",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/77_chapter_10_abstract_dungeons.md",
+        "category": "Judges_Journal",
+        "contentType": "rule",
+        "ruleCategory": "combat",
+        "ruleText": "Placeholder rule text",
+        "description": "Placeholder rule description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.537Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-rule",
+        "title": "Placeholder Rule",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/79_the_dungeon.md",
+        "category": "Judges_Journal",
+        "contentType": "rule",
+        "ruleCategory": "combat",
+        "ruleText": "Placeholder rule text",
+        "description": "Placeholder rule description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.537Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-rule",
+        "title": "Placeholder Rule",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/80_abstract_dungeon_foray_resolution.md",
+        "category": "Judges_Journal",
+        "contentType": "rule",
+        "ruleCategory": "combat",
+        "ruleText": "Placeholder rule text",
+        "description": "Placeholder rule description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.537Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-rule",
+        "title": "Placeholder Rule",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/81_the_resolution_table.md",
+        "category": "Judges_Journal",
+        "contentType": "rule",
+        "ruleCategory": "combat",
+        "ruleText": "Placeholder rule text",
+        "description": "Placeholder rule description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.537Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-rule",
+        "title": "Placeholder Rule",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/82_after_the_foray.md",
+        "category": "Judges_Journal",
+        "contentType": "rule",
+        "ruleCategory": "combat",
+        "ruleText": "Placeholder rule text",
+        "description": "Placeholder rule description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.537Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-rule",
+        "title": "Placeholder Rule",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/84_example_of_abstract_dungeon_resolution.md",
+        "category": "Judges_Journal",
+        "contentType": "rule",
+        "ruleCategory": "combat",
+        "ruleText": "Placeholder rule text",
+        "description": "Placeholder rule description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.537Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-rule",
+        "title": "Placeholder Rule",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/85_optional_rules.md",
+        "category": "Judges_Journal",
+        "contentType": "rule",
+        "ruleCategory": "combat",
+        "ruleText": "Placeholder rule text",
+        "description": "Placeholder rule description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.537Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-rule",
+        "title": "Placeholder Rule",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/87_the_basics.md",
+        "category": "Judges_Journal",
+        "contentType": "rule",
+        "ruleCategory": "combat",
+        "ruleText": "Placeholder rule text",
+        "description": "Placeholder rule description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.537Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-rule",
+        "title": "Placeholder Rule",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/90_treasure_and_experience.md",
+        "category": "Judges_Journal",
+        "contentType": "rule",
+        "ruleCategory": "combat",
+        "ruleText": "Placeholder rule text",
+        "description": "Placeholder rule description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.537Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-rule",
+        "title": "Placeholder Rule",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Judges_Journal/91_optional_rules.md",
+        "category": "Judges_Journal",
+        "contentType": "rule",
+        "ruleCategory": "combat",
+        "ruleText": "Placeholder rule text",
+        "description": "Placeholder rule description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.537Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-rule",
+        "title": "Placeholder Rule",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/01_chapter_3_monster_rules.md",
+        "category": "Monstrous_Manual",
+        "contentType": "rule",
+        "ruleCategory": "combat",
+        "ruleText": "Placeholder rule text",
+        "description": "Placeholder rule description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.537Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-rule",
+        "title": "Placeholder Rule",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/01_title_page.md",
+        "category": "Monstrous_Manual",
+        "contentType": "rule",
+        "ruleCategory": "combat",
+        "ruleText": "Placeholder rule text",
+        "description": "Placeholder rule description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.537Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-rule",
+        "title": "Placeholder Rule",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/02_introduction.md",
+        "category": "Monstrous_Manual",
+        "contentType": "rule",
+        "ruleCategory": "combat",
+        "ruleText": "Placeholder rule text",
+        "description": "Placeholder rule description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.537Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-rule",
+        "title": "Placeholder Rule",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/03_about_the_game.md",
+        "category": "Monstrous_Manual",
+        "contentType": "rule",
+        "ruleCategory": "combat",
+        "ruleText": "Placeholder rule text",
+        "description": "Placeholder rule description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.537Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-rule",
+        "title": "Placeholder Rule",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/07_taming_and_training_monsters.md",
+        "category": "Monstrous_Manual",
+        "contentType": "rule",
+        "ruleCategory": "combat",
+        "ruleText": "Placeholder rule text",
+        "description": "Placeholder rule description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.537Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-rule",
+        "title": "Placeholder Rule",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/10_chapter_4_monster_creation.md",
+        "category": "Monstrous_Manual",
+        "contentType": "rule",
+        "ruleCategory": "combat",
+        "ruleText": "Placeholder rule text",
+        "description": "Placeholder rule description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.537Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-rule",
+        "title": "Placeholder Rule",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/21_monster_organization.md",
+        "category": "Monstrous_Manual",
+        "contentType": "rule",
+        "ruleCategory": "combat",
+        "ruleText": "Placeholder rule text",
+        "description": "Placeholder rule description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.537Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-rule",
+        "title": "Placeholder Rule",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/22_monster_intelligence.md",
+        "category": "Monstrous_Manual",
+        "contentType": "rule",
+        "ruleCategory": "combat",
+        "ruleText": "Placeholder rule text",
+        "description": "Placeholder rule description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.537Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-rule",
+        "title": "Placeholder Rule",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Monstrous_Manual/25_monster_taming_and_training_characteristics.md",
+        "category": "Monstrous_Manual",
+        "contentType": "rule",
+        "ruleCategory": "combat",
+        "ruleText": "Placeholder rule text",
+        "description": "Placeholder rule description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.537Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-rule",
+        "title": "Placeholder Rule",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/01_title_page.md",
+        "category": "Rulebook",
+        "contentType": "rule",
+        "ruleCategory": "combat",
+        "ruleText": "Placeholder rule text",
+        "description": "Placeholder rule description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.537Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-rule",
+        "title": "Placeholder Rule",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/02_introduction.md",
+        "category": "Rulebook",
+        "contentType": "rule",
+        "ruleCategory": "combat",
+        "ruleText": "Placeholder rule text",
+        "description": "Placeholder rule description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.537Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-rule",
+        "title": "Placeholder Rule",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/03_about_the_game.md",
+        "category": "Rulebook",
+        "contentType": "rule",
+        "ruleCategory": "combat",
+        "ruleText": "Placeholder rule text",
+        "description": "Placeholder rule description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.537Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-rule",
+        "title": "Placeholder Rule",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/04_how_to_use_this_book.md",
+        "category": "Rulebook",
+        "contentType": "rule",
+        "ruleCategory": "combat",
+        "ruleText": "Placeholder rule text",
+        "description": "Placeholder rule description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.537Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-rule",
+        "title": "Placeholder Rule",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/100_ending_battles.md",
+        "category": "Rulebook",
+        "contentType": "rule",
+        "ruleCategory": "combat",
+        "ruleText": "Placeholder rule text",
+        "description": "Placeholder rule description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.537Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-rule",
+        "title": "Placeholder Rule",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/102_chapter_12_sieges.md",
+        "category": "Rulebook",
+        "contentType": "rule",
+        "ruleCategory": "combat",
+        "ruleText": "Placeholder rule text",
+        "description": "Placeholder rule description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.537Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-rule",
+        "title": "Placeholder Rule",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/104_siege_mechanics.md",
+        "category": "Rulebook",
+        "contentType": "rule",
+        "ruleCategory": "combat",
+        "ruleText": "Placeholder rule text",
+        "description": "Placeholder rule description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.537Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-rule",
+        "title": "Placeholder Rule",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/108_ending_sieges.md",
+        "category": "Rulebook",
+        "contentType": "rule",
+        "ruleCategory": "combat",
+        "ruleText": "Placeholder rule text",
+        "description": "Placeholder rule description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.537Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-rule",
+        "title": "Placeholder Rule",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/109_sieges_simplified.md",
+        "category": "Rulebook",
+        "contentType": "rule",
+        "ruleCategory": "combat",
+        "ruleText": "Placeholder rule text",
+        "description": "Placeholder rule description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.537Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-rule",
+        "title": "Placeholder Rule",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/110_appendix_a_auran_empire.md",
+        "category": "Rulebook",
+        "contentType": "rule",
+        "ruleCategory": "combat",
+        "ruleText": "Placeholder rule text",
+        "description": "Placeholder rule description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.537Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-rule",
+        "title": "Placeholder Rule",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/111_overview.md",
+        "category": "Rulebook",
+        "contentType": "rule",
+        "ruleCategory": "combat",
+        "ruleText": "Placeholder rule text",
+        "description": "Placeholder rule description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.537Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-rule",
+        "title": "Placeholder Rule",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/112_lands.md",
+        "category": "Rulebook",
+        "contentType": "rule",
+        "ruleCategory": "combat",
+        "ruleText": "Placeholder rule text",
+        "description": "Placeholder rule description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.537Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-rule",
+        "title": "Placeholder Rule",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/113_timeline.md",
+        "category": "Rulebook",
+        "contentType": "rule",
+        "ruleCategory": "combat",
+        "ruleText": "Placeholder rule text",
+        "description": "Placeholder rule description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.537Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-rule",
+        "title": "Placeholder Rule",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/114_customs.md",
+        "category": "Rulebook",
+        "contentType": "rule",
+        "ruleCategory": "combat",
+        "ruleText": "Placeholder rule text",
+        "description": "Placeholder rule description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.537Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-rule",
+        "title": "Placeholder Rule",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/14_hit_points.md",
+        "category": "Rulebook",
+        "contentType": "rule",
+        "ruleCategory": "combat",
+        "ruleText": "Placeholder rule text",
+        "description": "Placeholder rule description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.537Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-rule",
+        "title": "Placeholder Rule",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/18_homeland.md",
+        "category": "Rulebook",
+        "contentType": "rule",
+        "ruleCategory": "combat",
+        "ruleText": "Placeholder rule text",
+        "description": "Placeholder rule description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.537Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-rule",
+        "title": "Placeholder Rule",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/19_languages.md",
+        "category": "Rulebook",
+        "contentType": "rule",
+        "ruleCategory": "combat",
+        "ruleText": "Placeholder rule text",
+        "description": "Placeholder rule description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.537Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-rule",
+        "title": "Placeholder Rule",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/23_adventuring_parties.md",
+        "category": "Rulebook",
+        "contentType": "rule",
+        "ruleCategory": "combat",
+        "ruleText": "Placeholder rule text",
+        "description": "Placeholder rule description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.537Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-rule",
+        "title": "Placeholder Rule",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/57_chapter_6_adventures.md",
+        "category": "Rulebook",
+        "contentType": "rule",
+        "ruleCategory": "combat",
+        "ruleText": "Placeholder rule text",
+        "description": "Placeholder rule description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.537Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-rule",
+        "title": "Placeholder Rule",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/63_chapter_7_voyages.md",
+        "category": "Rulebook",
+        "contentType": "rule",
+        "ruleCategory": "combat",
+        "ruleText": "Placeholder rule text",
+        "description": "Placeholder rule description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.537Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-rule",
+        "title": "Placeholder Rule",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/67_sea_encounters.md",
+        "category": "Rulebook",
+        "contentType": "rule",
+        "ruleCategory": "combat",
+        "ruleText": "Placeholder rule text",
+        "description": "Placeholder rule description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.537Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-rule",
+        "title": "Placeholder Rule",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/69_river_voyages.md",
+        "category": "Rulebook",
+        "contentType": "rule",
+        "ruleCategory": "combat",
+        "ruleText": "Placeholder rule text",
+        "description": "Placeholder rule description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.537Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-rule",
+        "title": "Placeholder Rule",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/70_chapter_8_campaigns.md",
+        "category": "Rulebook",
+        "contentType": "rule",
+        "ruleCategory": "combat",
+        "ruleText": "Placeholder rule text",
+        "description": "Placeholder rule description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.537Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-rule",
+        "title": "Placeholder Rule",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/72_followers_and_strongholds.md",
+        "category": "Rulebook",
+        "contentType": "rule",
+        "ruleCategory": "combat",
+        "ruleText": "Placeholder rule text",
+        "description": "Placeholder rule description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.537Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-rule",
+        "title": "Placeholder Rule",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/73_domains_and_realms.md",
+        "category": "Rulebook",
+        "contentType": "rule",
+        "ruleCategory": "combat",
+        "ruleText": "Placeholder rule text",
+        "description": "Placeholder rule description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.537Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-rule",
+        "title": "Placeholder Rule",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/75_hideouts_and_hijinks.md",
+        "category": "Rulebook",
+        "contentType": "rule",
+        "ruleCategory": "combat",
+        "ruleText": "Placeholder rule text",
+        "description": "Placeholder rule description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.537Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-rule",
+        "title": "Placeholder Rule",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/76_mercantile_ventures.md",
+        "category": "Rulebook",
+        "contentType": "rule",
+        "ruleCategory": "combat",
+        "ruleText": "Placeholder rule text",
+        "description": "Placeholder rule description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.537Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-rule",
+        "title": "Placeholder Rule",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/77_sanctums_and_dungeons.md",
+        "category": "Rulebook",
+        "contentType": "rule",
+        "ruleCategory": "combat",
+        "ruleText": "Placeholder rule text",
+        "description": "Placeholder rule description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.537Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-rule",
+        "title": "Placeholder Rule",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/80_earning_experience_from_campaigns.md",
+        "category": "Rulebook",
+        "contentType": "rule",
+        "ruleCategory": "combat",
+        "ruleText": "Placeholder rule text",
+        "description": "Placeholder rule description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.537Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-rule",
+        "title": "Placeholder Rule",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/81_chapter_9_armies.md",
+        "category": "Rulebook",
+        "contentType": "rule",
+        "ruleCategory": "combat",
+        "ruleText": "Placeholder rule text",
+        "description": "Placeholder rule description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.537Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-rule",
+        "title": "Placeholder Rule",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/82_army_troops.md",
+        "category": "Rulebook",
+        "contentType": "rule",
+        "ruleCategory": "combat",
+        "ruleText": "Placeholder rule text",
+        "description": "Placeholder rule description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.537Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-rule",
+        "title": "Placeholder Rule",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/88_chapter_10_maneuvers.md",
+        "category": "Rulebook",
+        "contentType": "rule",
+        "ruleCategory": "combat",
+        "ruleText": "Placeholder rule text",
+        "description": "Placeholder rule description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.537Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-rule",
+        "title": "Placeholder Rule",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/89_regions.md",
+        "category": "Rulebook",
+        "contentType": "rule",
+        "ruleCategory": "combat",
+        "ruleText": "Placeholder rule text",
+        "description": "Placeholder rule description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.537Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-rule",
+        "title": "Placeholder Rule",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/90_campaign_activities.md",
+        "category": "Rulebook",
+        "contentType": "rule",
+        "ruleCategory": "combat",
+        "ruleText": "Placeholder rule text",
+        "description": "Placeholder rule description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.537Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-rule",
+        "title": "Placeholder Rule",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/91_strategic_stance.md",
+        "category": "Rulebook",
+        "contentType": "rule",
+        "ruleCategory": "combat",
+        "ruleText": "Placeholder rule text",
+        "description": "Placeholder rule description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.537Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-rule",
+        "title": "Placeholder Rule",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/96_invading_conquering_occupying_and_pillaging_domain.md",
+        "category": "Rulebook",
+        "contentType": "rule",
+        "ruleCategory": "combat",
+        "ruleText": "Placeholder rule text",
+        "description": "Placeholder rule description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.537Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-rule",
+        "title": "Placeholder Rule",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/97_chapter_11_battles.md",
+        "category": "Rulebook",
+        "contentType": "rule",
+        "ruleCategory": "combat",
+        "ruleText": "Placeholder rule text",
+        "description": "Placeholder rule description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.537Z",
+      "schemaVersion": "1.0.0"
+    },
+    {
+      "isValid": true,
+      "errors": [],
+      "warnings": [],
+      "content": {
+        "id": "placeholder-rule",
+        "title": "Placeholder Rule",
+        "sourceFile": "/Users/iyarbinyamin/Desktop/AIbots/ACKSWIKI/ACKS_II_Content/Rulebook/98_strategic_situations.md",
+        "category": "Rulebook",
+        "contentType": "rule",
+        "ruleCategory": "combat",
+        "ruleText": "Placeholder rule text",
+        "description": "Placeholder rule description"
+      },
+      "validatedAt": "2025-05-26T11:11:05.537Z",
+      "schemaVersion": "1.0.0"
+    }
+  ]
+}

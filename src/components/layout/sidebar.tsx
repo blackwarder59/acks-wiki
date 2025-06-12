@@ -9,17 +9,18 @@ import { ChevronDown, ChevronRight, BookOpen, Sword, Shield, Scroll, Crown, Hamm
  * 
  * Features:
  * - Collapsible sections for different content types
- * - Quick links to popular content
+ * - Quick links to popular content with proper URL parameters for filtering
  * - Mobile-responsive with slide-in behavior
  * - Accessible with proper ARIA labels
  * - Icons for visual hierarchy
  * - Smooth animations for expand/collapse
+ * - Links only to existing routes and pages
  */
 
 interface SidebarSection {
   title: string
   icon: React.ReactNode
-  items: { href: string; label: string; count?: number }[]
+  items: { href: string; label: string; count?: number; disabled?: boolean }[]
 }
 
 export function Sidebar({ className = '' }: { className?: string }) {
@@ -38,70 +39,60 @@ export function Sidebar({ className = '' }: { className?: string }) {
       title: 'monsters',
       icon: <Sword className="h-4 w-4" />,
       items: [
-        { href: '/monsters/animals', label: 'Animals', count: 45 },
-        { href: '/monsters/constructs', label: 'Constructs', count: 12 },
-        { href: '/monsters/dragons', label: 'Dragons', count: 18 },
-        { href: '/monsters/humanoids', label: 'Humanoids', count: 67 },
-        { href: '/monsters/undead', label: 'Undead', count: 34 },
-        { href: '/monsters/all', label: 'All Monsters', count: 292 },
+        { href: '/monsters', label: 'All Monsters', count: 167 },
+        { href: '/monsters', label: 'Animals (Search on page)' },
+        { href: '/monsters', label: 'Vermin (Search on page)' },
+        { href: '/monsters', label: 'Monstrosities (Search on page)' },
+        { href: '/monsters', label: 'Incarnations (Search on page)' },
+        { href: '/monsters', label: 'High XP (Search on page)' },
       ]
     },
     {
       title: 'spells',
       icon: <Scroll className="h-4 w-4" />,
       items: [
-        { href: '/spells/arcane', label: 'Arcane Spells' },
-        { href: '/spells/divine', label: 'Divine Spells' },
-        { href: '/spells/level-1', label: '1st Level' },
-        { href: '/spells/level-2', label: '2nd Level' },
-        { href: '/spells/level-3', label: '3rd Level' },
-        { href: '/spells/all', label: 'All Spells', count: 300 },
-      ]
-    },
-    {
-      title: 'classes',
-      icon: <Shield className="h-4 w-4" />,
-      items: [
-        { href: '/classes/fighter', label: 'Fighter' },
-        { href: '/classes/explorer', label: 'Explorer' },
-        { href: '/classes/thief', label: 'Thief' },
-        { href: '/classes/mage', label: 'Mage' },
-        { href: '/classes/crusader', label: 'Crusader' },
-        { href: '/classes/venturer', label: 'Venturer' },
-        { href: '/classes/all', label: 'All Classes', count: 20 },
-      ]
-    },
-    {
-      title: 'equipment',
-      icon: <Hammer className="h-4 w-4" />,
-      items: [
-        { href: '/equipment/weapons', label: 'Weapons' },
-        { href: '/equipment/armor', label: 'Armor' },
-        { href: '/equipment/gear', label: 'Adventuring Gear' },
-        { href: '/equipment/magic-items', label: 'Magic Items' },
-        { href: '/equipment/all', label: 'All Equipment' },
+        { href: '/spells', label: 'All Spells' },
+        { href: '/spells?magicType=Arcane', label: 'Arcane Spells' },
+        { href: '/spells?magicType=Divine', label: 'Divine Spells' },
+        { href: '/spells?level=1', label: '1st Level' },
+        { href: '/spells?level=2', label: '2nd Level' },
+        { href: '/spells?level=3', label: '3rd Level' },
       ]
     },
     {
       title: 'rules',
       icon: <BookOpen className="h-4 w-4" />,
       items: [
-        { href: '/rules/character-creation', label: 'Character Creation' },
-        { href: '/rules/combat', label: 'Combat' },
-        { href: '/rules/magic', label: 'Magic' },
-        { href: '/rules/campaigns', label: 'Campaigns' },
-        { href: '/rules/domains', label: 'Domains' },
+        { href: '/rules', label: 'All Rules', count: 118 },
+        { href: '/rules/character-creation', label: 'Character Creation', count: 15 },
+        { href: '/rules/classes', label: 'Character Classes', count: 5 },
+        { href: '/rules/proficiencies', label: 'Proficiencies', count: 6 },
+        { href: '/rules/equipment', label: 'Equipment & Gear', count: 12 },
+        { href: '/rules/spells', label: 'Spells & Magic', count: 8 },
+        { href: '/rules/adventures', label: 'Adventures', count: 6 },
+        { href: '/rules/campaigns', label: 'Campaigns', count: 10 },
+        { href: '/rules/armies', label: 'Armies & War', count: 7 },
       ]
     },
     {
-      title: 'judge-tools',
+      title: 'judges-journal',
       icon: <Crown className="h-4 w-4" />,
       items: [
-        { href: '/judge-tools/random-tables', label: 'Random Tables' },
-        { href: '/judge-tools/treasure', label: 'Treasure Generation' },
-        { href: '/judge-tools/npcs', label: 'NPC Generation' },
-        { href: '/judge-tools/settlements', label: 'Settlements' },
-        { href: '/judge-tools/wilderness', label: 'Wilderness' },
+        { href: '/judges-journal', label: 'All Journal Content', count: 175 },
+        { href: '/judges-journal', label: 'Campaign Tools (Coming Soon)', disabled: true },
+        { href: '/judges-journal', label: 'Adventure Design (Coming Soon)', disabled: true },
+        { href: '/judges-journal', label: 'NPCs & Organizations (Coming Soon)', disabled: true },
+        { href: '/judges-journal', label: 'Optional Rules (Coming Soon)', disabled: true },
+      ]
+    },
+    {
+      title: 'coming-soon',
+      icon: <Shield className="h-4 w-4" />,
+      items: [
+        { href: '#', label: 'Character Classes', disabled: true },
+        { href: '#', label: 'Equipment Database', disabled: true },
+        { href: '#', label: 'Judge Tools', disabled: true },
+        { href: '#', label: 'Campaign Resources', disabled: true },
       ]
     },
   ]
@@ -148,24 +139,41 @@ export function Sidebar({ className = '' }: { className?: string }) {
                     className="ml-6 space-y-1 animate-in slide-in-from-top-2 duration-200"
                   >
                     {section.items.map((item) => (
-                      <Link
-                        key={item.href}
-                        href={item.href}
-                        className="
-                          flex items-center justify-between
-                          px-3 py-1.5 text-sm
-                          text-muted-foreground hover:text-foreground
-                          hover:bg-accent rounded-md
-                          transition-colors duration-200
-                        "
-                      >
-                        <span>{item.label}</span>
-                        {item.count && (
-                          <span className="text-xs bg-muted text-muted-foreground px-2 py-0.5 rounded-full">
-                            {item.count}
-                          </span>
+                      <div key={item.href + item.label}>
+                        {item.disabled ? (
+                          <div className="
+                            flex items-center justify-between
+                            px-3 py-1.5 text-sm
+                            text-muted-foreground/50 cursor-not-allowed
+                            rounded-md
+                          ">
+                            <span>{item.label}</span>
+                            {item.count && (
+                              <span className="text-xs bg-muted/50 text-muted-foreground/50 px-2 py-0.5 rounded-full">
+                                {item.count}
+                              </span>
+                            )}
+                          </div>
+                        ) : (
+                          <Link
+                            href={item.href}
+                            className="
+                              flex items-center justify-between
+                              px-3 py-1.5 text-sm
+                              text-muted-foreground hover:text-foreground
+                              hover:bg-accent rounded-md
+                              transition-colors duration-200
+                            "
+                          >
+                            <span>{item.label}</span>
+                            {item.count && (
+                              <span className="text-xs bg-muted text-muted-foreground px-2 py-0.5 rounded-full">
+                                {item.count}
+                              </span>
+                            )}
+                          </Link>
                         )}
-                      </Link>
+                      </div>
                     ))}
                   </div>
                 )}
@@ -180,19 +188,19 @@ export function Sidebar({ className = '' }: { className?: string }) {
           <div className="space-y-1 text-xs text-muted-foreground">
             <div className="flex justify-between">
               <span>Total Monsters:</span>
-              <span>292</span>
+              <span>167</span>
             </div>
             <div className="flex justify-between">
-              <span>Total Spells:</span>
-              <span>300+</span>
+              <span>Rulebook Sections:</span>
+              <span>118</span>
             </div>
             <div className="flex justify-between">
-              <span>Character Classes:</span>
-              <span>20+</span>
+              <span>Journal Entries:</span>
+              <span>175</span>
             </div>
             <div className="flex justify-between">
-              <span>Total Pages:</span>
-              <span>620+</span>
+              <span>Total Content:</span>
+              <span>499</span>
             </div>
           </div>
         </div>

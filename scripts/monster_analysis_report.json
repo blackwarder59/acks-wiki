@@ -1,0 +1,32 @@
+{
+  "total_monsters": 292,
+  "categories": {
+    "other": {
+      "count": 292,
+      "monsters": [
+        "Acanthaspis, Giant",
+        "Amphisbaena",
+        "Ant, Giant",
+        "Arane",
+        "Attercop, Demonic"
+      ]
+    }
+  },
+  "complexity_analysis": {
+    "needs_splitting": 8,
+    "has_complex_tables": 289,
+    "has_formatting_issues": 292,
+    "has_base64_images": 289
+  },
+  "size_distribution": {
+    "0-5KB": 271,
+    "5-10KB": 18,
+    "10-20KB": 1,
+    "20KB+": 2
+  },
+  "common_issues": {
+    "long_lines": 292,
+    "base64_images": 289,
+    "malformed_table": 1
+  }
+}
