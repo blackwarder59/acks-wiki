@@ -1,1 +1,1 @@
-# Chapter 1: Characters
+## Chapter 1: Characters
