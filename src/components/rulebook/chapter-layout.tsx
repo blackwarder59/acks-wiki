@@ -96,6 +96,8 @@ interface ChapterSidebarProps {
   isOpen: boolean;
   onToggle: () => void;
   appendix?: boolean;
+  previousChapter?: { href: string; title: string; };
+  nextChapter?: { href: string; title: string; };
 }
 
 const ChapterSidebar: React.FC<ChapterSidebarProps> = ({
@@ -105,7 +107,9 @@ const ChapterSidebar: React.FC<ChapterSidebarProps> = ({
   activeSection,
   isOpen,
   onToggle,
-  appendix = false
+  appendix = false,
+  previousChapter,
+  nextChapter,
 }) => {
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId);
@@ -164,6 +168,21 @@ const ChapterSidebar: React.FC<ChapterSidebarProps> = ({
           </Link>
         </div>
 
+        <div className="p-4 border-b border-border">
+          <div className="space-y-2">
+            {previousChapter && (
+              <Link href={previousChapter.href} className="flex items-center justify-between text-sm text-muted-foreground hover:text-foreground transition-colors p-2 rounded-md hover:bg-accent">
+                <span>&larr; {previousChapter.title}</span>
+              </Link>
+            )}
+            {nextChapter && (
+              <Link href={nextChapter.href} className="flex items-center justify-between text-sm text-muted-foreground hover:text-foreground transition-colors p-2 rounded-md hover:bg-accent">
+                <span>{nextChapter.title} &rarr;</span>
+              </Link>
+            )}
+          </div>
+        </div>
+
         <nav className="flex-1 overflow-y-auto p-4">
           <h4 className="text-sm font-semibold text-muted-foreground uppercase tracking-wider mb-3">
             Contents
@@ -208,6 +227,7 @@ const ChapterSidebar: React.FC<ChapterSidebarProps> = ({
             ))}
           </ul>
         </nav>
+        
       </aside>
     </>
   );
@@ -259,6 +279,8 @@ export const ChapterLayout: React.FC<ChapterLayoutProps> = ({ chapter }) => {
         isOpen={isSidebarOpen}
         onToggle={handleSidebarToggle}
         appendix={chapter.appendix}
+        previousChapter={chapter.previousChapter}
+        nextChapter={chapter.nextChapter}
       />
       <main className="py-6 min-w-0">
         <div className="flex items-center justify-between mb-6">
