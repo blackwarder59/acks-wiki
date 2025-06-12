@@ -675,4 +675,31 @@ export enum ErrorSeverity {
   WARNING = 'warning',
   ERROR = 'error',
   CRITICAL = 'critical'
+}
+
+export interface ContentIndex {
+  [key: string]: any;
+}
+
+export interface ChapterContent {
+  id: string;
+  title: string;
+  chapterNumber: number | string;
+  description?: string;
+  introduction?: string;
+  sections: {
+    id: string;
+    title: string;
+    content: string;
+    level: number;
+  }[];
+  appendix?: boolean;
+  previousChapter?: {
+    href: string;
+    title: string;
+  };
+  nextChapter?: {
+    href: string;
+    title: string;
+  };
 } 

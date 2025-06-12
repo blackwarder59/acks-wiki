@@ -1,5 +1,6 @@
 import { Metadata } from 'next';
-import ChapterTemplate from '@/components/rulebook/chapter-template';
+import { loadFullChapter } from '@/lib/rulebook/content-loader';
+import { ChapterTemplate } from '@/components/rulebook/chapter-template';
 
 // Chapter content defined locally to avoid fs import issues
 const CHAPTER_CONTENT = {
@@ -100,9 +101,15 @@ Whether you're creating a mighty fighter, a cunning thief, or a wise mage, this 
  * Generate metadata for the page
  */
 export async function generateMetadata(): Promise<Metadata> {
+  const chapter = await loadFullChapter('chapter-1-characters');
+  if (!chapter) {
+    return {
+      title: 'Chapter Not Found',
+    };
+  }
   return {
-    title: `Chapter ${CHAPTER_CONTENT.chapterNumber}: ${CHAPTER_CONTENT.title} | ACKS II Rulebook`,
-    description: CHAPTER_CONTENT.description,
+    title: `Chapter ${chapter.chapterNumber}: ${chapter.title} | ACKS II Rulebook`,
+    description: chapter.description,
   };
 }
 
@@ -111,25 +118,14 @@ export async function generateMetadata(): Promise<Metadata> {
  * 
  * ACKS II Rulebook - Chapter 1
  */
-export default function Chapter1CharactersPage() {
-  const navigation = {
-    next: {
-      href: '/rules/chapter-2-classes',
-      title: 'Chapter 2: Classes'
-    }
-  };
+const Chapter1Page = async () => {
+  const chapter = await loadFullChapter('chapter-1-characters');
 
-  return (
-    <ChapterTemplate
-      chapterNumber={CHAPTER_CONTENT.chapterNumber}
-      title={CHAPTER_CONTENT.title}
-      description={CHAPTER_CONTENT.description}
-      introduction={CHAPTER_CONTENT.introduction}
-      sections={CHAPTER_CONTENT.sections.map(section => ({
-        ...section,
-        content: <div className="prose prose-lg max-w-none dark:prose-invert" dangerouslySetInnerHTML={{ __html: section.content }} />
-      }))}
-      nextChapter={navigation.next}
-    />
-  );
-} 
+  if (!chapter) {
+    return <div>Chapter content not found.</div>;
+  }
+
+  return <ChapterTemplate chapter={chapter} />;
+};
+
+export default Chapter1Page; 

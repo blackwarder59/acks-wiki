@@ -9,6 +9,7 @@ import fs from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
 import { marked } from 'marked';
+import { ChapterContent } from '@/lib/types/content';
 
 /**
  * Represents a section of chapter content
@@ -341,273 +342,95 @@ export const CHAPTER_CONFIGS: ChapterConfig[] = [
   }
 ];
 
-/**
- * Get the base path for rulebook content
- */
-function getRulebookBasePath(): string {
-  return path.join(process.cwd(), 'ACKS_II_Content', 'Rulebook');
-}
+// Helper functions
+const getRulebookBasePath = () => path.join(process.cwd(), 'src', 'lib', 'content', 'rulebook');
 
-/**
- * Read and parse a markdown file
- */
-function readMarkdownFile(filePath: string): { content: string; frontmatter: any } {
+const readMarkdownFile = (filePath: string) => {
   try {
     const fullPath = path.join(getRulebookBasePath(), filePath);
-    const fileContent = fs.readFileSync(fullPath, 'utf8');
-    const { data, content } = matter(fileContent);
-    
-      // Convert markdown to HTML
-  const htmlContent = marked(content.trim());
-    
-    return {
-    content: htmlContent,
-      frontmatter: data
-    };
+    const fileContents = fs.readFileSync(fullPath, 'utf8');
+    const { data, content } = matter(fileContents);
+    return { frontmatter: data, content: marked(content) };
   } catch (error) {
-    console.warn(`Could not read file: ${filePath}`, error);
-    return {
-      content: '',
-      frontmatter: {}
-    };
+    console.error(`Error reading markdown file: ${filePath}`, error);
+    throw new Error(`Could not read file: ${filePath}`);
   }
-}
+};
+
+const getChapterNavigation = (currentChapterId: string) => {
+  const currentIndex = CHAPTER_CONFIGS.findIndex(c => c.id === currentChapterId);
+  if (currentIndex === -1) return {};
+
+  const previous = CHAPTER_CONFIGS[currentIndex - 1];
+  const next = CHAPTER_CONFIGS[currentIndex + 1];
+
+  return {
+    previousChapter: previous ? { href: `/rules/${previous.id}`, title: previous.title } : undefined,
+    nextChapter: next ? { href: `/rules/${next.id}`, title: next.title } : undefined
+  };
+};
 
 /**
- * Convert filename to section title
+ * Loads and processes all content for a given chapter ID.
+ * This is the primary function for fetching chapter data for the template.
  */
-function filenameToTitle(filename: string): string {
-  return filename
-    .replace(/^\d+_/, '') // Remove leading numbers
-    .replace(/\.md$/, '') // Remove .md extension
-    .replace(/_/g, ' ') // Replace underscores with spaces
-    .replace(/\b\w/g, char => char.toUpperCase()); // Capitalize words
-}
-
-/**
- * Generate section ID from title
- */
-function titleToId(title: string): string {
-  return title
-    .toLowerCase()
-    .replace(/[^a-z0-9\s-]/g, '') // Remove special characters
-    .replace(/\s+/g, '-') // Replace spaces with hyphens
-    .replace(/-+/g, '-') // Replace multiple hyphens with single
-    .replace(/^-|-$/g, ''); // Remove leading/trailing hyphens
-}
-
-/**
- * Load content for a specific chapter
- */
-export async function loadChapterContent(chapterId: string): Promise<ChapterContent | null> {
+export async function loadFullChapter(chapterId: string): Promise<ChapterContent> {
   const config = CHAPTER_CONFIGS.find(c => c.id === chapterId);
-  
+
   if (!config) {
-    console.error(`Chapter configuration not found for ID: ${chapterId}`);
-    return null;
+    throw new Error(`Configuration for chapter "${chapterId}" not found.`);
   }
 
-  // Special handling for Chapter 2 (Classes)
-  if (chapterId === 'chapter-2-classes') {
-    return loadChapter2ClassesContent(config);
-  }
-
-  const sections: ChapterSection[] = [];
   let introduction = '';
-
-  // Process each source file
-  for (let i = 0; i < config.sourceFiles.length; i++) {
-    const sourceFile = config.sourceFiles[i];
-    const { content, frontmatter } = readMarkdownFile(sourceFile);
-    
-    if (!content) continue;
-
-    // If this is the introduction file, extract introduction text
-    if (config.introduction?.sourceFile === sourceFile && i === 0) {
-      // Extract introduction (usually the first paragraph or section)
-      const introMatch = content.match(/^(.*?)(?=\n##|\n#{2,}|$)/s);
-      if (introMatch) {
-        introduction = introMatch[1].trim();
-      }
-    }
-
-    // Create section from file
-    const sectionTitle = filenameToTitle(sourceFile);
-    const sectionId = titleToId(sectionTitle);
-    
-    sections.push({
-      id: sectionId,
-      title: sectionTitle,
-      content: content,
-      level: 2,
-      sourceFile: sourceFile
-    });
+  if (config.introduction) {
+    const introFile = readMarkdownFile(config.introduction.sourceFile);
+    introduction = introFile.content;
   }
+
+  const sections = config.sourceFiles.map(filename => {
+    // Avoid duplicating introduction content in sections
+    if (config.introduction && filename === config.introduction.sourceFile) {
+      return null;
+    }
+    
+    const { frontmatter, content } = readMarkdownFile(filename);
+    const title = frontmatter.title || filename.replace('.md', '').replace(/_/g, ' ');
+    const id = frontmatter.id || title.toLowerCase().replace(/\s+/g, '-');
+    
+    return {
+      id,
+      title,
+      content,
+      level: frontmatter.level || 2, // Default to h2 level
+      sourceFile: filename,
+    };
+  }).filter((section): section is ChapterSection => section !== null);
+
+  const navigation = getChapterNavigation(chapterId);
 
   return {
     id: config.id,
     chapterNumber: config.chapterNumber,
     title: config.title,
     description: config.description,
+    appendix: config.appendix,
     introduction,
     sections,
-    appendix: config.appendix || false
+    ...navigation,
   };
 }
 
 /**
- * Special loader for Chapter 2 that organizes classes into categories
+ * Gets all chapter IDs for static path generation.
  */
-async function loadChapter2ClassesContent(config: ChapterConfig): Promise<ChapterContent | null> {
-  const sections: ChapterSection[] = [];
-  let introduction = '';
-
-  // Load introduction from the main chapter file
-  const { content: introContent } = readMarkdownFile('25_chapter_2_classes.md');
-  if (introContent) {
-    introduction = introContent.trim();
-  }
-
-  // Load the character templates section
-  const { content: templatesContent } = readMarkdownFile('26_character_templates_and_intellect_scores.md');
-  if (templatesContent) {
-    sections.push({
-      id: 'character-templates-and-intellect-scores',
-      title: 'Character Templates and Intellect Scores',
-      content: templatesContent,
-      level: 2,
-      sourceFile: '26_character_templates_and_intellect_scores.md'
-    });
-  }
-
-  // Create organized class sections
-  const classSections = [
-    {
-      id: 'core-classes',
-      title: 'Core Classes',
-      description: 'The fundamental character classes available to all players',
-      classes: CLASS_CATEGORIES.core
-    },
-    {
-      id: 'campaign-classes', 
-      title: 'Campaign Classes',
-      description: 'Specialized classes for specific campaign settings and themes',
-      classes: CLASS_CATEGORIES.campaign
-    },
-    {
-      id: 'demi-human-classes',
-      title: 'Demi-Human Classes',
-      description: 'Racial classes for non-human characters',
-      classes: CLASS_CATEGORIES.demiHuman
-    }
-  ];
-
-  for (const section of classSections) {
-    let sectionContent = `## ${section.title}\n\n${section.description}\n\n`;
-    
-    // Add class navigation links table
-    sectionContent += `| Class | Key Attribute | Hit Dice | Max Level | Description |\n`;
-    sectionContent += `|-------|---------------|----------|-----------|-------------|\n`;
-    
-    for (const classFile of section.classes) {
-      const { content: classContent } = readMarkdownFile(classFile);
-      if (classContent) {
-        // Extract class name from the first heading
-        const classNameMatch = classContent.match(/^### (.+)$/m);
-        const className = classNameMatch ? classNameMatch[1] : classFile.replace('.md', '').replace(/_/g, ' ');
-        
-        // Extract key stats from content
-        const keyAttrMatch = classContent.match(/Key Attribute[s]?:\s*([^\n]+)/i);
-        const hitDiceMatch = classContent.match(/Hit Dice:\s*([^\n]+)/i);
-        const maxLevelMatch = classContent.match(/Maximum Level:\s*([^\n]+)/i);
-        
-        const keyAttr = keyAttrMatch ? keyAttrMatch[1].trim() : 'N/A';
-        const hitDice = hitDiceMatch ? hitDiceMatch[1].trim() : 'N/A';
-        const maxLevel = maxLevelMatch ? maxLevelMatch[1].trim() : 'N/A';
-        
-        // Extract first paragraph as description
-        const descMatch = classContent.match(/\n\n([^#\n][^\n]*(?:\n[^#\n][^\n]*)*)/);
-        const description = descMatch ? descMatch[1].trim().substring(0, 100) + '...' : 'Character class details';
-        
-        // Create class ID for linking (convert filename to kebab-case)
-        const classId = classFile.replace('.md', '').replace(/_/g, '-');
-        
-        sectionContent += `| [**${className}**](/classes/${classId}) | ${keyAttr} | ${hitDice} | ${maxLevel} | ${description} |\n`;
-        
-        // Add the full class content after the table
-        sectionContent += '\n\n---\n\n' + classContent + '\n\n';
-      }
-    }
-
-    sections.push({
-      id: section.id,
-      title: section.title,
-      content: sectionContent.trim(),
-      level: 2,
-      sourceFile: `generated-${section.id}`
-    });
-  }
-
-  return {
-    id: config.id,
-    chapterNumber: config.chapterNumber,
-    title: config.title,
-    description: config.description,
-    introduction,
-    sections,
-    appendix: config.appendix || false
-  };
-}
-
-/**
- * Get navigation links for previous/next chapters
- */
-export function getChapterNavigation(currentChapterId: string): {
-  previous?: { href: string; title: string };
-  next?: { href: string; title: string };
-} {
-  const currentIndex = CHAPTER_CONFIGS.findIndex(config => config.id === currentChapterId);
-  
-  if (currentIndex === -1) {
-    return {};
-  }
-
-  const navigation: {
-    previous?: { href: string; title: string };
-    next?: { href: string; title: string };
-  } = {};
-
-  // Previous chapter
-  if (currentIndex > 0) {
-    const previousConfig = CHAPTER_CONFIGS[currentIndex - 1];
-    navigation.previous = {
-      href: `/rules/${previousConfig.id}`,
-      title: `${previousConfig.appendix ? 'Appendix' : 'Chapter'} ${previousConfig.chapterNumber}: ${previousConfig.title}`
-    };
-  }
-
-  // Next chapter
-  if (currentIndex < CHAPTER_CONFIGS.length - 1) {
-    const nextConfig = CHAPTER_CONFIGS[currentIndex + 1];
-    navigation.next = {
-      href: `/rules/${nextConfig.id}`,
-      title: `${nextConfig.appendix ? 'Appendix' : 'Chapter'} ${nextConfig.chapterNumber}: ${nextConfig.title}`
-    };
-  }
-
-  return navigation;
-}
-
-/**
- * Get all chapter configurations (for generating static pages)
- */
-export function getAllChapterIds(): string[] {
+export function getAllChapterIds() {
   return CHAPTER_CONFIGS.map(config => config.id);
 }
 
 /**
- * Get chapter configuration by ID
+ * Retrieves the configuration for a single chapter.
  */
-export function getChapterConfig(chapterId: string): ChapterConfig | null {
-  return CHAPTER_CONFIGS.find(config => config.id === chapterId) || null;
+export function getChapterConfig(chapterId: string) {
+  const config = CHAPTER_CONFIGS.find(c => c.id === chapterId);
+  return config || null;
 } 
