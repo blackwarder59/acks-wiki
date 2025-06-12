@@ -245,9 +245,9 @@ export default function TestContentMigration() {
               <div>
                 <h3 className="font-medium mb-2">Heading Levels Used:</h3>
                 <div className="flex space-x-2">
-                  {[...new Set(contentAnalysis.headingLevels)].map(level => (
-                    <span key={level} className="px-2 py-1 bg-gray-100 rounded text-sm">
-                      H{level}
+                  {[...new Set(contentAnalysis.headingLevels)].map((level, index) => (
+                    <span key={index} className="px-2 py-1 bg-gray-100 rounded text-sm">
+                      H{String(level)}
                     </span>
                   ))}
                 </div>
@@ -256,7 +256,7 @@ export default function TestContentMigration() {
               <div>
                 <h3 className="font-medium mb-2">Source Files:</h3>
                 <div className="text-sm text-gray-600 space-y-1">
-                  {contentAnalysis.sourceFiles.map((file, index) => (
+                  {contentAnalysis.sourceFiles.map((file: string, index: number) => (
                     <div key={index} className="font-mono text-xs bg-gray-50 p-2 rounded">
                       {file}
                     </div>

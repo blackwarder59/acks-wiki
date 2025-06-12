@@ -13,7 +13,14 @@
 
 import React from 'react';
 import { ChapterTemplate } from '@/components/rulebook/chapter-template';
-import type { ChapterSection } from '@/components/rulebook/chapter-template';
+
+// Define ChapterSection interface locally since it's not exported
+interface ChapterSection {
+  id: string;
+  title: string;
+  content: React.ReactNode;
+  level: number;
+}
 
 /**
  * Sample ACKS II character creation content for testing

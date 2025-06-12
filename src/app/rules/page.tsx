@@ -4,16 +4,42 @@
  * Displays the converted rulebook content organized by categories
  */
 
-'use client';
-
-import { useState } from 'react';
 import Link from 'next/link';
 import { Book, Users, Sword, Sparkles, Coins, Scroll, Crown, Globe, Search, BookOpen, ArrowRight } from 'lucide-react';
-import { CHAPTER_CONFIGS } from '@/lib/rulebook/content-loader';
 
-// Import converted rulebook data 
-import fs from 'fs';
-import path from 'path';
+// Chapter configs copied locally to avoid fs import issues
+const CHAPTER_CONFIGS = [
+  {
+    id: 'chapter-1-characters',
+    chapterNumber: 1,
+    title: 'Characters',
+    description: 'Character creation, attributes, and basic character mechanics'
+  },
+  {
+    id: 'chapter-2-classes', 
+    chapterNumber: 2,
+    title: 'Classes',
+    description: 'Character classes with progression tables and class features'
+  },
+  {
+    id: 'chapter-3-proficiencies',
+    chapterNumber: 3,
+    title: 'Proficiencies',
+    description: 'Skills and abilities characters can learn and master'
+  },
+  {
+    id: 'chapter-4-equipment',
+    chapterNumber: 4,
+    title: 'Equipment',
+    description: 'Weapons, armor, gear, and adventuring equipment'
+  },
+  {
+    id: 'chapter-5-spells',
+    chapterNumber: 5,
+    title: 'Spells',
+    description: 'Magic system, spell lists, and complete spell descriptions'
+  }
+];
 
 interface RulebookSection {
   id: string;
@@ -24,8 +50,7 @@ interface RulebookSection {
   color: string;
 }
 
-export default function RulesPage() {
-  const [searchTerm, setSearchTerm] = useState('');
+export default async function RulesPage() {
 
   // Categorize the rulebook content
   const sections: RulebookSection[] = [
@@ -238,11 +263,7 @@ export default function RulesPage() {
     }
   ];
 
-  // Filter sections based on search
-  const filteredSections = sections.filter(section =>
-    section.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
-    section.description.toLowerCase().includes(searchTerm.toLowerCase())
-  );
+  // All sections without filtering
 
   return (
     <div className="container mx-auto px-4 py-8">
@@ -257,19 +278,7 @@ export default function RulesPage() {
         </p>
       </div>
 
-      {/* Search */}
-      <div className="max-w-md mx-auto mb-8">
-        <div className="relative">
-          <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-muted-foreground w-4 h-4" />
-          <input
-            type="text"
-            placeholder="Search rules sections..."
-            value={searchTerm}
-            onChange={(e) => setSearchTerm(e.target.value)}
-            className="w-full pl-10 pr-4 py-2 bg-background border border-input rounded-md focus:outline-none focus:ring-2 focus:ring-ring"
-          />
-        </div>
-      </div>
+
 
       {/* Stats */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
@@ -313,7 +322,7 @@ export default function RulesPage() {
                 <div className="flex items-start justify-between mb-3">
                   <div className="flex items-center gap-3">
                     <div className="text-sm font-bold text-primary bg-primary/10 px-2 py-1 rounded">
-                      {chapter.appendix ? 'App.' : 'Ch.'} {chapter.chapterNumber}
+                      Ch. {chapter.chapterNumber}
                     </div>
                     <ArrowRight className="w-4 h-4 text-muted-foreground group-hover:text-primary group-hover:translate-x-1 transition-all" />
                   </div>
@@ -349,7 +358,7 @@ export default function RulesPage() {
 
       {/* Sections Grid */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-        {filteredSections.map((section) => (
+        {sections.map((section) => (
           <Link 
             key={section.id}
             href={`/rules/${section.id}`}
@@ -377,14 +386,7 @@ export default function RulesPage() {
         ))}
       </div>
 
-      {/* No results */}
-      {filteredSections.length === 0 && searchTerm && (
-        <div className="text-center mt-8">
-          <p className="text-muted-foreground mb-4">
-            No rule sections found matching "{searchTerm}".
-          </p>
-        </div>
-      )}
+
     </div>
   );
 } 

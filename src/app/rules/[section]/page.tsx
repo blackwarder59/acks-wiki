@@ -8,7 +8,7 @@
 import { notFound } from 'next/navigation';
 import { ArrowLeft } from 'lucide-react';
 import Link from 'next/link';
-import fs from 'fs';
+import { promises as fs } from 'fs';
 import path from 'path';
 import { MarkdownHtmlDisplay } from '@/components/content/markdown-html-display';
 
@@ -193,17 +193,11 @@ const sectionConfigs = {
   }
 };
 
-export default async function RuleSectionPage({ params }: RuleSectionPageProps) {
-  const { section } = await params;
-  
-  // Get section configuration
-  const sectionConfig = sectionConfigs[section as keyof typeof sectionConfigs];
-  
-  if (!sectionConfig) {
-    notFound();
-  }
-
-  // Load and combine all files for this section
+/**
+ * Server-side function to load and combine section content
+ * This runs only on the server and won't be bundled for the client
+ */
+async function loadSectionContent(sectionConfig: { title: string; description: string; files: string[] }) {
   const combinedContent = {
     html: '',
     sections: [] as { title: string; level: number; html: string }[],
@@ -220,8 +214,11 @@ export default async function RuleSectionPage({ params }: RuleSectionPageProps) 
     try {
       const filePath = path.join(process.cwd(), 'converted', 'rulebook', `${fileName}.json`);
       
-      if (fs.existsSync(filePath)) {
-        const fileContent = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
+      // Check if file exists and read it
+      try {
+        await fs.access(filePath);
+        const fileData = await fs.readFile(filePath, 'utf-8');
+        const fileContent = JSON.parse(fileData);
         
         // Add to combined HTML
         combinedContent.html += fileContent.html + '\n\n';
@@ -235,11 +232,30 @@ export default async function RuleSectionPage({ params }: RuleSectionPageProps) 
         if (fileContent.rawMarkdown) {
           combinedContent.rawMarkdown += fileContent.rawMarkdown + '\n\n';
         }
+      } catch {
+        // File doesn't exist or can't be read, skip it
+        console.warn(`File ${fileName}.json not found or unreadable`);
       }
     } catch (error) {
       console.error(`Error loading file ${fileName}:`, error);
     }
   }
+
+  return combinedContent;
+}
+
+export default async function RuleSectionPage({ params }: RuleSectionPageProps) {
+  const { section } = await params;
+  
+  // Get section configuration
+  const sectionConfig = sectionConfigs[section as keyof typeof sectionConfigs];
+  
+  if (!sectionConfig) {
+    notFound();
+  }
+
+  // Load and combine all files for this section using server-side function
+  const combinedContent = await loadSectionContent(sectionConfig);
 
   // If no content was loaded, show an error
   if (!combinedContent.html.trim()) {

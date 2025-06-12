@@ -103,7 +103,7 @@ const contentCategories = [
     title: 'Equipment',
     description: 'Weapons, armor, and gear for adventurers',
     icon: <Hammer className="h-8 w-8" />,
-    href: '/equipment',
+    href: '/rules/chapter-4-equipment',
     count: 'Complete catalog',
     gradient: 'from-amber-500 to-yellow-600',
     bgGradient: 'from-amber-50 to-yellow-50 dark:from-amber-950/30 dark:to-yellow-950/30'

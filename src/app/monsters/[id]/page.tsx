@@ -10,13 +10,36 @@ import { ArrowLeft, ExternalLink } from 'lucide-react';
 import Link from 'next/link';
 import allMonsters from '@/data/all-monsters.json';
 import { MarkdownHtmlDisplay } from '@/components/content/markdown-html-display';
-import fs from 'fs';
+import { promises as fs } from 'fs';
 import path from 'path';
 
 interface MonsterPageProps {
   params: Promise<{
     id: string;
   }>;
+}
+
+/**
+ * Server-side function to load converted monster data
+ * This runs only on the server and won't be bundled for the client
+ */
+async function loadConvertedMonster(id: string) {
+  try {
+    const convertedPath = path.join(process.cwd(), 'converted', 'individual-monsters', `${id}.json`);
+    
+    // Check if file exists and read it
+    try {
+      await fs.access(convertedPath);
+      const convertedData = await fs.readFile(convertedPath, 'utf8');
+      return JSON.parse(convertedData);
+    } catch {
+      // File doesn't exist or can't be read
+      return null;
+    }
+  } catch (error) {
+    console.warn(`Could not load converted monster file for ${id}:`, error);
+    return null;
+  }
 }
 
 export default async function MonsterPage({ params }: MonsterPageProps) {
@@ -30,17 +53,8 @@ export default async function MonsterPage({ params }: MonsterPageProps) {
     notFound();
   }
 
-  // Try to load the richer converted monster file
-  let convertedMonster = null;
-  try {
-    const convertedPath = path.join(process.cwd(), 'converted', 'individual-monsters', `${id}.json`);
-    if (fs.existsSync(convertedPath)) {
-      const convertedData = fs.readFileSync(convertedPath, 'utf8');
-      convertedMonster = JSON.parse(convertedData);
-    }
-  } catch (error) {
-    console.warn(`Could not load converted monster file for ${id}:`, error);
-  }
+  // Load the richer converted monster file using server-side function
+  const convertedMonster = await loadConvertedMonster(id);
 
   // Use the converted content if available, otherwise fall back to all-monsters.json
   const markdownContent = convertedMonster ? {

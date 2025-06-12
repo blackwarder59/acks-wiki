@@ -11,10 +11,62 @@
 'use client';
 
 import React, { useState, useEffect } from 'react';
-import { ArrowLeft, Menu, X, ChevronRight, Keyboard } from 'lucide-react';
+import { ArrowLeft, Menu, X, ChevronRight, Keyboard, ChevronDown, ChevronUp } from 'lucide-react';
 import Link from 'next/link';
 // import { Breadcrumb, generateChapterBreadcrumbs, generateAppendixBreadcrumbs } from '@/components/navigation/breadcrumb';
 // import { KeyboardShortcuts, KeyboardShortcutsHelp } from '@/components/navigation/keyboard-shortcuts';
+
+/**
+ * Collapsible Section Component
+ */
+interface CollapsibleSectionProps {
+  id: string;
+  title: string;
+  children: React.ReactNode;
+  defaultExpanded?: boolean;
+}
+
+const CollapsibleSection: React.FC<CollapsibleSectionProps> = ({
+  id,
+  title,
+  children,
+  defaultExpanded = true
+}) => {
+  const [isExpanded, setIsExpanded] = useState(defaultExpanded);
+
+  return (
+    <section id={id} className="scroll-mt-24">
+      <div className="border border-border rounded-lg overflow-hidden">
+        <button
+          onClick={() => setIsExpanded(!isExpanded)}
+          className="w-full flex items-center justify-between p-4 bg-muted/50 hover:bg-muted/70 transition-colors text-left"
+          aria-expanded={isExpanded}
+          aria-controls={`${id}-content`}
+        >
+          <h2 className="text-2xl md:text-3xl font-bold text-foreground">
+            {title}
+          </h2>
+          <div className="flex-shrink-0 ml-4">
+            {isExpanded ? (
+              <ChevronUp className="h-5 w-5 text-muted-foreground" />
+            ) : (
+              <ChevronDown className="h-5 w-5 text-muted-foreground" />
+            )}
+          </div>
+        </button>
+        
+        {isExpanded && (
+          <div 
+            id={`${id}-content`}
+            className="p-6 prose prose-lg max-w-none dark:prose-invert animate-in slide-in-from-top-2 duration-200"
+          >
+            {children}
+          </div>
+        )}
+      </div>
+    </section>
+  );
+};
 
 /**
  * Interface for table of contents items
@@ -211,7 +263,7 @@ export const ChapterTemplate: React.FC<ChapterTemplateProps> = ({
   const [showKeyboardHelp, setShowKeyboardHelp] = useState(false);
 
   // Generate table of contents from sections
-  const tocItems: TOCItem[] = sections.map(section => ({
+  const tocItems: TOCItem[] = (sections || []).map(section => ({
     id: section.id,
     title: section.title,
     level: section.level,
@@ -344,16 +396,16 @@ export const ChapterTemplate: React.FC<ChapterTemplateProps> = ({
           )}
 
           {/* Chapter Sections */}
-          <div className="space-y-8 md:space-y-12">
-            {sections.map((section) => (
-              <section key={section.id} id={section.id} className="scroll-mt-24">
-                <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-6">
-                  {section.title}
-                </h2>
-                <div className="prose prose-lg max-w-none dark:prose-invert">
-                  {section.content}
-                </div>
-              </section>
+          <div className="space-y-6">
+            {(sections || []).map((section) => (
+              <CollapsibleSection
+                key={section.id}
+                id={section.id}
+                title={section.title}
+                defaultExpanded={true}
+              >
+                {section.content}
+              </CollapsibleSection>
             ))}
           </div>
 

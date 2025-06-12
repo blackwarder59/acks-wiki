@@ -75,6 +75,13 @@ function SpellsPageContent() {
           Explore the {filteredSpells.length} spells{searchTerm || selectedLevel || selectedMagicType ? ' matching your criteria' : ''} available to spellcasters in the ACKS II system. 
           From simple cantrips to reality-altering magic, find the perfect spells for your character.
         </p>
+        
+        {/* Cross-reference to Chapter 5 */}
+        <div className="mt-4 p-3 bg-blue-50 dark:bg-blue-950/30 border border-blue-200 dark:border-blue-800 rounded-lg">
+          <p className="text-blue-800 dark:text-blue-200 text-sm">
+            📚 <strong>Also see:</strong> <Link href="/rules/chapter-5-spells" className="underline hover:text-blue-600">Chapter 5: Spells</Link> for the complete magic theory, spell types, and rulebook structure from the ACKS II Revised Rulebook.
+          </p>
+        </div>
       </div>
 
       {/* Search and Filter Bar */}

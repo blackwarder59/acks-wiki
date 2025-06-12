@@ -359,11 +359,11 @@ function readMarkdownFile(filePath: string): { content: string; frontmatter: any
     
       // Convert markdown to HTML
   const htmlContent = marked(content.trim());
-  
-  return {
+    
+    return {
     content: htmlContent,
-    frontmatter: data
-  };
+      frontmatter: data
+    };
   } catch (error) {
     console.warn(`Could not read file: ${filePath}`, error);
     return {

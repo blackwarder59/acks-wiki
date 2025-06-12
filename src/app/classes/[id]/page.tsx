@@ -10,13 +10,45 @@ import { ArrowLeft, ExternalLink, Users, Shield, Heart, Zap, Book } from 'lucide
 import Link from 'next/link';
 import allClasses from '@/data/all-classes.json';
 import { MarkdownHtmlDisplay } from '@/components/content/markdown-html-display';
-import fs from 'fs';
+import { promises as fs } from 'fs';
 import path from 'path';
 
 interface ClassPageProps {
   params: Promise<{
     id: string;
   }>;
+}
+
+/**
+ * Server-side function to load class markdown content
+ * This runs only on the server and won't be bundled for the client
+ */
+async function loadClassContent(sourceFile: string) {
+  try {
+    const classPath = path.join(process.cwd(), sourceFile);
+    
+    // Check if file exists and read it
+    try {
+      await fs.access(classPath);
+      const classMarkdown = await fs.readFile(classPath, 'utf8');
+      return {
+        markdown: classMarkdown,
+        html: classMarkdown // For now, we'll use the raw markdown content as HTML
+      };
+    } catch {
+      // File doesn't exist or can't be read
+      return {
+        markdown: '',
+        html: ''
+      };
+    }
+  } catch (error) {
+    console.warn(`Could not load class file ${sourceFile}:`, error);
+    return {
+      markdown: '',
+      html: ''
+    };
+  }
 }
 
 export default async function ClassPage({ params }: ClassPageProps) {
@@ -30,31 +62,21 @@ export default async function ClassPage({ params }: ClassPageProps) {
     notFound();
   }
 
-  // Load the class markdown file
-  let classMarkdown = '';
-  let classHtml = '';
-  try {
-    const classPath = path.join(process.cwd(), classData.sourceFile);
-    if (fs.existsSync(classPath)) {
-      classMarkdown = fs.readFileSync(classPath, 'utf8');
-      
-      // For now, we'll use the raw markdown content as HTML
-      // In a real application, you'd convert markdown to HTML
-      classHtml = classMarkdown;
-    }
-  } catch (error) {
-    console.warn(`Could not load class file for ${id}:`, error);
-    classHtml = `<h1>${classData.name}</h1><p>${classData.description}</p>`;
-  }
+  // Load the class markdown file using server-side function
+  const classContent = await loadClassContent(classData.sourceFile);
+  
+  // Fallback content if file couldn't be loaded
+  const fallbackHtml = `<h1>${classData.name}</h1><p>${classData.description}</p>`;
+  const finalHtml = classContent.html || fallbackHtml;
 
   // Structure the content for MarkdownHtmlDisplay
   const markdownContent = {
-    html: classHtml,
+    html: finalHtml,
     sections: [
       {
         title: 'Full Class Description',
         level: 1,
-        html: classHtml
+        html: finalHtml
       }
     ],
     metadata: {
@@ -69,7 +91,7 @@ export default async function ClassPage({ params }: ClassPageProps) {
       proficiencyProgression: classData.proficiencyProgression,
       templatesCount: classData.templatesCount
     },
-    rawMarkdown: classMarkdown
+    rawMarkdown: classContent.markdown
   };
 
   return (
