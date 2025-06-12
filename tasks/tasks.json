@@ -1222,6 +1222,19 @@
         14
       ],
       "priority": "high"
+    },
+    {
+      "id": 22,
+      "title": "Document and Create Examples for the New Client/Server Component Architecture",
+      "description": "Create comprehensive documentation and example implementations for the new architecture that separates Server Components for data fetching from Client Components for UI rendering.",
+      "details": "Following the major refactoring of the rulebook content loading system, we need to document the new architectural pattern to ensure consistent implementation across the codebase. The documentation should include:\n\n1. Detailed explanation of the architecture's structure, highlighting the separation between Server Components (data fetching) and Client Components (UI rendering)\n2. Step-by-step guide on how to implement this pattern for new features\n3. Common pitfalls to avoid, especially regarding importing server-side modules into client components\n4. Performance benefits of this approach\n5. Create at least 3 example implementations showing:\n   - A simple content page using the pattern\n   - A complex interactive component with data fetching needs\n   - How to handle dynamic content loading scenarios\n6. Update the project's coding standards document to include this new pattern as the recommended approach for content pages\n7. Create a migration checklist for converting any remaining legacy components to the new architecture",
+      "testStrategy": "The documentation and examples should be verified through the following methods:\n\n1. Peer review by at least two senior developers to ensure technical accuracy\n2. Validate that all example implementations work correctly in development, staging, and production environments\n3. Have a developer unfamiliar with the refactoring attempt to implement a new feature using only the documentation as guidance\n4. Verify that the examples correctly handle error states and edge cases\n5. Run performance tests comparing the old and new approaches, documenting the improvements\n6. Ensure all examples pass linting and type checking without any server/client boundary violations\n7. Create automated tests for the example implementations to verify they maintain separation of concerns\n8. Conduct a team walkthrough of the documentation to gather feedback and identify any unclear sections",
+      "status": "done",
+      "dependencies": [
+        17,
+        21
+      ],
+      "priority": "high"
     }
   ],
   "metadata": {

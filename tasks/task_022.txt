@@ -1,0 +1,31 @@
+# Task ID: 22
+# Title: Document and Create Examples for the New Client/Server Component Architecture
+# Status: done
+# Dependencies: 17, 21
+# Priority: high
+# Description: Create comprehensive documentation and example implementations for the new architecture that separates Server Components for data fetching from Client Components for UI rendering.
+# Details:
+Following the major refactoring of the rulebook content loading system, we need to document the new architectural pattern to ensure consistent implementation across the codebase. The documentation should include:
+
+1. Detailed explanation of the architecture's structure, highlighting the separation between Server Components (data fetching) and Client Components (UI rendering)
+2. Step-by-step guide on how to implement this pattern for new features
+3. Common pitfalls to avoid, especially regarding importing server-side modules into client components
+4. Performance benefits of this approach
+5. Create at least 3 example implementations showing:
+   - A simple content page using the pattern
+   - A complex interactive component with data fetching needs
+   - How to handle dynamic content loading scenarios
+6. Update the project's coding standards document to include this new pattern as the recommended approach for content pages
+7. Create a migration checklist for converting any remaining legacy components to the new architecture
+
+# Test Strategy:
+The documentation and examples should be verified through the following methods:
+
+1. Peer review by at least two senior developers to ensure technical accuracy
+2. Validate that all example implementations work correctly in development, staging, and production environments
+3. Have a developer unfamiliar with the refactoring attempt to implement a new feature using only the documentation as guidance
+4. Verify that the examples correctly handle error states and edge cases
+5. Run performance tests comparing the old and new approaches, documenting the improvements
+6. Ensure all examples pass linting and type checking without any server/client boundary violations
+7. Create automated tests for the example implementations to verify they maintain separation of concerns
+8. Conduct a team walkthrough of the documentation to gather feedback and identify any unclear sections
