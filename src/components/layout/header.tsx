@@ -9,6 +9,8 @@ import { CompactSearchInput } from '@/components/ui/search-input'
 import { MobileNavigation, MobileNavToggle } from '@/components/ui/mobile-navigation'
 import { Breadcrumb } from '@/components/ui/breadcrumb'
 import { CompactPaletteSwitcher } from '@/components/ui/palette-switcher'
+import { TooltipProvider } from '@/components/ui/tooltip-provider'
+import { TooltipTrigger } from '@/components/ui/tooltip-trigger'
 
 /**
  * Main header component for the ACKS II Wiki.
@@ -44,10 +46,10 @@ export function Header() {
   }
 
   const navigationItems = [
-    { href: '/monsters', label: 'Monsters' },
-    { href: '/rules', label: 'Rules' },
-    { href: '/judges-journal', label: 'Judges Journal' },
-    { href: '/spells', label: 'Spells' },
+    { href: '/rules', label: 'ACKS II Rulebook', status: 'wip' },
+    { href: '/monsters', label: 'Monsters', status: 'soon' },
+    { href: '/spells', label: 'Spells', status: 'soon' },
+    { href: '/judges-journal', label: 'Judges Journal', status: 'soon' },
   ]
 
   // Show breadcrumbs on content pages (not on home page)
@@ -70,17 +72,42 @@ export function Header() {
           </div>
 
           {/* Desktop Navigation */}
-          <nav className="hidden md:flex items-center space-x-6">
-            {navigationItems.map((item) => (
-              <Link
-                key={item.href}
-                href={item.href}
-                className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
-              >
-                {item.label}
-              </Link>
-            ))}
-          </nav>
+          <div className="flex-1 flex justify-center items-center">
+            <nav className="hidden md:flex items-center space-x-6">
+              {navigationItems.map((item) => {
+                const link = (
+                  <Link
+                    key={item.href}
+                    href={item.href}
+                    className={`text-sm font-medium transition-colors ${
+                      pathname.startsWith(item.href)
+                        ? 'text-primary'
+                        : 'text-muted-foreground hover:text-primary'
+                    }`}
+                  >
+                    {item.label}
+                    {item.status === 'wip' && (
+                      <span className="ml-2 inline-block bg-blue-100 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded-full dark:bg-blue-900 dark:text-blue-200">
+                        Under Construction
+                      </span>
+                    )}
+                  </Link>
+                )
+
+                if (item.status === 'soon') {
+                  return (
+                    <TooltipTrigger
+                      key={item.href}
+                      content={<div className="p-2 text-sm">Coming Soon</div>}
+                    >
+                      {link}
+                    </TooltipTrigger>
+                  )
+                }
+                return link
+              })}
+            </nav>
+          </div>
 
           {/* Search Bar (Desktop) */}
           <div className="hidden md:flex items-center space-x-2 flex-1 max-w-sm mx-4">

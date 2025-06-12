@@ -74,7 +74,6 @@ export default function RootLayout({
               <div className="min-h-screen bg-background">
                 <Header />
                 <div className="flex">
-                  <Sidebar className="hidden lg:block" />
                   <main className="flex-1 p-6">
                     {children}
                   </main>

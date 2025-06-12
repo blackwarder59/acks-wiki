@@ -129,13 +129,15 @@ const ChapterSidebar: React.FC<ChapterSidebarProps> = ({
         />
       )}
       
-      <aside className={`
-        fixed inset-y-0 left-0 transform z-50 w-80 bg-background border-r border-border
-        md:translate-x-0 md:static md:z-auto transition duration-200 ease-in-out
-        ${isOpen ? 'translate-x-0' : '-translate-x-full'}
-        flex flex-col
+      <aside 
+        className={`
+          fixed inset-y-0 left-0 transform z-50 w-80 bg-background border-r border-border
+          md:sticky md:top-24 md:h-[calc(100vh-6rem)] md:flex-shrink-0 
+          md:translate-x-0 md:z-auto transition duration-200 ease-in-out
+          ${isOpen ? 'translate-x-0' : '-translate-x-full'}
+          flex flex-col
       `}>
-        <div className="sticky top-0 bg-background border-b border-border p-4">
+        <div className="flex-shrink-0 border-b border-border p-4">
           <div className="flex items-center justify-between">
             <div>
               <h2 className="text-sm font-semibold text-muted-foreground uppercase tracking-wider">
@@ -248,8 +250,8 @@ export const ChapterLayout: React.FC<ChapterLayoutProps> = ({ chapter }) => {
   const handleSidebarToggle = () => setIsSidebarOpen(!isSidebarOpen);
 
   return (
-    <div className="flex min-h-screen bg-background text-foreground">
-      <ChapterSidebar 
+    <div className="md:grid md:grid-cols-[20rem_1fr] md:gap-8">
+      <ChapterSidebar
         chapterTitle={chapter.title}
         chapterNumber={chapter.chapterNumber}
         tocItems={tocItems}
@@ -258,75 +260,72 @@ export const ChapterLayout: React.FC<ChapterLayoutProps> = ({ chapter }) => {
         onToggle={handleSidebarToggle}
         appendix={chapter.appendix}
       />
-
-      <div className="flex-1 md:ml-[20rem] transition-all duration-200 ease-in-out">
-        <main className="container mx-auto px-4 py-8 md:px-8 md:py-12">
-          <div className="flex items-center mb-8 md:hidden">
-            <button
-              onClick={handleSidebarToggle}
-              className="p-2 hover:bg-accent rounded-md mr-4"
-            >
-              <Menu className="h-6 w-6" />
-            </button>
-            <div>
-              <h2 className="text-sm font-semibold text-muted-foreground uppercase">
-                Chapter {chapter.chapterNumber}
-              </h2>
-              <h3 className="text-lg font-bold text-foreground">
-                {chapter.title}
-              </h3>
-            </div>
-          </div>
-
-          <header className="mb-12">
-            <h1 className="text-4xl md:text-6xl font-extrabold text-foreground tracking-tight mb-4">
+      <main className="py-6 min-w-0">
+        <div className="flex items-center justify-between mb-6">
+          <button
+            onClick={handleSidebarToggle}
+            className="p-2 hover:bg-accent rounded-md mr-4"
+          >
+            <Menu className="h-6 w-6" />
+          </button>
+          <div>
+            <h2 className="text-sm font-semibold text-muted-foreground uppercase">
+              Chapter {chapter.chapterNumber}
+            </h2>
+            <h3 className="text-lg font-bold text-foreground">
               {chapter.title}
-            </h1>
-            
-            {chapter.description && (
-              <p className="text-lg md:text-xl text-muted-foreground mt-4 max-w-3xl">
-                {chapter.description}
-              </p>
-            )}
-            
-            <div className="flex justify-between items-center mt-8 border-t border-b border-border py-4">
-              {chapter.previousChapter ? (
-                <Link href={chapter.previousChapter.href} className="flex items-center text-primary hover:underline">
-                  <ArrowLeft className="h-4 w-4 mr-2" />
-                  <span>{chapter.previousChapter.title}</span>
-                </Link>
-              ) : <div />}
-              {chapter.nextChapter ? (
-                <Link href={chapter.nextChapter.href} className="flex items-center text-primary hover:underline">
-                  <span>{chapter.nextChapter.title}</span>
-                  <ChevronRight className="h-4 w-4 ml-2" />
-                </Link>
-              ) : <div />}
-            </div>
-          </header>
-
-          {chapter.introduction && (
-            <div 
-              className="prose prose-xl max-w-none dark:prose-invert mb-12" 
-              dangerouslySetInnerHTML={{ __html: chapter.introduction }} 
-            />
-          )}
-
-          <div className="space-y-12">
-            {chapter.sections.map((section, index) => (
-              <CollapsibleSection
-                key={section.id}
-                id={section.id}
-                title={section.title}
-                defaultExpanded={index < 3} // Expand first 3 sections by default
-              >
-                <div dangerouslySetInnerHTML={{ __html: section.content }} />
-              </CollapsibleSection>
-            ))}
+            </h3>
           </div>
+        </div>
 
-        </main>
-      </div>
+        <header className="mb-12">
+          <h1 className="text-4xl md:text-6xl font-extrabold text-foreground tracking-tight mb-4">
+            {chapter.title}
+          </h1>
+          
+          {chapter.description && (
+            <p className="text-lg md:text-xl text-muted-foreground mt-4 max-w-3xl">
+              {chapter.description}
+            </p>
+          )}
+          
+          <div className="flex justify-between items-center mt-8 border-t border-b border-border py-4">
+            {chapter.previousChapter ? (
+              <Link href={chapter.previousChapter.href} className="flex items-center text-primary hover:underline">
+                <ArrowLeft className="h-4 w-4 mr-2" />
+                <span>{chapter.previousChapter.title}</span>
+              </Link>
+            ) : <div />}
+            {chapter.nextChapter ? (
+              <Link href={chapter.nextChapter.href} className="flex items-center text-primary hover:underline">
+                <span>{chapter.nextChapter.title}</span>
+                <ChevronRight className="h-4 w-4 ml-2" />
+              </Link>
+            ) : <div />}
+          </div>
+        </header>
+
+        {chapter.introduction && (
+          <div 
+            className="prose prose-xl max-w-none dark:prose-invert mb-12" 
+            dangerouslySetInnerHTML={{ __html: chapter.introduction }} 
+          />
+        )}
+
+        <div className="space-y-12">
+          {chapter.sections.map((section, index) => (
+            <CollapsibleSection
+              key={section.id}
+              id={section.id}
+              title={section.title}
+              defaultExpanded={index < 3} // Expand first 3 sections by default
+            >
+              <div dangerouslySetInnerHTML={{ __html: section.content }} />
+            </CollapsibleSection>
+          ))}
+        </div>
+
+      </main>
     </div>
   );
 }; 
